@@ -3616,6 +3616,7 @@ sr:"^當前任務目標處於<color\=#FF0000>(.*)</color>，\n是否立即前往
 假面役者的謝幕=Masked Actors' Curtain Call
 假面役者的憂鬱=Masked Actors' Melancholia
 追憶與真相=Remembrance and Truth 
+復仇與信念=Revenge and Belief
 
 你我的影像=Images of Me and You
 炸肉餅的destiny=Menchi's Destiny
