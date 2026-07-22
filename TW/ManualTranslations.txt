@@ -951,6 +951,7 @@ r:"^(\d+)天(\d+)時後開啟$"="Unlocks after $1d $2h"
 r:"^(\d+)天(\d+)小時後開啟$"="Unlocks after $1d $2h"
 r:"^(\d+)時(\d+)分後開啟$"="Unlocks after $1h $2m"
 r:"^(\d+)小時(\d+)分後開啟$"="Unlocks after $1h $2m"
+r:"^(\d+)分後開啟$"="Unlocks after $1m"
 r:"^<sprite\=(\d+) tint\=1>天<sprite\=(\d+) tint\=1>時後開啟$"="Unlocks after <sprite\=$1 tint\=1>d <sprite\=$2 tint\=1>h"
 r:"^<sprite\=(\d+) tint\=1>天<sprite\=(\d+) tint\=1>小時後開啟$"="Unlocks after <sprite\=$1 tint\=1>d <sprite\=$2 tint\=1>h"
 r:"^<sprite\=(\d+) tint\=1>天<sprite\=(\d+) tint\=1><sprite\=(\d+) tint\=1>時後開啟$"="Unlocks after <sprite\=$1 tint\=1>d <sprite\=$2 tint\=1><sprite\=$3 tint\=1>h"
@@ -1495,6 +1496,7 @@ r:"^本週累計今日計畫領獎次數\((\d+)\/(\d+)\)，可額外領取$"="Nu
 武器=Weapon
 r:"^(\d+)年(\d+)月(\d+)日 (\d+):(\d+)後可使用。$"="Available after $1/$2/$3 $4:$5."
 r:"^神秘怪盜「(.*)」的專屬近戰武器。$"="Exclusive melee weapon for mysterious Thief "$1"."
+神秘怪盜的專屬近戰武器。=Exclusive melee weapon for mysterious Thief.
 sr:"^是否消耗「(.*)」×1兌換「(.*)」×1？$"="Use [$1] x1 to redeem [$2] x1?"
 
 DAILY
@@ -2570,6 +2572,7 @@ r:"^{{A}}似乎有話要說，要陪她嗎？$"="{{A}} seems to have something t
 r:"^似乎是和{{A}}<color\=#FFC000>第一次</color>去這個地方，應該更能增進感情。$"="<size\=25>This is the <color\=#FFC000>first time</color> I have gone to that place with {{A}}.\nWe should be able to grow closer.</size>"
 
 {{A}}有著非常熱鬧的<color\=#ff0000>商業街</color>和<color\=#ff0000>電影院</color>啊，\n要前往那裡去看看嗎？=<size\=30>There are crowded <color\=#ff0000>Central Street</color> and \n<color\=#ff0000>Movie Theater</color> in {{A}}. Want to go there?</size>
+{{A}}這裡的<color\=#ff0000>商業街</color>和<color\=#ff0000>電影院</color>非常熱鬧，要逛一下嗎？=<size\=30>There are crowded <color\=#ff0000>Central Street</color> and \n<color\=#ff0000>Movie Theater</color> in {{A}}. Want to go there?</size>
 r:"^要<color\=#ff0000>回家</color>嗎？\n還是說去附近的<color\=#ff0000>餐廳</color>……$"="Are we going <color\=#ff0000>Home</color>? \nOr going to nearby <color\=#ff0000>Restaurants</color>..."
 下北澤啊……那是在<color\=#ff0000>學校</color>附近吧，要去嗎？=<size\=30>Shimo-Kitazawa... that's near the <color\=#ff0000>School</color>. \nWant to go there?</size>
 {{A}}似乎有個<color\=#ff0000>擊球場</color>，要去那裡看看嗎？=There is a <color\=#ff0000>batting cage</color> in {{A}}. Want to go there?
@@ -3013,7 +3016,8 @@ r:"^材料轉化\（可轉化：(\d+)個\）$"="<size\=25>Material Conversion (C
 
 r:"透過契約之間·認知特賣兌換$"="Exchange from Cognition Shop"
 r:"^透過契約之間·認知精選兌換$"="<size\=23>Exchange from Premium Cognition Shop</size>"
-獲取途徑=Obtain Method:
+獲取途徑=Obtain Method
+獲取途徑：=Obtain Method:
 {{A}}合體={{A}} Fusion
 sr:"^透擊敗(.*)機率獲得$"="Chance to get after defeating $1"
 sr:"^擊敗(.*)機率獲得$"="<size\=20>Chance to get after defeating $1"
@@ -3612,6 +3616,7 @@ sr:"^當前任務目標處於<color\=#FF0000>(.*)</color>，\n是否立即前往
 假面役者的謝幕=Masked Actors' Curtain Call
 假面役者的憂鬱=Masked Actors' Melancholia
 追憶與真相=Remembrance and Truth 
+復仇與信念=Revenge and Belief
 
 你我的影像=Images of Me and You
 炸肉餅的destiny=Menchi's Destiny
@@ -6444,6 +6449,8 @@ r:"^當期閼凶夢之扉-連接夢境挑戰個人排名(\d+%)以後時獲得的
 r:"^當期閼凶夢之扉-連接夢境挑戰個人排名前(\d+%)時獲得的皓月勳章。\n攻打「{{A}}」獲得。$"="<size\=24>Rank within the top $1 during a set period after a Gate of the Nightmare Catcher-Linking Dream season starts. \nAttack [{{A}}] to obtain."
 r:"^當期閼凶夢之扉-連接夢境挑戰個人排名(\d+%)-(\d+%)時獲得的皓月勳章。\n攻打「{{A}}」獲得。$"="<size\=24>Rank within the top $1-$2 during a set period after a Gate of the Nightmare Catcher-Linking Dream season starts. \nAttack [{{A}}] to obtain."
 r:"^當期閼凶夢之扉-連接夢境挑戰個人排名(\d+%)以後時獲得的皓月勳章。\n攻打「{{A}}」獲得。$"="<size\=24>Rank top $1 or lower during a set period after a Gate of the Nightmare Catcher-Linking Dream season starts. \nAttack [{{A}}] to obtain."
+曉星的啟明=Venus: Halo
+r:"^當期閼凶夢之扉-連接夢境挑戰個人排名前(\d+%)時獲得的曉星勳章。\n攻打「{{A}}」獲得。$"="<size\=24>Rank within the top $1 during a set period after a Gate of the Nightmare Catcher-Linking Dream season starts.\nAttack [{{A}}] to obtain."
 
 天象衍星·初窺=Enlightening Planetarium: Silver
 r:"^在一期星盤試煉中，通過至少(\d+)個「監測點」。$"="Clear $1 [Monitoring Points] within 1 season."

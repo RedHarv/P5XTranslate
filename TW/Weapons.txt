@@ -693,7 +693,7 @@ r:"^自身對『怨念』層數達到(.*)層的敵人造成的詛咒屬性傷害
 不凋之庭=Eternal Grove
 【清風拂夏】=[Summer Breeze]
 清風拂夏=Summer Breeze
-r:"^藥品效果提升<color\=#2899FF>(.*)</color>。以友方為目標使用藥品時，額外使主目標的暴擊效果提升<color\=#2899FF>(.*)</color>，持續(\d+)回合。以友方為目標使用{{A}}技能時，額外使主目標攻擊力提升<color\=#2899FF>(.*)</color>，持續(\d+)回合。$"="Increase Item Effect by <color\=#2899FF>$1</color>. When using an item on allies, increase main target's Crit DMG by <color\=#2899FF>$2</color> more for $3 turns. When using a Persona skill on allies, increase main target's ATK by <color\=#2899FF>$4</color> more for $5 turns."
+r:"^藥品效果提升<color\=#2899FF>(.*)</color>。以友方為目標使用藥品時，額外使主目標的暴擊效果提升<color\=#2899FF>(.*)</color>，持續(\d+)回合。以友方為目標使用{{A}}技能時，額外使主目標攻擊力提升<color\=#2899FF>(.*)</color>，持續(\d+)回合。$"="Increase Item Effect by <color\=#2899FF>$1</color>. When using an item on allies, additionally increase main target's Crit DMG by <color\=#2899FF>$2</color> for $3 turns. When using a Persona skill on allies, additionally increase main target's ATK by <color\=#2899FF>$4</color> for $5 turns."
 午後茶語=Tea-Time Talk
 【甜香盛宴】=[Sweet Feast]
 甜香盛宴=Sweet Feast
@@ -709,7 +709,7 @@ r:"^使用藥品後，自身獲得<color\=#2899FF>(.*)</color>的最大生命值
 遊夢人魚=Dreaming Mermaid
 【浮瀾入夢】=[Ripple Reverie]
 浮瀾入夢=Ripple Reverie
-r:"^暴擊效果提升<color\=#2899FF>(.*)</color>。追加效果的暴擊率提升<color\=#2899FF>(.*)</color>。釋放技能消耗精力值時，使自身傷害提升<color\=#2899FF>(.*)</color>，可疊加(.*)層，本場戰鬥永久生效。$"="Increase Crit DMG by <color\=#2899FF>$1</color>. Increase Follow Up Crit Rate by <color\=#2899FF>$2</color>. When spending SP with a skill, increase damage by <color\=#2899FF>$3</color>. Stacks up to $4 times. This effect is permanent."
+r:"^暴擊效果提升<color\=#2899FF>(.*)</color>。追加效果的暴擊率提升<color\=#2899FF>(.*)</color>。釋放技能消耗精力值時，使自身傷害提升<color\=#2899FF>(.*)</color>，可疊加(.*)層，本場戰鬥永久生效。$"="Increase Crit DMG by <color\=#2899FF>$1</color>. Increase Follow Up Crit Rate by <color\=#2899FF>$2</color>. When spending SP with a skill, permanently increase DMG Dealt by <color\=#2899FF>$3</color>. Stacks up to $4 times."
 海月晴空=Clear Jellyfish Sky
 【掠光漫行】=[Sunlight Stroll]
 掠光漫行=Sunlight Stroll
