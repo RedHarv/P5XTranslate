@@ -193,10 +193,10 @@ r:"^QEVEL.(\d+) {{A}}等級經驗提升(\d+)$"="QEVEL.$1 Increase {{A}} level EX
 ----------
 BATTLE PAUSE MENU
 ----------
-雕像道具效果=My Palace Statue Effect
-插畫效果=My Palace Painting Effect
-雕像道具效果生效中=My Palace Statue Effect Active
-插畫效果生效中=My Palace Painting Effect Active
+雕像道具效果=My Palace Statue Effects
+插畫效果=My Palace Painting Effects
+雕像道具效果生效中=Active My Palace Statue Effects
+插畫效果生效中=Active My Palace Painting Effects
 
 ----------
 Settle In

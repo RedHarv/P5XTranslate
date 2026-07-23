@@ -778,7 +778,20 @@ r:"^生<color\=#000000>命</color>之樹的指引$"="T<color\=#000000>r</color>e
 偉大的四{{B}}之一。\n名字含義為「治癒者」，他的職責是治癒{{A}}以及居住在{{A}}之上的人類。\n據說在伊甸園之中負責守護與智慧之樹成對的那顆生命之樹的天使也是他。=One of the four major archangels, his name means "healer." He recites the history of the fallen angels and the creation of Adam and Eve.
 
 Gabriel
+侍立神前的銀翼=<size\=22>Silver Wings in God's Presence</size>
+r:"^侍立神前的銀翼(.*)$"="<size\=22>Silver Wings in God's Presence $1</size>"
+r:"^攻擊力提升(\d+\.\d+%)。\n自身對敵人使用{{A}}技能後，使主目標防禦力降低(.*)，持續(.*)回合，並記錄該效果。\n自身對友方使用{{A}}技能後，使主目標暴擊效果提升(.*)，持續(.*)回合，並記錄該效果。\n自身釋放{{A}}技能的兩回合後，會獲得「福音」。釋放{{A}}時，可以消耗「福音」觸發上次記錄的效果，並額外使所有反抗同伴總傷害增幅提升(.*)，持續(.*)回合。$"="Increase ATK by $1\nAfter using a Persona skill on foes, decrease the main target's DEF by $2 for $3 turns, then record this effect. \nAfter using a Persona skill on allies, increase the main target's Crit DMG by $4 for $5 turns, then record this effect.\n2 turns after using a Persona skill, grant the user [Gospel]. When using a Persona skill, spend all [Gospel] to activate the last recorded effect, then increase all Assassin allies' Total DMG Amp by $6 for $7 turns."
+r:"^攻擊力提升(\d+\.\d+%)。\n自身對敵人使用{{A}}技能後，使主目標防禦力降低(.*)，持續(.*)回合，並記錄該效果。\n自身對友方使用{{A}}技能後，使主目標暴擊效果提升(.*)，持續(.*)回合，並記錄該效果。\n自身釋放{{A}}技能的兩回合後，會獲得「福音」。釋放{{A}}技能時，可以消耗「福音」觸發上次記錄的效果，並額外使所有反抗同伴總傷害增幅提升(.*)，持續(.*)回合。$"="Increase ATK by $1\nAfter using a Persona skill on foes, decrease the main target's DEF by $2 for $3 turns, then record this effect. \nAfter using a Persona skill on allies, increase the main target's Crit DMG by $4 for $5 turns, then record this effect.\n2 turns after using a Persona skill, grant the user [Gospel]. When using a Persona skill, spend all [Gospel] to activate the last recorded effect, then increase all Assassin allies' Total DMG Amp by $6 for $7 turns."
+r:"^侍<color\=#000000>立</color>神前的銀翼$"="S<color\=#000000>i</color>lver Wings in God's Presence"
+r:"^厄<color\=#000000>之</color>命運揭示$"="R<color\=#000000>e</color>velation of Fate"
+r:"^受到反抗角色攻擊時，防禦力降低(\d+(.\d+)?(%)?)$"="When attacked by an Assassin, \ndecrease DEF by $1"
+福音=Gospel
+r:"^福<color\=#000000>音</color>$"="G<color\=#000000>o</color>spel"
+透過{{B}}釋放{{A}}技能時，獲得額外效果=When using a {{A}} skill with {{B}},\ngrant bonus effects
+告諭=Divine Oracle
+透過{{B}}釋放{{A}}技能時，使所有同伴攻擊力提升、傷害提升=When using a {{A}} skill with {{B}}, \nincrease all allies's ATK and DMG Bonus
 {{A}}本為熾天使，作為天使長，在天堂位於重要的守護職位，擔任整個天界的警戒工作，傳信為其職能之一。傳說末日審判的號角就是由她吹響的。她被認為象徵”智慧“。=One of the four major archangels. She is also the only female angel at this rank. Her name comes from the Sumerian word for "governor." She is the angel who told Mary of her pregnancy.
+聖經中所記載的偉大的四{{A}}之一。\n名字含義為『上帝之力』、『上帝的英雄』。\n職責是將上帝的重要預言傳達給人類，她告知日後成為聖母的少女{{B}}即將受到降孕的消息，以聖告天使的身份廣為人知。=One of the four major archangels. She is also the only female angel at this rank. Her name comes from the Sumerian word for "governor." She is the angel who told Mary of her pregnancy.
 
 ----------
 Not in Compendium

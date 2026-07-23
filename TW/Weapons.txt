@@ -52,6 +52,7 @@ sr:"^(.*)專屬武器。(.*)。$"="Exclusive weapon for $1. $2"
 心之刻印=Engrave of Heart
 閃之刻印=Engrave of Lightning
 自然刻印=Engrave of Nature
+癒之刻印=Engrave of Healing
 sr:"^用於啟動進階武器「(.*)」-刻印「(.*)」的刻印圖章$"="Used to activate Engrave [$2] for [$1]"
 sr:"^用於啟動進階武器「(.*)」-刻印「(.*)」的刻印圖章。$"="Used to activate Engrave [$2] for [$1]"
 啟動成功=Activated
@@ -80,6 +81,11 @@ r:"^攻擊力提升(.*)。每裝配1種不同屬性的{{A}}，對敵人造成的
 r:"^治療加成、護盾加成提升<color\=#2899FF>(.*)</color>。光環：主角在場時使所有怪盜獲得防禦力提升<color\=#2899FF>(.*)</color>。當為隊友使用技能時，使主要技能目標獲得基於自身生命值上限<color\=#2899FF>(.*)</color>的回復效果。$"="Increase healing and shield by <color\=#2899FF>$1</color>. \nAura: When user is present, increase party's DEF by <color\=#2899FF>$2</color>. After using a skill on an ally, restore <color\=#2899FF>$3</color> of the main target's Max HP."
 湧動迴響晶石=All In Crystal
 僅可消耗湧動迴響晶石=Only use All In Crystal
+【輝耀賜福】=[Radiant Blessing]
+輝耀賜福=Radiant Blessing
+r:"^輝耀賜福 (.*)階$"="Radiant Blessing Rank $1"
+r:"^當為隊友使用技能時，額外使主目標外的其他同伴獲得基於自身生命值上限<color\=#2899FF>(.*)</color>的回復效果，並使所有同伴的傷害提升<color\=#2899FF>(.*)</color>，持續(.*)回合。$"="When using a skill on allies, additionally restore all other targets' HP by <color\=#2899FF>$1</color> of user's Max HP, then increase all allies' DMG Dealt by <color\=#2899FF>$2</color> for $3 turns."
+r:"^輝<color\=#000000>耀</color>賜福$"="R<color\=#000000>a</color>diant Blessing"
 
 機械處刑者=Ex Machina
 【超頻爆發】=[Overclock Burst]
@@ -962,6 +968,22 @@ r:"^『虛擬演唱會』狀態下自身攻擊力提升<color\=#2899FF>(.*)</col
 懸浮音箱=Hover Speakers
 【音聲】=[Voice Data]
 音聲=Voice Data
+
+致命塗裝=Fatal Finish
+【燃情激奏】=[Blazing Rhapsody]
+燃情激奏=Blazing Rhapsody
+r:"^暴擊率提升<color\=#2899FF>(.*)</color>。\n每獲得(.*)點精力值，永久提升自身傷害加成<color\=#2899FF>(.*)</color>，可疊加(.*)層。\n每消耗(.*)點精力值，永久提升自身暴擊效果<color\=#2899FF>(.*)</color>，可疊加(.*)層。$"="Increase Crit Rate by <color\=#2899FF>$1</color>.\nFor every $2 SP gained, permanently increase user's DMG Bonus by <color\=#2899FF>$3</color>. Stacks up to $4 times.\nFor every $5 SP spent, permanently increase user's Crit DMG by <color\=#2899FF>$6</color>. Stacks up to $7 times."
+痛楚之畏=Fear of Pain
+【狂熱化】=[Fevered Fury]
+狂熱化=Fevered Fury
+r:"^攻擊力提升<color\=#2899FF>(.*)</color>。\n獲得<link\="s\|304"><u>『歡呼』</u></link>後，提升自身傷害<color\=#2899FF>(.*)</color>，持續(.*)回合，上限(.*)層。$"="ncrease ATK by <color\=#2899FF>$1</color>.\nAfter gaining <link\="s\|304"><u>[Cheer]</u></link>, increase user's DMG Bonus by <color\=#2899FF>$2</color> for $3 turns. Stacks up to $4 times."
+強襲之尾=Strike Tail
+【靈動】=[Agile]
+靈動=Agile
+r:"^<link\="s\|303"><u>『熱力舞譜』</u></link>的傷害提升<color\=#2899FF>(.*)</color>。$"="Increase <link\="s\|303"><u>[Heat Score]</u></link> DMG by <color\=#2899FF>$1</color>."
+蛇腹劍=Whip Sword
+【柔鋒】=[Soft Edge]
+柔鋒=Soft Edge
 
 ----------
 STANDARD 5 STAR UNIT WEAPONS

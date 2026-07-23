@@ -1281,6 +1281,10 @@ sr:"^啊，(.*)有沒有在打工？$"="Hey, $1, do you have a part-time job or 
 書店不錯哦=Bookstores are good
 啊，搬運重物，說不定就能當作運動了……？\n我要不要看看有沒有在招人呢，謝謝你！=Oh, so like, exercising by moving heavy stuff around? Good idea! I'll check if any are hiring!
 
+我剛才遇到了個戴著奇怪面具的人！\n差點就驚叫出來了呢……=I just saw some person wearing a weird mask!\nIt almost made me scream...
+sr:"^……結果仔細一看，原來是(.*)。\n(.*)遇到她的話，可別吃驚哦……$"="... When I looked more closely, I realized it was $1. If you see her too, don't be surprised..."
+周圍都是認識的人，為什麼還要戴面具啊？\n難道說……就只是想戴？=Why were you wearing that if you were only with people you knew? Just one of those days?
+
 Leblanc Yusuke
 我一直在畫的作品，\n在昨天終於完成了。=Yesterday, I finally managed to complete a painting I've been working on for quite a while.
 或許是因為重複試錯了好幾次，\n就連我自己都驕傲地覺得真是幅好畫。=The process was quite involved with a lot of trial and error, but I think it turned out well, if I do say so myself.
@@ -1607,6 +1611,8 @@ Recovered from Down
 恢復了嗎……準備反擊！=You're back... Let's ready our counterattack!
 Missed Gun
 別急……每一擊都做好準備。=Don't rush... \nKeep striking until you land a hit.
+Debuff
+有同伴元素異常！需要掩護！=Someone has a status ailment!\nHelp them, quickly!
 Faint
 WONDER？你怎麼了，快回答！=Wonder? What's wrong, answer me!
 Victory
@@ -17853,7 +17859,7 @@ sr:"^啊，(.*)！\n今天放學後，要不要一起去圖書室學習？$"="Ah
 不對……好好聯繫上下文看。\n昧爽是指黎明的意思。=No... think about the context. First light means dawn.
 為什麼黎明會變成昧爽？\n根本挨不上邊嘛——！=Why does dawn turn into first light? \nThat doesn't make sense at all-!
 和{{A}}一起輔導{{B}}，\n複習了古文……=I studied literature with {{A}} and {{B}}...
-嗚，記不住啊……！明明都是日語，\n為什麼還得專門去學古文啊——！=Ugh, I can't memorize it...! It's all Japanese, why do we have to literature-!
+嗚，記不住啊……！明明都是日語，\n為什麼還得專門去學古文啊——！=Ugh, I can't memorize it...! It's all Japanese, why do we have to study literature-!
 有沒有什麼劃時代的記憶方法啊，\n要不先去問問{{A}}吧……=Is there some revolutionary memorization technique? Maybe I should ask {{A}}...
 說起來，好想見{{A}}！\n我需要{{A}}充電！=Speaking of, I wanna see {{A}}! I need a {{A}} recharge!
 sr:"^好，(.*)！\n我們去找(.*)吧！$"="Okay, $1! Let's go find $2!"

@@ -481,6 +481,7 @@ Character-specific Persona
 智慧女神像=Palladion
 勞爾=Raoul
 莫丘利=Mercurius
+黑卡蒂=Hecate
 
 ------------------------------------------
 Worldbuilding Terms
@@ -1116,6 +1117,7 @@ Class/ Stats Screen
 等級由高至低=High to Low Lv.
 稀有度由低至高=Low to High ★
 稀有度由高至低=High to Low ★
+已開放核心心象=Unlocked Core
 推薦陣容=<size\=30>Recommendation</size>
 初始陣容=Starting Party
 陣容記錄=Party Record
@@ -3018,6 +3020,7 @@ r:"透過契約之間·認知特賣兌換$"="Exchange from Cognition Shop"
 r:"^透過契約之間·認知精選兌換$"="<size\=23>Exchange from Premium Cognition Shop</size>"
 獲取途徑=Obtain Method
 獲取途徑：=Obtain Method:
+獲取路徑=Obtain Method
 {{A}}合體={{A}} Fusion
 sr:"^透擊敗(.*)機率獲得$"="Chance to get after defeating $1"
 sr:"^擊敗(.*)機率獲得$"="<size\=20>Chance to get after defeating $1"
@@ -3214,11 +3217,13 @@ r:"^破碎的金屬零件，可用於提升武器經驗，使用後立即提升(
 啖夢香=<size\=20>Dream Devouring Incense</size>
 縛生香=Binding Incense
 妄殊香=Delusion Incense
-r:"^散發出魅惑氣味的香丸，可用於提升技能等級至Lv.7-Lv.10。$"="Incense with a seductive scent, can be used to level up Skills to Lv.7-Lv.10."
-r:"^散發出神秘氣味的香丸，可用於提升技能等級至Lv.7-Lv.10。$"="Incense with a mysterious scent, can be used to level up Skills to Lv.7-Lv.10."
-r:"^散發出熾烈氣味的香丸，可用於提升技能等級至Lv.7-Lv.10。$"="Incense with a fiery scent, can be used to level up Skills to Lv.7-Lv.10."
-r:"^散發出迷離氣味的香丸，可用於提升技能等級至Lv.7-Lv.10。$"="Incense with a blurred scent, can be used to level up Skills to Lv.7-Lv.10."
-r:"^散發出悲憫氣味的香丸，可用於提升技能等級至Lv.7-Lv.10。$"="Incense with a lamenting scent, can be used to level up Skills to Lv.7-Lv.10."
+繪顏香=Visage Incense
+散發出魅惑氣味的香丸，可用於提升技能等級至Lv.7-Lv.10。=Incense with a seductive scent, can be used to level up Skills to Lv.7-Lv.10.
+散發出神秘氣味的香丸，可用於提升技能等級至Lv.7-Lv.10。=Incense with a mysterious scent, can be used to level up Skills to Lv.7-Lv.10.
+散發出熾烈氣味的香丸，可用於提升技能等級至Lv.7-Lv.10。=Incense with a fiery scent, can be used to level up Skills to Lv.7-Lv.10.
+散發出迷離氣味的香丸，可用於提升技能等級至Lv.7-Lv.10。=Incense with a blurred scent, can be used to level up Skills to Lv.7-Lv.10.
+散發出悲憫氣味的香丸，可用於提升技能等級至Lv.7-Lv.10。=Incense with a lamenting scent, can be used to level up Skills to Lv.7-Lv.10.
+散發出清絕氣味的香丸，可用於提升技能等級至Lv.7-Lv.10。=Incense with a pure scent, can be used to level up Skills to Lv.7-Lv.10.
 
 香塔L=Skill Incense L
 香塔M=Skill Incense M
@@ -3324,13 +3329,20 @@ sr:"^未知宿命橙·(.*)"="Random 4★ $1"
 
 心選之徽記=Custom Emblem
 心選之徽記★5=Custom Emblem ★5
+心選之徽記★4=Custom Emblem ★4
 自選心象徽記=Custom Mindscape Emblem
+禮遇之徽記★5=Random Emblem ★5
+禮遇之徽記★4=Random Emblem ★4
+隨機心象徽記=Random Mindscape Emblem
+
 可用於「怪盜心象·屬性共鳴」啟動的材料。=Used in [Mindscape - Attribute Harmony].
 可用於5★角色「怪盜心象·屬性共鳴」啟動的材料。=Used in 5★ character's [Mindscape - Attribute Harmony].
 可用於4★角色「怪盜心象·屬性共鳴」啟動的材料。=Used in 4★ character's [Mindscape - Attribute Harmony].
 可自選獲得一枚心象徽記，用於「怪盜心象·屬性共鳴」啟動的材料。=Used to obtain a Mindscape Emblem for [Mindscape - Attribute Harmony].
 可自選獲得一枚心象徽記，用於5★角色「怪盜心象·屬性共鳴」啟動的材料。=Used to obtain a Mindscape Emblem for 5★ character's [Mindscape - Attribute Harmony].
 可自選獲得一枚心象徽記，用於4★角色「怪盜心象·屬性共鳴」啟動的材料。=Used to obtain a Mindscape Emblem for 4★ character's [Mindscape - Attribute Harmony].
+可隨機獲得一枚心象徽記，用於5★角色「怪盜心象·屬性共鳴」啟動的材料。=Used to randomly obtain a Mindscape Emblem for 5★ character's [Mindscape - Attribute Harmony].
+可隨機獲得一枚心象徽記，用於4★角色「怪盜心象·屬性共鳴」啟動的材料。=Used to randomly obtain a Mindscape Emblem for 4★ character's [Mindscape - Attribute Harmony].
 
 物理·徽記=Phys Emblem
 射擊·徽記=Gun Emblem
@@ -3376,13 +3388,17 @@ sr:"^未知宿命橙·(.*)"="Random 4★ $1"
 
 心選之紋章=Custom Heraldry
 心選之紋章★5=Custom Heraldry ★5
-自選心象紋章=Choose your own mental tattoo
+自選心象紋章=Custom Mindscape Heraldry
+禮遇之紋章=Random Heraldry
+隨機心象紋章=Random Mindscape Heraldry
 可用於「怪盜心象·屬性戰技」啟動的材料。=Used in [Mindscape - Attribute Tactics].
 可用於5★角色「怪盜心象·屬性戰技」啟動的材料。=Used in 5★ character's [Mindscape - Attribute Tactics].
 可用於4★角色「怪盜心象·屬性戰技」啟動的材料。=Used in 4★ character's [Mindscape - Attribute Tactics].
 可自選獲得一枚心象紋章，用於「怪盜心象·屬性戰技」啟動的材料。=Used to obtain a Mindscape Heraldry for [Mindscape - Attribute Tactics].
 可自選獲得一枚心象紋章，用於5★角色「怪盜心象·屬性戰技」啟動的材料。=Used to obtain a Mindscape Heraldry for 5★ character's [Mindscape - Attribute Tactics].
 可自選獲得一枚心象紋章，用於4★角色「怪盜心象·屬性戰技」啟動的材料。=Used to obtain a Mindscape Heraldry for 5★ character's [Mindscape - Attribute Tactics].
+可自選獲得一枚心象紋章，用於角色「心象協鳴」、「心象戰技」點位啟動的材料。=Used to randomly obtain a Mindscape Heraldry for a character's [Mindscape Harmony] and [Mindscape Tactics].
+可隨機獲得一枚心象紋章，用於角色「心象協鳴」、「心象戰技」點位啟動的材料。=Used to randomly obtain a Mindscape Heraldry for a character's [Mindscape Harmony] and [Mindscape Tactics].
 
 物理·紋章=Phys Heraldry
 射擊·紋章=Gun Heraldry
