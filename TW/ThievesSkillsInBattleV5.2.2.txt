@@ -1167,16 +1167,19 @@ r:"^使除自身以外的<color\=#FFFF00>所有</color>同伴攻擊力提升\（
 
 r:"^每造成(\d+)次傷害獲得(\d+)層『花開』$"="<size\=24>Gain $2 [Blossom] stack after dealing $1 hit of damage</size>"
 r:"^攻擊力提升(\d+)，達到(\d+)/(\d+)層時觸發額外效果$"="Increase ATK by $1; Activate bonus effects \nwhen reaching $2/$3 stacks"
-r:"^受到疾風屬性傷害時使該次傷害暴擊效果提升(\d+(.\d+)?(%)?)$"="Increase Crit DMG Taken by $1\nwhen taking Wind damage damage"
-r:"^受到疾風屬性傷害時使該次傷害攻擊力提升(\d+(.\d+)?(%)?)$"="Increase ATK Taken by $1\nwhen taking Wind damage"
-r:"^受到任意屬性傷害時使該次傷害暴擊效果提升(\d+(.\d+)?(%)?)$"="Increase Crit DMG Taken by $1\nwhen taking any attribute damage"
-r:"^受到任意屬性傷害時使該次傷害攻擊力提升(\d+(.\d+)?(%)?)$"="Increase ATK Taken by $1\nwhen taking any attribute damage"
-r:"^支配怪盜攻擊力提升(\d+(.\d+)?(%)?)$"="Increase ATK for Sweeper Thieves by $1"
+r:"^受到疾風屬性傷害時使該次傷害暴擊效果提升(\d+(.\d+)?(%)?)$"="When taking Wind damage,\nincrease Crit DMG Taken by $1"
+r:"^受到疾風屬性傷害時使該次傷害攻擊力提升(\d+(.\d+)?(%)?)$"="When taking Wind damage,\nIncrease ATK Taken by $1"
+r:"^受到任意屬性傷害時使該次傷害暴擊效果提升(\d+(.\d+)?(%)?)$"="When taking any attribute damage,\nincrease Crit DMG Taken by $1"
+r:"^受到任意屬性傷害時使該次傷害攻擊力提升(\d+(.\d+)?(%)?)$"="When taking any attribute damage,\nincrease ATK Taken by $1"
+r:"^支配怪盜攻擊力提升(\d+(.\d+)?(%)?)$"="Increase Sweeper Thieves' ATK by $1"
 r:"^基於暴擊率超過(\d+%)的部分使暴擊效果提升，當前提升(.*)$"="<size\=25>Increase Crit DMG based on Crit Rate above $1.\nCurrent increase: $2</size>"
+r:"^受到疾風傷害時受到暴擊效果提升(\d+(.\d+)?(%)?)$"="When taking Wind damage,\nincrease Crit DMG Taken by $1"
 
 Combat Pop-ups
 r:"^含<color\=#000000>苞</color>$"="B<color\=#000000>u</color>dding"
 r:"^花<color\=#000000>開</color>$"="B<color\=#000000>l</color>ossom"
+r:"^風<color\=#000000>華</color>$"="S<color\=#000000>p</color>lendor"
+r:"^春<color\=#000000>恩</color>$"="S<color\=#000000>p</color>ring's Favor"
 
 ----------
 RLD - Yaoling Li
@@ -2173,3 +2176,36 @@ r:"^虛<color\=#000000>擬</color>演唱會$"="V<color\=#000000>i</color>rtual C
 r:"^全<color\=#000000>息</color>光幕$"="H<color\=#000000>o</color>logram Screen"
 r:"^一<color\=#000000>同</color>歌唱吧$"="L<color\=#000000>e</color>t's Sing Together"
 r:"^傳<color\=#000000>奇</color>歌手$"="L<color\=#000000>e</color>gendary Diva"
+
+
+----------
+PantherS - Ann Takamaki
+----------
+r:"^對1名敵人造成<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的火焰屬性傷害。\n自身造成傷害提升<color\=#FFFC40>(\d+\.\d+%)</color>，持續(\d+)回合，上限(\d+)層。\n獲得(\d+)層<link\="s\|304"><u>『歡呼』</u></link>。$"="Deal Fire damage to 1 foe equal to <color\=#FFFC40>$1</color> of ATK.\nIncrease Ann's DMG Dealt by <color\=#FFFC40>$2</color> for $3 turns. Stacks up to $4 times.\nAnn gains $5 <link\="s|304"><u>[Cheer]</u></link> stack."
+r:"^對<color\=#FFFF00>1名</color>敵人造成(\d+\.\d+%)攻擊力的火焰屬性傷害。\n自身造成傷害提升(\d+\.\d+%)，持續(\d+)回合，上限(\d+)層。\n獲得(\d+)層『歡呼』。$"="Deal Fire damage to <color\=#FFFF00>1</color> foe equal to $1 of ATK.\nIncrease Ann's DMG Dealt by $2 for $3 turns. Stacks up to $4 times.\nAnn gains $5 [Cheer] stack."
+
+r:"^對1名敵人造成<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的火焰屬性傷害。\n在本次<link\="s\|303"><u>『熱力舞譜』</u></link>內，最多使後方(\d+)段『舞步』的技能傷害提升(\d+%)，該效果不可疊加。\n獲得(\d+)層<link\="s\|304"><u>『歡呼』</u></link>。$"="Deal Fire damage to 1 foe equal to <color\=#FFFC40>$1</color> of ATK.\nIn this <link\="s|303"><u>[Heat Score]</u></link>, increase the next $2 [Step]'s Skill Damage by $3. This effect does not stack.\nAnn gains $4 <link\="s|304"><u>[Cheer]</u></link> stacks."
+r:"^對<color\=#FFFF00>1名</color>敵人造成(\d+\.\d+%)攻擊力的火焰屬性傷害。\n在本次『熱力舞譜』內，最多使後方(\d+)段『舞步』的技能傷害提升(\d+%)，該效果不可疊加。\n獲得(\d+)層『歡呼』。$"="Deal Fire damage to <color\=#FFFF00>1</color> foe equal to $1 of ATK.\nIn this [Heat Score], increase the next $2 [Step]'s Skill Damage by $3. This effect does not stack.\nAnn gains $4 [Cheer] stacks."
+
+r:"^消耗(\d+)層<link\="s\|304"><u>『歡呼』</u></link>，可釋放(\d+)次『搖炎終舞』。對1名敵人造成<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的火焰屬性傷害。\n使<link\="s\|303"><u>『熱力舞譜』</u></link>釋放時穿透提升<color\=#FFFC40>(\d+\.\d+%)</color>。$"="Spend $1 <link\="s|304"><u>[Cheer]</u></link> stacks to activate $2 [Flaming Finale]. Deal Fire damage to 1 foe equal to <color\=#FFFC40>$3</color> of ATK.\nWhen activating this [Heat Score], increase Pierce by <color\=#FFFC40>$4</color>."
+r:"^消耗(\d+)層『歡呼』，可釋放(\d+)次『搖炎終舞』。對<color\=#FFFF00>1名</color>敵人造成(\d+\.\d+%)攻擊力的火焰屬性傷害。\n使『熱力舞譜』釋放時穿透提升(\d+\.\d+%)。$"="Spend $1 [Cheer] stacks to activate $2 [Flaming Finale]. Deal Fire damage to <color\=#FFFF00>1</color> foe equal to $3 of ATK.\nWhen activating this [Heat Score], increase Pierce by $4."
+
+r:"^對1名敵人造成<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的火焰屬性傷害。\n使『魅惑』的效果提升(\d+%)，持續(\d+)回合。$"="Deal Fire damage to 1 foe equal to <color\=#FFFC40>$1</color> of ATK. \nIncrease [Charm]'s effect by $2. Lasts for $3 turns."
+r:"^對<color\=#FFFF00>1名</color>敵人造成(\d+\.\d+%)攻擊力的火焰屬性傷害。\n使『魅惑』的效果提升(\d+%)，持續(\d+)回合。$"="Deal Fire damage to <color\=#FFFF00>1</color> foe equal to $1 of ATK. \nIncrease [Charm]'s effect by $2. Lasts for $3 turns."
+
+熱力舞譜=Hot Score
+釋放當前舞步技能組合的『熱力舞譜』=Activate the current Steps combo as [Hot Score]
+歡呼=Cheer
+r:"^每(\d+)層可以釋放(\d+)段『搖炎終舞』$"="<size\=27>Every $1 stacks can activate $2 [Flaming Finale]</size>"
+r:"^魅惑效果提升(\d+%)$"="Increase Charm's effect by $1"
+
+SP不足，無法釋放=Not enough SP to activate
+『歡呼』層數不足，無法釋放=Not enough [Cheer] stacks to activate
+
+Combat Pop-ups
+r:"^熱<color\=#000000>舞</color>步伐$"="F<color\=#000000>e</color>ver Step"
+r:"^點<color\=#000000>燃</color>$"="I<color\=#000000>g</color>nite"
+r:"^歡<color\=#000000>呼</color>$"="C<color\=#000000>h</color>eer"
+r:"^引<color\=#000000>領</color>舞臺的熱度$"="L<color\=#000000>e</color>ading the Stage"
+r:"^燃<color\=#000000>情</color>激奏$"="B<color\=#000000>l</color>azing Rhapsody"
+r:"^狂<color\=#000000>熱</color>化$"="F<color\=#000000>e</color>vered Fury"
