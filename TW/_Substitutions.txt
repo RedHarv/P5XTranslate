@@ -162,6 +162,7 @@ MAIN
 池波先生=Ikenami-san
 池波=Ikenami
 平野 亞蘭=Aran Hirano
+平野亞蘭同學=Aran Hirano-san
 平野亞蘭=Aran Hirano
 平野同學=Hirano-san
 平野愛莉=Airi Hirano
@@ -273,6 +274,7 @@ YUI=YUI
 琴音姐=Kotone-san
 小琴音=Kotone-chan
 琴音選手=Contestant Kotone
+汐見琴音=Kotone Shiomi
 琴音=Kotone
 蒙塔涅=Montagne
 黑江教練=Coach Kuroe
@@ -356,7 +358,19 @@ PALACE RULERS
 ----------
 磨我痛神=Divine Justice
 禍津神的殿堂=Magatsukami's Palace
+禍津神殿堂=Magatsukami's Palace
+禍津神的秘寶=Magatsukami's Treasure
+禍津神大人=Magatsukami-sama
 禍津神=Magatsukami
+真賀心呂的殿堂=Kokoro Maga's Palace
+真賀心呂殿堂=Kokoro Maga's Palace
+真賀的殿堂=Maga's Palace
+真賀殿堂=Maga's Palace
+真賀的秘寶=Maga's Treasure
+真賀 心呂=Kokoro Maga
+真賀心呂=Kokoro Maga
+真賀=Maga
+心呂=Kokoro
 魅影通行證=Phantom Pass
 魅影=Phantom
 殘寶檢測儀·愛慾=<size\=21>Treasure Detector·Lust</size>
@@ -377,8 +391,10 @@ PALACE RULERS
 木内殿堂=Kiuchi's Palace
 陰影木內=Shadow Kiuchi
 陰影木内=Shadow Kiuchi
+木內的秘寶=Kiuchi's Treasure
 木內秘寶=Kiuchi's Treasure
 木內大人=Kiuchi-sama
+木內先生=Kiuchi-san
 木內=Kiuchi
 木内=Kiuchi
 撞人男=Subway Slammer
@@ -411,7 +427,6 @@ PALACE RULERS
 片山老師的陰影=Katayama-sensei's Shadow
 片山老師陰影=Katayama-sensei's Shadow
 片山老師的殿堂=Katayama-sensei's Palace
-片山老師改心=Change her heart
 片山老師=Katayama-sensei
 片山的殿堂=Katayama's Palace
 片山殿堂=Katayama's Palace
@@ -422,6 +437,7 @@ PALACE RULERS
 老師的秘寶=Sensei's Treasure
 老師秘寶=Sensei's Treasure
 狂飆騎手=Hit-and-Run Rider
+暴走騎手=Hit-and-Run Rider
 閃光腿片山=Lightning Legs Katayama
 片山姐改心=Change Katayama-san's heart
 片山大人=Katayama-sama
@@ -448,7 +464,7 @@ PALACE RULERS
 明石改心=Change Akashi's heart
 明石先生=Akashi-san
 明石=Akashi
-無良顧問=Unscrupulous Consultant
+無良顧問=Cold-Blooded Consultant
 下津名·密爾美可里奧·高美=Takami "Myrmecoleon" Shimotsuna
 下津名·同化·高美=Takami "Fusion" Shimotsuna
 陰影下津名·同化=Shadow Shimotsuna "Fusion"
@@ -551,6 +567,7 @@ MAIN SIDE CHARACTERS
 藤枝愛莉小姐=Airi Fujieda-san
 藤枝愛莉=Airi Fujieda
 愛莉小姐=Airi-san
+愛莉姐=Airi-san
 愛莉=Airi
 藤枝小姐=Fujieda-san
 藤枝=Fujieda
@@ -658,7 +675,6 @@ COLLAB
 結城理=Makoto Yuki
 結城同學=Yuki-kun
 結城=Yuki
-汐見琴音=Kotone Shiomi
 汐見=Shiomi
 岳羽 由加莉=Yukari Takeba
 岳羽由加莉=Yukari Takeba
