@@ -1,14 +1,13 @@
-﻿using BepInEx;
-using BepInEx.Unity.IL2CPP;
+﻿using System.Diagnostics;
 using System.IO;
-using System.Reflection;
-using BepInEx.Configuration;
-using System.Net.Http;
-using System.Text.Json.Nodes;
-using System.Diagnostics;
 using System.IO.Compression;
+using System.Net.Http;
+using System.Reflection;
+using System.Text.Json.Nodes;
 using System.Threading.Tasks;
-using System.Xml;
+using BepInEx;
+using BepInEx.Configuration;
+using BepInEx.Unity.IL2CPP;
 
 namespace P5XTranslateDL;
 
@@ -21,23 +20,29 @@ public class Plugin : BasePlugin
 
     private ConfigEntry<string> dlVersion;
 
-    public override async void Load()
+    public override void Load()
     {
         Log.LogInfo($"Plugin {pluginGuid} is loaded!");
         dlVersion = Config.Bind("Downloader Version", "dlVer", "22", "");
-        getFromGit();
+
+        // Block here until the whole update chain (including P5XDL.exe) has
+        // finished, instead of firing it off and letting Load() return
+        // immediately. That way BepInEx can't move on to loading the next
+        // plugin - e.g. AutoTranslator - until the translation files on disk
+        // are fully up to date.
+        Task.Run(GetFromGitAsync).GetAwaiter().GetResult();
     }
 
     private void RunFileUpdate()
     {
-        Process firstProc = new Process();
+        Process firstProc = new();
         firstProc.StartInfo.FileName = @Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "\\P5XDL.exe";
         firstProc.EnableRaisingEvents = true;
         firstProc.Start();
         firstProc.WaitForExit();
     }
 
-    private async void getFromGit()
+    private async Task GetFromGitAsync()
     {
         var pathString = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "\\";
         var fileString = "https://api.github.com/repos/JayJay34/P5XTranslate/releases/latest";
