@@ -635,9 +635,11 @@ Sympathizer
 可進一步提升與共敘者的羈絆，請先完成關係加深劇情後再繼續贈送禮物。=<size\=26>Can rank up Sympathizer.</size>
 結識並提升好感度後可獲得能力=Can gain ability
 r:"^結識共敘者「{{A}}」並將其好感度等級提升至RANK(\d+)後解鎖。$"="Unlock after Sympathizer Rank $1."
+已贈送=Gifted
 學年=School Year
 最近的愛好=Recent Hobbies
 最近的執著=Recent Obsession
+最近的講究=Recent Obsession
 常吃的東西=Typical Food
 擅長的舞蹈風格=Specialty Dance
 在意的事情=<size\=19>What They Care About</size>
@@ -690,3 +692,16 @@ r:"^任意模式戰鬥中，所有同伴暴擊效果提升(\d+%)。$"="In any ga
 鮪魚大腹、貓罐頭=Fatty tuna, cat food
 什麼舞步都擅長！=Great at every kind of dance!
 關於要給PANTHER表演的舞蹈=The dance for Panther
+
+----------
+Panther
+----------
+·「扭曲的奇遇」的激鬥模式中，試用角色「{{A}}」的意識等級提升。\n·在部分戰鬥中，增加角色的火焰、冰凍、電擊、疾風屬性傷害。=<size\=24>·In [Twisted Trial] Normal mode, increase trial [{{A}}]'s Awareness level.\n·In certain battles, increase characters' Fire Ice Elec Wind DMG.</size>
+個性的釋放=Unleash Individuality
+r:"^「扭曲的奇遇」的激鬥模式中，試用角色「{{A}}」的意識等級提升(\d+)級。\n「扭曲的奇遇」中，所有同伴火焰、冰凍、電擊、疾風屬性傷害提升(\d+%)。$"="<size\=24>In [Twisted Trial] Normal mode, increase trial [{{A}}]'s Awareness level by $1.\nIn [Twisted Trial], increase all allies' Fire Ice Elec Wind DMG by $2.</size>"
+定格的誘惑=Frozen Allure
+r:"^「扭曲的奇遇」的激鬥模式中，試用角色「{{A}}」的意識等級提升(\d+)級。\n「{{B}}」中，所有同伴火焰、冰凍、電擊、疾風屬性傷害提升(\d+%)。$"="<size\=24>In [Twisted Trial] Normal mode, increase trial [{{A}}]'s Awareness level by $1.\nIn [{{B}}], increase all allies' Fire Ice Elec Wind DMG by $2.</size>"
+魅惑的迴旋=Enchanting Whirl
+危險的美學=Dangerous Aesthetic
+帶刺的玫瑰=Thorned Rose
+r:"^「扭曲的奇遇」的激鬥模式中，試用角色「{{A}}」的意識等級提升(\d+)級。\n任意玩法中，所有同伴火焰、冰凍、電擊、疾風屬性傷害提升(\d+%)。$"="<size\=24>In [Twisted Trial] Normal mode, increase trial [{{A}}]'s Awareness level by $1.\nIn any game mode, increase all allies' Fire Ice Elec Wind DMG by $2.</size>"
