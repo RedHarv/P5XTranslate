@@ -36,6 +36,7 @@ r:"^奇<color\=#ff0000ff>境</color>·電影院$"="W<color\=#ff0000ff>o</color>n
 這家店似乎還在準備中……=This shop seems to be under preparation...
 門關著……\n看來沒有在營業……=The door is closed... It seems it's not open for business...
 暫時沒什麼事情要來這裡……=There's nothing I need to do here right now...
+現在在這裡沒什麼事……=There's nothing I need to do here right now...
 現在沒什麼事情要來這裡……=There's nothing I need to do here right now...
 
 ----------
@@ -49,6 +50,8 @@ r:"^在「{{A}}」累計幫助他人挑戰(\d+)次BOSS\((\d+)/(\d+)\)"="Help oth
 r:"^在「{{A}}之章 」中完成(\d+)個章節\((\d+)/(\d+)\)$"="Complete $1 [{{A}} Chapter] ($2/$3)"
 在「{{A}}」累計發現過1次BOSS=Find 1 BOSS in [{{A}}]
 r:"^在「{{A}}」累計發現過(\d+)次BOSS\((\d+)/(\d+)\)"="Find $1 BOSS in [{{A}}] ($2/$3)"
+
+「共敘者-{{A}}」解鎖後開啟。=Unlocks after [Sympathizer-{{A}}].
 
 劇情描述：=Description:
 獎勵預覽：=Rewards:
@@ -65,6 +68,7 @@ Twisted Trial
 『奇遇鑰匙』\n用於解鎖「扭曲的奇遇」玩法中的任意挑戰章節。可在「契約之間」-「認知精選」商店中進行兌換。=[Adventure Key]\nUsed to unlock [Twisted Trial]. Can be exchanged from [Cognition Shop]
 {{A}}的躁動={{A}}'s Agitation
 {{A}}的迷幻={{A}}'s Trance
+{{A}}的狂熱={{A}}'s Frenzy
 激鬥=<size\=20>Normal</size>
 限時=<size\=18>Limited Time</size>   <size\=1>.</size>
 每日次數=<size\=18>Daily Attempts</size>
@@ -167,6 +171,12 @@ r:"^堅<color\=#000000>硬</color>身軀$"="H<color\=#000000>a</color>rden Body"
 sr:"^閃耀破敵(.*)$"="Shining Strike $1"
 r:"^閃<color\=#000000>耀</color>破敵$"="S<color\=#000000>h</color>ining Strike"
 敵人受到HIGHLIGHT、{{A}}、{{B}}傷害增加，受到其他類型傷害降低。=Increase foes' HIGHLIGHT, {{A}}, and {{B}} DMG Taken; decrease other damage types' DMG Taken.
+sr:"^抗暴體質(.*)$"="Critical Resistance $1"
+r:"^抗<color\=#000000>暴</color>體質$"="C<color\=#000000>r</color>itical Resistance"
+敵人的暴擊抗性大幅增加。=Heavily increase foes' Crit Rate RES.
+sr:"^剛性脆弱(.*)$"="Rigid and Frail $1"
+r:"^剛<color\=#000000>性</color>脆弱$"="R<color\=#000000>i</color>gid and Frail $1"
+敵人受到的最終傷害降低，但是倒地易傷增加。=Decrease foes' Final DMG Taken, but increase Downed DMG Taken.
 
 反抗枷鎖=Assassin Shackles
 r:"^<color\=#FFFC40>反抗</color>怪盜最終傷害降低(\d+%)。$"="Decrease <color\=#FFFC40>Assassin</color> Thieves' Final DMG by $1"
