@@ -788,6 +788,23 @@ PALACE 6
 確認記錄-3=Confirmation Record: 3
 
 ----------
+PALACE 7
+----------
+愉悅樂園島=<size\=23>Paradise of Bliss</size>
+愛之樂園島=<size\=23>Paradise of Love</size>
+愛之樂園島外=<size\=16>Outer Paradise of Love</size>
+愛之樂園島內=<size\=16>Inner Paradise of Love</size>
+棒球館樂園=<size\=16>Baseball Stadium Park</size>
+第一攝影棚=Studio 1
+粉絲數=Fans
+拉麵Amigo=Ramen Amigos
+蜂窩形狀的碎片=Honeycomb Fragment
+全息“棒球館{{A}}”=Holographic Baseball Stadium {{A}}
+
+r:"^磨<color\=#ff0000ff>我</color>痛神社記者$"="D<color\=#ff0000ff>i</color>vine Justice Reporter"
+r:"^熱<color\=#ff0000ff>情</color>的粉絲$"="P<color\=#ff0000ff>a</color>ssionate Fans"
+
+----------
 PALACE 1 BOSS
 ----------
 曾經名噪一時的職業棒球手{{A}}的陰影，在{{B}}的{{C}}中化身為大滿貫投手，統領著這幢龐大且華麗的棒球館。\n哪怕是少女的攀附和球員的臣服，也難以滿足他變質的支配慾。\n他可是球場上擁有最強實力的王者，決不允許任何威脅他地位的存在！={{A}}'s form in the cognitive world. His appearance reflects his distorted desires.
@@ -1838,6 +1855,55 @@ r:"^冰<color\=#000000>凍</color>屬性弱點$"="I<color\=#000000>c</color>e We
 r:"^造成的最終傷害永久提升(\d+(.\d+)?(%)?)$"="Permanently increase Final DMG Dealt by $1"
 
 ----------
+PALACE 7 ELITES
+----------
+r:"^1、{{B}}開局會與怪盜簽訂三個契約，同時召喚三個{{A}}，{{A}}作為契約的化身存在。玩家可以透過近戰攻擊三個{{A}}分別觸發不同的契約效果，每個契約觸發後一回合內不能再次觸發，{{A}}死亡意味對應契約被破壞，對應契約不能再觸發。\n2、{{B}}的技能會降低怪盜的生命上限，當怪盜的生命上限降低至0時，怪盜死亡。\n3、當{{B}}擁有的契約之力大於等於(\d+)層時，{{B}}會在自己的回合釋放強力技能米基多拉翁，同時清空契約之力。$"="1. At the start of battle, {{B}} will sign three contracts with Thieves and summon three {{A}}s, {{A}} exist as the embodiments of contract. Thieves can activate different contract effects by attacking the three {{A}}s with Melee Attack. Once a contract is activated, it cannot be activated again on the same turn. If a {{A}} is defeated, the corresponding contract is destroyed and cannot be activated again.\n2. {{B}}'s skills will decrease Thieves' Max HP, when a Thief has 0 Max HP, they will faint.\n3. When {{B}} has $1 or more Contract Power stacks, {{B}} will use Megidolaon on its turn, then clear all Contract Power."
+r:"^契約1：受到近戰攻擊時會給怪盜方提供能抵擋一次傷害的護盾持續一回合，同時給{{A}}提供(\d+)層契約之力 。\n技能：每回合給{{A}}提供(\d+)層契約之力。$"="Contract 1: When attacked by a Melee Attack, grant Thieves a Shield that can nullify the next damage for 1 turn, then grant {{A}} $1 Contract Power stack.\nSkill: Each turn, grant {{A}} $2 Contract Power stack."
+r:"^契約2：受到近戰攻擊時會給普攻怪盜恢復被扣除的血量上限，同時給{{A}}提供(\d+)層契約之力。\n技能：每回合給{{A}}提供(\d+)層契約之力。$"="Contract 2: When attacked by a Melee Attack, that Thief restores their missing Max HP, then grant {{A}} $1 Contract Power stack.\nSkill: Each turn, grant {{A}} $2 Contract Power stack."
+r:"^契約3：受到近戰攻擊時怪盜方最終傷害提升(\d+%)持續一回合，同時給{{A}}提供(\d+)層契約之力。\n技能：每回合給{{A}}提供(\d+)層契約之力。$"="Contract 3: When attacked by a Melee Attack, increase Thieves' Final DMG by $1 for 1 turn, then grant {{A}} $2 Contract Power stack.\nSkill: Each turn, grant {{A}} $3 Contract Power stack."
+1、{{B}}開局會與怪盜簽訂三個契約，同時召喚三個{{A}}，{{A}}作為契約的化身存在。玩家可以透過近戰攻擊三個{{A}}分別觸發不同的契約效果，每個契約觸發後一回合內不能再次觸發，{{A}}死亡意味對應契約被破壞，對應契約不能再觸發。\n2、守護契約：受到近戰攻擊會給怪盜方提供能抵擋一次傷害的護盾持續一回合，同時給{{B}}提供1層契約之力 。\n技能：每回合給{{B}}提供1層契約之力。\n3、活力契約：受到近戰攻擊會給普攻怪盜恢復被扣除的血量上限，同時給{{B}}提供1層契約之力。\n技能：每回合給{{B}}提供1層契約之力。\n4、戰鬥契約：受到近戰攻擊會給怪盜方最終傷害提升50%持續一回合，同時給{{B}}提供1層契約之力。\n技能：每回合給{{B}}提供1層契約之力。\n5、{{B}}的技能會降低怪盜的生命上限，當怪盜的生命上限降低至0時，怪盜死亡。\n6、當{{B}}擁有的契約之力大於等於9層時，{{B}}會在自己的回合釋放強力技能米基多拉翁，同時清空契約之力。=1. At the start of battle, {{B}} will sign three contracts with Thieves and summon three {{A}}s, {{A}} exist as the embodiments of contract. Thieves can activate different contract effects by attacking the three {{A}}s with Melee Attack. Once a contract is activated, it cannot be activated again on the same turn. If a {{A}} is defeated, the corresponding contract is destroyed and cannot be activated again.\n2. Protection Contract: When attacked by a Melee Attack, grant Thieves a Shield that can nullify the next damage for 1 turn, then grant {{B}} 1 Contract Power stack.\nSkill: Each turn, grant {{B}} 1 Contract Power stack.\n3. Vitality Contract: When attacked by a Melee Attack, that Thief restores their missing Max HP, then grant {{B}} 1 Contract Power stack.\nSkill: Each turn, grant {{B}} 1 Contract Power stack.\n4. Battle Contract: When attacked by a Melee Attack, increase Thieves' Final DMG by 50% for 1 turn, then grant {{B}} 1 Contract Power stack.\nSkill: Each turn, grant {{B}} 1 Contract Power stack. \n5. {{B}}'s skills will decrease Thieves' Max HP, when a Thief has 0 Max HP, they will faint.\n6. When {{B}} has 9 or more Contract Power stacks, {{B}} will use Megidolaon on its turn, then clear all Contract Power.
+
+締結生命契約=Forge a Life Contract
+生命契約=Life Contract
+當怪盜生命上限降低至1時，怪盜死亡=Faint when Max HP is at 1
+生命上限降低=Decrease Max HP
+契約判決=Contract Judgement
+降低1名怪盜的生命上限=Decrease 1 Thief's Max HP
+契約裁斷=Contract Termination
+降低所有怪盜的生命上限=Decrease all Thieves' Max HP
+
+加護=Intensive Care
+r:"^給{{A}}提供(\d+)層『契約之力』$"="Grant {{A}} $1 [Contract Power] stack"
+守護契約=Protection Contract
+r:"^受到近戰攻擊會給怪盜方提供能抵擋一次傷害的護盾持續一回合，同時給{{A}}提供契約buff (\d+)層$"="When attacked by a Melee Attack, grant Thieves a Shield that can nullify the next damage for 1 turn, then grant {{A}} $1 Contract Power stack"
+免疫一次傷害，持續一回合=Nullify next damage for 1 turn
+活力契約=Vitality Contract
+r:"^受到近戰攻擊會給普攻怪盜恢復至血量上限，同時給{{A}}提供契約buff (\d+)層$"="When attacked by a Melee Attack, that Thief restores their missing Max HP, then grant {{A}} $1 Contract Power stack"
+戰鬥契約=Battle Contract
+r:"^受到近戰攻擊怪盜方最終傷害提升(\d+%)持續一回合，同時給{{A}}提供契約buff (\d+)層$"="When attacked by a Melee Attack, increase Thieves' Final DMG by $1 for 1 turn, then grant {{A}} $2 Contract Power stack"
+契約之力=Contract Power
+r:"^契<color\=#000000>約</color>之力$"="C<color\=#000000>o</color>ntract Power"
+{{B}}的獨特力量，當契約之力達到九層時{{B}}會釋放{{A}}性技能=When Contract Power reaches 9 stacks, {{B}} will use a powerful skill
+契約侵蝕=Contract Erosion
+r:"^契<color\=#000000>約</color>侵蝕$"="C<color\=#000000>o</color>ntract Erosion"
+契約保護=Contract Protection
+r:"^契<color\=#000000>約</color>保護$"="C<color\=#000000>o</color>ntract Protection"
+r:"^閃<color\=#000000>避</color>近戰攻擊$"="E<color\=#000000>v</color>ade Melee Attack"
+免疫近戰攻擊，持續一回合=Nullify Melee Attack for 1 turn
+{{A}}獲得了契約之力={{A}} gained Contract Power
+sr:"^<color\=#FF0000>(.*)</color>恢復<color\=#FF0000>生命上限</color>$"="<color\=#FF0000>$1</color> restored <color\=#FF0000>Max HP</color>!"
+sr:"^<color\=#FF0000>(.*)</</color>獲得了屏障，免疫一次傷害，持續一回合。$"="<color\=#FF0000>$1</color> gained immunity to next damage for 1 turn!"
+sr:"^<color\=#FF0000>(.*)<</color>獲得了增益，傷害增加，持續一回合。$"="<color\=#FF0000>$1</color> gained Final DMG buff for 1 turn!"
+<color\=#FF0000>{{A}}</color>進入契約保護狀態，閃避受到的近戰攻擊……=<color\=#FF0000>{{A}}</color> entered Contract Protection, will evade Melee Attack...
+<color\=#FF0000>{{A}}</color>退出了契約保護狀態。=<color\=#FF0000>{{A}}</color> exited Contract Protection!
+
+1、{{A}}具有涅槃的能力，{{A}}死亡後會進行涅槃，涅槃過程持續兩回合，涅槃過程中會獲得傷害減免，涅槃期間被殺死則涅槃失敗，每次涅槃成功後{{A}}都會獲得新的能力（最多能涅槃3次）\n2、{{A}}每涅槃成功一次，下一次進入涅槃階段時的免傷降低\n3、涅槃成功後{{A}}以百分之50的血量復活，在復活的兩個回合後會恢復百分之50最大生命值\n4、{{A}}涅槃成功後會立刻引爆玩家身上的燃燒層數（基於燃燒層數造成傷害）\n5、涅槃一次後.{{A}}的技能有更高的機率使目標陷入燃燒，{{A}}的最大生命值增加\n   涅槃兩次後.燃燒造成的傷害更高，{{A}}的攻擊力增加\n   涅槃三次後.燃燒持續回合為永久，{{A}}的防禦力增加=1. {{A}} can enter Nirvana. After {{A}} is defeated, it will enter Nirvana for 2 turns. When Nirvana is active, {{A}} will gain DMG RES. If {{A}} is defeated during Nirvana, the process fails. After each successful Nirvana, {{A}} will gain a new ability (It can enter Nirvana up to 3 times). \n2. For each successful Nirvana, {{A}} will increase the next Nirvana's DMG RES.\n3. After a successful Nirvana, {{A}} will revive at 50% HP and restore 50% of its Max HP 2 turns after revival.\n4. After a successful Nirvana, {{A}} will immediately detonate all Burn of Thieves. \n5. After 1 Nirvana, {{A}}'s skills have a higher chance of inflicting Burn, and increase {{A}}'s Max HP.\nAfter 2 Nirvana, increase Burn's damage, and increase {{A}}'s ATK.\nAfter 3 Nirvana, Burn is now permanent, and increase {{A}}'s DEF.
+獲得傷害減免=Gain DMG RES
+對1名敵人造成火屬性傷害，有機率使敵人陷入燃燒狀態=Deal Fire damage to 1 foe, with a chance to inflict Burn
+對所有敵人造成火屬性傷害，有機率使敵人陷入燃燒狀態=Deal Fire damage to all foes, with a chance to inflict Burn
+對所有敵人造成火屬性傷害，根據燃燒層數提高技能傷害=Deal Fire damage to all foes, increase Skill Damage based on Burn stacks
+
+----------
 PALACE 7 BOSS 1
 ----------
 規則就是用來打破的！=Rules Are Meant to Be Broken
@@ -1847,8 +1913,9 @@ PALACE 7 BOSS 1
 
 觀眾=Audience
 本場節目的『觀眾』=The [Audience] of this show
-作為優秀的演藝圈製作人，他用花俏的表演和充滿噱頭的環節，試圖呈現最棒的舞臺。然而那絢麗舞臺下潛藏的，或許是致命的殺機。=As an outstanding entertainment producer, he uses flashy performances and gimmick-filled segments in an attempt to present the greatest stage. Yet beneath that dazzling stage lies a deadly threat.
+作為優秀的娛樂圈製作人，他用花哨的表演和充滿噱頭的環節，試圖呈現最棒的舞臺。然而那絢麗舞臺下潛藏的，或許是致命的殺機。=As an outstanding entertainment producer, he uses flashy performances and gimmick-filled segments in an attempt to present the greatest stage. Yet beneath that dazzling stage lies a deadly threat.
 在無數支持與稱頌聲中，{{A}}成長為龐大的怪物。如今他從網路世界走到臺前，決定以神的姿態實現所謂的民意。=Amid countless cheers and praises, {{A}} grew into a colossal monster. Having stepped from the digital world into the spotlight, he has decided to realize the so-called will of the masses as a god.
+在無數支持與稱頌聲中，{{A}}成長為龐大的怪物。如今他從網路世界走到台前，決定以神的姿態實現所謂的民意。=Amid countless support and praises, {{A}} grew into a colossal monster. Having stepped from the digital world into the spotlight, he has decided to realize the so-called will of the masses as a god.
 
 不幸之蜜=Misfortune Honey
 r:"^不<color\=#000000>幸</color>之蜜$"="M<color\=#000000>i</color>sfortune Honey"
@@ -1856,15 +1923,17 @@ r:"^不<color\=#000000>幸</color>之蜜$"="M<color\=#000000>i</color>sfortune H
 節目嘉賓=Show Guest
 r:"^節<color\=#000000>目</color>嘉賓$"="S<color\=#000000>h</color>ow Guest"
 被選為「節目嘉賓」=Selected as [Show Guest]
+被選為『節目嘉賓』=Selected as [Show Guest]
 惡役=Villain
 r:"^惡<color\=#000000>役</color>$"="V<color\=#000000>i</color>llain"
 被選為『惡役』=Selected as [Villain]
 
-r:"^『節目掌控』層數不超過(\d+)層時，若目前生命值低於(\d+%)，進入下一階段$"="When [Show Control] does not exceed $1 stacks and user is below $2 HP, enter next phase"
+r:"^『節目掌控』層數不超過(\d+)層時，若當前生命值低於(\d+%)，進入下一階段$"="When [Show Control] does not exceed $1 stacks and user is below $2 HP, enter next phase"
 節目掌控=Show Control
 r:"^節<color\=#000000>目</color>掌控$"="S<color\=#000000>h</color>ow Control"
-r:"^目前生命值低於(\d+%)可消耗1層為自身恢復生命值。$"="When user's HP is below $1, spend 1 stack to restore user's HP."
+r:"^當前生命值低於(\d+%)可消耗1層為自身恢復生命值。$"="When user's HP is below $1,\nspend 1 stack to restore user's HP"
 
+斷罪·Night·Stage！=Conviction·Night·Stage!
 會看氣氛嗎YO！=Read the Room, YO!
 沉溺於不幸吧YO！=Indulge in Misfortune, YO!
 r:"^沉<color\=#000000>溺</color>於不幸吧YO！$"="I<color\=#000000>n</color>dulge in Misfortune, YO!"
@@ -1879,7 +1948,7 @@ r:"^為自己和『觀眾』添加若干『不幸之蜜』，自身獲得(\d+)�
 收視飆升！=Ratings Spike!
 被動技能：當節目盡在自身掌控時，獲得1層『節目掌控』、1層『不幸之蜜』。=Passive skill: When the show is in control, gain 1 [Show Control] and 1 [Misfortune Honey] stack.
 不屈製作人=Unyielding Producer
-r:"^被動技能：目前生命值低於(\d+%)時，若『節目掌控』層數超過(\d+)層，消耗1層『節目掌控』為自身恢復(\d+%)的最大生命值，否則進入下一階段。$"="Passive skill: When user's HP is below $1, if [Show Control] stacks exceed $2, spend 1 stack to restore $3 of user's Max HP. Otherwise enter the next phase."
+r:"^被動技能：當前生命值低於(\d+%)時，若『節目掌控』層數超過(\d+)層，消耗1層『節目掌控』為自身恢復(\d+%)的最大生命值，否則進入下一階段。$"="Passive skill: When user's HP is below $1, if [Show Control] stacks exceed $2, spend 1 stack to restore $3 of user's Max HP. Otherwise enter the next phase."
 經費回收=Fund Recovery
 被動技能：觀眾死亡時，獲得其身上一半的『不幸之蜜』；進入下一階段時，若觀眾存活，獲得其身上所有的『不幸之蜜』。=Passive skill: When the [Audience] is defeated, gain half of their [Misfortune Honey]. When entering the next phase, if an [Audience] is present, gain all of their [Misfortune Honey].
 
@@ -1906,12 +1975,15 @@ r:"^對非『惡役』的敵人造成祝福屬性傷害（友方『不幸之蜜�
 降臨=Descend
 以身入局參與節目遊戲，清空『節目掌控』層數，為自身添加『不幸之蜜』（層數相當於『節目掌控』層數*2+2）。=Join the game show, clear all [Show Control] stacks, and gain [Misfortune Honey] stacks equal to [Show Control] stacks * 2 + 2.
 神的嘉獎=Divine Boon
-r:"^自身獲得若干層『不幸之蜜』，同時使所有敵人獲得傷害大幅提升效果，持續(\d+)回合。$="User gains a set amount of [Misfortune Honey] stacks, then heavily increase all foes' damage for $1 turn."
+r:"^神<color\=#000000>的</color>嘉獎$"="D<color\=#000000>i</color>vine Boon"
+r:"^自身獲得若干層『不幸之蜜』，同時使所有敵人獲得傷害大幅提升效果，持續(\d+)回合。$"="User gains a set amount of [Misfortune Honey] stacks, then heavily increase all foes' DMG Dealt for $1 turn."
 神的試煉=Divine Trial
-r:"^對所有敵人造成少量祝福屬性傷害並使其獲得(\d+)層『不幸之蜜』，同時自身獲得持續(\d+)回合的傷害提升效果。$"="Deal light Bless damage to all foes and inflict them with $1 [Misfortune Honey] stacks, then increase user's damage for $2 turn."
+r:"^神<color\=#000000>的</color>試煉$"="D<color\=#000000>i</color>vine Trial"
+r:"^對所有敵人造成少量祝福屬性傷害並使其獲得(\d+)層『不幸之蜜』，同時自身獲得持續(\d+)回合的傷害提升效果。$"="Deal light Bless damage to all foes and inflict them with $1 [Misfortune Honey] stacks, then increase user's DMG Dealt for $2 turn."
 r:"^對所有敵人造成若干次祝福屬性傷害，友方『不幸之蜜』的層數越高，技能傷害越高，敵方『不幸之蜜』層數越高，受到技能暴擊率越高。同時結算『不幸之蜜』的效果——友方每有1層『不幸之蜜』，目標生命上限降低(\d+%)，持續(\d+)回合。$"="Deal Bless damage to all foes (a set hits), increase Skill Damage based on allies' [Misfortune Honey] stacks, increase foes' Crit Taken Rate based on foes' [Misfortune Honey] stacks. Activate [Misfortune Honey]'s effect: For every 1 [Misfortune Honey] stack on allies, decrease targets' Max HP by $1. Lasts for $2 turns."
 
 sr:"^<color\=#FF0000>(.*)</color>被選為「節目嘉賓」……$"="<color\=#FF0000>$1</color> selected as [Show Guest]..."
+sr:"^<color\=#FF0000>(.*)</color>被選為「惡役」……$"="<color\=#FF0000>$1</color> selected as [Villain]..."
 
 ----------
 CROSS FATE PALACE (CF) (COLLAB)
@@ -3466,6 +3538,17 @@ r:"^{{A}}在狂亂階段受到非「共舞者」單位攻擊後自身最終傷�
 天鈿雙儀=Twin Rites
 {{A}}在非狂亂階段最終受到傷害降低，狂亂階段最終傷害提升={{A}} will decrease Final DMG Taken before Frenzy and increase Final DMG in Frenzy
 r:"^{{A}}在非狂亂階段最終受到傷害降低(\d+%)，狂亂階段最終傷害提升(\d+%)$"="{{A}} will decrease Final DMG Taken by $1 before Frenzy and increase Final DMG by $2 in Frenzy"
+
+r:"^1、{{A}}可以施放「焚身降祉」，消耗一定當前生命值換取強大的祝福之力「輪迴」和「歸元」。\n「輪迴」：承受的傷害降低(\d+%)。但回合內每受到1次傷害，承受的傷害都將提升(\d+%)，最高提升至(\d+%)。任意單位回合結束後刷新。\n「歸元」：自身回合開始時回復自身最大生命值的(\d+%)。\n2、當{{A}}生命值再度回復至(\d+%)時，將施放對我方極具威脅的終極技能「淨世之舞」。$"="1. {{A}} can use [Sacrificial Blessing] to spend its HP to gain [Reincarnation] and [Returnal].\n[Reincarnation]: Decrease DMG Taken by $1. After taking 1 hit of damage, increase DMG Taken by $2, up to $3. Refresh this at the end of any character's action.\n[Returnal]: At the start of user's turn, restore $4 of Max HP.\n2. When {{A}} restore to $5 HP, use the ultimate skill [Dance of Purification]."
+歸元=Returnal
+r:"^自身回合開始時回復自身最大生命值的(\d+%)。$"="At the start of turn, restore $1 of Max HP"
+r:"^承受的傷害降低(\d+%)。但回合內每受到1次傷害，承受的傷害都將提升(\d+%)，最高提升至(\d+%)。$"="Decrease DMG Taken by $1. After taking 1 hit of damage, increase DMG Taken by $2, up to $3."
+焚身降祉=Sacrificial Blessing
+消耗一定當前生命值來獲得強大的祝福之力「輪迴」和「歸元」。=Spend a set amount of HP to gain [Reincarnation] and [Returnal].
+{{A}}舞={{A}} Dance
+對所有敵人造成中等攻擊力的萬能屬性傷害。=Deal medium Almighty damage to all foes.
+淨世之舞=Dance of Purification
+對所有敵人造成極大量攻擊力的萬能屬性傷害。=Deal severe Almighty damage to all foes.
 
 ----------
 Sea of Souls Trials (SoS)

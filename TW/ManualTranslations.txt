@@ -364,14 +364,17 @@ P5X MAIN
 r:"^梅<color\=#ff0000ff>洛</color>普$"="Me<color\=#ff0000ff>r</color>ope"
 r:"^瑪<color\=#ff0000ff>奇</color>姆$"="Ma<color\=#ff0000ff>r</color>thym"
 r:"^路<color\=#ff0000ff>菲</color>爾$"="Lu<color\=#ff0000ff>f</color>el"
-r:"^新<color\=#ff0000ff>井</color>{{A}}$"="Mo<color\=#ff0000ff>to</color>ha Arai"
-r:"^加<color\=#ff0000ff>納</color> {{A}}$"="Sh<color\=#ff0000ff>un</color> Kano"
-r:"^加<color\=#ff0000ff>納</color>{{A}}$"="Sh<color\=#ff0000ff>un</color> Kano"
+r:"^新<color\=#ff0000ff>井</color> {{A}}$"="{{A}} A<color\=#ff0000ff>r</color>ai"
+r:"^新<color\=#ff0000ff>井</color>{{A}}$"="{{A}} A<color\=#ff0000ff>r</color>ai"
+r:"^加<color\=#ff0000ff>納</color> {{A}}$"="{{A}} K<color\=#ff0000ff>a</color>no"
+r:"^加<color\=#ff0000ff>納</color>{{A}}$"="{{A}} K<color\=#ff0000ff>a</color>no"
 r:"^多<color\=#ff0000ff>禰</color>村 {{A}}$"="{{A}} Ta<color\=#ff0000ff>ne</color>mura"
 r:"^多<color\=#ff0000ff>禰</color>村{{A}}$"="{{A}} Ta<color\=#ff0000ff>ne</color>mura"
 r:"^野<color\=#ff0000ff>毛</color> {{A}}$"="To<color\=#ff0000ff>mo</color>ko Noge"
-r:"^池<color\=#ff0000ff>波</color>{{A}}$"="{{A}} Ike<color\=#ff0000ff>na</color>mi"
 r:"^池<color\=#ff0000ff>波</color> {{A}}$"="{{A}} Ike<color\=#ff0000ff>na</color>mi"
+r:"^池<color\=#ff0000ff>波</color>{{A}}$"="{{A}} Ike<color\=#ff0000ff>na</color>mi"
+r:"^平<color\=#ff0000ff>野</color> {{A}}$"="{{A}} Hi<color\=#ff0000ff>ran</color>o"
+r:"^平<color\=#ff0000ff>野</color>{{A}}$"="{{A}} Hi<color\=#ff0000ff>ran</color>o"
 
 P5X SYNERGIES
 r:"^梨<color\=#ff0000ff>本</color> {{A}}$"="Na<color\=#ff0000ff>ru</color>mi Nashimoto"
@@ -662,7 +665,9 @@ r:"^教<color\=#ff0000ff>學</color>樓$"="Cl<color\=#ff0000ff>as</color>sroom B
 r:"^<color\=#ff0000ff>黑</color>板$"="Bl<color\=#ff0000ff>ac</color>kboard"
 r:"^前<color\=#ff0000ff>往</color>走廊$"="G<color\=#ff0000ff>o</color> to the hallway"
 r:"^更<color\=#ff0000ff>換</color>校外鞋$"="Ch<color\=#ff0000ff>an</color>ge Shoes"
+r:"^飲<color\=#ff0000ff>料</color>售賣機$"="Ve<color\=#ff0000ff>nd</color>ing Machine"
 r:"^進<color\=#ff0000ff>入</color>教室$"="En<color\=#ff0000ff>t</color>er Classroom"
+r:"^圖<color\=#ff0000ff>書</color>室$"="Li<color\=#ff0000ff>br</color>ary"
 r:"^下<color\=#ff0000ff>北</color>澤車站$"="S<color\=#ff0000ff>h</color>imo-Kitazawa Station"
 一樓走廊=1F Hallway
 一樓=First Floor
@@ -844,6 +849,8 @@ r:"^懷<color\=#ff0000ff>舊</color>遊戲店$"="Re<color\=#ff0000ff>tr</color>o
 自動販售機=Vending Machine
 販賣機=Vending Machine
 要買些什麼嗎？=What do you want to buy?
+
+醫院走廊=Hospital Hallway
 
 商店=Shop
 購物=Shop
@@ -1191,8 +1198,8 @@ r:"^推薦編入(\d+)名<size\=(\d+)><sprite\=(\d+) tint\=1></size>角色$"="Rec
 倒地值=Down Points
 效果命中=Ailment ACC
 效果抵抗=Ailment RES
-受到暴擊=Crit Rate Taken
-暴擊抗性=Crit DMG RES
+受到暴擊=Crit Taken Rate
+暴擊抗性=Crit Rate RES
 傷害加成=DMG Bonus
 受到傷害=DMG Taken
 傷害減免=DMG RES
@@ -2858,6 +2865,8 @@ r:"^<color\=#FFDe00>{{A}}</color>票務等級達到<color\=#FFDe00>(\d+)級</col
 往日回溯=Recollections
 主線：{{A}}\n完成後開啟挑戰=<size\=20>Unlock after completing\n{{A}}</size>
 主線：假面役者的謝幕\n完成後開啟挑戰=<size\=20>Unlock after completing\nMasked Actors' Curtain Call</size>
+跟隨主線任務解鎖=Unlock by clearing Main Story
+「回溯挑戰」隨主線劇情自動解鎖。\n是否立即解鎖當前挑戰？\n<color\=#FF0000>（可能影響後續劇情體驗）</color>=This [Recollection] will be unlocked automatically as you progress the Main Story. Do you want to unlock this now?\n<color\=#FF0000>(This may affect your story experience)</color>
 
 掉落高級技能材料=Advanced Skill
 r:"^周可領獎次數：<color\=#0665ca>(\d+)/(\d+)</color>$"="Rewards Left: <color\=#0665ca>$1/$2</color>"
@@ -3653,6 +3662,7 @@ sr:"^當前任務目標處於<color\=#FF0000>(.*)</color>，\n是否立即前往
 前往一樓=Go to first floor
 前往天臺=Go to the roof
 前往學校天臺=Go to the roof
+前往圖書室=Go to the library
 往電梯方向前進=Head to the elevator
 搭乘地鐵到{{A}}=Take the subway to {{A}}
 離開{{A}}=Leave {{A}}
@@ -3678,6 +3688,24 @@ r:"^前往{{A}}(\d+)區$"=$"Go to {{A}} Area $1"
 將時間推進到夜晚=Pass the time to night
 返回家中=Go home
 對{{A}}進行改心=Change {{A}}'s heart
+檢查{{A}}的複習情況=Check {{A}}'s review progress
+應對{{A}}的提問=Answer {{A}}'s question
+努力複習=Study hard
+出去散心=Blow off some steam
+回去找{{A}}和{{B}}=Return to {{A}} and {{B}}
+回家=Go home
+{{A}}電話會議={{A}} phone meeting
+認真考試=Take the exam
+完成期末考試=Finish the final exam
+在{{A}}家集合=Meet at {{A}}'s place
+聯繫{{A}}=Contact {{A}}
+去家庭餐廳匯合=Meet at the diner
+與{{A}}告別=Say goodbye to {{A}}
+交流考試成績=Discuss exam scores
+去{{A}}的咖啡館=Go to the {{A}} café
+和大家聊聊吧=Let's talk to everyone
+準備前往{{A}}=Get ready and go to {{A}}
+探索{{A}}=Explore {{A}}
 故事告一段落=End of story
 查看SNS=View SNS
 
@@ -3855,6 +3883,11 @@ r:"^試著讓{{A}}打起精神\((\d+)\/(\d+)\)$"="Try to cheer {{A}} up ($1/$2)"
 r:"^查看{{A}}的官方認證\((\d+)\/(\d+)\)$"="View {{A}}'s condemnation ($1/$2)"
 r:"^見證{{A}}的決心\((\d+)\/(\d+)\)$"="Witness {{A}}'s resolve ($1/$2)"
 r:"^挫敗幕後黑手的陰謀\((\d+)\/(\d+)\)$"="Thwart the mastermind's plan ($1/$2)"
+r:"^見證{{A}}的行動\((\d+)\/(\d+)\)$"="Witness {{A}}'s action ($1/$2)"
+r:"^完成期末考試\((\d+)\/(\d+)\)$"="Complete the final exam ($1/$2)"
+r:"^與{{A}}交談\((\d+)\/(\d+)\)$"="Talk to {{A}} ($1/$2)"
+r:"^調查{{A}}\((\d+)\/(\d+)\)$"="Investigate {{A}} ($1/$2)"
+r:"^探索夢想樂園島\((\d+)\/(\d+)\)$"="Explore Paradise Island ($1/$2)"
 
 {{A}}探索={{A}} Exploration
 r:"^{{A}}票務等級達到(\d+)級\((\d+)\/(\d+)\)$"="Reach {{A}} Ticket Lv. $1 ($2/$3)"
@@ -3871,6 +3904,8 @@ r:"^私人領域區域的探索度達到(\d+%)\((\d+)\/(\d+)\)$"="Reach $1 Explo
 r:"^被遺棄的空間區域的探索度達到(\d+%)\((\d+)\/(\d+)\)$"="Reach $1 Exploration in the Abandoned Area ($2/$3)"
 r:"^圖書館{{A}}的探索度達到(\d+%)\((\d+)\/(\d+)\)$"="Reach $1 Exploration in the Library {{A}} ($2/$3)"
 r:"^在圖書館{{A}}打開(\d+)個寶箱\((\d+)\/(\d+)\)$"="Open $1 Treasure Chests in the Library {{A}} ($2/$3)"
+r:"^樂園島{{A}}的探索度達到(\d+%)\((\d+)\/(\d+)\)$"="Reach $1 Exploration in the Paradise Island {{A}} ($2/$3)"
+r:"^在樂園島{{A}}打開(\d+)個寶箱\((\d+)\/(\d+)\)$"="Open $1 Treasure Chests in the Paradise Island {{A}} ($2/$3)"
 
 厄影異象=Shadow Distortion
 r:"^在{{A}}區域(\d+)擊敗任意詭譎之徒\((\d+)\/(\d+)\)$"="Defeat any Enigma Shadow in {{A}} Area $1 ($2/$3)"
@@ -3885,6 +3920,7 @@ r:"^在{{A}}-被遺棄的空間擊敗任意(\d+)名狂化惡黨\((\d+)\/(\d+)\)$
 r:"^在{{A}}區域(\d+)擊敗(\d+)個寶魔\((\d+)\/(\d+)\)$"="Defeat $2 Treasure Demon in {{A}} Area $1 ($3/$4)"
 r:"^在{{A}}擊敗任意(\d+)個寶魔\((\d+)\/(\d+)\)$"="Defeat any $1 Treasure Demon in {{A}} ($2/$3)"
 r:"^在圖書館{{A}}擊敗任意(\d+)名狂化惡黨\((\d+)\/(\d+)\)$"="Defeat $1 Berserker Shadow in the Library {{A}} ($2/$3)"
+r:"^在樂園島{{A}}擊敗任意(\d+)名狂化惡黨\((\d+)\/(\d+)\)$"="Defeat $1 Berserker Shadow in the Paradise Island {{A}} ($2/$3)"
 
 都市巡遊=City Tour
 sr:"^完成都市任務「(.*)」\((\d+)\/(\d+)\)$"="Complete the city mission [$1] ($2/$3)"

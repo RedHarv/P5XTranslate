@@ -691,21 +691,21 @@ r:"^對全體敵人造成1段<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的念�
 --- Nuke ---
 
 //Basic Nuke ST
-r:"^對1名敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的核熱屬性傷害，對處於<link\="s\|101"><u>元素異常</u></link>狀態的敵人造成<link\="s\|211"><u>TECHNICAL</u></link>，技能傷害提升(.*)。$"="Deal <color\=#FFFF00>$1</color> ATK Nuke damage to 1 foe. Deal a <link\="s|211"><u>TECHNICAL</u></link> and increase damage by $2 for foes with an <link\="s|101"><u>Elemental Ailment</u></link>."
-r:"^對1名敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的核熱屬性傷害，對處於<link\="s\|101"><u>元素異常</u></link>狀態的敵人造成<link\="s\|211"><u>TECHNICAL</u></link>，<link\="s\|285"><u>技能傷害</u></link>提升(\d+%)。$"="Deal <color\=#FFFF00>$1</color> ATK Nuke damage to 1 foe. Deal a <link\="s|211"><u>TECHNICAL</u></link> and increase <link\="s|285"><u>Skill Damage</u></link> by $2 for foes with an <link\="s|101"><u>Elemental Ailment</u></link>."
+r:"^對1名敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的核熱屬性傷害，對處於<link\="s\|101"><u>元素異常</u></link>狀態的敵人造成<link\="s\|211"><u>TECHNICAL</u></link>，技能傷害提升(.*)。$"="Deal Nuke damage to 1 foe equal to <color\=#FFFF00>$1</color> of ATK. Deal a <link\="s|211"><u>TECHNICAL</u></link> and increase damage by $2 for foes with an <link\="s|101"><u>Elemental Ailment</u></link>."
+r:"^對1名敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的核熱屬性傷害，對處於<link\="s\|101"><u>元素異常</u></link>狀態的敵人造成<link\="s\|211"><u>TECHNICAL</u></link>，<link\="s\|285"><u>技能傷害</u></link>提升(\d+%)。$"="Deal Nuke damage to 1 foe equal to <color\=#FFFF00>$1</color> of ATK. Deal a <link\="s|211"><u>TECHNICAL</u></link> and increase <link\="s|285"><u>Skill Damage</u></link> by $2 for foes with an <link\="s|101"><u>Elemental Ailment</u></link>."
 
 //Basic Nuke AoE
-r:"^對所有敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的核熱屬性傷害，對處於<link\="s\|101"><u>元素異常</u></link>狀態的敵人造成<link\="s\|211"><u>TECHNICAL</u></link>，技能傷害提升(.*)。$"="Deal <color\=#FFFF00>$1</color> ATK Nuke damage to all foe. Deal a <link\="s|211"><u>TECHNICAL</u></link> and increase damage by $2 for foes with an <link\="s|101"><u>Elemental Ailment</u></link>."
-r:"^對所有敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的核熱屬性傷害，對處於<link\="s\|101"><u>元素異常</u></link>狀態的敵人造成<link\="s\|211"><u>TECHNICAL</u></link>，<link\="s\|285"><u>技能傷害</u></link>提升(\d+%)。$"="Deal <color\=#FFFF00>$1</color> ATK Nuke damage to all foes. Deal a <link\="s|211"><u>TECHNICAL</u></link> and increase <link\="s|285"><u>Skill Damage</u></link> by $2 for foes with an <link\="s|101"><u>Elemental Ailment</u></link>."
+r:"^對所有敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的核熱屬性傷害，對處於<link\="s\|101"><u>元素異常</u></link>狀態的敵人造成<link\="s\|211"><u>TECHNICAL</u></link>，技能傷害提升(.*)。$"="Deal Nuke damage to all foed equal to <color\=#FFFF00>$1</color> of ATK. Deal a <link\="s|211"><u>TECHNICAL</u></link> and increase damage by $2 for foes with an <link\="s|101"><u>Elemental Ailment</u></link>."
+r:"^對所有敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的核熱屬性傷害，對處於<link\="s\|101"><u>元素異常</u></link>狀態的敵人造成<link\="s\|211"><u>TECHNICAL</u></link>，<link\="s\|285"><u>技能傷害</u></link>提升(\d+%)。$"="Deal Nuke damage to all foes equal to <color\=#FFFF00>$1</color> of ATK. Deal a <link\="s|211"><u>TECHNICAL</u></link> and increase <link\="s|285"><u>Skill Damage</u></link> by $2 for foes with an <link\="s|101"><u>Elemental Ailment</u></link>."
 
 Bishamonten
-r:"對1名敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的核熱屬性傷害，攻擊處於元素異常狀態的敵人該技能傷害提升(\d+%)。$"="Deal <color\=#fffc40>$1</color> ATK Nuke damage to 1 foe. Increase DMG Dealt to foe infliced with Elemental Ailments by $2."
-r:"對1名敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的核熱屬性傷害，攻擊處於元素異常狀態的敵人該技能傷害提升(\d+%)，並提升友方核熱屬性同伴<color\=#fffc40>(\d+\.\d+%)</color>的攻擊力，持續(\d+)回合。$"="Deal <color\=#fffc40>$1</color> ATK Nuke damage to 1 foe. Increase DMG Dealt to foe infliced with Elemental Ailments by $2. Increase Nuke allies' ATK by <color\=#fffc40>$3</color> for $4 turns."
+r:"對1名敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的核熱屬性傷害，攻擊處於元素異常狀態的敵人該技能傷害提升(\d+%)。$"="Deal Nuke damage to 1 foe equal to <color\=#FFFF00>$1</color> of ATK. Increase DMG Dealt to foe infliced with Elemental Ailments by $2."
+r:"對1名敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的核熱屬性傷害，攻擊處於元素異常狀態的敵人該技能傷害提升(\d+%)，並提升友方核熱屬性同伴<color\=#fffc40>(\d+\.\d+%)</color>的攻擊力，持續(\d+)回合。$"="Deal Nuke damage to 1 foe equal to <color\=#FFFF00>$1</color> of ATK. Increase DMG Dealt to foe infliced with Elemental Ailments by $2. Increase Nuke allies' ATK by <color\=#fffc40>$3</color> for $4 turns."
 
 --- Bless ---
 
 //ST Bless with varying stacks
-r:"^對1名敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的祝福屬性傷害，使自己獲得(\d+)~(\d+)個<link\="s\|111"><u>祝福</u></link>效果。$"="Deal Bless damage to 1 foe equal to <color\=#FFFF00>$1</color> of ATK, grant user $2 <link\=s|111><u>Blessing</u></link>."
+r:"^對1名敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的祝福屬性傷害，使自己獲得(\d+)~(\d+)個<link\="s\|111"><u>祝福</u></link>效果。$"="Deal Bless damage to 1 foe equal to <color\=#FFFF00>$1</color> of ATK, grant user $2-$3 <link\=s|111><u>Blessing</u></link>."
 
 //ST Bless with constant stacks
 r:"^對1名敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的祝福屬性傷害，使自己獲得(\d+)個<link\="s\|111"><u>祝福</u></link>效果。$"="Deal Bless damage to 1 foe equal to <color\=#FFFF00>$1</color> of ATK, grant user $2 <link\=s|111><u>Blessing</u></link>."
@@ -739,22 +739,21 @@ r:"^對1名敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的祝福屬�
 --- Curse ---
 
 // Single Target Basic Curses (2 types exist to consider either flat rate of curse stacks, or chance between 2 values)
-r:"對1名敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的詛咒屬性傷害，使敵人獲得(\d+\~\d+)個<link\="s\|112"><u>詛咒</u></link>效果。"=Deal <color\=#FFFF00>$1</color> ATK Curse damage to 1 foe and inflict $2 <link\=s|112><u>Curse</u></link> stack(s).
-r:"對1名敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的詛咒屬性傷害，使敵人獲得(.*)個<link\="s\|112"><u>詛咒</u></link>效果。"=Deal <color\=#FFFF00>$1</color> ATK Curse damage to 1 foe and inflict $2 <link\=s|112><u>Curse</u></link> stack(s).
+r:"^對1名敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的詛咒屬性傷害，使敵人獲得(\d+)~(\d+)個<link\="s\|112"><u>詛咒</u></link>效果。$"="Deal Curse damage to 1 foe equal to <color\=#fffc40>$1</color> of ATK, inflict $2-$3 <link\="s|112"><u>Curse</u></link>."
+r:"^對1名敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的詛咒屬性傷害，使敵人獲得(\d+)個<link\="s\|112"><u>詛咒</u></link>效果。$"="Deal Curse damage to 1 foe equal to <color\=#fffc40>$1</color> of ATK, inflict $2 <link\="s|112"><u>Curse</u></link>."
 
 // AoE Basic Curses
-r:"對所有敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的詛咒屬性傷害，有機率使敵人獲得(\d+\~\d+)個<link\="s\|112"><u>詛咒</u></link>效果。"=Deal <color\=#FFFF00>$1</color> ATK Curse damage to all foes and inflict $2 <link\=s|112><u>Curse</u></link> stack(s).
-r:"對所有敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的詛咒屬性傷害，使敵人獲得(.*)個<link\="s\|112"><u>詛咒</u></link>效果。"=Deal <color\=#FFFF00>$1</color> ATK Curse damage to all foes and inflict $2 <link\=s|112><u>Curse</u></link> stack(s).
-r:"^對所有敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的詛咒屬性傷害，有機率為敵方附加(.*)個<link\="s\|112"><u>詛咒</u></link>效果。$"="Deal <color\=#fffc40>$1</color> ATK Curse damage to all foes, with a chance to inflict $2 <link\="s|112"><u>Curse</u></link> stack(s)."
+r:"^對所有敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的詛咒屬性傷害，有機率為敵方附加(\d+)個<link\="s\|112"><u>詛咒</u></link>效果。$"="Deal Curse damage to all foes equal to <color\=#fffc40>$1</color> of ATK, with a chance to inflict $2 <link\="s|112"><u>Curse</u></link>."
+r:"^對所有敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的詛咒屬性傷害，使敵人獲得(\d+)個<link\="s\|112"><u>詛咒</u></link>效果。$"="Deal Curse damage to all foes equal to <color\=#fffc40>$1</color> of ATK, inflict $2 <link\="s|112"><u>Curse</u></link>."
+
+// Maeiga because it's worded very slightly differently for some reason???
+r:"^對所有敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的詛咒屬性傷害，有機率使敵人獲得(\d+)個<link\="s\|112"><u>詛咒</u></link>效果。$"="Deal Curse damage to all foes equal to <color\=#fffc40>$1</color> of ATK, with a chance to inflict $2 <link\="s|112"><u>Curse</u></link>."
 
 //Brand of Malice
-r:"對所有敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的詛咒屬性傷害，並使其獲得(\d+)(.*)(\d+)個詛咒效果。"=Deal <color\=#FFFF00>$1</color> ATK Curse damage to all foes and inflict $2~$4 <link\=s|112><u>Curse</u></link> stack(s).
+r:"^對所有敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的詛咒屬性傷害，並使其獲得(\d+)-(\d+)個詛咒效果。$"="Deal Curse damage to all foes equal to <color\=#fffc40>$1</color> of ATK, inflict $2-$3 Curse."
 
 Afterlife Judgement
 r:"對1名敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的詛咒屬性傷害，釋放技能時，每層自己身上的祝福效果或目標身上的詛咒效果都會使該技能造成的傷害提升(\d+%)，上限4層。$"="Deal <color\=#fffc40>$1</color> ATK Curse damage to 1 foe. When using this skill, each stack of Blessing on you or each stack of Curse on the target increase DMG Dealt by $2, up to 4 stacks."
-
-// Maeiga because it's worded very slightly differently for some reason???
-r:"^對所有敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的詛咒屬性傷害，有機率使敵人獲得(\d+)個<link\="s\|112"><u>詛咒</u></link>效果。"=Deal <color\=#FFFF00>$1</color> ATK Curse damage to all foes and inflict $2 stack of <link\=s|112><u>Curse</u></link>.
 
 Fortune Devourer
 r:"^對所有敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的詛咒屬性傷害，並使所有敵人防禦力降低<color\=#fffc40>(\d+\.\d+%)</color>、受到的持續傷害提升<color\=#fffc40>(\d+\.\d+%)</color>，持續(\d+)回合。$"="Deal <color\=#fffc40>$1</color> ATK Curse damage to all foes, decrease all foes' DEF by <color\=#fffc40>$2</color> and increase their Damage Over Time Taken by <color\=#fffc40>$3</color> for $4 turns."
@@ -763,10 +762,10 @@ Death's Mercy
 r:"^對所有敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的詛咒屬性傷害，使所有敵人受到傷害提升<color\=#fffc40>(\d+\.\d+%)</color>，受到支配角色攻擊時，受到暴擊率額外提升<color\=#fffc40>(\d+\.\d+%)</color>，持續(\d+)回合。$"="Deal Curse damage to all foes equal to <color\=#fffc40>$1</color> of ATK. Increase all foes' DMG Taken by <color\=#fffc40>$2</color>. Also, when attacked by a Sweeper, increase Crit Taken Rate by <color\=#fffc40>$3</color>. Lasts for $4 turns."
 
 // Single Target Basic Insta-kills
-r:"對1名敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的詛咒屬性傷害，對50%生命值以下的敵人附加低機率詛咒屬性即死效果，生命值越低機率越高。"=Deal <color\=#FFFF00>$1</color> ATK Curse damage to 1 foe with a chance of insta-kill to foes under 50% HP. The lower the HP, the higher the chance.
+r:"^對1名敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的詛咒屬性傷害，對50%生命值以下的敵人附加低機率詛咒屬性即死效果，生命值越低機率越高。$"="Deal Curse damage to 1 foe equal to <color\=#FFFF00>$1</color> of ATK, with a chance of insta-kill to foes under 50% HP. The lower the HP, the higher the chance."
 
 // AoE Curse Instakill
-r:"對所有敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的詛咒屬性傷害，對50%生命值以下的敵人附加低機率詛咒屬性即死效果，生命值越低機率越高。"=Deal <color\=#FFFF00>$1</color> ATK Curse damage to all foes with a chance of insta-kill to foes under 50% HP. The lower the HP, the higher the chance.
+r:"^對所有敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的詛咒屬性傷害，對50%生命值以下的敵人附加低機率詛咒屬性即死效果，生命值越低機率越高。$"="Deal Curse damage to all foes equal to <color\=#FFFF00>$1</color> of ATK, with a chance of insta-kill to foes under 50% HP. The lower the HP, the higher the chance."
 
 Belial
 r:"^對1名敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的詛咒屬性傷害，使敵人獲得1層『地獄火』，並使其身上的所有『地獄火』立刻結算一次，該次結算傷害提升200%。$"="Deal <color\=#fffc40>$1</color> ATK Curse damage to 1 foe. They gain 1 stack of [Hellfire] and immediately detonate all of their [Hellfire] once at 200% damage."

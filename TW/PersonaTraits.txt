@@ -212,6 +212,8 @@ r:"^生命值提升(\d+\.\d+%)。自身生命值高於(.*)時，造成的傷害�
 Jikokuten
 r:"^慧土之東(.*)$"="Wisdom of the East $1"
 r:"^防禦力提升(\d+\.\d+%)。以同伴為目標釋放技能時，提升主目標(.*)攻擊力，目標生命值低於(.*)時，該效果提升(.*)，效果持續2回合。$"="<size\=24>Increase DEF by $1. When using a skill on allies, increase the main target's ATK by $2 for 2 turns, increase this effect to $4 when the target is below $3 HP.</size>"
+四大天王之一，受帝釋天之命守護須彌山的東方。\n被認為是可以使國泰民安的神，據說除了位於東方的東勝神洲之外，也能守護位於其他方位的三洲。=Also known as Dhritarashtra, he is the protector of the East, and is one of the four Heavenly Kings of Buddhist origin. He helps maintain the security of the nation.
+四大天王之一，受帝釋天之命守護須彌山的東方。\n被認為是可以使國泰民安的神，據說除了位於東方的東勝身洲之外，也能守護位於其他方位的三洲。=Also known as Dhritarashtra, he is the protector of the East, and is one of the four Heavenly Kings of Buddhist origin. He helps maintain the security of the nation.
 
 Shiki-Ouji
 r:"^昂揚的折紙使魔(.*)$"="Lively Shikigami $1"
@@ -258,9 +260,10 @@ Neko Shogun
 r:"^請你吃魚乾喵(.*)$"="Have a Dried Fish $1"
 r:"^效果命中提升(\d+%)。戰鬥開始時，使所有同伴的效果命中提升(.*)，並使得效果命中最高的同伴額外提升(.*)效果命中，效果持續(.*)回合。$"="<size\=24>Increase Ailment ACC by $1. At the start of battle, increase all allies' Ailment ACC by $2, increase the Ailment ACC for the ally with the highest Ailment ACC by $3 for $4 turns.</size>"
 
-Pheonix
+Phoenix
 r:"^聖炎的尊者(.*)$"="<size\=28>Venerable Holy Flame $1</size>"
 r:"^攻擊力提升(\d+\.\d+%)。擊敗敵人後，核熱傷害提升(.*)，效果持續(.*)回合。$"="Increase ATK by $1. After defeating a foe, increase Nuke DMG by $2 for $3 turns."
+古代傳說中的靈鳥，據說是只有在和平盛世時才會現身的一種美麗的鳥。\n被認為是統率鳥類的王者，當此鳥停止呼吸時，無數鳥類都會為此悲歎。=The legendary bird of Chinese myth, said to appear only in times of peace. It is the ruler of all birds. When it dies, birds across the land chirp with sadness.
 
 Clotho
 r:"^福運的創造(.*)$"="Fortune Creation $1"
@@ -310,6 +313,7 @@ r:"^效果抵抗提升(\d+%)。以敵人為目標釋放{{A}}技能後，使技�
 Zouchouten
 r:"^正法之南(.*)$"="Southern Dharma $1"
 r:"^暴擊效果提升(\d+%)。釋放物理屬性技能時，若目標生命值低於(.*)，則暴擊率提升(.*)。$"="<size\=27>Increase Crit DMG by $1. When using a Phys skill, if the target is below $2 HP, then increase Crit Rate by $3.</size>"
+四大天王之一，受帝釋天之命守護須彌山的南方。信奉他就能使威德與善根得到增長，故因此得到此名諱。\n擁有使萬物成長的力量，也被奉為五穀豐登之神。=Also known as Virudhaka, he is the protector of the South, and is one of the four Heavenly Kings of Buddhist origin. He is the god of the five grains, and was once the chief of the gods.
 
 Mothman
 r:"^外星的吸血鬼(.*)$"="Alien Vampire $1"
@@ -335,6 +339,8 @@ r:"^攻擊力提升(\d+\.\d+%)。使用念動屬性技能時，SP消耗降低(.*
 Ara Mitama
 r:"^毅勇的本質(.*)$"="Nature of Courage $1"
 r:"^攻擊力提升(\d+\.\d+%)。釋放核熱屬性技能時，消耗的精力值降低(.*)。$"="Increase ATK by $1. Decrease SP cost of Nuke skills by $2."
+「一靈四魂」的四魂之一。\n在靈魂的動靜兩面中，屬於掌管狂暴的一面。\n在戰爭與災難時出現的勇猛力量，就是基於此魂的功勞。=One of the four aspects of Shinto thought, it has the power to grant ferocity. It is said to aid in one's bravery, growth, and endeavors, though it can lead in a negative direction.
+『一靈四魂』的四魂之一。在靈魂的動靜兩面種，屬於掌管狂暴的一面。在戰爭與災難時出現的勇猛力量，就是基於此魂的功勞。=One of the four aspects of Shinto thought, it has the power to grant ferocity. It is said to aid in one's bravery, growth, and endeavors, though it can lead in a negative direction.
 
 Thoth
 r:"^熱心的記錄(.*)$"="Enthusiastic Records $1"
@@ -348,6 +354,7 @@ r:"^生命值提升(\d+\.\d+%)。以同伴為目標釋放{{A}}技能後，使其
 Mithra
 r:"^被祝福的血統(.*)$"="Blessed Bloodline $1"
 r:"^攻擊力提升(\d+\.\d+%)。釋放祝福屬性技能時，消耗的精力值降低(.*)。$"="Increase ATK by $1. Decrease SP cost of Bless skills by $2."
+古代波斯的契約之神。\n也是戰神和光明神，掌管調和與真理，會對任何企圖惡意擾亂秩序的人給予制裁與懲罰。\n曾被視為帶來太陽的光明與恩賜之神，受到民眾的崇拜。=An ancient Persian god of contracts, who was also revered as a sun god who brought harvests when he was introduced to the Zoroastrian religion.
 
 Unicorn
 r:"^仙靈的馴守(.*)$"="Fairy Taming $1"
@@ -391,6 +398,7 @@ Koumokuten
 r:"^天王的注視(.*)$"="Heavenly Gaze $1"
 r:"^效果命中提升(\d+\.\d+%)。戰鬥開始時，使攻擊力最高的怪盜攻擊力提升(.*)，暴擊率提升(.*)，效果持續(.*)回合。$"="<size\=25>Increase Ailment ACC by $1. At the start of battle, increase the ATK and Crit Rate for the ally with the highest ATK by $2 and $3 for $4 turns.</size>"
 r:"^效果命中提升(\d+\.\d+%)。戰鬥開始時，使攻擊力最高的怪盜攻擊力提升(.*)，暴擊率提升(.*)，效果持續(.*)回合，優先選擇反抗/支配職業。$"="<size\=25>Increase Ailment ACC by $1. At the start of battle, increase the ATK and Crit Rate for the ally with the highest ATK by $2 and $3 for $4 turns, prioritizing Assassin/Sweeper Thief.</size>"
+四大天王之一，受帝釋天之命守護須彌山的西方。\n據說源自印度神話中的毘樓博叉，是人稱「擁有奇眼者」的惡鬼，據說他會以銳利的眼神監視整個世界。=Also known as Virupaksha, he is the protector of the West, and is one of the four Heavenly Kings of Buddhist origin. He keeps a close watch on the world with his sharp gaze.
 
 Ose
 r:"^癲狂的隱秘(.*)$"="Secret of Madness $1"
@@ -571,6 +579,7 @@ Chernobog
 r:"^蔓延的死寂(.*)$"="Deadly Silence $1"
 r:"^效果命中提升(\d+\.\d+%)。「噩夢」使效果抵抗降低(\d+%)、防禦力降低(\d+%)，持續(\d+)回合。「噩夢」狀態下，敵人受到物理傷害加深(\d+%)。敵人每受到(\d+)次物理傷害，額外獲得(\d+)層，可疊加(\d+)層，每層獨立計算，持續(\d+)回合。$"="<size\=22>Increase Ailment ACC by $1. [Nightmare] decrease Ailment RES by $2 and DEF by $3 for $4 turns. Under [Nightmare], increase foes' Phys DMG Taken by $5 for $9 turns. Additionally increase Phys DMG Taken stacks by $7 after the foe take $6 hits of Phys damage, up to $8 stacks, each stack counts down independently.</size>"
 噩夢=<size\=21>Nightmare</size>
+斯拉夫神話中的死神。名字的意思是「黑之神」。\n他居住於地底，掌管黑夜、邪惡與死亡。\n和掌管著光明與善良的「白之神」拜勒伯彼此對立。\n也有許多人因為他的詛咒之力而崇拜他。=A cursed god of death, evil, and the night in Slavic lore. His name means "Black God," and he is the counterpart of the "White God," Belobog. Despite being feared, he was also worshipped.
 
 Throne
 r:"^超越塵世的聖者(.*)$"="Otherworldly Saint $1"
@@ -608,6 +617,8 @@ r:"^造成的治療效果提升(\d+\.\d+%)。『蓮華』造成治療後，使�
 蓮華=Sacred Lotus
 r:"^蓮<color\=#000000>華</color>$"="S<color\=#000000>a</color>cred Lotus"
 恢復同伴生命值=Restore HP to ally
+印度神話中美與幸福的女神，是{{A}}神的妻子。\n她擁有女性理想中的美貌，也是一名擅長妖豔舞蹈的舞者。據說她是在諸神們為了獲得甘露而攪拌混沌的乳海時所誕生的。=The Hindu goddess of beauty and good fortune, Vishnu's wife and Kama's mother. She is the goddess of love, believed to have been born from an ocean of milk.
+{{A}}，是幸福與財富女神，名稱最早見於《梨俱吠陀》，在《阿闥婆吠陀》中被人格化。=The Hindu goddess of beauty and good fortune, Vishnu's wife and Kama's mother. She is the goddess of love, believed to have been born from an ocean of milk.
 
 King Frost
 r:"^冰封的裁決(.*)$"="Frozen Adjudication $1"
@@ -638,6 +649,8 @@ Bishamonten
 r:"^暴怒的慧傘(.*)$"="Furious Umbrella $1"
 r:"^暴擊率提升(\d+\.\d+%)。對敵人釋放技能時，主目標敵人身上每有1層元素異常，則使其受到的核熱傷害提升(.*)，上限(.*)層，效果持續(.*)回合。$"="<size\=22>Increase Crit Rate by $1. After using a skill on foes, increase the main target's Nuke DMG Taken by $2 for $4 turns for every Elemental Ailment they have. Stacks up to $3 times.</size>"
 r:"^暴擊率提升(\d+\.\d+%)。對敵人釋放技能時，主目標敵人身上每有1層元素異常，則使其受到的核熱傷害提升(.*)，上限(.*)層，效果持續(.*)回合。並使所有其他敵人獲得該效果的(.*)。$"="<size\=22>Increase Crit Rate by $1. After using a skill on foes, increase the main target's Nuke DMG Taken by $2 for $4 turns for every Elemental Ailment they have. Stacks up to $3 times. All other foes gain $5 of this effect."
+四大天王之一，受帝釋天之命守護須彌山的北方。\n據說聖德太子也曾向他乞求勝利，自此之後，他就被武士們奉為戰神。\n本身源自印度神話的財富之神俱毗羅。=Also known as Tamonten and Vaishravana in Buddhist lore, he is the strongest of the Heavenly Kings. He protects the North and is the god of war.
+一些神話故事的護法神。四大天王之一，受帝釋天之命守護須彌山的北方。據說聖德太子也曾向他乞求勝利，自此之後，他就被武士們奉為戰神。本身源自印度神話的財富之神俱毗羅。=Also known as Tamonten and Vaishravana in Buddhist lore, he is the strongest of the Heavenly Kings. He protects the North and is the god of war.
 
 Dominion
 r:"^天使的號令(.*)$"="Angel's Command $1"
@@ -665,6 +678,7 @@ r:"^效果命中提升(\d+\.\d+%)。敵人獲得持續傷害類效果時，使�
 Lilith
 r:"^暝夜的誘惑(.*)$"="Midnight Seduction $1"
 r:"^攻擊力提升(\d+\.\d+%)。使用冰凍、疾風或詛咒屬性的技能，使自身該屬性傷害提升(.*)，傷害減免(.*)，持續(.*)回合。{{A}}使用冰凍、疾風或詛咒屬性的技能，進化固有技能，使之附帶一段相同屬性的傷害，並且這次技能傷害大幅提升、獲得臨時穿透加成(.*)。$"="<size\=24>Increase ATK by $1. When using Ice, Wind, or Curse skill, increase that Elemental DMG by $2 and DMG RES by $3 for $4 turns. When {{A}} uses Ice, Wind, or Curse skill, evolves the unique skill, makes it deal 1 hit of that element's damage, heavily increase skill damage and gains $5 PEN.</size>"
+舊約聖經中成為亞當第一位妻子的女性。後來離開了伊甸園並化為夜魔。\n關於她的墮落和被流放有著許多種說法，但基本上都被描述為不忠貞的象徵。\n據說原本是巴比倫的一位地母神。=Said to have been Adam's first wife, she desired to be his equal and refused to obey him. She was cast out of Eden and became a demon of the night. She is the mother of the demoness, Lilim.
 
 Trumpeter
 r:"^崩壞的號角(.*)$"="Horn of Ruin $1"
@@ -722,6 +736,7 @@ r:"^攻擊力提升(\d+\.\d+%)。處於後臺時也能生效：所有同伴每�
 四象之力=Four Symbols' Power
 r:"^四<color\=#000000>象</color>$"="F<color\=#000000>o</color>ur Symbols"
 r:"^四<color\=#000000>象</color>之力$"="F<color\=#000000>o</color>ur Symbols' Power"
+在傳說中最受尊崇的龍，也叫應龍。\n據說是自古以來的五行思想中最受重視的一條龍，其方位處在配置於東西南北的{{A}}、{{B}}、{{C}}、{{D}}的正中央。=Known as the Gold Dragon, it reigns over the Ssu-Ling, celestial creatures of Chinese lore. It is located at the center of the four beasts.
 
 Shiva
 r:"^因果的流轉(.*)$"="Karma Reversal $1"
@@ -789,6 +804,7 @@ r:"^受到反抗角色攻擊時，防禦力降低(\d+(.\d+)?(%)?)$"="When attack
 r:"^福<color\=#000000>音</color>$"="G<color\=#000000>o</color>spel"
 透過{{B}}釋放{{A}}技能時，獲得額外效果=When using a {{A}} skill with {{B}},\ngrant bonus effects
 告諭=Divine Oracle
+r:"^告<color\=#000000>諭</color>$"="D<color\=#000000>i</color>vine Oracle"
 透過{{B}}釋放{{A}}技能時，使所有同伴攻擊力提升、傷害提升=When using a {{A}} skill with {{B}}, \nincrease all allies's ATK and DMG Bonus
 {{A}}本為熾天使，作為天使長，在天堂位於重要的守護職位，擔任整個天界的警戒工作，傳信為其職能之一。傳說末日審判的號角就是由她吹響的。她被認為象徵”智慧“。=One of the four major archangels. She is also the only female angel at this rank. Her name comes from the Sumerian word for "governor." She is the angel who told Mary of her pregnancy.
 聖經中所記載的偉大的四{{A}}之一。\n名字含義為『上帝之力』、『上帝的英雄』。\n職責是將上帝的重要預言傳達給人類，她告知日後成為聖母的少女{{B}}即將受到降孕的消息，以聖告天使的身份廣為人知。=One of the four major archangels. She is also the only female angel at this rank. Her name comes from the Sumerian word for "governor." She is the angel who told Mary of her pregnancy.
@@ -807,6 +823,9 @@ Michael
 
 Uriel
 偉大的四{{A}}之一。\n名字含義為「上帝之焰」，執行神罰也是他的職責之一。\n在最後的審判日執行復活與裁決的，也是這位天使。此外，他還負責掌管天空星辰的運轉。=One of the four major archangels. His name means "Flame of God," and he knows all the celestial phenomena. He is the first angel Satan met on earth.
+
+Abaddon
+約翰啟示錄中所記載的地獄深淵之主。據說是率領大群害蟲與瘟疫的魔王。\n{{B}}這個名字源自用來表示「冥府」的地名。\n在後世的魔法書中被描述為能與{{A}}和薩麥爾匹敵的大惡魔。=The "Destroyer" and "Angel of the Bottomless Pit," as described in ancient scriptures. He controls locusts and uses them to cause massive destruction to villages.
 
 Beelzebub
 名字的意思為「蒼蠅王」，是統治地獄的魔王。\n利用身為下屬的蒼蠅們搬運並控制人類的靈魂。\n本是源自敘利亞的神明，但是在聖經上被描述為{{A}}之王，因此成為了基督教世界中的大惡魔。=Demonic Lord of the Flies whose insect minions carry souls for him to control. He is mentioned in the Bible as a leader of evil spirits and is seen as a powerful demon.

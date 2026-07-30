@@ -330,7 +330,7 @@ r:"^提升念動傷害(.*)\n降低受到念動傷害(.*)$"="Increase Psy DMG by 
 r:"^提升核熱傷害(.*)\n降低受到核熱傷害(.*)$"="Increase Nuke DMG by $1\nDecrease Nuke DMG Taken by $2"
 r:"^提升詛咒傷害(.*)\n降低受到詛咒傷害(.*)$"="Increase Curse DMG by $1\nDecrease Curse DMG Taken by $2"
 r:"^擁有「<link\="itemTips\|(\d+)"><u><color\=#29b6ff>禮遇之徽記★5</color></u></link>」×<color\=#eade10>(\d+)</color> 「<link\="itemTips\|(\d+)"><u><color\=#29b6ff>心選之徽記★5</color></u></link>」×<color\=#eade10>(\d+)</color>$"="Owned: [<link\="itemTips|$1"><u><color\=#29b6ff>Random Emblem ★5</color></u></link>] x<color\=#eade10>$2</color>, [<link\="itemTips|$3"><u><color\=#29b6ff>Custom Emblem ★5</color></u></link>] x<color\=#eade10>$4</color>"
-sr:"^擁有「<color\=#fad400>(.*)</color>」×(\d+)，是否快速使用獲取「<color\=#fad400>(.*)</color>」？$"="Owned: [<color\=#fad400>$1</color>] ×$2, exchange them for [<color\=#fad400>$3</color>]?"
+sr:"^擁有「<color\=#fad400>(.*)</color>」×(\d+)，是否快速使用獲取「<color\=#fad400>(.*)</color>」？$"="Owned: [<color\=#fad400>$1</color>] x$2, exchange them for [<color\=#fad400>$3</color>]?"
 
 屬性戰技=Attribute Tactics
 「屬性戰技」將在近期開放=Unlock [Attribute Tactics] soon
@@ -394,6 +394,7 @@ r:"^自身釋放{{A}}技能後，為敵人添加燃燒效果。\n若敵人已有
 r:"^烈<color\=#000000>焰</color>爆破$"="I<color\=#000000>n</color>ferno Burst"
 r:"^高溫燃燒可以發生暴擊。\n自身回合結束時，結算<color\=#0f69ca>(\d+)</color>次所有敵人的高溫燃燒效果。$"="Severe Burn can deal Critical. \nAt the end of user's turn, deal Severe Burn damage <color\=#0f69ca>$1</color> time(s)."
 r:"^高溫燃燒可以發生暴擊。\n自身回合結束時，結算<color\=#0f69ca>(\d+)</color>次所有敵人的高溫燃燒效果。$"="Severe Burn can deal Critical. \nAt the end of user's turn, deal Severe Burn damage <color\=#0f69ca>$1</color> time(s)."
+『超燃燒』的結算傷害可以暴擊，自身回合結束時結算所有敵人的『超燃燒』=Severe Burn can deal Critical. At the end of user's turn, activate all foes' Severe Burn
 燃燒殆盡=Complete Combustion
 r:"^燃<color\=#000000>燒</color>殆盡$"="C<color\=#000000>o</color>mplete Combustion"
 r:"^友方火焰屬性角色攻擊擁有高溫燃燒的敵人時，總傷害增幅提升<color\=#0f69ca>(\d+\.\d+%)</color>。（該效果不能疊加）$"="When Fire allies attack foes with Severe Burn, increase Total DMG Amp by <color\=#0f69ca>$1</color>. This effect does not stack."
@@ -408,7 +409,7 @@ r:"^高<color\=#000000>溫</color>燃燒$"="S<color\=#000000>e</color>vere Burn"
 
 寒冰守護=Ice Guard
 r:"^自身回合開始時，為友方同伴添加<color\=#0f69ca>(\d+)</color>點護盾，持續(\d+)回合。$"="At the start of user's turn, grant allies a <color\=#0f69ca>$1</color> Shield for $2 turns."
-r:"^自身回合開始時，為友方同伴添加<color\=#0f69ca>(\d+)</color>點護盾，持續(\d+)回合。$"="At the start of user's turn, grant allies a <color\=#0f69ca>$1</color> Shield for $2 turns."
+r:"^自身回合開始時，為友方同伴添加(\d+)點護盾，持續(\d+)回合。$"="At the start of user's turn, grant allies a <color\=#0f69ca>$1</color> Shield for $2 turns."
 霜盾共鳴=Aegis Resonance
 r:"^霜<color\=#000000>盾</color>共鳴$"="A<color\=#000000>e</color>gis Resonance"
 r:"^自身每有(\d+)點護盾，總傷害增幅提升(\d+%)，上限<color\=#0f69ca>(\d+\.\d+%)</color>。$"="For every $1 Shield on user, increase Total DMG Amp by $2, up to <color\=#0f69ca>$3</color>."
@@ -493,8 +494,8 @@ r:"^敵人同時擁有燃燒、觸電、風襲、冰凍、輻射時，使其受�
 恩澤滿溢=Overflowing Grace
 r:"^自身釋放{{A}}技能後，為友方同伴添加(\d+)層祝福。若目標的祝福層數大於等於(\d+)層，則使其獲得強效祝福，持續(\d+)回合。\n強效祝福：每回合恢復<color\=#0f69ca>(\d+\.\d+%)</color>最大生命值。（該效果不能疊加）$"="After user uses a {{A}} skill, grant all allies $1 Blessing stack. If target has $2 or more Blessing stacks, then grant them Greater Blessing. Lasts for $3 turns.\nGreater Blessing: Each turn, restore <color\=#0f69ca>$4</color> of Max HP. This effect does not stack."
 r:"^自身釋放{{A}}技能後，為友方同伴添加(\d+)層祝福。若目標的祝福層數大於等於(\d+)層，則使其獲得強效祝福，持續(\d+)回合。\n強效祝福：每回合恢復(\d+\.\d+%)最大生命值。（該效果不能疊加）$"="After user uses a {{A}} skill, grant all allies $1 Blessing stack. If target has $2 or more Blessing stacks, then grant them Greater Blessing. Lasts for $3 turns.\nGreater Blessing: Each turn, restore <color\=#0f69ca>$4</color> of Max HP. This effect does not stack."
-神聖裁決=Divine Judgment
-r:"^神<color\=#000000>聖</color>裁決$"="D<color\=#000000>i</color>vine Judgment"
+神聖裁決=Divine Adjudication
+r:"^神<color\=#000000>聖</color>裁決$"="D<color\=#000000>i</color>vine Adjudication"
 r:"^任意同伴擁有強效祝福時，使其祝福屬性弱點傷害提升<color\=#0f69ca>(\d+\.\d+%)</color>。（該效果不能疊加）$"="When any ally has Greater Blessing, increase their Bless Weak DMG by <color\=#0f69ca>$1</color>. This effect does not stack."
 r:"^任意同伴擁有強效祝福時，使其祝福屬性弱點傷害提升(\d+\.\d+%)。（該效果不能疊加）$"="When any ally has Greater Blessing, increase their Bless Weak DMG by <color\=#0f69ca>$1</color>. This effect does not stack."
 祝福審判=Blessed Judgement
@@ -534,10 +535,13 @@ r:"^戰鬥開始時，友方每有1名不同屬性的怪盜，自身攻擊力提
 r:"^和<color\=#000000>諧</color>之力$"="H<color\=#000000>a</color>rmonic Power"
 r:"^友方每造成(\d+)種不同適應性屬性傷害時，自身獲得(\d+)層調和。調和達到(\d+)層時，自身最終傷害增幅提升<color\=#0f69ca>(\d+\.\d+%)</color>。$"="When allies deal $1 different attribute damage, user gains $2 Balance stack. When Balance reaches $3 stacks, increase user's Final DMG Amp by <color\=#0f69ca>$4</color>."
 r:"^友方每造成(\d+)種不同適應性屬性傷害時，自身獲得(\d+)層調和。調和達到(\d+)層時，自身最終傷害增幅提升(\d+\.\d+%)。$"="When allies deal $1 different attribute damage, user gains $2 Balance stack. When Balance reaches $3 stacks, increase user's Final DMG Amp by <color\=#0f69ca>$4</color>."
+調和=Balance
+r:"^達到(\d+)層時觸發和諧之力的效果$"="When reaching $1 stacks,\nactivate Harmonic Power"
 鐵壁剋星=Barrier Bane
 r:"^鐵<color\=#000000>壁</color>剋星$"="B<color\=#000000>a</color>rrier Bane"
 r:"^當敵人的適應性有(\d+)個以上耐無反吸時，受到最終傷害增幅提升<color\=#0f69ca>(\d+\.\d+%)</color>。（該效果不能疊加）$"="When foes have more than $1 Resist/Null/Repel/Drain, increase their Final DMG Taken Amp by <color\=#0f69ca>$2</color>. This effect does not stack."
-r:"^當敵人的適應性有(\d+)個以上耐無反吸時，受到最終傷害增幅提升(\d+\.\d+%)。（該效果不能疊加）$"="When foes have more than $1 Resist/Null/Repel/Drain, increase their Final DMG Taken Amp by <color\=#0f69ca>$2</color>. This effect does not stack."
+r:"^當敵人的適應性有(\d+)個以上耐無反吸時，受到最終傷害增幅提升(\d+\.\d+%)。（該效果不能疊加）$"="When foes have at least $1 Resist/Null/Repel/Drain, increase their Final DMG Taken Amp by <color\=#0f69ca>$2</color>. This effect does not stack."
+r:"^擁有至少(\d+)個耐無反吸的適應性屬性時，受到最終傷害增幅提升$"="When this has at least $1 Resist/Null/Repel/Drain,\nincrease Final DMG Taken Amp"
 
 攻擊心得=Attack Master
 r:"^攻<color\=#000000>擊</color>心得$"="A<color\=#000000>t</color>tack Master"
@@ -551,6 +555,7 @@ r:"^戰鬥開始時，永久提升友方全體傷害<color\=#0f69ca>(\d+\.\d+%)<
 r:"^戰鬥開始時，永久提升友方全體傷害(\d+\.\d+%)。$"="At the start of battle, permanently increase party's DMG Bonus by <color\=#0f69ca>$1</color>."
 r:"^戰鬥開始時，永久提升友方全體傷害提升<color\=#0f69ca>(\d+\.\d+%)</color>。$"="At the start of battle, permanently increase party's DMG Bonus by <color\=#0f69ca>$1</color>."
 r:"^戰鬥開始時，永久提升友方全體傷害提升(\d+\.\d+%)。$"="At the start of battle, permanently increase party's DMG Bonus by <color\=#0f69ca>$1</color>."
+暴擊強化=Critical Boost
 暴擊效果強化=Crit DMG Boost
 r:"^暴<color\=#000000>擊</color>效果強化$"="C<color\=#000000>r</color>it DMG Boost"
 r:"^戰鬥開始時，永久提升友方全體暴擊效果<color\=#0f69ca>(\d+\.\d+%)</color>。$"="At the start of battle, permanently increase party's Crit DMG by <color\=#0f69ca>$1</color>."

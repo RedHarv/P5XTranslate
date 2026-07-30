@@ -707,3 +707,6 @@ Wonder World
 工具套裝=Tool Kit
 壽司便當 (折盒)=Sushi Bento
 A5和牛貓罐頭=A5 Wagyu Cat Food
+美甲套裝=Manicure Kit
+多重奶油可麗餅=Layered Cream Crepe
+模特拍照姿勢辭典=Modeling Poses Dictionary
