@@ -373,11 +373,6 @@ PALACE RULERS
 心呂=Kokoro
 魅影通行證=Phantom Pass
 魅影=Phantom
-殘寶檢測儀·愛慾=<size\=21>Treasure Detector·Lust</size>
-殘寶檢測儀·虛榮=<size\=21>Treasure Detector·Vanity</size>
-殘寶檢測儀·憤怒=<size\=21>Treasure Detector·Wrath</size>
-殘寶檢測儀·暴食=<size\=20>Treasure Detector·Gluttony</size>
-殘寶檢測儀·傲慢=<size\=21>Treasure Detector·Pride</size>
 木內·邱比特·雄之=Takeyuki "Cupid" Kiuchi
 邱比特=Cupid
 木內 雄之=Takeyuki Kiuchi
@@ -397,6 +392,7 @@ PALACE RULERS
 木內先生=Kiuchi-san
 木內=Kiuchi
 木内=Kiuchi
+雄之=Takeyuki
 撞人男=Subway Slammer
 宮澤·潘恩·博夢=Hiromu "Aegipan" Miyazawa
 牧神潘恩=Aegipan
@@ -498,6 +494,7 @@ PALACE RULERS
 秀聞社=Shubunsha
 KOKORO大哥=KOKORO BRO
 KOKORO先生=KOKORO-san
+KOKORO大人=KOKORO-sama
 KOKORO=KOKORO
 罪大惡極的暴食者=Great Sinner of Gluttony
 暴食者=Glutton
