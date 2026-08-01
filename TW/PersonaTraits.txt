@@ -727,6 +727,7 @@ r:"^鋒<color\=#000000>利</color>寒鱗$"="R<color\=#000000>a</color>zor Frosts
 Vishnu
 r:"^恩惠於眾生(.*)$"="Blessing to All $1"
 r:"^暴擊率提升(\d+\.\d+%)。增加風襲的效果命中(\d+%)，對風襲狀態敵人造成傷害提升(\d+%)。\n添加或刷新風襲狀態時額外降低敵人防禦力(\d+%)，(\d+)回合。$"="<size\=22>Increase Crit Rate by $1. Increase Windswept Ailment ACC by $2 and increase DMG Dealt to foes with Windswept by $3. \nDecrease the foes' DEF by $4 when refreshing or inflicting Windswept for $5 turns.</size>"
+印度神話中的至高神之一。負責維持宇宙運轉。是太陽的光芒在被神格化後的存在。他一共有十個化身，分別出現在不同的時代與地點，到處都留下了他主持正義，懲奸除惡的傳說。=One of the major Hindu gods, he is the preserver of the universe. Legends claim that he will make ten appearances across time and space to strike down evil and uphold justice.
 
 Kohryu
 r:"^祥瑞之主(.*)$"="<size\=28>Lord of Auspiciousness $1</size>"
