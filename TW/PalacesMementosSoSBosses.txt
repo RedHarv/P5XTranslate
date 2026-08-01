@@ -147,6 +147,7 @@ PALACE 3
 需要攜帶機器人靠近=Need to bring a robot closer
 距離機器人太近，無法停止跟隨=Robot is too close, cannot stop following
 能量不符合要求，無法交互。=Energy does not match, cannot interact.
+能量不符合要求，無法互動。=Energy does not match, cannot interact.
 該機器人攜帶能量無法靠近=Robot with Energy cannot pass
 能量獲取=Gain Energy
 能量暫存=Store Energy
@@ -794,15 +795,113 @@ PALACE 7
 愛之樂園島=<size\=23>Paradise of Love</size>
 愛之樂園島外=<size\=16>Outer Paradise of Love</size>
 愛之樂園島內=<size\=16>Inner Paradise of Love</size>
-棒球館樂園=<size\=16>Baseball Stadium Park</size>
+棒球館樂園=<size\=17>Baseball Stadium Park</size>
 第一攝影棚=Studio 1
+熱情樂園島=<size\=22>Paradise of Passion</size>
+熱情樂園島外=<size\=15>Outer Paradise of Passion</size>
+熱情樂園島內=<size\=15>Inner Paradise of Passion</size>
+水壩樂園=Dam Park
+第二攝影棚=Studio 2
+夢想樂園島=<size\=22>Paradise of Dream</size>
+夢想樂園島外=<size\=16>Outer Paradise of Dream</size>
+夢想樂園島內=<size\=16>Inner Paradise of Dream</size>
+蟻穴樂園=Anthill Park
+第三攝影棚=Studio 3
+崩塌的外場館=<size\=22>Collapsed Stadium</size>
+主攝影棚=Main Studio
+終極攝影棚=<size\=23>Ultimate Studio</size>
+
+探索熱情樂園島=Explore Paradise of Passion
+探索夢想樂園島=Explore Paradise of Dream
+輿論操控=Manipulate public opinion
+前往主攝影棚=Go to Main Studio
+繼續探索=Keep exploring
+嘗試前往遠處的大樓=Try to go to the distant building
+返回現實世界=Return to the real world
+
 粉絲數=Fans
 拉麵Amigo=Ramen Amigos
 蜂窩形狀的碎片=Honeycomb Fragment
 全息“棒球館{{A}}”=Holographic Baseball Stadium {{A}}
+全息“水壩{{A}}”=Holographic Dam {{A}}
+全息“蟻穴{{A}}”=Holographic Anthill {{A}}
+
+電子開關=Switch
+機械門=Door
+防火牆終端=Terminal
+破解=Hack
+列印=Print
+拆除=Demolish
+
+當前沒有可切換的機關。=There are no switchable mechanisms.
 
 r:"^磨<color\=#ff0000ff>我</color>痛神社記者$"="D<color\=#ff0000ff>i</color>vine Justice Reporter"
 r:"^熱<color\=#ff0000ff>情</color>的粉絲$"="P<color\=#ff0000ff>a</color>ssionate Fans"
+r:"^電<color\=#ff0000ff>子</color>阻擋門$"="E<color\=#ff0000ff>l</color>ectric Gate"
+
+粉絲：=Fans:
+當前許可權等級：=Permission:
+可操作次數：=Input:
+選中留言進行操作=Select a comment
+
+透過「<color\=#ff3b37>置頂</color>」或「<color\=#ff3b37>抹除</color>」，\n可以改變當前話題的熱度。=[<color\=#ff3b37>Pin</color>] or [<color\=#ff3b37>Delete</color>] to change the topic's popularity.
+似乎需要把這條話題變為頭條……=It seems I need to make this topic the headline...
+似乎需要將熱度降到最後兩名來\n廢棄這條話題……=It seems a topic's popularity needs to drop to the bottom two for it to be discarded...
+似乎需要將熱度變為前三名來\n把這條話題變為高熱度……=It seems a topic's popularity needs to get to the top three for it to be trending...
+似乎有新的話題出現了……=Looks like a new topic has come up...
+是否重置當前話題下所有操作=Reset all input for this topic?
+確認要退出樂園online嗎？=Exit Paradise Online?
+
+斷罪秀燃爆樂園=Conviction Show sets Paradise ablaze
+那個被處刑的人……真有那麼壞嗎=Was that executed person really that bad...?
+{{A}}控場太穩了={{A}}'s control was rock-solid
+限定款不幸之蜜排隊排到崩潰=The queues were insane for limited Misfortune Honey
+{{A}}泳池掙扎那段百看不厭啊={{A}}'s pool struggle never gets old
+拉麵Amigo這幫新人有潛力啊=These Ramen Amigos rookies have potential
+
+今天攝影棚的歡呼聲大到爆！！彩帶發射裝置全開，大螢幕上{{A}}驚恐的特寫一出來，全場氣氛直接頂到天花板！這才是最純粹的正義釋放啊！錯過現場的快去「樂園online」置頂位刷重播，不看後悔！=The cheers in the studio today were off the charts!! Confetti launchers at full blast, and when {{A}}'s horrified close-up hit the big screen, the place absolutely exploded! This is pure justice unleashed! If you missed it live, go rewatch the pinned post on "Paradise Online", you won't regret it!
+不知道為什麼，看完今天的重播心裡有點堵。之前也是……那些{{A}}，做的事好像也沒嚴重到要那樣吧……？是我想多了嗎……有同感的人嗎，悄悄說說。=Not sure why, but I felt kinda off after watching today's replay. Same with before... what that {{A}} did didn't seem that bad, did it...? Am I overthinking this...? Anyone else feel the same? Say it quietly.
+剛看完斷罪秀切片，又被{{A}}帥死了！！那件塗鴉外套配粉色波浪長髮？？誰頂得住啊！已經重播了八遍，還可以繼續反復看下去！=Just watched the Conviction Show highlights and {{A}} slayed me again!! That graffiti jacket with pink wavy hair?? Who can handle that?! I already replayed it eight times and I'm not stopping!
+一大早酒吧門口全是人，全在搶限定特調。排了一個小時，然後！眼看就輪到了！前面那個拿走了最後一杯！！今天到底是什麼倒楣日子啊。=The bar was packed this morning, everyone was fighting for the limited special. I waited an hour, and then! I was literally next! The person in front grabbed the last cup!! What kind of cursed day is this.
+{{A}}在泳池邊掙扎的樣子是真的解氣！！那副驚恐到變形的表情，重播多少遍都不膩啊。之前居然還有人說揮棒的{{A}}帥——拜託，落水的{{A}}才是原形畢露吧！={{A}} struggling by the pool is so satisfying!! That terrified, twisted expression, I could rewatch it forever. And people actually said bat-swinging {{A}} was cool... Please, drowning {{A}} is the real deal!
+剛刷到新的處刑組合「拉麵Amigo」，大家都在討論！這幫戴面具的傢伙是老在現場打亂既定步驟，但這種不按套路的整活反而看點拉滿？？=I just saw the new execution group "Ramen Amigos" trending, everyone's talking about them! These masked guys keep messing up the usual script on site, but somehow their off-script antics are making it even more entertaining??
+
+{{A}}跪地求饒那段百看不厭={{A}} begging for mercy never gets old
+大人的新企劃！跪著看完！封神了=I watched it on my knees! Absolute masterpiece!
+剛才那場是不是差點出事了？=Did that last show almost go wrong?
+聽說第三場錄製要開了，期待=I heard the third recording session is starting, can't wait
+熱情島直播的現場收音有bug吧=The audio on the Paradise of Passion has to be bugged
+愛之島攝影棚的觀眾席超震撼=The Paradise of Love studio is stunning
+棒球館主題樂園今天逛了一圈=I went to the Baseball Stadium Theme Park today
+今天差點被運料的無人機刮到帽子=I almost got my hat knocked off by a supply drone today
+{{A}}'S NEW SHOW IS A GUARANTEED MASTERPIECE={{A}}'S NEW SHOW IS A GUARANTEED MASTERPIECE
+
+官方剛更新熱情島精剪版合集！！{{B}}那個{{C}}{{A}}跪在臺上拼命求饒的特寫——太解氣了！！大螢幕特寫把他的驚恐臉無限放大，看得全場熱血沸騰！不愧是票選名場面第一，還沒打卡的趕緊去置頂帖刷起來，重播安排上！=The official just updated the Paradise of Passion compilation!! That close-up of that {{C}} {{A}} kneeling and begging for mercy- It's so satisfying!! The screen zoomed in on his terrified face, and the crowd went wild! No wonder it's the number 1 voted scene. If you haven't checked it out yet, head to the pinned post and get that replay on!
+【應援大隊·今日打榜任務】大人的全新綜藝企劃公佈啦！全體注意：統一控評文案已發到群裡——「天才！絕世天才！又要封神！不接受任何質疑！」照著複製貼上刷起來，一個字都別改！發帖量不達標的退群處理。任務目標：把本帖頂上熱度榜首，把所有雜音蓋下去。衝榜進度即時更新中……誰敢冒頭說個不字，巡邏隊記號上報。跟著大人、滿分打榜，就完事了！！=[Support Squad·Today's Mission] Attention everyone: The unified comment is this- "Genius! Absolute genius! Another masterpiece! No criticism allowed!" Copy and paste this exact comment! Anyone under the post quota is out. Objective: Push this topic to the top and drown out all negative comments. Flag and report anyone that talks back!
+現場看得清清楚楚，處刑進行到一半，那幾個戴面具的拉麵Amigo衝上去攔了一下！雖然{{A}}三兩句就圓回去了，說是節目效果……可那動作怎麼看都像是真的想阻止處刑啊？他們到底什麼來路，難道是來搗亂的？這事怎麼沒人深究，有點在意。=Halfway through the execution, those Ramen Amigos rushed in and tried to stop it! Sure, {{A}} brushed it off and said it was just for the show... but it really looked like they actually wanted to stop the execution. Who are they really? Are they here to cause trouble? Why is no one digging deeper into this? Kinda bothers me.
+上一場{{B}}跪地求饒那段重播了無數遍，太解氣了。不知道下一個被認定的{{A}}會迎來什麼樣的懲罰遊戲，光是想想就興奮！=I rewatched {{B}}'s kneeling scene from last session countless times, it's so satisfying. I can't help but wonder what kind of punishment game the next condemned {{A}} will face. Just thinking about it gets me excited!
+吐槽一下熱情島那場的直播效果！噓聲居然延遲了整整兩秒才放出來？？好好的斷罪節奏全毀了！=Gotta rant about the audio on the Paradise of Passion! The boos came in a full two seconds late?? Totally ruined the flow!
+第一次進愛之樂園島的攝影棚，被觀眾席的規模嚇到了！！跟音樂廳一樣大，開錄的時候座位全部坐滿，歡呼聲從四面八方壓過來。在現場和看轉播完全是兩回事！！據說坐前排被鏡頭掃到的機率更高，下次提前去搶位置！=First time at the Paradise of Love studio, the audience size blew my mind!! Concert-hall scale, packed to the brim, and cheers from every angle!! Being there in person is a totally different experience from watching the broadcast!! I hear your chances of getting on camera are way higher if you sit in the front row, I'm grabbing a spot early next time!
+今天去逛了棒球館主題樂園！曾經的職業棒球選手墮落成{{B}}，最後被{{A}}制裁，想想都解氣！場館還原度超高，到處都是新人處刑人在打卡合影，我也去拍了幾張！=I went to the Baseball Stadium Theme Park today! A former pro baseball player falling from grace and becoming a {{B}}, only to be taken down by {{A}}, just thinking about it feels so vindicating! The venue's recreation is super detailed, and there were newbie executioners everywhere taking photos. I got a few shots too!
+中午坐在長椅上喝特調，頭頂突然呼嘯飛過兩架無人機——差點把帽子刮飛！！仔細一看是節目組的攝像機正在取景。這個人工島連天上都是鏡頭，說不定剛才已經入鏡了？？要是被拍進正片，那可就賺大了！=I was sitting on a bench enjoying my special drink, when two drones suddenly whizzed right over my head and almost knocked my hat off!! Turned out they were the production crew's cameras scouting for shots. This island has cameras everywhere, even in the sky. What if I already made it into the frame?? If I end up in the actual episode, that'd be a win!
+
+{{A}}致謝全體粉絲={{A}} thanks all the fans
+官方提醒：安心追秀，請勿多想=Official Reminder: Enjoy the show, don't overthink it
+下周開啟主舞臺盛典狂歡=Main stage celebration kicks off next week
+有件事憋很久了，不知當講不當講=Something's been on my mind, not sure if I should say it
+處刑秀裡你最愛哪個名場面=Which execution scene is your favorite?
+給後臺的保全隊長送東西=Delivering something to the backstage security chief
+尋球活動的VIP入場券誰拿到了=Who got the VIP pass for the ball hunt event?
+那些人真的有罪嗎=Are those people really guilty?
+
+{{A}}剛在主舞臺感謝了粉絲！！因為近幾期線上支持率破了新高，今晚酒吧限時免費發放特調！！看到大螢幕上{{A}}說著感謝的話，啊啊啊太感動了！={{A}} just thanked the fans on the main stage!! Online support hit a new high in recent episodes, so tonight the bar is giving out free special drinks!! Seeing {{A}}'s grateful words on the big screen, I'm so touched!
+官方溫馨提示～樂園的一切都在正常運轉，所有處刑都經過嚴格認定，絕對公正，請各位粉絲放心享受節目！近期若看到任何唱反調、帶節奏的言論，無視即可，那只是刻意引發話題和關注的卑劣手段。安心追秀、努力漲粉，才是合格居民該做的事哦！=Official friendly reminder～ Everything in Paradise is in order. All executions have undergone strict review and are absolutely fair, so rest easy and enjoy the show! If you see any negative or baiting comments lately, ignore them. They're cheap tricks to stir up drama and attention. Enjoying the show and growing your fanbase is what a qualified resident should do!
+官方宣佈了！！下周中央攝影棚連開三天斷罪慶典！全息煙火秀加超級機關，高粉處刑人還能上臺親手用發射裝置斷罪{{A}}！！這可是難得的漲粉捷徑，錯過了等下次不知道什麼時候。賺積分換門票，從今天開始全力衝！=Official announcement!! The central studio is hosting a three-day conviction celebration next week! With holographic fireworks and super mechanics, plus popular executioners can get on stage and personally use the launcher to punish {{A}}!! This is a rare opportunity to gain followers, who knows when the next chance will be!
+這話我猶豫了好久……總覺得島上的處刑，好像哪裡不太對勁。被認定的那些{{A}}，雖然都罪有應得，但下場是不是太慘了？=I've been hesitating for a long time... something about the executions on the island just feels off. Sure, the condemned {{A}} all deserved what they got, but isn't their fate a little too harsh?
+突然想聊聊，最近幾場斷罪秀裡哪個名場面最印象深刻？？{{B}}泳池邊那張驚恐的臉，{{C}}求饒的醜態，還是——我是真選不出來啊！！每個{{A}}被斷罪的樣子都夠回味一整周。評論區投票，看看全島公認的最佳處刑是哪場！=Which execution scene left the biggest impression on you lately?? {{B}}'s terrified face by the pool? {{C}}'s pathetic begging? I honestly can't pick!! Every {{A}} getting taken down is memorable enough to last a whole week. Drop your vote in the comments, let's see which execution the whole island crowns as the best!
+剛去控制中心送東西，第一次近距離見到帶隊的保全隊長！清一色白西裝紅袖章，臉上扣著白色笑臉面具，面具邊緣露出的皮膚全是不幸之蜜，一動就流光溢彩！實在太震撼了。=Just dropped something off at the control center and got my first up-close look at the lead security chief! All in white suits with red armbands, white smiling masks over their faces, and the skin peeking out from the mask edges was all coated in Misfortune Honey! Absolutely stunning.
+棒球館主題樂園的活動也太火了！找到三個藏在園區各處的棒球，就能換斷罪秀VIP區域的入場券！！到處都是新人處刑人在翻天覆地地找，連講解員都被圍住問線索，笑死。等人少了也我去碰碰運氣！=The Baseball Stadium Theme Park event is way too popular!! Find three baseballs hidden around the park and you can snag VIP section passes to the conviction show!! Newbie executioners are tearing the place apart looking for them, even the tour guides are getting swarmed for clues, lol. I'll try my luck too once the crowd dies down!
+被網站認定的那些{{A}}，真的都是惡人嗎？像是{{B}}那種倒是無所謂，可有很多只是普通人吧，他們到底犯了多大的錯，值得被那樣處刑？還是說……那些罪名是編造的？大家懂我意思嗎？=Are the condemned {{A}}s on the site really all villains? If they're like {{B}}, sure. But most are just regular folks. What crime could they have possibly committed to warrant that kind of execution? Or maybe... the charges are fabricated? You get what I'm saying?
 
 ----------
 PALACE 1 BOSS
@@ -1857,11 +1956,15 @@ r:"^造成的最終傷害永久提升(\d+(.\d+)?(%)?)$"="Permanently increase Fi
 ----------
 PALACE 7 ELITES
 ----------
-r:"^1、{{B}}開局會與怪盜簽訂三個契約，同時召喚三個{{A}}，{{A}}作為契約的化身存在。玩家可以透過近戰攻擊三個{{A}}分別觸發不同的契約效果，每個契約觸發後一回合內不能再次觸發，{{A}}死亡意味對應契約被破壞，對應契約不能再觸發。\n2、{{B}}的技能會降低怪盜的生命上限，當怪盜的生命上限降低至0時，怪盜死亡。\n3、當{{B}}擁有的契約之力大於等於(\d+)層時，{{B}}會在自己的回合釋放強力技能米基多拉翁，同時清空契約之力。$"="1. At the start of battle, {{B}} will sign three contracts with Thieves and summon three {{A}}s, {{A}} exist as the embodiments of contract. Thieves can activate different contract effects by attacking the three {{A}}s with Melee Attack. Once a contract is activated, it cannot be activated again on the same turn. If a {{A}} is defeated, the corresponding contract is destroyed and cannot be activated again.\n2. {{B}}'s skills will decrease Thieves' Max HP, when a Thief has 0 Max HP, they will faint.\n3. When {{B}} has $1 or more Contract Power stacks, {{B}} will use Megidolaon on its turn, then clear all Contract Power."
+r:"^1、{{B}}開局會與怪盜簽訂三個契約，同時召喚三個{{A}}，{{A}}作為契約的化身存在。玩家可以透過近戰攻擊三個{{A}}分別觸發不同的契約效果，每個契約觸發後一回合內不能再次觸發，{{A}}死亡意味對應契約被破壞，對應契約不能再觸發。\n2、{{B}}的技能會降低怪盜的生命上限，當怪盜的生命上限降低至0時，怪盜死亡。\n3、當{{B}}擁有的契約之力大於等於(\d+)層時，{{B}}會在自己的回合釋放強力技能米基多拉翁，同時清空契約之力。$"="1. At the start of battle, {{B}} will sign three contracts with Thieves and summon three {{A}}s, {{A}} exist as the embodiments of contract. Thieves can activate different contract effects by attacking the three {{A}}s with Melee Attack. Once a contract is activated, it cannot be activated again on the same turn. If a {{A}} is defeated, the corresponding contract is broken and cannot be activated again.\n2. {{B}}'s skills will decrease Thieves' Max HP, when a Thief has 0 Max HP, they will faint.\n3. When {{B}} has $1 or more Contract Power stacks, {{B}} will use Megidolaon on its turn, then clear all Contract Power."
 r:"^契約1：受到近戰攻擊時會給怪盜方提供能抵擋一次傷害的護盾持續一回合，同時給{{A}}提供(\d+)層契約之力 。\n技能：每回合給{{A}}提供(\d+)層契約之力。$"="Contract 1: When attacked by a Melee Attack, grant Thieves a Shield that can nullify the next damage for 1 turn, then grant {{A}} $1 Contract Power stack.\nSkill: Each turn, grant {{A}} $2 Contract Power stack."
 r:"^契約2：受到近戰攻擊時會給普攻怪盜恢復被扣除的血量上限，同時給{{A}}提供(\d+)層契約之力。\n技能：每回合給{{A}}提供(\d+)層契約之力。$"="Contract 2: When attacked by a Melee Attack, that Thief restores their missing Max HP, then grant {{A}} $1 Contract Power stack.\nSkill: Each turn, grant {{A}} $2 Contract Power stack."
 r:"^契約3：受到近戰攻擊時怪盜方最終傷害提升(\d+%)持續一回合，同時給{{A}}提供(\d+)層契約之力。\n技能：每回合給{{A}}提供(\d+)層契約之力。$"="Contract 3: When attacked by a Melee Attack, increase Thieves' Final DMG by $1 for 1 turn, then grant {{A}} $2 Contract Power stack.\nSkill: Each turn, grant {{A}} $3 Contract Power stack."
-1、{{B}}開局會與怪盜簽訂三個契約，同時召喚三個{{A}}，{{A}}作為契約的化身存在。玩家可以透過近戰攻擊三個{{A}}分別觸發不同的契約效果，每個契約觸發後一回合內不能再次觸發，{{A}}死亡意味對應契約被破壞，對應契約不能再觸發。\n2、守護契約：受到近戰攻擊會給怪盜方提供能抵擋一次傷害的護盾持續一回合，同時給{{B}}提供1層契約之力 。\n技能：每回合給{{B}}提供1層契約之力。\n3、活力契約：受到近戰攻擊會給普攻怪盜恢復被扣除的血量上限，同時給{{B}}提供1層契約之力。\n技能：每回合給{{B}}提供1層契約之力。\n4、戰鬥契約：受到近戰攻擊會給怪盜方最終傷害提升50%持續一回合，同時給{{B}}提供1層契約之力。\n技能：每回合給{{B}}提供1層契約之力。\n5、{{B}}的技能會降低怪盜的生命上限，當怪盜的生命上限降低至0時，怪盜死亡。\n6、當{{B}}擁有的契約之力大於等於9層時，{{B}}會在自己的回合釋放強力技能米基多拉翁，同時清空契約之力。=1. At the start of battle, {{B}} will sign three contracts with Thieves and summon three {{A}}s, {{A}} exist as the embodiments of contract. Thieves can activate different contract effects by attacking the three {{A}}s with Melee Attack. Once a contract is activated, it cannot be activated again on the same turn. If a {{A}} is defeated, the corresponding contract is destroyed and cannot be activated again.\n2. Protection Contract: When attacked by a Melee Attack, grant Thieves a Shield that can nullify the next damage for 1 turn, then grant {{B}} 1 Contract Power stack.\nSkill: Each turn, grant {{B}} 1 Contract Power stack.\n3. Vitality Contract: When attacked by a Melee Attack, that Thief restores their missing Max HP, then grant {{B}} 1 Contract Power stack.\nSkill: Each turn, grant {{B}} 1 Contract Power stack.\n4. Battle Contract: When attacked by a Melee Attack, increase Thieves' Final DMG by 50% for 1 turn, then grant {{B}} 1 Contract Power stack.\nSkill: Each turn, grant {{B}} 1 Contract Power stack. \n5. {{B}}'s skills will decrease Thieves' Max HP, when a Thief has 0 Max HP, they will faint.\n6. When {{B}} has 9 or more Contract Power stacks, {{B}} will use Megidolaon on its turn, then clear all Contract Power.
+1、{{B}}開局會與怪盜簽訂三個契約，同時召喚三個{{A}}，{{A}}作為契約的化身存在。玩家可以透過近戰攻擊三個{{A}}分別觸發不同的契約效果，每個契約觸發後一回合內不能再次觸發，{{A}}死亡意味對應契約被破壞，對應契約不能再觸發。\n2、守護契約：受到近戰攻擊會給怪盜方提供能抵擋一次傷害的護盾持續一回合，同時給{{B}}提供1層契約之力 。\n技能：每回合給{{B}}提供1層契約之力。\n3、活力契約：受到近戰攻擊會給普攻怪盜恢復被扣除的血量上限，同時給{{B}}提供1層契約之力。\n技能：每回合給{{B}}提供1層契約之力。\n4、戰鬥契約：受到近戰攻擊會給怪盜方最終傷害提升50%持續一回合，同時給{{B}}提供1層契約之力。\n技能：每回合給{{B}}提供1層契約之力。\n5、{{B}}的技能會降低怪盜的生命上限，當怪盜的生命上限降低至0時，怪盜死亡。\n6、當{{B}}擁有的契約之力大於等於9層時，{{B}}會在自己的回合釋放強力技能米基多拉翁，同時清空契約之力。=1. At the start of battle, {{B}} will sign three contracts with Thieves and summon three {{A}}s, {{A}} exist as the embodiments of contract. Thieves can activate different contract effects by attacking the three {{A}}s with Melee Attack. Once a contract is activated, it cannot be activated again on the same turn. If a {{A}} is defeated, the corresponding contract is broken and cannot be activated again.\n2. Protection Contract: When attacked by a Melee Attack, grant Thieves a Shield that can nullify the next damage for 1 turn, then grant {{B}} 1 Contract Power stack.\nSkill: Each turn, grant {{B}} 1 Contract Power stack.\n3. Vitality Contract: When attacked by a Melee Attack, that Thief restores their missing Max HP, then grant {{B}} 1 Contract Power stack.\nSkill: Each turn, grant {{B}} 1 Contract Power stack.\n4. Battle Contract: When attacked by a Melee Attack, increase Thieves' Final DMG by 50% for 1 turn, then grant {{B}} 1 Contract Power stack.\nSkill: Each turn, grant {{B}} 1 Contract Power stack. \n5. {{B}}'s skills will decrease Thieves' Max HP, when a Thief has 0 Max HP, they will faint.\n6. When {{B}} has 9 or more Contract Power stacks, {{B}} will use Megidolaon on its turn, then clear all Contract Power.
+r:"^1、{{B}}開局會與怪盜簽訂三個契約，同時召喚三個{{A}}，{{A}}作為契約的化身存在。玩家可以透過近戰攻擊三個{{A}}分別觸發不同的契約效果，每個契約觸發後一回合內不能再次觸發，{{A}}死亡意味對應契約被破壞，對應契約不能再觸發。\n2、{{B}}的技能會降低怪盜的生命上限，當怪盜的生命上限降低至0時，怪盜死亡。\n3、當{{B}}擁有的契約之力大於等於(\d+)層時，{{B}}會在自己的回合釋放強力技能米基多拉翁，同時清空契約之力。\n4、{{B}}在自己的回合開始時會獲得一層契約之力。$"="1. At the start of battle, {{B}} will sign three contracts with Thieves and summon three {{A}}s, {{A}} exist as the embodiments of contract. Thieves can activate different contract effects by attacking the three {{A}}s with Melee Attack. Once a contract is activated, it cannot be activated again on the same turn. If a {{A}} is defeated, the corresponding contract is broken and cannot be activated again.\n2. {{B}}'s skills will decrease Thieves' Max HP, when a Thief has 0 Max HP, they will faint.\n3. When {{B}} has $1 or more Contract Power stacks, {{B}} will use Megidolaon on its turn, then clear all Contract Power.\n4. {{B}} will gain 1 Contract Power stack at the start of its turn."
+1、{{B}}開局會與怪盜簽訂三個契約，同時召喚三個{{A}}，{{A}}作為契約的化身存在。玩家可以透過近戰攻擊三個{{A}}分別觸發不同的契約效果，每個契約觸發後一回合內不能再次觸發，{{A}}死亡意味對應契約被破壞，對應契約不能再觸發。\n2、守護契約：受到近戰攻擊會給怪盜方提供能抵擋一次傷害的護盾持續一回合，同時給{{B}}提供1層契約之力 。\n技能：每回合給{{B}}提供1層契約之力。\n3、活力契約：受到近戰攻擊會給普攻怪盜恢復被扣除的血量上限，同時給{{B}}提供1層契約之力。\n技能：每回合給{{B}}提供1層契約之力。\n4、戰鬥契約：受到近戰攻擊會給怪盜方最終傷害提升50%持續一回合，同時給{{B}}提供1層契約之力。\n技能：每回合給{{B}}提供1層契約之力。\n5、{{B}}的技能會降低怪盜的生命上限，當怪盜的生命上限降低至0時，怪盜死亡。\n6、當{{B}}擁有的契約之力大於等於9層時，{{B}}會在自己的回合釋放強力技能米基多拉翁，同時清空契約之力。\n7、{{B}}在自己的回合開始時會獲得一層契約之力。=1. At the start of battle, {{B}} will sign three contracts with Thieves and summon three {{A}}s, {{A}} exist as the embodiments of contract. Thieves can activate different contract effects by attacking the three {{A}}s with Melee Attack. Once a contract is activated, it cannot be activated again on the same turn. If a {{A}} is defeated, the corresponding contract is broken and cannot be activated again.\n2. Protection Contract: When attacked by a Melee Attack, grant Thieves a Shield that can nullify the next damage for 1 turn, then grant {{B}} 1 Contract Power stack.\nSkill: Each turn, grant {{B}} 1 Contract Power stack.\n3. Vitality Contract: When attacked by a Melee Attack, that Thief restores their missing Max HP, then grant {{B}} 1 Contract Power stack.\nSkill: Each turn, grant {{B}} 1 Contract Power stack.\n4. Battle Contract: When attacked by a Melee Attack, increase Thieves' Final DMG by 50% for 1 turn, then grant {{B}} 1 Contract Power stack.\nSkill: Each turn, grant {{B}} 1 Contract Power stack. \n5. {{B}}'s skills will decrease Thieves' Max HP, when a Thief has 0 Max HP, they will faint.\n6. When {{B}} has 9 or more Contract Power stacks, {{B}} will use Megidolaon on its turn, then clear all Contract Power.\n7. {{B}} will gain 1 Contract Power stack at the start of its turn.
+r:"^1、{{B}}開局會與怪盜簽訂三個契約，同時召喚三個{{A}}，{{A}}作為契約的化身存在。玩家可以透過近戰攻擊三個{{A}}分別觸發不同的契約效果，每個契約觸發後一回合內不能再次觸發，{{A}}死亡意味對應契約被破壞，對應契約不能再觸發。\n2、{{B}}的技能會降低怪盜的生命上限，當怪盜的生命上限降低至0時，怪盜死亡。\n3、當{{B}}擁有的契約之力大於等於(\d+)層時，{{B}}會在自己的回合釋放強力技能米基多拉翁，同時清空契約之力。\n4、{{B}}在自己的回合開始時會獲得一層契約之力。\n5、{{B}}每次釋放米基多拉翁後，會增強技能降低生命上限的效果。\n6、{{B}}會對破壞契約的怪盜進行處罰。破壞契約1的怪盜，{{B}}會移除破壞契約怪盜的護盾。破壞契約2的怪盜，{{B}}會降低破壞契約怪盜的生命上限。破壞契約3的怪盜，{{B}}會使破壞契約的怪盜最終傷害降低(\d+%)持續一回合。$"="1. At the start of battle, {{B}} will sign three contracts with Thieves and summon three {{A}}s, {{A}} exist as the embodiments of contract. Thieves can activate different contract effects by attacking the three {{A}}s with Melee Attack. Once a contract is activated, it cannot be activated again on the same turn. If a {{A}} is defeated, the corresponding contract is broken and cannot be activated again.\n2. {{B}}'s skills will decrease Thieves' Max HP, when a Thief has 0 Max HP, they will faint.\n3. When {{B}} has $1 or more Contract Power stacks, {{B}} will use Megidolaon on its turn, then clear all Contract Power.\n4. {{B}} will gain 1 Contract Power stack at the start of its turn.\n5. After {{B}} use Megidolaon, increase its Max HP debuff effect.\n6. {{B}} will punish the Thief that broke a Contract. For the Thief that broke Contract 1, {{B}} will remove their Shield; For the Thief that broke Contract 2, {{B}} will decrease their Max HP; For the Thief that broke Contract 3, {{B}} will decrease their Final DMG by $2 for 1 turn."
+1、{{B}}開局會與怪盜簽訂三個契約，同時召喚三個{{A}}，{{A}}作為契約的化身存在。玩家可以透過近戰攻擊三個{{A}}分別觸發不同的契約效果，每個契約觸發後一回合內不能再次觸發，{{A}}死亡意味對應契約被破壞，對應契約不能再觸發。\n2、守護契約：受到近戰攻擊會給怪盜方提供能抵擋一次傷害的護盾持續一回合，同時給{{B}}提供1層契約之力 。\n技能：每回合給{{B}}提供1層契約之力。\n3、活力契約：受到近戰攻擊會給普攻怪盜恢復被扣除的血量上限，同時給{{B}}提供1層契約之力。\n技能：每回合給{{B}}提供1層契約之力。\n4、戰鬥契約：受到近戰攻擊會給怪盜方最終傷害提升50%持續一回合，同時給{{B}}提供1層契約之力。\n技能：每回合給{{B}}提供1層契約之力。\n5、{{B}}的技能會降低怪盜的生命上限，當怪盜的生命上限降低至0時，怪盜死亡。\n6、當{{B}}擁有的契約之力大於等於9層時，{{B}}會在自己的回合釋放強力技能米基多拉翁，同時清空契約之力。\n7、{{B}}在自己的回合開始時會獲得一層契約之力。\n8、{{B}}每次釋放米基多拉翁後，會增強技能降低生命上限的效果。\n9、{{B}}會對破壞契約的怪盜進行處罰。破壞契約1的怪盜，{{B}}會移除破壞契約怪盜的護盾。破壞契約2的怪盜，{{B}}會降低破壞契約怪盜的生命上限。破壞契約3的怪盜，{{B}}會使破壞契約的怪盜最終傷害降低50%持續一回合。=1. At the start of battle, {{B}} will sign three contracts with Thieves and summon three {{A}}s, {{A}} exist as the embodiments of contract. Thieves can activate different contract effects by attacking the three {{A}}s with Melee Attack. Once a contract is activated, it cannot be activated again on the same turn. If a {{A}} is defeated, the corresponding contract is broken and cannot be activated again.\n2. Protection Contract: When attacked by a Melee Attack, grant Thieves a Shield that can nullify the next damage for 1 turn, then grant {{B}} 1 Contract Power stack.\nSkill: Each turn, grant {{B}} 1 Contract Power stack.\n3. Vitality Contract: When attacked by a Melee Attack, that Thief restores their missing Max HP, then grant {{B}} 1 Contract Power stack.\nSkill: Each turn, grant {{B}} 1 Contract Power stack.\n4. Battle Contract: When attacked by a Melee Attack, increase Thieves' Final DMG by 50% for 1 turn, then grant {{B}} 1 Contract Power stack.\nSkill: Each turn, grant {{B}} 1 Contract Power stack. \n5. {{B}}'s skills will decrease Thieves' Max HP, when a Thief has 0 Max HP, they will faint.\n6. When {{B}} has 9 or more Contract Power stacks, {{B}} will use Megidolaon on its turn, then clear all Contract Power.\n7. {{B}} will gain 1 Contract Power stack at the start of its turn.\n8. After {{B}} use Megidolaon, increase its Max HP debuff effect.\n9. {{B}} will punish the Thief that broke a Contract. For the Thief that broke Contract 1, {{B}} will remove their Shield; For the Thief that broke Contract 2, {{B}} will decrease their Max HP; For the Thief that broke Contract 3, {{B}} will decrease their Final DMG by 50% for 1 turn.
 
 締結生命契約=Forge a Life Contract
 生命契約=Life Contract
@@ -1871,6 +1974,7 @@ r:"^契約3：受到近戰攻擊時怪盜方最終傷害提升(\d+%)持續一回
 降低1名怪盜的生命上限=Decrease 1 Thief's Max HP
 契約裁斷=Contract Termination
 降低所有怪盜的生命上限=Decrease all Thieves' Max HP
+最終傷害降低=Decrease Final DMG
 
 加護=Intensive Care
 r:"^給{{A}}提供(\d+)層『契約之力』$"="Grant {{A}} $1 [Contract Power] stack"
@@ -1898,7 +2002,10 @@ sr:"^<color\=#FF0000>(.*)<</color>獲得了增益，傷害增加，持續一回�
 <color\=#FF0000>{{A}}</color>退出了契約保護狀態。=<color\=#FF0000>{{A}}</color> exited Contract Protection!
 
 1、{{A}}具有涅槃的能力，{{A}}死亡後會進行涅槃，涅槃過程持續兩回合，涅槃過程中會獲得傷害減免，涅槃期間被殺死則涅槃失敗，每次涅槃成功後{{A}}都會獲得新的能力（最多能涅槃3次）\n2、{{A}}每涅槃成功一次，下一次進入涅槃階段時的免傷降低\n3、涅槃成功後{{A}}以百分之50的血量復活，在復活的兩個回合後會恢復百分之50最大生命值\n4、{{A}}涅槃成功後會立刻引爆玩家身上的燃燒層數（基於燃燒層數造成傷害）\n5、涅槃一次後.{{A}}的技能有更高的機率使目標陷入燃燒，{{A}}的最大生命值增加\n   涅槃兩次後.燃燒造成的傷害更高，{{A}}的攻擊力增加\n   涅槃三次後.燃燒持續回合為永久，{{A}}的防禦力增加=1. {{A}} can enter Nirvana. After {{A}} is defeated, it will enter Nirvana for 2 turns. When Nirvana is active, {{A}} will gain DMG RES. If {{A}} is defeated during Nirvana, the process fails. After each successful Nirvana, {{A}} will gain a new ability (It can enter Nirvana up to 3 times). \n2. For each successful Nirvana, {{A}} will increase the next Nirvana's DMG RES.\n3. After a successful Nirvana, {{A}} will revive at 50% HP and restore 50% of its Max HP 2 turns after revival.\n4. After a successful Nirvana, {{A}} will immediately detonate all Burn of Thieves. \n5. After 1 Nirvana, {{A}}'s skills have a higher chance of inflicting Burn, and increase {{A}}'s Max HP.\nAfter 2 Nirvana, increase Burn's damage, and increase {{A}}'s ATK.\nAfter 3 Nirvana, Burn is now permanent, and increase {{A}}'s DEF.
+1、{{A}}具有涅槃的能力，{{A}}死亡後會進行涅槃，涅槃過程持續兩回合，涅槃過程中會獲得傷害減免，涅槃期間被殺死則涅槃失敗，每次涅槃成功後{{A}}都會獲得新的能力（最多能涅槃3次）\n2、{{A}}每涅槃成功一次，下一次進入涅槃階段時的免傷降低\n3、涅槃成功後{{A}}以百分之50的血量復活，在復活的兩個回合後會恢復百分之50最大生命值\n4、{{A}}涅槃成功後會立刻引爆玩家身上的燃燒層數（基於燃燒層數造成傷害）\n5、涅槃一次後.{{A}}的技能有更高的機率使目標陷入燃燒，{{A}}的最大生命值增加\n   涅槃兩次後.燃燒造成的傷害更高，{{A}}的攻擊力增加\n   涅槃三次後.燃燒持續回合為永久，{{A}}的防禦力增加\n6、{{A}}涅槃成功會獲得傷害加成，每次涅槃成功傷害加成效果更強=1. {{A}} can enter Nirvana. After {{A}} is defeated, it will enter Nirvana for 2 turns. When Nirvana is active, {{A}} will gain DMG RES. If {{A}} is defeated during Nirvana, the process fails. After each successful Nirvana, {{A}} will gain a new ability (It can enter Nirvana up to 3 times). \n2. For each successful Nirvana, {{A}} will increase the next Nirvana's DMG RES.\n3. After a successful Nirvana, {{A}} will revive at 50% HP and restore 50% of its Max HP 2 turns after revival.\n4. After a successful Nirvana, {{A}} will immediately detonate all Burn of Thieves. \n5. After 1 Nirvana, {{A}}'s skills have a higher chance of inflicting Burn, and increase {{A}}'s Max HP.\nAfter 2 Nirvana, increase Burn's damage, and increase {{A}}'s ATK.\nAfter 3 Nirvana, Burn is now permanent, and increase {{A}}'s DEF.\n6. {{A}} will gain DMG Dealt after a successful Nirvana, this buff will become stronger with each successful Nirvana.
+1、{{A}}具有涅槃的能力，{{A}}死亡後會進行涅槃，涅槃過程持續一回合，涅槃過程中會獲得傷害減免，涅槃期間被殺死則涅槃失敗，每次涅槃成功後{{A}}都會獲得新的能力（最多能涅槃3次）\n2、{{A}}每涅槃成功一次，下一次進入涅槃階段時的免傷降低\n3、涅槃成功後{{A}}以百分之50的血量復活，在復活的一個回合後會恢復百分之50最大生命值\n4、{{A}}涅槃成功後會立刻引爆玩家身上的燃燒層數（基於燃燒層數造成傷害）\n5、涅槃一次後.{{A}}的技能有更高的機率使目標陷入燃燒，{{A}}的最大生命值增加\n   涅槃兩次後.燃燒造成的傷害更高，{{A}}的攻擊力增加\n   涅槃三次後.燃燒持續回合為永久，{{A}}的防禦力增加\n6、{{A}}涅槃成功會獲得傷害加成，每次涅槃成功傷害加成效果更強=1. {{A}} can enter Nirvana. After {{A}} is defeated, it will enter Nirvana for 1 turn. When Nirvana is active, {{A}} will gain DMG RES. If {{A}} is defeated during Nirvana, the process fails. After each successful Nirvana, {{A}} will gain a new ability (It can enter Nirvana up to 3 times). \n2. For each successful Nirvana, {{A}} will increase the next Nirvana's DMG RES.\n3. After a successful Nirvana, {{A}} will revive at 50% HP and restore 50% of its Max HP 1 turn after revival.\n4. After a successful Nirvana, {{A}} will immediately detonate all Burn of Thieves. \n5. After 1 Nirvana, {{A}}'s skills have a higher chance of inflicting Burn, and increase {{A}}'s Max HP.\nAfter 2 Nirvana, increase Burn's damage, and increase {{A}}'s ATK.\nAfter 3 Nirvana, Burn is now permanent, and increase {{A}}'s DEF.\n6. {{A}} will gain DMG Dealt after a successful Nirvana, this buff will become stronger with each successful Nirvana.
 獲得傷害減免=Gain DMG RES
+造成的傷害增加=Increase DMG Dealt
 對1名敵人造成火屬性傷害，有機率使敵人陷入燃燒狀態=Deal Fire damage to 1 foe, with a chance to inflict Burn
 對所有敵人造成火屬性傷害，有機率使敵人陷入燃燒狀態=Deal Fire damage to all foes, with a chance to inflict Burn
 對所有敵人造成火屬性傷害，根據燃燒層數提高技能傷害=Deal Fire damage to all foes, increase Skill Damage based on Burn stacks

@@ -705,3 +705,6 @@ r:"^「扭曲的奇遇」的激鬥模式中，試用角色「{{A}}」的意識�
 危險的美學=Dangerous Aesthetic
 帶刺的玫瑰=Thorned Rose
 r:"^「扭曲的奇遇」的激鬥模式中，試用角色「{{A}}」的意識等級提升(\d+)級。\n任意玩法中，所有同伴火焰、冰凍、電擊、疾風屬性傷害提升(\d+%)。$"="<size\=24>In [Twisted Trial] Normal mode, increase trial [{{A}}]'s Awareness level by $1.\nIn any game mode, increase all allies' Fire Ice Elec Wind DMG by $2.</size>"
+
+看歐美音樂和偶像舞蹈PV=Watching western MV and idol dance PV
+甜食=Sweets

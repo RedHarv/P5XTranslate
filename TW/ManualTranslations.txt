@@ -1138,6 +1138,7 @@ r:"^陣容\((\d+)\)$"="Party ($1)"
 隊伍中至少攜帶一個{{A}}=Party needs to be set with at least one {{A}}.
 請編入三名參戰隊員。=Please deploy 3 teammates.
 陣容中已有相同怪盜，是否替換？=Your party contains duplicate Thief. \nWould you like to swap one out?
+無法移動支援角色。=Unable to move Elucidator.
 <color\=#FFF000>{{A}}</color>無法與<color\=#FFF000>{{B}}</color>同時上陣，是否替換？=Unable to bring <color\=#FFF000>{{A}}</color> with <color\=#FFF000>{{B}}</color>, change them?
 <color\=#FFF000>{{B}}</color>無法與<color\=#FFF000>{{A}}</color>同時上陣，是否替換？=Unable to bring <color\=#FFF000>{{B}}</color> with <color\=#FFF000>{{A}}</color>, change them?
 已設為關注怪盜。=Added Thief to favourites.

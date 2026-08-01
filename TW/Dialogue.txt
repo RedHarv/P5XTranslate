@@ -5815,7 +5815,7 @@ WIND判斷的沒錯，\n被盯上的話，不要逞能，務必進行<color\=#FF
 要直接去威脅嗎……？\n還是，採取其他的手段……=Maybe I should threaten them...? \nOr, take other measures...
 又是……{{A}}的推送……=Again... {{A}}'s notification...
 不可……能……！=I-Impossible...
-哈、哈哈……我成了……官方認證？=Aha, haha... Me...? Condemned?
+哈、哈哈……我成了……官方認證？=Aha, haha... Me...? condemned?
 是惡作劇吧……一定是……\n快告訴我這不是真的……=That's impossible... \nPlease, tell me it's not true...
 喔唷，{{A}}更新官方的影片了啊！\n這不是今天早上剛發生的事嘛。=Oh, {{A}} uploaded an official video! Didn't this just happen this morning?
 那個奇怪影片裡的人，\n已經被官方認定啦～就是那個……=The person in that strange video has been officially certified～ It's that...
@@ -14976,7 +14976,7 @@ sr:"^那麼……(.*)同學！\n這種生物究竟是什麼呢？$"="Then... $1-
 唔……越了解就越覺得，\n{{A}}真是個可怕的地方啊……=Hoom... The more I learn, the more I realize {{A}} is a terrifying place...
 不過，像{{B}}他們那樣被官方認證的{{A}}，\n至今為止大約有多少呢？=I wonder, how many people, like {{B}} and others, have been condemned so far?
 說到底，那個所謂的官方認證……\n是從{{A}}建立之初就有的嗎？=Did official condemnation even exist from the very beginning of {{A}}...?
-啊……關於那個，\n粉絲網站上有個「官方{{A}}一覽表」。=Oh... about that, there's a "List of Condemned {{A}}s" on a fan site.
+啊……關於那個，\n粉絲網站上有個「官方{{A}}一覽表」。=Oh... about that, there's a "List of condemned {{A}}s" on a fan site.
 最初的官方認證大約是１年前……\n也就是{{A}}建立大約１年之後。=The first one was about a year ago... roughly one year after {{A}} was established.
 首個官方認證的{{A}}，\n是新聞記者「{{B}}」……=The first condemned {{A}} was a news journalist named "{{B}}"...
 {{A}}……小姐？\n那個人做了什麼嗎？={{A}}-san...?\nWhat did that person do?
@@ -16902,7 +16902,7 @@ Chapter 5 Aran + Airi Anime
 在那之後……我不再聯絡姐姐了……=After that... I didn't contact Big Sis anymore...
 因為……害怕聯絡她……=Because... I was afraid to contact her...
 {{A}}……官方{{B}}……認定……？={{A}}... official {{B}}... condemnation...?
-官方{{A}}……「{{B}}」……？=Condemned {{A}}... "{{B}}"...?
+官方{{A}}……「{{B}}」……？=condemned {{A}}... "{{B}}"...?
 
 首位官方認證{{A}}，來了！！！=The first condemned {{A}} is here!!!
 不可原諒官方認定{{A}}「{{B}}」=Unforgivable condemned {{A}} "{{B}}"
@@ -17076,7 +17076,7 @@ CLOSER！{{A}}！隊長！\n你們沒事吧！=Closer! {{A}}! Leader! \nYou're a
 快想起來！\n姐姐為什麼死了！？=Remember! \nWhy did Big Sis die!?
 在姐姐死之前，\n你看到了什麼！？=What did you see before Big Sis's died!?
 是誰讓姐姐那麼痛苦！=Who made Big Sis suffer so much!
-你為什麼看到官方{{A}}會悲傷？=Why did you feel sad when you saw a condemed {{A}}?
+你為什麼看到官方{{A}}會悲傷？=Why did you feel sad when you saw a condemned {{A}}?
 你為什麼要去接近{{A}}！=Why did you approach the {{A}}!
 我……我是……=I... I...
 如果是這些人的話……\n如果是{{A}}的話……=If it's these people... \nIf it's the {{A}}...
@@ -17126,7 +17126,7 @@ Aran Awakening
 不對，這聲音是在鯨魚肚子裡遇到的傢伙！\n是{{A}}的聲音！=No, this voice is the guy from inside the whale's belly! It's {{A}}'s voice!
 {{A}}……是透過{{B}}，\n在跟我們對話嗎……！={{A}}... is speaking to us through {{B}}...!
 原來如此，{{A}}……\n你死去的姐姐就是那個「記者」啊。=I see, {{A}}... your deceased sister is that journalist.
-那個值得紀念的，\n被官方認證的第１號{{A}}！=The memorable, first officially condemed {{A}}!
+那個值得紀念的，\n被官方認證的第１號{{A}}！=The memorable, first officially condemned {{A}}!
 你這混蛋……怎麼能做那麼過分的事！=You bastard... How could you do that!
 不，我其實很感謝她。=No, I am actually grateful to her.
 因為她成了我覺醒這份力量的契機啊。=Because she became the catalyst for me awakening this power.
@@ -17445,7 +17445,7 @@ sr:"^(.*)，已經早上了。\n差不多該起床了。$"="Good morning, $1. \n
 
 喂喂，你看{{A}}的官方帳號了嗎？=Hey, have you seen the official {{A}} account?
 欸？{{A}}的作者不是被抓了嗎？=Huh? Didn't the {{A}} author get arrested?
-才沒有呢，是被{{A}}官方認證過哦！\n不過本人好像一直主張自己是無辜的……=No, she got condemed by {{A}}! Though she's been claiming she's innocent...
+才沒有呢，是被{{A}}官方認證過哦！\n不過本人好像一直主張自己是無辜的……=No, she got condemned by {{A}}! Though she's been claiming she's innocent...
 關於{{A}}官方認證的話題，\n還沒有平息的跡象……=The discussion about {{A}}'s condemnation doesn't seem to be dying down...
 {{A}}官方帳號……\n晚些時候自己也去看一眼吧……=Let's check the official {{A}} account later...
 
@@ -17523,7 +17523,7 @@ sr:"^早上好，(.*)！$"="Good morning, $1!"
 更何況這幫傢伙\n個個都隨口亂說=Especially since these guys all talk carelessly.
 明明什麼都不了解\n也太不負責任了吧=They don't know nothin', it's so irresponsible.
 是啊\n總忍不住想反駁=Yes. I can't help but want to argue back.
-說起來\n這都是因為我被官方認證\n才引發的吧=Speaking of which, this all started because I got condemed.
+說起來\n這都是因為我被官方認證\n才引發的吧=Speaking of which, this all started because I got condemned.
 雖然自己這麼說有點不好意思\n但我覺得{{A}}的知名度\n也產生了一些影響……對不起=I know it's embarrassing to say this myself, but I think {{A}}'s popularity also affected this... I'm sorry.
 {{A}}一點錯都沒有！\n全都是{{B}}的錯！={{A}} is not at fault at all!\nIt's all {{B}}'s fault!
 是啊\n而且比起我們\n{{A}}承受的壓力才更大吧？=Of course. And more than us, {{A}} is under more pressure, right?
@@ -17650,7 +17650,7 @@ Chapter 6 Part 1 Day 2
 原來如此……所以那個官方認證，\n果然是{{A}}捏造的？=I see... So that condemnation was fabricated by {{A}}?
 當然了！\n{{A}}怎麼可能做那種事！=Of course! There's no way {{A}} would do something like that!
 看來{{A}}已經掌握了我們大部分的資訊……=It seems {{A}} already knows most of our information...
-為了把我們引出來，\n才故意對{{A}}進行官方認證。=He deliberately condemed {{A}} to lure us out.
+為了把我們引出來，\n才故意對{{A}}進行官方認證。=He deliberately condemned {{A}} to lure us out.
 太過分了……僅僅為了這個目的，\n就把她塑造成{{A}}嗎？=That's terrible... Just for that purpose, she was labeled as a {{A}}?
 如果被那樣做，\n她的人生可能就此毀掉的……=If that happened, her life could have been ruined...
 不過{{A}}也沒有任人欺負哦！\n她已經和出版社一起展開徹底反擊了！=But {{A}} isn't just taking it lying down! \nShe and her publisher are fighting back hard!
@@ -17965,7 +17965,7 @@ sr:"^真是的，不行啊你，(.*)。\n……不過我也沒資格說別人啦
 今後對{{A}}的搜查還會繼續，\n只是規模會縮小。=The investigation into the {{A}} will continue, but on a smaller scale.
 不過，基層現場本來就沒什麼幹勁。\n雖然前陣子……=Still, there wasn't much enthusiasm on the ground. Though recently...
 除我以外的人，也開始相信{{A}}真實存在，\n並開始認真搜查了。=Aside from me, others have started to believe the {{A}} really exist and are taking it seriously.
-你看，那個叫什麼的漫畫家，\n不是被{{A}}官方認證了嗎？=You know, that manga artist, didn't she got condemed by {{A}}?
+你看，那個叫什麼的漫畫家，\n不是被{{A}}官方認證了嗎？=You know, that manga artist, didn't she got condemned by {{A}}?
 因為那個罪名裡牽扯到了{{A}}，\n所以警察也終於承認{{A}}的存在了。=Because that charge involved the {{A}}, the police finally acknowledged their existence.
 連警察也相信{{A}}嗎=<size\=23>Even the police believe {{A}}?</size>
 警方判斷取決於{{A}}？=<size\=21>Their judgment depends on {{A}}?</size>
@@ -18009,7 +18009,7 @@ sr:"^真是的，不行啊你，(.*)。\n……不過我也沒資格說別人啦
 還有什麼嗎？=What's wrong?
 ……不，沒什麼。\n我也差不多該回去工作了。=...No, nothing. I should get back to work.
 啊，對了。\n回去之前再問你一件事。=Ah, yes. One more thing before I go.
-你……在{{A}}被認證為{{B}}的那天，\n是不是在{{C}}站前廣場？=You... on the day {{A}} was condemed as a {{B}}, were you in {{C}} station square?
+你……在{{A}}被認證為{{B}}的那天，\n是不是在{{C}}站前廣場？=You... on the day {{A}} was condemned as a {{B}}, were you in {{C}} station square?
 和你在一起的還有２個穿{{A}}校服的女生，\n１個男生……還有１個{{B}}的男生。=With you were two girls in {{A}} uniforms, one boy... and a boy from {{B}}.
 你看錯了=You're mistaken
 是不是誤會了？=It's a misunderstanding
@@ -18178,7 +18178,7 @@ Chapter 6 Part 1 Day 5 Final Exam
 嗚嗚……我只求至少別掛科～……=Ugh... I just hope I don't fail at least～
 呼——考完啦考完啦！\n好久沒關注{{A}}了，刷刷看～！=Phew- Exams are over! It's been a while since I checked {{A}}, let's take a look～!
 你這傢伙，考試一結束就看{{A}}，\n是有多入迷啊？怎麼樣，有更新嗎？=You are so addicted, checking {{A}} right after the exam. Well, any updates?
-哦！有個新的官方認證{{A}}！=Oh! There's a new condemed {{A}}!
+哦！有個新的官方認證{{A}}！=Oh! There's a new condemned {{A}}!
 呃……\n說是「{{A}}的惡意駕駛男」。=Uh... it says "{{A}} Malicious Motorist".
 好像是故意在其他車前面開得很慢，\n或者突然刹車……=Apparently, he drives very slowly in front of other cars, or brakes suddenly...
 這人開車老是像故意找碴、\n存心噁心人一樣。=He drives in a way that seems deliberately annoying and aggressive.
@@ -18189,7 +18189,7 @@ Chapter 6 Part 1 Day 5 Final Exam
 我剛想超車，他突然就加速！\n我差點以為要出事故了！=When I tried to overtake, he suddenly sped up! I almost got into an accident!
 上面寫著，目前還沒發生實際事故，\n所以警察也沒法介入。=It says no actual accidents have occurred yet, so the police can't intervene.
 氣死我了！\n我也要去{{A}}下面評論！=That's infuriating! I'm gonna comment on {{A}} too!
-唔……又是新的官方認證{{A}}嗎……\n希望別變成{{B}}啊……=Hmm... another new condemed {{A}}... \nI hope they don't become a {{B}}...
+唔……又是新的官方認證{{A}}嗎……\n希望別變成{{B}}啊……=Hmm... another new condemned {{A}}... \nI hope they don't become a {{B}}...
 下次去{{A}}的時候，\n最好順便確認一下呢。=We should check it next time we're in {{A}}.
 現在本來想專心對付{{A}}，\n但如果是{{B}}，就不能坐視不管……=We wanted to focus on {{A}} now, but if it's a {{B}}, we can't just ignore it...
 啊啊，這種傢伙趕緊讓他悔改吧～\n{{A}}也真是的～！=Ah, I hope those {{A}} change his heart soon～
@@ -19121,7 +19121,7 @@ sr:"^欸！？喂，(.*)！？$"="Eh!? Hey, $1!?"
 Kumi Ambulance Anime
 ----------
 {{A}}……{{B}}！={{A}}... {{B}}!
-讓官方認證{{A}}「運上猛」徹底暴走吧！=Let the condemed {{A}} "Takeshi Unjou" go berserk!
+讓官方認證{{A}}「運上猛」徹底暴走吧！=Let the condemned {{A}} "Takeshi Unjou" go berserk!
 唔啊啊——=Whah-!
 交給你一個任務=I have a task for you.
 你只需要朝那個女人把油門踩到底就行了=All you have to do is step on the gas towards that woman.
@@ -19164,7 +19164,7 @@ sr:"^那個學生就是(.*)同學吧？\n謝謝你。$"="That student was $1-kun
 沒有那回事。\n真的很謝謝你。=That's not true. \nThank you very much.
 那麼，我去聯繫其他{{A}}。\n你們也快點回家吧。=Well then, I'll contact the other teachers. \nYou should all go home now.
 關於這場事故的新聞……\n現在已經傳得鋪天蓋地了。=News about this accident is already spreading everywhere...
-據說造成事故的，\n是被叫做「惡意駕駛男」的官方認證{{A}}……=Apparently, the one who caused the accident was the condemed {{A}} "Malicious Motorist"...
+據說造成事故的，\n是被叫做「惡意駕駛男」的官方認證{{A}}……=Apparently, the one who caused the accident was the condemned {{A}} "Malicious Motorist"...
 官方認證{{A}}！？\n……也就是說，喂！=Condemned {{A}}!? \n...That means, hey!
 在這之前，那個惡意駕駛男似乎只是個\n透過低速駕駛來故意噁心別人的{{A}}。=Until now, that Malicious Motorist was just a {{A}} who annoyed others by driving slowly.
 像這樣以極快的速度瘋狂衝向十字路口中心……\n這麼危險的駕駛行為，還是第一次……=Driving at that speed, charging into the middle of the crossing... this is the first time he's ever done something so dangerous...
@@ -19174,7 +19174,7 @@ sr:"^而且就在事發前不久，\n(.*)還給(.*)發了那條信息……$"="A
 {{B}}之前獨自暗中調查{{A}}的事……={{B}} had been secretly investigating {{A}} on her own...
 然後她又發簡訊說調查有了進展……對吧？=And then she sent a message saying she'd made progress... right?
 然後她又發短信說調查有了進展……對吧？And then she sent a message saying she'd made progress... right?
-結果緊接著就捲入官方認證{{A}}引發的車禍，\n這簡直……這簡直就像是……=And right after that, she got caught in an accident caused by a condemed {{A}}. This is... it's almost like...
+結果緊接著就捲入官方認證{{A}}引發的車禍，\n這簡直……這簡直就像是……=And right after that, she got caught in an accident caused by a condemned {{A}}. This is... it's almost like...
 是的，未免也太巧合了……=Yes, the timing is far too coincidental...
 我們甚至可以認為……這個{{B}}是受{{A}}的操控，才陷入暴走，從而製造了這場車禍。=We can even assume that this {{B}} was manipulated by {{A}} into going berserk and causing the accident...
 不可原諒……絕對饒不了你，{{A}}……！=Unforgivable... I'll never forgive you, {{A}}...!
@@ -19297,7 +19297,7 @@ Chapter 6 Part 1 Day 9
 但總覺得他們有些樂在其中，\n難道是錯覺嗎……=But I feel like they're somewhat enjoying it. Am I imagining things...?
 
 sr:"^(.*)，我們也差不多該……$"="$1, we should probably..."
-話說回來，那個叫運上猛的{{A}}，\n不是早就被官方認證過了嗎？=Speaking of which, that {{A}} named Takeshi Unjou had already been condemed for a while, right?
+話說回來，那個叫運上猛的{{A}}，\n不是早就被官方認證過了嗎？=Speaking of which, that {{A}} named Takeshi Unjou had already been condemned for a while, right?
 {{A}}肯定也知道那傢伙的事吧。\n也就是說，這次的車禍……=The {{A}} must have known about that guy too. So this accident...
 完全是因為{{A}}的怠慢才導致的吧！=Is entirely because the {{A}} were negligent!
 就是嘛～要是{{A}}好好讓他改心的話，\n這次事故就不會發生了啊！=Right～ If the {{A}} had changed his heart, this accident wouldn't have happened!
@@ -19498,7 +19498,7 @@ YOYOYO！耶～！=YO YO YO! YAY～!
 第一位{{A}}是～……\n眾所周知的「{{B}}的惡意駕駛男·運上猛」！=The first Phantom is～ The well-known "{{B}} Malicious Motorist·Takeshi Unjou"!
 用龜速駕駛、或者緊急刹車……在不違反交通\n法規的範圍內給周圍添麻煩的膽小鬼YO！=A coward who uses slow driving or sudden braking... to cause trouble for others within the bounds of traffic laws, YO!
 那傢伙不就是引發{{A}}事故的……？=That's the guy who caused {{A}}'s accident...?
-是的，就是那個官方認證{{A}}……！=Yes, it's this condemed {{A}}...!
+是的，就是那個官方認證{{A}}……！=Yes, it's this condemned {{A}}...!
 這傢伙似乎非常喜歡看周圍的人\n因為自己的駕駛而手忙腳亂YO！=This guy really enjoys watching people get flustered by his driving, YO!
 嘴裡還說什麼，無法原諒輕視自己的\n這個世界。超級惹人嫌NE～！=He even says things like "I can't forgive this world for looking down on me". Super pathetic, NE～!
 什……真的假的！？\n就因為那種理由……？=What...!? \nWhat reason is that...?
@@ -19749,7 +19749,7 @@ CATTLE，{{A}}可能在哪裡？=Cattle, where could the {{A}} be?
 
 請稍等，客人。\n前方是VIP區域。=Please wait, customers.\nThe VIP area is up ahead.
 如果不是獲得了一定數量以上粉絲的處刑人，\n就無法入場。=Only executioners with a certain number of followers will be allowed entry.
-哈？一定數量是指多少啊？\n你是說我們還不夠嗎？=Huh? What do you mean by a certain number? You sayin' we don’t have enough?
+哈？一定數量是指多少啊？\n你是說我們還不夠嗎？=Huh? What do you mean by a certain number? You sayin' we don't have enough?
 客人是……拉麵Amigo的成員吧。\n很遺憾，似乎還不夠。=The customer is... a member of the Ramen Amigos. Unfortunately, you seem to not have enough.
 如果想進入前方區域，\n請增加粉絲數量後再次前來。=If you'd like to access the front area, please increase your number of fans and try again.
 拒絕訪問！粉絲數量未達到要求。=Access denied! The number of fans does not meet the requirement.
@@ -19856,32 +19856,32 @@ CATTLE，{{A}}可能在哪裡？=Cattle, where could the {{A}} be?
 Execution Studio 1
 ----------
 哇，這裡是什麼地方……=Wow, where is this place...?
-看來這裡就是節目錄製的演播廳了呢。=It looks like this is the recording studio for the show.
+看來這裡就是節目錄製的攝影棚了呢。=It looks like this is the recording studio for the show.
 原來是公開錄製啊。\n觀眾人數真誇張，這到底是什麼規模的節目啊。=So it's a public recording. The audience is huge. What scale is this show even on?
 Ladies and Gentlemen！=Ladies and Gentlemen!
-讓迫不及待想看{{A}}遭遇不幸的各位久等了YO～！=The people who can't wait to see {{A}}s meet their misfortune, sorry to keep you all waiting, YO～!
+讓迫不及待想看{{A}}遭遇不幸的各位久等了YO～！=The people who can't wait to see {{A}}s meet their misfortune, sorry to keep y'all waiting, YO～!
 {{B}}……不，{{A}}！={{B}}... No, {{A}}!
 冷靜點，對方在顯示器的另一頭。\n而且……=Calm down. He's on the other side of the monitor. And...
-為了不讓現實世界的{{A}}本人察覺，\n我們必須極力剋制可疑的舉動。=To avoid alerting the {{A}} in the real world, we must refrain from any suspicious behavior.
+為了不讓現實世界的{{A}}本人察覺，\n我們必須極力克制可疑的舉動。=To avoid alerting the {{A}} in the real world, we must refrain from any suspicious behavior.
 啊，我知道。\n總之先配合這個所謂的節目吧。=I know. For now, let's go along with this so-called show.
 看啊，處刑人們似乎也已經到場了！\n讓我們為歷經千辛萬苦來到這裡的處刑人們鼓掌～！=Look, the executioners seem to have arrived too! Let's give a round of applause for these hardworking executioners～!
 哇～～！=Wow～～！
 然後……由這些處刑人們負責處刑的、\n今天的{{A}}是～？=And... the {{A}}s to be executed by these executioners today are～?
-{{D}}的{{C}}……{{A}}——{{B}}——！={{D}}'s {{C}}...\n{{A}}- {{B}}-!
-惹人嫌的美食記者……{{A}}——{{B}}——！=The obnoxious food critic... \n{{A}}- {{B}}-!
+{{D}}的{{C}}……{{A}}——{{B}}——！={{D}}'s {{C}}...\n{{B}}- {{A}}-!
+惹人嫌的美食記者……{{A}}——{{B}}——！=The obnoxious food critic... \n{{B}}- {{A}}-!
 {{A}}……還有{{B}}！？={{A}}... and {{B}}!?
 你們２個在這種地方幹什麼！？\n或者應該說，為什麼會在這裡！？=What are they doing here!?\nNo, why are they here!?
-難道是本人的陰影！？=<size\=30>Could these be their actual Shadows!?</size>
+難道是本人的陰影！？=<size\=23>Could these be their actual Shadows!?</size>
 為什麼復活了……？=<size\=30>Why are they revived...?</size>
 冷靜點……那應該只是認知存在。=Calm down... those should just be cognitive beings.
-因為在你們奪走{{A}}令其改心的時候，\n他們的陰影應該就已經回到本體內了。=When you took their {{A}}s and changed their hearts, their Shadows should have returned to their original bodies.
+因為在你們奪走{{A}}令其改心的時候，\n他們的陰影應該就已經回到本人體內了。=When you took their {{A}}s and changed their hearts, their Shadows should have returned to their original bodies.
 是這樣沒錯吧，CATTLE？=Isn't that right, Cattle?
 嗯……按理說應該是這樣，但是……=Hoom... That should be the case, but...
-反正這兩個傢伙都是官方認證過的{{A}}，\n作為公開處刑的對象，簡直再合適不過了吧。=Anyway, both of them are condemed {{A}}s, so they're perfect as public execution targets.
+反正這兩個傢伙都是官方認證過的{{A}}，\n作為公開處刑的對象，簡直再合適不過了吧。=Anyway, both of them are condemned {{A}}s, so they're perfect as public execution targets.
 也就是說……\n或許，在這個{{A}}裡……=That would mean... \nPerhaps, in this {{A}}...
 他們可能無數次被這樣暴露在大眾面前，\n無數次被處刑。=They might have been exposed to the public like this countless times, and executed countless times.
 那未免也……有點太可憐了吧……=That would be... That's terrible...
-首先來宣讀他們的罪狀YO！\n第一位，{{A}}！=First, let's read out their crimes, YO! First up, {{A}}!
+首先來宣讀他們的罪狀YO！\n第一位，{{A}}！=First, let's read out their crimes, YO! \nFirst up, {{A}}!
 他在車站裡不停地撞各種人，\n真是個怪大叔YO！=He kept bumping into various people at stations. What a weird uncle, YO!
 專挑比自己弱的女性下手，\n滿足自己施虐癖的變態！=He specifically targets weaker women, a pervert who indulges his sadistic tendencies!
 雖然，他一開始只是個在{{A}}四處遊蕩、\n撞女孩子肩膀的變態而已……=Although, he started off as just a weirdo who wandered around {{A}} bumping into girls' shoulders...
@@ -19901,25 +19901,25 @@ Ladies and Gentlemen！=Ladies and Gentlemen!
 他是一個主動向{{A}}自薦從而成為{{B}}的、\n擁有奇異履歷的傢伙！=He's volunteered himself to {{A}} to become a {{B}}, what a guy with a weird resume!
 居然自己主動報名，\n作為{{A}}來說未免有點遜NE！=Volunteering himself is a bit lame for a {{A}}!
 但是，他為{{A}}「告發」了很多{{B}}……=But he "reported" many {{B}}s to {{A}}...
-說不定他是位極其狂熱的{{A}}粉絲？\n開玩笑的啦！=Maybe he's a {{A}} super fan? Just kidding!
+說不定他是位極其狂熱的{{A}}粉絲？\n開玩笑的啦！=Maybe he's a {{A}} super fan? \nJust kidding!
 大量的告發……那不就是指捏造事實嗎？=A large number of reports... that means fabrications, right?
 這麼說來，\n在看到的「過去的記憶」裡……=If that's the case, in the "past memories" I saw...
-{{A}}也曾被認定為官方{{B}}……={{A}} was also once condemed as a {{B}}...
+{{A}}也曾被認定為官方{{B}}……={{A}} was also once condemned as a {{B}}...
 也許曾經有人就像那樣，\n作為「{{A}}」被出賣了……=Perhaps someone was sold out as a "{{A}}" like that...
-但是嘛，因為他倒閉的店可是多得數不清，\n他還企圖強佔人家的店面NE～！=But well, he ran so many shops into the ground, and even tried to take over shops by force, NE～
+但是嘛，因為他倒閉的店可是多得數不清，\n他還企圖強佔人家的店面NE～！=But well, he ran so many shops into the ground, and even tried to take over them by force, NE～
 那麼，處刑這２個人的內容是～？=Now, the execution for these two is～?
-決定是「泥濘噗通！不幸的蜜泳池」～！=We've decided on "Muddy Plop! Honey Pool of Misfortune"～!
+決定是「泥濘噗通！不幸的蜜泳池」～！=We've decided on "Muddy Plop! Misfortune Honey Pool"～!
 泥濘噗通？\n聽起來像綜藝節目呢。=Muddy Plop? That sounds like a variety show.
 啊，就像掉進灌滿了黏糊糊液體的池子裡，\n然後在裡面滑倒或者摔跟頭的那種遊戲。=Ah, like a game where you fall into a pool filled with gooey liquid, slipping and falling.
 不過，雖說是處刑，\n但感覺像是和平的懲罰遊戲呢……=But even though it's called an execution, it feels like a harmless punishment game...
-Come On——不幸之蜜的泥濘泳池——！！=Come On- The Honey Pool of Misfortune-!!
+Come On——不幸之蜜的泥濘泳池——！！=Come On- The Misfortune Honey Pool-!!
 一旦掉下去就絕對無法再爬上來，\n無底的泥濘泳池世界YO！=Once you fall in, you can never climb back up- a bottomless muddy pool world, YO!
 讓他們的肺部也填滿滾燙的不幸之蜜，\n好好迎接最棒的末路ZE～！=Let their lungs fill with piping hot Misfortune Honey, and they'll welcome their finest end, ZE～!
-絕對無法再爬上來！？\n也就是說，掉下去的話就會死掉嗎！？=Never climb back up!? Meaning, if they fall in, they'll die!?
+絕對無法再爬上來！？\n也就是說，掉下去的話就會死掉嗎！？=Never climb back up!? \nMeaning, if they fall in, they'll die!?
 處·刑！處·刑！=Ex-e-cution! Ex-e-cution!
 各位處刑人，\n我為你們準備了這款特製黏糊糊發射裝置！=Dear executioners, we've prepared this special gooey launcher for you!
 請用這個瞄準{{A}}的腳下，\n發射不幸之蜜吧～！=Aim it at the {{A}}s' feet, and launch the Misfortune Honey～!
-把那裡弄得黏糊糊，讓他們噗通掉下去ZE！=Make it all gooey, and make them go plop into the pool, ZE!
+把那里弄得黏糊糊，讓他們噗通掉下去ZE！=Make it all gooey, and make them go plop into the pool, ZE!
 來吧，諸位處刑人！\n究竟誰能第一個把他們打落進泳池裡呢？=Now, executioners! Who will be the first to knock them into the pool?
 Let's 處刑Time——！=Let's Execution Time-!
 哇～！！=Wow～!!
@@ -19927,36 +19927,38 @@ Let's 處刑Time——！=Let's Execution Time-!
 掉下去可是會死的啊？\n看著那種事情還能樂在其中，簡直不可理喻！=They'll die if they fall in! It's unthinkable that they can enjoy watching something like that!
 好嘞，立刻發射～！=Alright, fire away～!
 掉下去吧掉下去吧～！=Fall in, fall in～!
-糟糕，再這樣下去他們真的會掉下去的！\n必須阻止他們！=Crap, at this rate, they're really gonna fall in! We have to stop them!
+糟糕，再這樣下去他們真的會掉下去的！\n必須阻止他們！=Crap, at this rate, they're really gonna fall in! \nWe gotta stop them!
 請等一下，CLOSER。\n我們目前也是作為「處刑人」在參加節目的。=Please wait, Closer. We're currently participating as "executioners".
-如果在這裡出手阻止，會引起懷疑的。\n這樣一來，說不定會被{{A}}給察覺到……=If we interfere here, it'll raise suspicion. It might even alert {{A}}...
+如果在這裡出手阻止，會引起懷疑的。\n這樣一來，說不定會被{{A}}給察覺到……=If we interfere here, it'll raise suspicion. \nIt might even alert {{A}}...
 啊，為了不引人注目地前進，\n我們也必須表現得像個處刑人一樣才行。=Yes, to proceed without drawing attention, we need to act like executioners.
 雖然的確讓人心生厭惡……但即便認知存在被處刑了，\n按理說應該也不會對現實造成影響。=I know it's disgusting... but even if cognitive beings are executed, it shouldn't affect reality.
+雖然的確讓人作嘔……但即便認知存在被處刑了，\n按理說應該也不會對現實造成影響。=I know it's disgusting... but even if cognitive beings are executed, it shouldn't affect reality.
 話是……這麼說沒錯啦……=That's true, but...
 ……那個，為了保險起見，我再確認一次。\n那些傢伙，真的只是認知存在對吧？=...Just to be safe. Those guys are really just cognitive beings, yeah?
 有沒有可能像那些觀眾一樣，{{A}}和{{B}}自身的陰影其實被帶到這裡來了……不存在這種可能性嗎？=It is possible, like those audience members, {{A}} and {{B}}'s Shadows have been brought here...?
-剛才{{A}}也說過，他們的陰影，\n在改心之時應該已經回到本體內了……=As {{A}} said earlier, their Shadows should have returned to their original bodies upon their change of heart...
+剛才{{A}}也說過，他們的陰影，\n在改心之時應該已經回到本人體內了……=As {{A}} said earlier, their Shadows should have returned to their original bodies upon their change of heart...
 但硬要說的話……如果他們的慾望再次發生扭曲，\n陰影也有可能在{{A}}裡重新產生……=But if I had to say... if their desires were to become distorted again, their Shadows could reappear in {{A}}...
 欸！？那就是說，\n也有可能是本人的陰影……？=Eh!? So it could be their actual Shadows...?
 那不就糟了嗎！如果那真是陰影，\n並且掉進泳池裡死掉了的話……！=That would be terrible! If that's really a Shadow and they die falling into that pool...
-那樣肯定會對現實世界裡他們的精神造成影響。\n最糟的情況，就會像{{A}}那時一樣……=It would affect their mind in the real world. At worst, like {{A}}...
-絕對不能允許那種事情發生！必須救他們！=We can't allow that! We have to save them!
+那樣肯定會對現實世界裡他們的精神造成影響。\n最糟的情況，就會像{{A}}那時一樣……=It would affect their mind in the real world. \nAt worst, like {{A}}...
+絕對不能允許那種事情發生！必須救他們！=We can't allow that! \nWe gotta save them!
 冷靜點，CLOSER。這裡的陰影數量實在太多，\n導致吾也很難準確讀取氣息……=Calm down, Closer. There are too many Shadows here, making it hard for me to sense accurately...
 但那是本人陰影的可能性很低。\n十有八九，那只是認知存在吧。=But it's highly unlikely they're the actual Shadows. They're almost certainly cognitive beings.
 但並不是100%對吧！？=But it's not 100%, right!?
-既然這樣就絕對不能放任不管！\n是吧，隊長！？=If that's the case, we can't just ignore it! Right, Leader?
+既然這樣就絕對不能放任不管！\n是吧，隊長！？=If that's the case, we can't just ignore it! \nRight, Leader?
 救他們吧=Let's save them
 有這個可能就沒辦法了=We have no choice
 有這個可能就沒辦法了。=We have no choice
 嗯，我就知道你會這麼說！=Yeah, I knew you'd say that!
 是呢……就算因此被對方警惕，\n這樣做或許才是正確的。=Yes... even if it puts us on guard, this is probably the right thing to do.
 如果協助{{A}}的行為的話，\n我就沒臉面對姐姐了。=If I were to assist {{A}}'s actions, I wouldn't be able to face Big Sis.
-就這麼決定了。\n那麼，先來阻止那些傢伙吧！=It's decided. First, let's stop those guys!
+就這麼定了。\n那麼，先來阻止那些傢伙吧！=It's decided. \nFirst, let's stop those guys!
 你們是打算妨礙節目嗎？=Are you trying to interfere with the show?
-如果是這樣的話，\n那就請你們離開這個演播廳！=If so, please leave the studio!
+如果是這樣的話，\n那就請你們離開這個攝影棚！=If so, please leave the studio!
 噢噢～！？這裡竟然發生了意想不到的場外亂鬥！\n警衛員和處刑人要BATTLE了YO！=Oh～! An unexpected brawl has broken out here! The guards and executioners are going to BATTLE, YO!
 
 ＷＯＷ！這難道是以妨礙節目為幌子，\n實則利用警衛員達成的超神操作～！=WOW! Was that a super fine play using the guards under the guise of obstructing the show～!
+ＷＯＷ！這難道是以妨礙節目為幌子，\n實則利用警衛達成的超神操作～！=WOW! Was that a super fine play using the guards under the guise of obstructing the show～!
 憑藉出色智謀將{{A}}擊落，\n讓我們為處刑人送上掌聲～～！！=Thanks to their brilliant strategy, {{A}} is taken down! Let's give the executioner a round of applause～～!!
 怎麼會……我們明明不是那個意思的……=No... That's not what we intended...
 那麼～還沒被處刑、目前依然留在場上的{{A}}，\n又會迎來怎樣的結局呢～？=Then～ What awaits {{A}}, who's still on stage and hasn't been executed yet～?
@@ -19964,7 +19966,7 @@ Let's 處刑Time——！=Let's Execution Time-!
 予以退場處分！！=Given a dismissal penalty!!
 噫……=Eek...
 看樣子，無論如何，\n處刑都會被徹底執行到底呢……=It seems no matter what, the execution will be carried out to the end...
-怎、怎麼辦……！\n萬一那個真的是本人的陰影的話……！=Wh-What do we do...! What if that was their actual Shadow...!
+怎、怎麼辦……！\n萬一那個真的是本人的陰影的話……！=Wh-What do we do...! \nWhat if that was their actual Shadow...!
 雖然在回現實世界確認之前無法斷言……\n但吾還是覺得，那應該只是認知存在。=I can't say for sure without checking in the real world... but I still think it's just a cognitive being.
 根據{{B}}的說法，\n{{A}}並沒有再次出現慾望扭曲的跡象。=According to Katayama, there's no sign of {{A}}'s desires distorting again.
 啊，也是哦……之前有聽說過，他正在挨家挨戶\n給那些店鋪賠禮道歉，也進行了賠償。=Ah, that's true... I heard he's been going door-to-door apologizing to the shops he hurt.
@@ -19973,26 +19975,28 @@ Let's 處刑Time——！=Let's Execution Time-!
 我也是一樣的感受，CLOSER……\n這裡簡直是個將「{{A}}」具象化了的世界……=I feel the same way, Closer... this is a world that's like a tangible version of {{A}}...
 {{A}}作為主辦者，\n認為這場殘酷的表演是至高無上的娛樂……={{A}}, as the host, sees this cruel performance as the ultimate entertainment...
 而蜂擁而至的大眾，\n也毫無顧忌地全盤接受，拍手喝采……=And the masses flock to it, accepting it all without question, applauding...
+而蜂擁而至的大眾，\n也毫無顧忌地全盤接受，拍手喝彩……=And the masses flock to it, accepting it all without question, applauding...
 是啊，{{A}}想要實現的，\n正是眼前的這幅光景吧……=Yes, this is the exact scene {{A}} wanted to create...
 這傢伙真是人類……？=Is he even human...?
-這樣的人真能改心嗎……？=<size\=30>Can we even change his heart...?</size>
+這樣的人真能改心嗎……？=<size\=27>Can we even change his heart...?</size>
 ……姐姐，你獨自對抗的，就是這樣的對手嗎。=...Big Sis, this is the kind of opponent you faced alone.
 是啊……因為精神構造差異大到這樣的地步，\n甚至讓人忍不住懷疑能不能真的改心。但是……=Yes... because his mindset is so different, it makes you wonder if a change of heart is even possible. But...
-這樣的傢伙……絕不能輕易原諒！\n必須要阻止他……！=We can't forgive someone like him! We have to stop him...!
+這樣的傢伙……絕不能輕易原諒！\n必須要阻止他……！=We can't forgive someone like him...! \nWe have to stop him...!
 觀眾席的各位，還有樂園裡的諸君，\n大家對這次的處刑還滿意嗎～？=Dear audience, and everyone in Paradise, are you satisfied with the execution this time～?
 那麼，就請盡情期待下一次的處刑時間吧！\nSEE YOU NEXT STAGE！！=Then, please look forward to the next execution time! SEE YOU NEXT STAGE!!
 
 接下來將在「熱情樂園島」進行錄製！\n請各位處刑人多多加油哦！=Next, recording will take place on the "Paradise of Passion"! Please do your best, executioners!
-……意思是說，下一個演播廳裡，\n也在舉行著類似的節目……對吧？=...Meaning, similar shows are being held in the next studio... right?
+……意思是說，下一個攝影棚裡，\n也在舉行著類似的節目……對吧？=...Meaning, similar shows are being held in the next studio... right?
 然後，又有其他的{{A}}會……=And then other {{A}}s will...
 去阻止吧=Let's stop them
 不能坐視不管=We can't just stand by
 是啊，哪怕被處刑的{{A}}只是認知存在……=Yeah, even if the executed {{A}}s are just cognitive beings...
-這檔讓人心生厭惡的節目，我也看著極度不爽！\n我們就把它徹底砸爛吧！=I can't stand this disgustin' either! Let's smash it to pieces!
+這檔讓人作嘔的節目，我也看著極度不爽！\n我們就把它徹底砸爛吧！=I can't stand this disgustin' show either! Let's smash it to pieces!
+這檔讓人作嘔的節目，我也看著極度不爽！\n咱們就把它徹底砸爛吧！=I can't stand this disgustin' show either! Let's smash it to pieces!
 嗯，目標是「熱情樂園島」！=Yes, let's head to the "Paradise of Passion"!
 
 這個會場裡，\n恐怕又要舉辦那種令人不快的節目秀吧……=This venue will probably host another one of those unpleasant shows...
-這次也去搗亂吧=Let's cause trouble again
+這次也去搗亂吧=<size\=30>Let's cause trouble again</size>
 不會讓{{A}}稱心如意=<size\=23>We won't let {{A}} have his way</size>
 是的。無論是{{A}}，還是享受這場秀的觀眾，\n都讓他們見識一下吧。=Yes. Whether it's {{A}} or the audience enjoying the show, we'll show them.
 
@@ -20010,35 +20014,37 @@ Let's 處刑Time——！=Let's Execution Time-!
 把不幸賜給你們……\n更多更多的不幸……！=I'll bestow misfortune upon you... more and more misfortune...!
 它要襲擊過來了！\n大家小心！=It's attacking! Everyone watch out!
 
-真是的，開口閉口不幸不幸……\n就這麼容不得別人幸福嗎？=Seriously, always talking about misfortune... Do they really hate other people's happiness that much?
+真是的，開口閉口不幸不幸……\n就這麼容不得別人幸福嗎？=They're always talkin' 'bout misfortune... Do they really hate other people's happiness that much?
 享受他人的不幸，和{{A}}他人的幸運，\n或許是一體兩面吧。=Enjoying others' misfortune and envying others' good fortune might be two sides of the same coin.
-正因為{{A}}別人的幸福，所以在別人變得不幸時\n才會感到高興嗎……真是令人不快的話題。=Because they envy others' happiness, they rejoice when others become unhappy... what an unpleasant topic.
+正因為{{A}}別人的幸福，所以在別人變得不幸時\n才會感到高興嗎……真是令人不快的話題。=Because they envy others' happiness, they rejoice when others become unhappy... What an unpleasant topic.
 
 是死路……嗎？\n怎麼辦呢？=It's a dead end...? What do we do?
-那邊好像有什麼裝置。\n能不能用那個管理者模式想想辦法？=There seems to be some kind of device over there. \nCan we use admin mode to do somethin'?
+那邊好像有什麼裝置。\n能不能用那個管理者模式想想辦法？=There's kind of device over there. \nCan we use admin mode to do somethin'?
 存取被拒絕。管理權限不足。=Access denied. Insufficient admin privileges.
+訪問被拒絕。管理許可權不足。=Access denied. Insufficient admin privileges.
 看來不行=Looks like we can't
-存取被拒絕了=Access denied
+訪問被拒絕了=Access was denied
 是所謂防火牆的那種東西嗎？\n真麻煩。=Is that a kind of firewall? That's annoying.
 間諜電影裡不是有那種類似駭客攻擊的方式，\n強行突破後存取嗎……=Don't they hack through things like this by force in spy movies...?
-我也看過。那個，我們能不能也試試？\n試一下吧，隊長。=I've seen those too. Can we try something like that? Let's give it a try, Leader.
+間諜電影裡不是有那種類似駭客攻擊的方式，\n強行突破後訪問嗎……=Don't they hack through things like this by force in spy movies...?
+我也看過。那個，我們能不能也試試？\n試一下吧，隊長。=I've seen those too. \nCan we try something like that, Leader?
 
 唔……門被堵住了啊。=Hoom... the door is blocked.
-這個裝置也許能用。\n調查一下吧，WONDER。=Maybe this device can help. Let's investigate, Wonder.
+這個裝置也許能用。\n調查一下吧，WONDER。=Maybe this device can help. \nLet's investigate, Wonder.
 
-又有全息影像啊。=Another hologram.
-展示的是{{A}}……\n不，是{{B}}那邊嗎。=t's showing {{A}}... \nNo, it's from {{B}}'s.
+又有全息影像啊。=It's another hologram.
+展示的是{{A}}……\n不，是{{B}}那邊嗎。=It's showin' {{A}}... \nNo, it's from {{B}}'s.
 穿著那種類似動力裝甲的人，\n就是{{A}}嗎？=The person in that power armor-like suit is {{A}}, right?
 對。他從{{A}}那裡奪取能量，\n轉化成了自己的力量。=Yes. He stole energy from {{A}} and converted it into his own power.
 對。她從{{A}}那裡奪取能量，\n轉化成了自己的力量。=Yes. He stole energy from {{A}} and converted it into his own power.
-也多虧了{{A}}的努力，才成功讓他改心。\n但最後還是被{{B}}……=Thanks to that {{A}}, we managed to change his heart. But in the end, he was...
-……不能讓那樣的事再次發生了。\n所以必須儘快讓{{A}}改心。=...We can't let that happen again. So we need to change {{A}}'s heart as soon as possible.
+也多虧了{{B}}的努力，才成功讓他改心。\n但最後還是被{{A}}……=Thanks to {{B}}, we managed to change his heart. But in the end, he was...
+……不能讓那樣的事再次發生了。\n所以必須儘快讓{{A}}改心。=...We can't let that happen again. That's why we need to change {{A}}'s heart as soon as possible.
 
 各位，歡迎來到水壩主題樂園。\n這裡是巨大的水壩兼發電站。=Welcome, everyone, to the Dam Theme Park. This is a massive dam and power plant.
 這裡展示著以{{C}}聞名的{{A}}，\n{{B}}的功績。=Here we display the past accomplishments of the {{C}}, {{B}}...
-他曾受到{{A}}	的賞識，\n也因此取得了成功……=He was favored by {{A}}, and thus found success...
+他曾受到{{A}}的賞識，\n也因此取得了成功……=He was favored by {{A}}, and thus found success...
 最後卻愚蠢地背叛了{{A}}。\n這種傢伙必須懲罰，對吧。=But in the end, he foolishly betrayed {{A}}. Such a person must be punished.
-那麼，這就是{{A}}所珍視的寶物……\n社長獎獎盃。=Now, this is {{A}}'s most treasured possession... the company award trophy.
+那麼，這就是{{A}}所珍視的{{B}}……\n社長獎獎盃。=Now, this is {{A}}'s most treasured possession... the company award trophy.
 只要收集散落在主題樂園內的\n3個獎盃，就能受邀進入VIP區域！=Collect the three trophies scattered around the theme park, and you'll be invited to the VIP area!
 無論各位是觀眾還是處刑人，\n都請踴躍參加！=Whether you're a spectator or an executioner, please do participate!
 繼{{A}}之後，這次是{{B}}……照這樣看，\n{{C}}的主題樂園應該也在某處吧。=Following {{A}}, now it's {{B}}... At this rate, there's probably a {{C}} theme park somewhere too.
@@ -20051,14 +20057,15 @@ Let's 處刑Time——！=Let's Execution Time-!
 哦。趕緊把３個都找出來吧。=Oh. Let's find all three quickly.
 明明想早點去{{A}}那裡……\n事情總是不盡如人意呢。=We want to get to {{A}} as soon as possible... but things never go smoothly.
 
-哎呀……路沒了。\n怎麼辦？=Oh... it's a dead end. What should we do?
-唔……看。遠處能看到機器人。\n是不是可以利用那個？=Hoom... look. There's a robot in the distance. Can we use that?
-WONDER。試試看能不能用『ECHO』的\n管理員模式操作那個機器人。=Wonder. Try using 'ECHO' admin mode to operate that robot.
-
 喂，那個藍色的東西，不是{{A}}嗎？=Hey, isn't that blue thing a {{A}}?
 嗯。和剛才看到的一樣呢。=Yes. It looks just like the one we saw earlier.
-我記得，{{A}}在電視台的時候\n曾經想要……好像是這麼一回事吧。=I remember {{A}} wanted it when he was at the TV station... something like that.
-雖然有些在意其中有什麼隱情……\n總之我們先去找尋剩下的吧。=I'm curious about the details, but anyway, let's find the rest.
+我記得，{{A}}在電視臺的時候\n曾經想要……好像是這麼一回事吧。=I remember {{A}} wanted it when he was at the TV station... something like that.
+雖然有些在意其中有什麼隱情……\n總之我們先去尋找剩下的吧。=I'm curious about the details... \nAnyway, let's find the rest.
+
+哎呀……路沒了。\n怎麼辦？=Oh... it's a dead end. What should we do?
+唔……看。遠處能看到機器人。\n是不是可以利用那個？=Hoom... look. There's a robot in the distance. Can we use that?
+WONDER。試試看能不能用『ECHO』的\n管理員模式操作那個機器人。=Wonder. Try using "ECHO" admin mode to operate that robot.
+似乎可以使用管理員模式，\n遠端互動操作台。=It seems I can use admin mode to remote control the console.
 
 這個房間是……什麼房間呢？=What room is this...?
 看起來像研究室之類的地方。=It looks like a research lab.
@@ -20067,55 +20074,56 @@ WONDER。試試看能不能用『ECHO』的\n管理員模式操作那個機器�
 好耶！\n這樣{{A}}就全都收集齊了。=Alright! We've collected all the {{A}}s.
 目的已經達成了……\n要回電梯大廳嗎？=We've achieved our goal... \nShould we head back to the elevator hall?
 再探索一下=Let's explore more
+再探索一會兒=Let's explore more
 
 ----------
 Execution Studio 2
 ----------
-看來我們到了呢，這裡就是錄製演播廳……=Looks like we've arrived. This is the recording studio...
-這裡的觀眾數量也很誇張啊。\n看來大家都在等著{{A}}被處刑呢。=The audience here is just as overwhelming. They're all waiting for the{{A}}s to be executed.
-等{{A}}的處刑等得迫不及待了吧～？\n讓大家久等了呢NE～！=Can't wait for the {{A}} execution, can you～? Sorry to keep you waiting, NE～!
+看來我們到了呢，這裡就是錄製攝影棚……=Looks like we've arrived. \nThis is the recording studio...
+這裡的觀眾數量也很誇張啊。\n看來大家都在等著{{A}}被處刑呢。=The audience here is just as overwhelming. They're all waiting for the {{A}}s to be executed.
+等{{A}}的處刑等得迫不及待了吧～？\n讓大家久等了呢NE～！=Can't wait for the {{A}} execution, can you～? Sorry to keep y'all waiting, NE～!
 「{{A}}·斷罪·SHOW」\n第２關，正式開～始～YO～！="{{A}}·Conviction·SHOW" Stage 2, is officially starting, YO～!
 那麼，在這個舞臺上被處刑的、\n享有此等殊榮的{{A}}是～？=Now then, the {{A}}s who has the honor of being executed on this stage are～?
-屢次進行造謠捏造的黑心諮詢顧問，\n{{A}}——京————！=The repeatedly slanderous and fabricated consultant, {{A}}- Kei-!
+屢次進行造謠捏造的黑心諮詢顧問，\n{{A}}——京————！=The repeatedly slanderous and fabricated consultant, Kei- {{A}}-!
 擁有「{{B}}」與「{{C}}Ｋ」\n這２個外號的{{A}}……=The {{A}} known by two aliases, "{{B}}" and "{{C}} K"...
-{{A}}～{{B}}～！！={{A}}～{{B}}～!!
-{{A}}……怎麼會這樣……！={{A}}... how could this...!
+{{A}}～{{B}}～！！={{B}}～ {{A}}～!!
+{{A}}……怎麼會這樣……！={{A}}... How could this...!
 可惡……！在現實裡差點害死了{{A}}，\n居然還要在{{B}}繼續羞辱她嗎！？=Damn it...! He almost killed {{A}} in reality, and now he's humiliatin' her in the {{B}}!?
 別攔我，LUCE！=Outta the way, Luce!
 我知道你快氣炸了，\n但１個人衝出去也太魯莽了吧。=I know you're furious, but rushing in alone is reckless.
 想救人的話就先冷靜下來，SOY。=If you want to save them, calm down first, Soy.
 切……=Tch...
-那麼我來說明一下他們的罪狀YO！\n首先是～……{{A}}！=Now then, let me explain their crimes, YO! First is～ {{A}}!
-她是一個只要壓力值爆表MAX，\n就會騎著腳踏車到處暴走的人YO！=She's a person who goes on a cycling rampage whenever her stress maxes out, YO!
+那麼我來說明一下他們的罪狀YO！\n首先是～……{{A}}！=Now then, let me explain their crimes, YO! \nFirst is～ {{A}}!
+她是一個只要壓力值爆表MAX，\n就會騎著自行車到處暴走的人YO！=She's a person who goes on a cycling rampage whenever her stress maxes out, YO!
 雖然她曾是……我出於某種原因，\n一直重點關注的某所學校裡的{{A}}……=Although she was a teacher at a school I've been keeping an eye on for a reason...
-但她最開始，還只是靠長距離騎腳踏車來緩解壓力、\n以此強行忍耐的NE～=At first, she just relieved stress by cycling long distances, barely holding on, NE～
+但她最開始，還只是靠長距離騎自行車來緩解壓力、\n以此強行忍耐的NE～=At first, she just relieved stress by cycling long distances, barely holding on, NE～
 但是，就在她的理智稍微斷掉的瞬間……=But the moment her sanity snapped just a little...
-居然演變成直接騎著腳踏車衝進電車車廂裡的程度！\n簡直不可理～喻！=She actually cycled straight into a train car! \nThat's just unbelieve～able!
-讓她失控的，不就是你這傢伙嗎……！=It was you who made her lose control, wasn't it...!
+居然演變成直接騎著自行車衝進電車車廂裡的程度！\n簡直不可理～喻！=She actually cycled straight into a train car! \nThat's just unbelieve～able!
+讓她失控的，不就是你這傢伙嗎……！=You're the scumbag that made her lose control...!
 然後，下一位是{{A}}！=Next up is {{A}}!
 他呀……曾是我非常可愛的一位{{A}}NE～……=He was... a very cute junior of mine, NE～
 果然……{{B}}和{{A}}，\n在丸得電視臺時代就有聯繫啊……=I knew it... {{B}} and {{A}} had a connection back in their Marutoku TV station days...
 那個男人，曾經理解我的信念，\n也理解我所追求的娛樂的精髓……=That man once understood my beliefs, and the essence of the entertainment I pursue...
-如果可以，真想一直……\n和他一起炒熱演藝圈啊，{{A}}……=If possible, I wish I could have kept... heating up the entertainment world with him, {{A}}...
+如果可以，真想一直……\n和他一起炒熱娛樂圈啊，{{A}}……=If possible, I wish I could have kept... livening up the entertainment world with him, {{A}}...
 說起來，在{{A}}裡，\n我們曾經看到過{{B}}過去的記憶對吧？=That's right, in {{A}}, we saw memories of his past, right?
 {{A}}……你是有才華的。\n正因為如此，才會被別人當作「餌食」盯上。={{A}}... you had real talent. And that's why you were destined to be prey.
 明明……有才華……\n因為我有才華會做事……才會被迫害嗎……？=You mean, even though I had... No... It's because I had talent that they did this to me?
-嫩芽被掐，有識之士遭打壓，才華就會消失。\n你是被那些只求自保的人們捕食了。=Intuition, expertise, fresh meat... When the powerful seeking to maintain their dominance look at you, they see the sweetest kill.
-是吃人還是被人吃……\n你，要選哪一邊？=So, eat or be eaten...? \nWhich side do you\nchoose?
+嫩芽被掐，有識之士遭打壓，才華就會消失。\n你是被那些只求自保的人們捕食了。=<size\=30>Intuition, expertise, fresh meat... When the powerful seeking to maintain their dominance look at you, they see the sweetest kill.</size>
+是吃人還是被人吃……\n你，要選哪一邊？=So, eat or be eaten...? \nWhich side do you choose?
 我……我要……=I... I...
 一直以來……以帶給人們快樂為目標的{{A}}，\n發生扭曲的契機……={{A}}, who had always aimed to bring joy to people, had his turning point...
-誘導他走向去壓榨、以他人為食那一邊的，\n那個聲音的主人其實是……=The one who led him down the path of exploiting and preying on others was...
+誘導他走向去壓榨、以他人為食那一邊的，\n那個聲音的{{A}}其實是……=The one who led him down the path of exploiting and preying on others was...
 嗯，現在回想起來，那個人正是{{A}}啊……！=Hoom, looking back now, that person was {{A}}...!
 是{{B}}……是{{A}}扭曲了{{C}}的慾望，\n在此之後還一直把他當成手下在使喚吧。=It was {{B}}... it was {{A}} who twisted {{C}}'s desires, and then kept using him as a pawn.
 {{A}}也是受害者={{A}}'s a victim too
 把人當作棋子一樣利用……=Using people like pawns...
 但是呢……{{A}}終究沒能成為主角呢～……=But... in the end, {{A}} never became a main character, did he～
-畢竟，你原本就是個{{A}}NE！\n連我都差點被你給騙了YO！=After all, you were always a {{A}}, NE! You even had me fooled, YO!
+畢竟，你原本就是個{{A}}NE！\n連我都差點被你給騙了YO！=After all, you were always a {{A}}, NE! \nYou even had me fooled, YO!
 壞傢伙如果不進行公式認定的話可不行呢NE～……\n哪怕是我可愛的{{A}}也一樣！=A bad guy can't go without condemnation, NE～ Even if it's my cute junior!
 哪怕想去自首也是絕對不行的哦！=Even if you want to turn yourself in, absolutely not!
 既然做了壞事，就必須好好地……\n用生命去償還，知道了嗎NE！=If you've done wrong, you must properly... pay with your life, got it, NE!
 他嘴上說得好像自己完全不知道\n{{A}}犯下的惡行一樣……=He's talking as if he had no idea about {{A}}'s crimes...
-是的，這不過是他表面上的託詞。\n實際上{{A}}是在利用{{B}}啊。=Yes, it's just a pretext on the surface. In reality, {{A}} was using {{B}}.
+是的，這不過是他表面上的托詞。\n實際上{{A}}是在利用{{B}}啊。=Yes, it's just a pretext on the surface. \nIn reality, {{A}} was using {{B}}.
 但是……中途卻把他當成棄子丟掉了。=But... he discarded him halfway.
 而且，在完成了公式認定之後，\n還讓他的陰影陷入了暴走。=And after the condemnation, he made his Shadow go berserk.
 好殘酷……=That's cruel...
@@ -20128,28 +20136,29 @@ Execution Studio 2
 是「心跳氣球恐慌」YO～！=It's "Heart-Pounding Balloon Panic", YO～!
 心跳氣球恐慌……\n這次也是光聽名字感覺很平和的樣子，不過……=Heart-Pounding Balloon Panic... this time, the name sounds kind too, but...
 看起來確實很像在綜藝節目裡\n經常能看到的舞臺布景呢……=It does look like the kind of stage set you'd see on variety shows...
+看起來確實很像在綜藝節目裡\n經常能看到的舞臺佈景呢……=It does look like the kind of stage set you'd see on variety shows...
 氣球會一點點地被注入空氣膨脹起來，\n直到砰地發出巨大的爆裂聲響……=The balloons will be gradually inflated with air until they burst with a loud bang...
 各位處刑人，接下來就需要你們用氣泵，\n把氣球不斷地吹大YO！=Now, executioners, your job is to use the air pumps to keep inflating the balloons, YO!
-誰都無法預料它會在哪個時候破裂……！\n這可真是讓人心驚肉跳NE！=No one knows when they'll burst...! It's quite thrilling, NE!
+誰都無法預料它會在什麼時候破裂……！\n這可真是讓人驚心動魄NE！=No one knows when they'll burst...! \nIt's quite thrilling, NE!
 那麼，諸位處刑人！\nLet's 處刑Time——！=Now then, executioners! \nLet's Execution Time-!
 呀哈哈——！要把毒氣瘋狂輸送進去！\n死吧，{{A}}們——！=Hahaha-! We'll pump in poison gas! \nDie, {{A}}s-!
 毒氣……果然不出所料！=Poison gas... I knew it!
 在這檔惡趣味至極的節目裡，\n那怎麼可能只是一個普通的大氣球呢！=In this disgusting show, there's no way it'd be a regular balloon!
 既然這樣，那個東西破裂的話，\n{{B}}和{{A}}就會……！=If that thing bursts, {{B}} and {{A}} will...!
 不管是不是認知存在，眼睜睜看著{{A}}被殺掉，\n這簡直是開玩笑！=I don't care if it's a cognitive bein' or not, watchin' {{A}} get killed is just ridiculous!
-明明到現在，{{A}}還在醫院裡拚命抗爭著啊……！\n這種事怎麼可能原諒！=Even now, {{A}}'s in the hospital fightin' for her life! How can we forgive this!?
+明明到現在，{{A}}還在醫院裡拼命抗爭著啊……！\n這種事怎麼可能原諒！=Even now, {{A}}'s in the hospital fightin' for her life! How can we forgive this!?
 只能阻止了=We have to stop it
 摧毀這個節目=Let's break this show
-嗯！讓我們把那個裝置給砸爛，\n把{{A}}他們救出來！=Yeah! Let's smash that device and save them!
-就該這麼辦！\n破壞裝置，把{{A}}他們救出來！=That's it! Let's smash that device and save them!
+嗯！讓我們把那個裝置給砸爛，\n把{{A}}他們救出來！=Yeah! \nLet's smash that device and save them!
+就該這麼辦！\n破壞裝置，把{{A}}他們救出來！=That's it! \nLet's smash that device and save them!
 嘖，相當堅硬呢！=Tch, it's pretty sturdy!
 那就我來！\n得小心別傷到{{A}}和氣球……！=Then I'll do it! Gotta be careful not to hurt {{A}} and the balloon...!
 喂，你們幾個！=Hey, you!
 從剛才起就一直在那礙什麼事啊！\n這可是難得的處刑時間！=You've been gettin' in the way! \nThis is the rare execution time!
-噢！你們難道是想要保護{{A}}嗎？\n那群傢伙可是死有餘辜的極惡之人啊！？=Oh! Are you tryin' to protect the {{A}}s? \nThose heinous scums are deservin' of death!
+噢！你們難道是想要保護{{A}}嗎？\n那群傢伙可是死有餘辜的極惡之人啊！？=Oh! Are you tryin' to protect the {{A}}s? \nThose heinous scums deserve to die!
 少在那自說自話……！=Stop talking nonsense...!
 啊啊，沒錯！\n{{A}}根本就不是什麼惡人！=Ah, exactly! \n{{A}} isn't a villain at all!
-哦～？這裡發生了意外情況！\n居然出現了庇護{{A}}的處刑人YO！=Oh～? An unexpected situation here! Executioners protecting {{A}}s have appeared, YO!
+哦～？這裡發生了意外情況！\n居然出現了庇護{{A}}的處刑人YO！=Oh～? What's happening? Executioners protecting {{A}}s have appeared, YO!
 你們幾位，難道打算抵制這場處刑嗎～？=Are you all trying to oppose this execution～?
 那是當然的！\n哪怕這個{{A}}只是認知存在也一樣！=Of course we are! Even if this {{A}} is just a cognitive bein'!
 在現實裡遭遇了那種事，\n到了{{A}}還要被搞什麼莫名其妙的處刑秀？=She went through that in reality, and now she's subjected to some ridiculous execution show in the {{A}}?
@@ -20157,11 +20166,11 @@ Execution Studio 2
 啊哈哈～！其他的處刑人們怎麼看啊～？\n要跟著他們，取消這場處刑嗎～？=Ahaha～! What do the other executioners think～? Will you follow them and cancel this execution～?
 怎麼可能啊，\n這種好玩的事怎麼能停下來！=No way, why would we stop somethin' this fun!
 我們聚在這裡，\n就是為了把這些{{A}}給趕盡殺絕啊！=We're gathered here to wipe these {{A}}s out!
-OK！既然如此，\n{{A}}與{{B}}究竟是該死還是該活……=OK! In that case, whether {{A}} and {{B}} Kei live or die...
+OK！既然如此，\n{{A}}與{{B}}究竟是該死還是該活……=OK! In that case, whether {{A}} and {{B}} live or die...
 戰鬥秀正式開始了YO！=The battle show officially begins, YO!
 你們這群傢伙，都是某個人類的陰影對吧？\n那我就留你們半條命！=You guys are all Shadows of some human, right? Then I'll go easy on you!
 
-竟然～！這可真是一個令人大吃一驚的結局DA！\n抵制組居然贏了YO！=Unbelievable～! What a surprising ending, DA! The protest group actually won, YO!
+竟然～！這可真是個令人大吃一驚的結局DA！\n抵制組居然贏了YO！=Unbelievable～! What a surprising ending, DA! \nThe boycott group actually won, YO!
 您沒事吧，{{A}}！=Are you okay, {{A}}?
 你……們……=You... all...
 啊啊……！=Ahhh...!
@@ -20177,8 +20186,8 @@ OK！既然如此，\n{{A}}與{{B}}究竟是該死還是該活……=OK! In that
 啊哈～，非常感謝諸位用這幕有趣的突發狀況，\n讓節目變得更加高潮迭起！=Aha～ Thank you all for making the show even more exciting with this interesting twist!
 我也很期待你們在下一次處刑中的精彩表現YO！\nSEE YOU NEXT STAGE！！=I look forward to seeing your performance in the next execution too, YO! SEE YOU NEXT STAGE!!
 拍攝結束～！\n請各位嘉賓去到下一個舞臺！=That's a wrap～! \nPlease proceed to the next stage!
-那個混蛋……少躲在螢幕後面神氣活現的，\n有種就到這邊來啊！=That bastard... stop actin' so high and mighty from behind the monitor and come over here!
-真想把他那張得意忘形的臉給揍個稀巴爛啊！=I really wanna smash that smug face of his!
+那個混蛋……少躲在螢幕後面囂張，\n有種就到這邊來啊！=That bastard... stop actin' so high and mighty from behind the monitor and come over here!
+真想把他那張得意忘形的臉給揍個稀巴爛啊！=I really wanna smash that smug face in!
 只要繼續深入到這個{{A}}的中樞，\n就能直接見到那傢伙的陰影了吧。=If we keep pushing deeper into the center of this {{A}}, we'll be able to directly face his Shadow.
 就等到那時候揍扁他吧。\n走吧，SOY。=We'll beat him to a pulp then. \nLet's go, Soy.
 
@@ -20188,23 +20197,23 @@ OK！既然如此，\n{{A}}與{{B}}究竟是該死還是該活……=OK! In that
 又有新的處刑候補，\n{{A}}也會高興吧……呵呵呵……=A new execution candidate, {{A}} will be pleased... Hehehe...
 ……剛才的話，你聽到了嗎？=...Did you hear that?
 是的。看來{{B}}裡陰影的思維方式，\n也和{{A}}很像呢。=Yes. It seems the Shadows in the {{B}} think a lot like {{A}}.
-剛才有人說話……是誰在那裡！？=Someone spoke... Who's there!?
+剛才有聲音……是誰在那裡！？=I just heard a noise... Who's there!?
 嘖……既然被聽見了，\n可不能這樣放著不管。=Tch... since we've been heard, we can't just leave them be.
 就讓你們在這裡消失吧！=You'll disappear!
 
 樂園Online……？\n這就是剛才那個陰影說的網站吧。=Paradise Online...? That's the site that Shadow mentioned earlier.
-管理面板……權限等級……難道說，\n這就是網站的管理介面嗎？=Admin panel... permission levels... could this be the website's management interface?
+管理面板……許可權等級……難道說，\n這就是網站的管理介面嗎？=Admin panel... permission levels... could this be the website's management interface?
 從顯示出來的畫面來看……看來是\n在操控話題的關注度。=From what's displayed... it seems they're manipulating topic visibility.
 被操控的話題就是這個嗎？\n被處刑的人有那麼壞嗎……之類的。=So this is the topic being manipulated? Things like "Are the executed really that bad?"...
 降低了批判{{A}}的話題的關注度，\n也就是說在引導輿論嗎……=They're lowering the visibility of topics critical of {{A}}, meaning they're guiding public opinion..
-和主人一樣，看來很喜歡\n在背地裡偷偷摸摸呢。=Just like their ruler, they seem to like working behind the scenes.
-居然幹這種骯髒事……\n既然對方這麼來，那我們也反擊回去吧！=Doin' such dirty work... Since he's not playin' fair, let's fight back!
+和{{A}}一樣，看來很喜歡\n在背地裡偷偷摸摸呢。=Just like their ruler, they seem to like working behind the scenes.
+居然幹這種骯髒事……\n既然對方這麼來，那我們也反擊回去吧！=Doin' such dirty work... \nSince he's not playin' fair, let's fight back!
 反擊回去……也就是反過來提高\n批判{{A}}的話題的關注度？=Fight back... meaning, increase the visibility of topics critical of {{A}}?
 那樣的話，不就等於站在和對方\n同樣的立場上了嗎……？=If we do that, wouldn't we be standing on the same ground as him...?
 確實如此……但如果就這樣放任不管，\n大眾會越來越被{{A}}按其意圖煽動……=That's true... but if we leave it alone, the public will be increasingly manipulated by {{A}}...
 這裡的都是現實中人類的陰影，\n所以他們的想法也會影響本人嗎？=These are human Shadows, so their thoughts influence their real self, right?
 正是如此。既然這樣，改變樂園中\n陰影們的想法或許是有益的。=Exactly. So changing the minds of the Shadows here might be beneficial.
-確實有一定道理……要怎麼辦，隊長？=That makes some sense... What do you think, Leader?
+確實有一定道理……要怎麼辦，隊長？=That makes some sense... \nWhat do you think, Leader?
 雖然不太情願，但試試看吧。=I'm reluctant, but let's try
 這也是為了阻止{{A}}=This is to stop {{A}}
 嗯。總之先打開管理介面看看吧，WONDER。=Hoom. Anyway, let's open the management panel, Wonder.
@@ -20214,7 +20223,8 @@ OK！既然如此，\n{{A}}與{{B}}究竟是該死還是該活……=OK! In that
 但先提高這條話題的關注度，\n確認一下陰影們的反應吧。=Let's increase the visibility of this topic and see how the Shadows react.
 啊！\n『拉麵Amigo』的粉絲稍微增加了！=Ah! The number of fans for "Ramen Amigos" has increased!
 嗯……和預想的一樣。應該是一部分\n對處刑秀不滿的陰影支持了我們。=Hoom... as expected. Some Shadows dissatisfied with the execution show probably supported us.
-是容易被他人意見左右嗎……\n還是說他們心中也還殘留著良心……=Are they easily swayed by others' opinions... or do they still have some conscience left...
+嗯……和預想的一樣。應該是一部分\n對處刑秀不滿的陰影支援了我們。=Hoom... as expected. Some Shadows dissatisfied with the execution show probably supported us.
+是容易被他人意見左右嗎……\n還是說他們心中也還殘留著良心……=Are they easily swayed by others' opinions... \nor do they still have some conscience left...
 不管怎樣，為了攻略{{A}}，\n這種做法是有效的。=Anyway, this method is effective for clearing the Palace.
 雖然不是值得稱讚的做法……但也需要有所取捨。\n如果發現終端，就好好加以利用吧。=It's not exactly praiseworthy... but we have to make some compromises. If you find a terminal, make good use of it.
 
@@ -20224,10 +20234,13 @@ OK！既然如此，\n{{A}}與{{B}}究竟是該死還是該活……=OK! In that
 咦？\n管理員等級好像提高了？=Huh? The admin level seems to have gone up?
 終端本身似乎和之前的沒有變化，\n要說發生變化的東西……=The terminal itself doesn't seem different from before. If something has changed...
 也許是根據使用者的粉絲數量\n來判定權限等級。=Perhaps the permission level is determined by the user's fan count.
+也許是根據使用者的粉絲數量\n來判定許可權等級。=Perhaps the permission level is determined by the user's fan count.
 等級提升後，似乎能操控\n更多評論了。馬上試試看吧。=With a higher level, you seem to be able to manipulate more comments. Let's try it now.
 
 喂，這個……支持{{A}}的\n話題人氣好像非常高……=Hey... The topic supporting {{A}} seems to have very high popularity...
+喂，這個……支援{{A}}的\n話題人氣好像非常高……=Hey... The topic supporting {{A}} seems to have very high popularity...
 怎麼看都是網軍呢。都不打算藏到這個程度，\n反而讓人覺得很清爽。=It looks like bots and they're not even trying to hide it, that's almost refreshing.
+怎麼看都是水軍呢。都不打算藏到這個程度，\n反而讓人覺得很清爽。=It looks like bots and they're not even trying to hide it, that's almost refreshing.
 居然耍這種小手段……\n這種東西趕緊刪掉吧！=Playin' such petty tricks... let's delete this!
 說得對。\n總之先把這條話題廢棄吧。=Right. Anyway, let's discard this topic.
 
@@ -20235,8 +20248,13 @@ OK！既然如此，\n{{A}}與{{B}}究竟是該死還是該活……=OK! In that
 管理得真徹底呢……\n有必要做到這種程度嗎？=They manage it so thoroughly... \nDo they need to go this far?
 他們大概是害怕引發討論吧。\n總之先提高這條話題的關注度。=They're probably afraid of sparking debate. Anyway, let's increase the visibility of this topic.
 
+官方突然發佈聲明……\n看來他們注意到我們的行動了。=A sudden official statement... \nIt seems they've taken notice of our actions.
+他們也許會限制我們的管理許可權……\n趁現在先把這條話題廢棄吧。=They might restrict our admin privileges...\nLet's discard that topic now.
+啊，快看！這次出現了質疑{{A}}認定……\n之類的話題！=Ah, look! This time there's a topic questioning the condemned {{A}}... or something like that!
+如果放著不管，關注度很快就會被降低……\n在那之前先提高關注度吧。=If we ignore it, its interest will quickly fade... \nLet's boost it before that happens.
+
 現實中的樣子我是知道的……\n但還是第一次見到陰影的樣子。=I know what she's like in reality... but this is my first time seeing her Shadow.
-嗯，該說很有她的風格嗎……\n倒也沒什麼意外的感覺。=Hmm, I guess it's very much her style... \nit's not that surprising.
+嗯，該說很有她的風格嗎……\n倒也沒什麼意外的感覺。=Hmm, I guess it's very much her style... \nIt's not that surprising.
 在{{A}}裡也和現實中一樣，\n完全是一副女王大人的派頭。=Like in reality, in the {{A}}, she acted like a queen.
 直到最後的最後都那麼{{A}}，\n甚至毀掉了自己的{{B}}……=Being prideful until the very end, even destroying her own {{B}}...
 ……算了，不說這個了。繼續前進吧。=...Whatever, let's drop it and move on.
@@ -20245,7 +20263,7 @@ OK！既然如此，\n{{A}}與{{B}}究竟是該死還是該活……=OK! In that
 內裝還真是相當華麗呢……\n該說這也很適合她嗎……=The interior is quite lavish... I guess it suits her...
 還真是好懂啊……=She's so easy to read...
 話說……這次沒有導遊嗎？=Speaking of... there's no guide this time?
-確實。\n之前總是會馬上來搭話……=That's true. They usually come to talk to us right away...
+確實。\n之前總是會馬上來搭話……=That's true. \nThey usually come to talk to us right away...
 喂，看那裡。那邊有張告示。=Hey, look over there. There's a notice.
 呃……非常抱歉，\n導遊因急事暫時不在。=Um... We apologize, but the guide is temporarily away due to urgent matters.
 不過活動仍在舉辦中。集齊3個錄音筆，\n就能獲得入場券……上面是這麼寫的。=However, the event is still ongoing. Collect three voice recorders to get an entry ticket... That's what it says.
@@ -20262,35 +20280,35 @@ OK！既然如此，\n{{A}}與{{B}}究竟是該死還是該活……=OK! In that
 Execution Studio 3
 ----------
 Ladies and Gentlemen！\n讓大家久等了呢NE！處刑人們已抵達現場YO！=Ladies and Gentlemen! Sorry to keep you waiting, NE! The executioners have arrived, YO!
-又來這老一套，真讓人生氣。=Here we go again, it's pissin' me off.
-{{A}}、{{B}}……{{C}}、{{D}}……\n照這個趨勢來看，難道接下來是……={{A}}, {{B}}... {{C}}, {{D}}... At this rate, maybe next is...
+又來這老一套，真讓人火大。=Here we go again, it's pissin' me off.
+{{A}}、{{B}}……{{C}}、{{D}}……\n照這個趨勢來看，難道接下來是……={{A}}, {{B}}... {{C}}, {{D}}... \nAt this rate, maybe next is...
 好啦，事不宜遲，\n下面為大家介紹即將被制裁的{{A}}們！=Alright, without further ado, let me introduce the {{A}}s about to be punished!
-演藝圈的幕後女帝，{{A}}——{{B}}————！！=The behind-the-scenes empress of entertainment, {{A}}- {{B}}-!!
+娛樂圈的幕後女帝，{{A}}——{{B}}————！！=The behind-the-scenes empress of entertainment, {{B}}- {{A}}-!!
 果然……是{{A}}！=As expected... it's {{A}}!
 然後～！=And～!
-自我滿足的誹謗中傷漫畫家·{{C}}……\n{{A}}——{{B}}————！=The self-indulgent slanderous manga artist {{C}}... {{A}}- {{B}}-!
+自我滿足的誹謗中傷漫畫家·{{C}}……\n{{A}}——{{B}}————！=The self-indulgent slanderous manga artist {{C}}... {{B}}- {{A}}-!
 是我……！=It's me...!
 雖然心中隱約做好了準備……\n但擅自讓我的認知存在出演，還真是讓人噁心呢。=I had a feeling it might happen... but having my cognitive being used without permission is disgusting.
 這可是最惡劣的肖像權侵犯啊，{{A}}……！=This is the worst violation of portrait rights, {{A}}...!
 那麼現在就來逐一宣讀這２人的罪狀YO！=Now then, let me read out the crimes of these two, YO!
 {{A}}可是一個超級有趣的女孩子NE！\n我跟她啊，從丸得電視臺時代就有交情了！={{A}} is a super interesting girl, NE! She and I go way back to our Marutoku TV station days!
 有時我會把一些人介紹給她，\n有時她也會把一些人介紹給我。=Sometimes I'd introduce people to her, sometimes she'd introduce people to me.
-彼此之間互利共贏……\n我們之前一直維持著這麼好的關係NE～=We had a mutually beneficial relationship... we maintained a good relationship, NE～
+彼此之間互利共贏……\n我們之前一直維持著這麼好的關係NE～=We had a mutually beneficial relationship... \nwe maintained a good relationship, NE～
 說起介紹……回想之前發生的各種事，\n實在不覺得他們只是單純的工作關係。=Speaking of introductions... thinking back on various events, I really don't think it was just a working relationship.
 是啊。說不定是在互相提供可以抓住把柄的對象，\n或是在危急時刻能隨意拋棄利用的棋子……=Yes. Maybe they were exchanging people they could get leverage on, or pawns they could discard in a crisis...
 真是絕配的人渣組合……=A perfect match of trash...
 是惡人會想出來的事=<size\=18>Exactly what villains would come up with</size>
-我和她都是為了在媒體界掌握話語權，\n從年輕時就一路奮鬥過來的同伴。可是……=We were comrades who fought together from a young age to gain influence in the media world. But...
+我和她都是為了在媒體界掌握話語權，\n從年輕時就一路奮鬥過來的同伴。可是……=We were comrades who fought together from a young age to gain influence in media. But...
 她卻把那股力量用在了滿足私利私慾上……=She used that power for personal gain and selfish desires...
 你這傢伙不也一樣嗎！\n你和{{A}}根本就是一路人！=You're the same! You and {{A}} are cut from the same cloth!
 才不一樣YO！我之所以行使這份「力量」，\n完全是為了將最頂級的娛樂奉獻給這個世界！=No, YO! The reason I wield this "power" is solely to bring the ultimate entertainment to the world!
-帶給大眾以笑容！賜予惡人以斷罪！\n……像這樣NE！=Bring smiles to the masses! Deliver judgment to the villains! ...Like this, NE!
+帶給大眾以笑容！賜予惡人以斷罪！\n……像這樣NE！=Bring smiles to the masses! \nDeliver judgment to the villains! ...Like this, NE!
 然後另一位……{{A}}！=And the other one... {{A}}!
 她是一個企圖貶低我們所期待的英雄的、\n最惡劣的{{A}}！=She is the worst kind of {{A}} who tried to defame the hero we all look up to!
 {{B}}之類的簡直最差勁了。\n不過是蹭{{A}}的人氣而已，真是噁心。=Things like the {{B}} are the worst. They're just riding on the coattails of {{A}}'s popularity, it's disgusting.
 怪盜這種東西，也就在漫畫世界裡才存在吧。\n把這種設定帶進現實，難道不覺得丟人嗎～=Phantom Thieves only exist in manga. Isn't it embarrassing to bring that setting into reality～
 請把創意費如實支付給{{A}}，我是認真的。\n不然就給我跪下磕頭認錯。=Please pay the creative fee to {{A}}. I'm serious. Or else get down on your knees and apologize.
-哇……那傢伙頂著{{A}}的臉，嘴巴還真髒啊，=Wow... wearing {{A}}'s face, that thing sure has a foul mouth.
+哇……那傢伙頂著{{A}}的臉，嘴巴還真髒啊，=Wow... Wearing {{A}}'s face, that thing sure has a foul mouth.
 剛才那段話的內容，和{{A}}之前發佈的\n某個匿名論壇截圖完全一致。=That content just now matches exactly with an anonymous forum screenshot that was posted on {{A}}.
 完全就是把那些偽造成由我發出、用來抹黑{{A}}的\n網路誹謗，給原封不動搬過來了。=They've just copied the online defamation that was fabricated to look like it came from me to slander the {{A}}.
 所以這是{{A}}的認知嗎=So this is {{A}}'s cognition
@@ -20300,9 +20318,9 @@ Ladies and Gentlemen！\n讓大家久等了呢NE！處刑人們已抵達現場YO
 把網暴他人的行為誤認為是正確的事，\n你們是不是徹底麻木陶醉在這種暴力中了？=Mistaking online harassment for righteousness, are you all numb and intoxicated by that violence?
 難道不是想把比自己地位高的人拉下來，\n才擅自把他們定性為惡人嗎？=Aren't you arbitrarily labeling people as villains just to bring down those above you?
 難道不是為了製造可以俯視的對象，隨意折磨\n他們，才極力想去相信，他們就是惡人嗎？=Aren't you desperately trying to believe they're villains so you can have someone to look down on and torment?
-請清醒過來吧。\n你們所做的不過是私刑。=Please wake up. What you're doing is vigilantism.
+請清醒過來吧。\n你們所做的不過是私刑。=Please wake up. \nWhat you're doing is vigilantism.
 {{A}}，還有它的那些讀者……\n根本就不是什麼正義的執行者！={{A}}, and its readers... are not executors of justice!
-剛才{{A}}說的那句話……=What {{A}} just said...
+剛才{{A}}說的那些話……=What {{A}} just said...
 是姐姐的……！=It was Big Sis's...!
 沒錯，她對我們的{{A}}，\n還懷有私人的怨恨NE～！=That's right, she still holds a personal grudge against our {{A}}, NE～!
 她可是初代{{A}}「{{B}}」的親妹妹，\n真是讓人大吃一驚呢NE！=She's the little sister of the first {{A}} "{{B}}"! What a surprise, NE!
@@ -20312,13 +20330,13 @@ Ladies and Gentlemen！\n讓大家久等了呢NE！處刑人們已抵達現場YO
 唯獨侮辱我姐姐的話……絕不原諒！=I will never forgive insults to Big Sis!
 嗚哇……=Whoa...
 對不起，隊長。\n我剛才沒能保持冷靜。=I'm sorry, Leader. \nI lost my composure.
-不過無論如何，我都會想辦法闖進主演播室……=But either way, I will find a way to get into the main studio...
+不過無論如何，我都會想辦法闖進主攝影棚……=But either way, I will find a way to get into the main studio...
 請允許我砸爛這場鬧劇。=Please let me smash this farce.
 我也是同樣的心情=I feel the same
 按照你想做的去做吧=Do what you want
 都已經直接動手了……=You've already started...
 我就知道你會這麼說的，隊長。=I knew you'd say that, Leader.
-說得也是，對不起哦。=Right, sorry about that.
+說的也是，對不起哦。=Right, sorry about that.
 既然事已至此，大家都在同一條船上，\n就請陪我一起大鬧一場吧。=Since we're all in the same boat, let's do this together.
 竟然敢破壞顯示器，\n你們幾個就是{{A}}吧！？=You dared to destroy the monitor, you all are {{A}}s, aren't you!?
 判斷為干擾節目行為，將予以驅逐！\n從這個島上滾出去！=This is judged as interference with the show, you'll be expelled! Get out of this island!
@@ -20328,22 +20346,21 @@ Ladies and Gentlemen！\n讓大家久等了呢NE！處刑人們已抵達現場YO
 {{A}}和{{B}}的認知存在……！={{A}} and {{B}}'s cognitive beings...!
 我非常歡迎你們YO！\n因為大家可都在期盼著你們的精彩表現NE！=I welcome you, YO! Everyone has been waiting for your performance, NE!
 接下來，自然要邀請各位前往最終舞臺了！=Now, naturally, I'll invite you to the final stage!
-我會讓你們來親自處刑這位……\n最適合為今天的節目收尾的超級大罪人YO！=I'll have you personally execute this... the ultimate great sinner perfect for wrapping up today's show, YO!
+我會讓你們來親自處刑這位……\n最適合為今天的節目收尾的超級{{A}}YO！=I'll have you personally execute this... the ultimate great sinner perfect for wrapping up today's show, YO!
 我們想處刑的只有你這傢伙，{{A}}！=The only one we wanna execute is you, {{A}}!
 從現在開始，就不需要再去和其他處刑人\n競爭了YO！取而代之的是……=From now on, there's no need to compete with other executioners, YO! Instead...
-給大家上演一場驚險刺激的超級大脫逃NE！=Let's have a thrilling, spectacular grand escape, NE!
+給大家上演一場驚險刺激的超級大逃脫NE！=Let's have a thrilling, spectacular grand escape, NE!
 哇啊？這震動是怎麼回事！？=Whoa? What's this shaking!?
-大脫逃是指……難道，\n這個演播廳馬上就要塌了……？=A grand escape... Wait, is this studio is about to collapse...!?
+大脫逃是指……難道，\n這個攝影棚馬上就要塌了……？=A grand escape... Wait, is this studio is about to collapse...!?
 沒錯YO！再過一會，\n這座夢想樂園島就要沉入大海了YO！=That's right, YO! In a little while, this Paradise of Dream will sink into the sea, YO!
-請打起精神拚命逃跑吧，{{A}}的各位！\n那麼，SEE YOU～！=Put your spirits into it and run for your lives, {{A}}! Well then, SEE YOU～!
-……不是，你們在高興什麼啊！\n意思是你們也會跟著一起沉下去啊！？=...Wait, why are you all cheerin'!? This means you'll sink with it too!?
+請打起精神拼命逃跑吧，{{A}}的各位！\n那麼，SEE YOU～！=Put your spirits into it and run for your lives, {{A}}! Well then, SEE YOU～!
+……不是，你們在高興什麼啊！\n意思是你們也會跟著一起沉下去啊！？=...Wait, why are you all cheerin'!? \nThis means you'll sink with it too!?
 不，你看那裡。觀眾席上那些身穿制服的陰影，\n已經開始引導疏散了。=No, look over there. The uniformed Shadows in the audience have already started guiding the evacuation.
 看來設有專用的疏散通道呢。=Looks like there are dedicated evacuation routes.
 也就是說，\n我們不用擔心觀眾席的陰影了對吧！=So we don't have to worry about the Shadows in the audience, right!?
 真是不幸中的萬幸。\n要救這麼多人，實在是太困難了。=That's a stroke of luck. It would've been incredibly difficult to save that many people.
 CATTLE，麻煩變成車！=Cattle, the car!
 CATTLE，變身！=Cattle, transform!
-嗯，交給我了！=Yes, leave it to me!
 快走，所有人都上車！=Hurry, everyone get in!
 
 小心右邊，WONDER！=Watch out, Wonder!
@@ -20354,7 +20371,7 @@ CATTLE，變身！=Cattle, transform!
 
 得，得救了……！=T-Thank god...!
 真是千鈞一髮啊……=That was close...
-再往前走的話，\n應該就能連接到我們最初登陸的那座中央島了。=Ahead should connect to the central island we first landed on.
+再往前走的話，\n應該就能連接到我們最初登入的那座中央島了。=Ahead should connect to the central island we first entered.
 既然{{A}}自己都說了要邀請我們去最終舞臺。=Since {{A}} himself said he'd invite us to the final stage.
 這次在電梯門前，\n應該不會再遭到阻攔了才對……=We probably won't be blocked at the elevator entrance this time...
 那我們過去吧，去那個所謂的主舞臺！=Let's go, to that main studio!
@@ -20362,16 +20379,18 @@ CATTLE，變身！=Cattle, transform!
 ----------
 Chapter 6 Part 1 Main Studio
 ----------
-哦哦，是{{B}}的諸位吧！\n我們已經收到了{{A}}的聯絡！=Oh, if it isn't the {{B}}! \nWe've received word from {{A}}!
+警衛陰影=Guard Shadow
+哦哦，是{{B}}的諸位吧！\n我們已經收到了{{A}}的聯絡！=Oh, if it isn't the {{B}}! We've received word from {{A}}!
 請各位移步，登上去主攝影棚的電梯吧！=Please proceed to the elevator leading to the main studio.
 居然放我們過去？=<size\=28>They're letting us through?</size>
-總覺得有點可疑啊……=It feels suspicious...
+總覺得有點可疑啊……=This feels suspicious...
 就是啊，順利得也太反常了……\n不過話說回來，{{A}}會不會就在前面等著？=Yeah, it's going too smoothly... But then again, maybe {{A}} is waiting for us ahead?
-誰知道呢，如果真是那樣，事情就簡單多了……=Who knows. If that's the case, things would be simple...
+誰知道呢，如果真是那樣，事情就簡單多了……=Who knows. \nIf that's the case, things would be simple...
 那傢伙放了那麼多狠話，甚至專程邀請了我們。\n要是不在那可就沒意思了。=He talked so much trash and even went out of his way to invite us. It'd be boring if he wasn't there.
 {{B}}的仇，還有{{C}}的仇……\n我們一定要報，{{A}}！=We'll avenge {{B}} and {{C}}... We'll make you pay, {{A}}!
 別被{{A}}沖昏頭腦=<size\=20>Don't let anger cloud your judgement</size>
-無論如何都要保持冷靜=<size\=28>No matter what, stay calm</size>
+別被{{A}}衝昏頭腦=<size\=20>Don't let anger cloud your judgement</size>
+無論如何都要保持冷靜=No matter what, stay calm
 我明白，隊長。請不用擔心。=I understand, Leader. Please don't worry.
 
 歡迎光臨，{{A}}的各位！=Welcome, Phantom Thieves!
@@ -20381,29 +20400,29 @@ Chapter 6 Part 1 Main Studio
 還有姐姐的仇……我一定會將你改心，\n讓你親口供認自己的罪行！=And for Big Sis's revenge... I will change your heart and make you confess your crimes!
 NO，NO～我可是負責指控罪行的一方YO？=NO, NO～ I'm the one who accuses others of crimes, YO?
 我還要與你們攜手合作，去裁決更多惡人呢！\n為了這世間的娛樂！=I'm here to cooperate with you all in judging even more villains! For the sake of entertainment!
-別開玩笑了！\n你這傢伙犯下的惡行，我們這邊早就調查清楚了！=Don't joke around! We've already investigated all your evil deeds!
-再怎麼扮演小丑也無濟於事，{{A}}。=No matter how much you play the clown, it won't work, {{A}}.
+別開玩笑了！\n你這傢伙犯下的惡行，我們這邊早就調查清楚了！=Shut the hell up!\nWe've already investigated all your evil deeds!
+再怎麼扮演小丑也無濟於事，{{A}}。=No matter how much you play the clown, \nit won't work, {{A}}.
 無論你將名字改成{{B}}，\n還是{{A}}……=Whether you call yourself {{B}} or {{A}}...
-你的本質，就是{{A}}的{{B}}裡，\n我們遇到的那個冰冷聲音的主人吧？=Your true nature is the owner of that cold voice we met in {{A}}'s {{B}}!
-將他人的不幸當成娛樂與吸金的商品和笑料……=Treating others' misfortune as entertainment, as products for profit and laughter...
+你的本質，就是{{A}}的{{B}}裡，\n我們遇到的那個冰冷聲音的{{C}}吧？=Your true nature is the owner of that cold voice we met in {{A}}'s {{B}}!
+將他人的不幸當成娛樂與吸金的商品和笑料……=Treating others' misfortune as entertainment, \nas products for profit and ridicule...
 我們今天就是來把你徹底改心的！=We're here today to change your heart!
-哈啊～……連我的本名都被看穿了NE。\n本來打算在最終舞臺上……=Ha～You've even seen through my real name, NE. I was planning on the final stage...
+哈啊～……連我的本名都被看穿了NE。\n本來打算在最終舞臺上……=Ha～ You've even seen through my real name, NE. I was planning on the final stage...
 讓各位欣賞那場值得紀念的……\n「最初的{{A}}」處刑秀來著……=To let you all witness that memorable... \nthe "first {{A}}'s" execution show...
 什麼！=What!?
-但大家都這麼期待了，如果我還不當你們的對手，\n那未免也有點掃興了NE！=But since everyone is so eager, it would be a letdown if I didn't face you myself, NE!
+但大家都這麼期待了，如果我還不當你們的對手，\n那未免也有點掃興了NE！=But since everyone's so eager, it would be a letdown if I didn't face you myself, NE!
 來吧，{{A}}。隨時WELCOME！=Come on, {{A}}. WELCOME anytime!
 你們可要好好努力，把這檔節目給我炒熱YO！=Make sure you work hard to hype up this show, YO!
 別開玩笑了=Don't be ridiculous
 這可不是遊戲=This isn't a game
 我可沒開玩笑！\n為了把節目炒熱，我可是非常認真的YO！=I'm not joking! I'm dead serious about hyping up this show, YO!
-倒不如說在我看來，\n你們這群人才是在玩怪盜扮家家酒NE！=From my point of view, you guys are the ones playing pretend Phantom Thieves, NE!
+倒不如說在我看來，\n你們這群人才是在玩怪盜家家酒NE！=From my point of view, you guys are the ones playing pretend Phantom Thieves, NE!
 那是當然啦！\n為了把節目炒熱，我可是非常認真的YO！=That's right! I'm dead serious about hyping up this show YO!
-別把我跟你們這種怪盜扮家家酒相提並論了NE！=Don't lump me in with your pretend Phantom Thieves, NE!
-把我們說成怪盜扮家家酒……！？=Callin' us pretend Phantom Thieves...!?
+別把我跟你們這種怪盜家家酒相提並論了NE！=Don't lump me in with your pretend Phantom Thieves, NE!
+把我們說成怪盜家家酒……！？=You callin' us pretend Phantom Thieves...!?
 別瞧不起人！我們可是……！=Don't look down on us! We are...!
 OK，OK！\n有什麼想說的話我等會再聽YO！=OK, OK! I'll hear what you have to say later, YO!
-氣氛好不容易都烘托起來了！\n再讓觀眾們等下去也不太好NE！=The atmosphere is finally heating up! It'd be a shame to keep the audience waiting any longer, NE!
-「{{A}}·斷罪·SHOW」全新升級 ——「真正的正義到底是哪邊 DE SHOW」……正式開幕——！="{{A}}·Conviction·SHOW" new upgrade- "Which Side Is the True Justice DE SHOW"... officially starts-!
+氣氛好不容易都烘托起來了！\n再讓觀眾們等下去也不太好NE！=The vibe's finally heating up! It'd be a shame to keep the audience waiting any longer, NE!
+「{{A}}·斷罪·SHOW」全新升級 ——「真正的正義到底是哪邊 DE SHOW」……正式開幕——！="{{A}}·Conviction·SHOW" new upgrade- "Which Side Is True Justice DE SHOW"... officially starts-!
 
 ----------
 Chapter 6 KOKORO Boss Phase 1
@@ -20412,39 +20431,39 @@ Ladies and Gentlemen——！\n今天最後的舞臺要開始囉ＹＯ！=Ladies
 正如各位所見，今天的嘉賓就是～……\n目前正引起全網話題沸騰的——{{A}}！=As you can see, today's special guests are～ \nThe hottest topic online- the {{A}}!
 哇啊啊啊！=Waah!
 感謝大家的火熱回應！\n那麼，既然這麼難得～……=Thank you for that enthusiastic response! \nNow then, since it's such a rare occasion～
-那就請觀眾朋友們也一起登上舞臺ＹＯ！\n覺得自己行的人就趕快ＣＯＭＥ ＯＮ！=Let's invite the audience up on stage too, YO! If you think you've got what it takes, COME ON!
+那就請觀眾朋友們也一起登上舞臺ＹＯ！\n覺得自己行的人就趕快ＣＯＭＥ ＯＮ！=Let's invite the audience up on stage too, YO! \nIf you think you've got what it takes, COME ON!
 哦——=Oh-
 還有～我要從{{A}}裡指定一位，\n特別來賓哦！=And～ I'll be selecting one special guest from the {{A}}!
 而且而且～特別來賓必須遵守\n我所制定的規則ＹＯ！=What's more～ that special guest must follow the rules I set, YO!
-這裡可是我的節目呢！\n要是被你們為所欲為就麻煩了=This is my show, after all! \nIt'd be a problem if you just did whatever you wanted.
-那麼，事不宜遲……\n戰鬥，ＳＴＡＲＴ——！=Now, without further ado... Battle, START-!
+這裡可是我的節目呢！\n要是被你們為所欲為就麻煩了=This is my show, after all! It'd be a problem if you just did whatever you wanted.
+那麼，事不宜遲……\n戰鬥，ＳＴＡＲＴ——！=Now, without further ado... \nBattle, START-!
 
-這裡的觀眾……\n他們應該全都是現實中人類的陰影吧……？=The audience here... they should all be human Shadows, right...?
+這裡的觀眾……\n他們應該全都是現實中人類的陰影吧……？=The audience here... \nthey should all be human Shadows, right...?
 確實如此。萬一在這裡失手誤殺的話，\n本人恐怕也會受到極為惡劣的影響。=Indeed. If we defeat one here, the original person would likely suffer severe repercussions.
 拿觀眾當盾牌啊……\n真是下三濫的手段。=Using the audience as a shield... \nwhat a low tactic.
-可是，對方可是打算全力攻擊我們啊。\n難道要我們坐以待斃嗎？=But they're tryin' to attack us with full force. Are we supposed to just stand there and take it?
+可是，對方可是打算全力攻擊我們啊。\n難道要我們坐以待斃嗎？=But they're tryin' to attack us with full force. \nAre we supposed to just stand here and take it?
 只能透過適度的教訓，\n逼他們自己主動退場了吧。=We can only use measured force to make them withdraw on their own.
-以{{A}}的作風……\n不知道他還會使出什麼卑鄙的手段。=With {{A}}'s style... who knows what other dirty tricks he'll pull.
+以{{A}}的作風……\n不知道他還會使出什麼卑鄙的手段。=With {{A}}... \nwho knows what other dirty tricks he'll pull.
 嗯。各自都要高度警戒。=Hoom. Stay highly alert, everyone.
 
-噢～呀～？觀眾居然退場了ＹＯ！\n不過，想要登上舞臺的人還多得是呢！=Oh～? The audience is backing off, YO! But there are plenty more who want to take the stage!
-來來，下一位觀眾是誰呢？\nＣＯＭＥ ＯＮ！=Come on, who's next? COME ON!
-
-{{A}}幹得漂亮！=The {{A}} did great!
-唔……不妙。這傢伙的力量……不，或者該稱之為支配力，似乎變得越來越強大了。=Hoom... not good. His power... or rather, his control, seems to be growing stronger.
-欸？也就是說，\n因為我們遵守了{{A}}制定的規則嗎？=Eh? Because we followed {{A}}'s rules...?
-如果真是這樣的話……\n要是我們主動去違反規則，會發生什麼呢？=If that's the case... what would happen if we deliberately broke the rules?
-不錯不錯，現場的氣氛越來越高漲了呢！\n『不幸之蜜』也多多送上ＹＯ！=Nice, nice, the atmosphere is really heating up! Send out more "Misfortune Honey", YO!
+接招吧，{{A}}！\n這就是違背觀眾期待的懲罰！=Take this, {{A}}! This is the punishment for going against the audience's expectations!
+送給特別來賓的，\n我特別準備的禮物ＹＯ！=A special present for our special guest, YO!
 
 哦呀，{{A}}違反規則了！\n這是意料之外的發展啊！=Oh my, the {{A}} broke the rules! This is an unexpected development!
 真是完全不會看氣氛的傢伙們ＹＯ！\n這樣觀眾和我都會掃興的呢。=Such party poopers, YO! \nThe audience and I are getting bored.
 噢……這傢伙的力量……他的支配力正在減弱……！=Oh... his power... his control is weakening...!
 看來，違背{{A}}制定的規則\n就能削弱他的支配力呢。=It seems defying {{A}}'s rules weakens his control.
 我們本來就沒有遵守那傢伙規則的義務！\n儘管反抗他吧！=We have no obligation to follow his rules! \nDefy him with all we've got!
-
 再這樣下去節目就要冷場了呢！\n{{A}}，拜託你們加油ＹＯ！=The show is going to get dull at this rate! {{A}}, please do your best, YO!
-接招吧，{{A}}！\n這就是違背觀眾期待的懲罰！=Take this, {{A}}! This is the punishment for going against the audience's expectations!
-送給特別來賓的，\n我特別準備的禮物ＹＯ！=A special gift for our special guest, YO!
+
+噢～呀～？觀眾居然退場了ＹＯ！\n不過，想要登上舞臺的人還多得是呢！=Oh～? The audience is backing off, YO! But there are plenty more who want to take the stage!
+來來，下一位觀眾是誰呢？\nＣＯＭＥ ＯＮ！=Come on, who's next? COME ON!
+
+{{A}}幹得漂亮！=Good job, {{A}}!
+唔……不妙。這傢伙的力量……不，或者該稱之為支配力，似乎變得越來越強大了。=Hoom... not good. His power... or rather, \nhis control, seems to be growing stronger.
+欸？也就是說，\n因為我們遵守了{{A}}制定的規則嗎？=Eh? Because we followed {{A}}'s rules...?
+如果真是這樣的話……\n要是我們主動去違反規則，會發生什麼呢？=If that's the case... what would happen if we deliberately broke the rules?
+不錯不錯，現場的氣氛越來越高漲了呢！\n『不幸之蜜』也多多送上ＹＯ！=Nice, nice, the vibe's really heating up! Send out more "Misfortune Honey", YO!
 
 ----------
 Chapter 6 KOKORO Boss Phase 2
@@ -20467,21 +20486,21 @@ HEY HEY HEY！=HEY HEY HEY!
 ＢＯＯＯ！=BOOO!
 就是說嘛～！既然這樣，那麼從現在開始，\n我要從{{A}}裡指定１人為『惡役』！=That's what I thought～! Since that's the case, from now on, I'll designate one Phantom Thief as the "Villain"!
 至於負責打倒這個惡役的正義夥伴嘛……\n就從觀眾當中選出來吧！=And the one who will defeat this villain... \nwill be chosen from the audience!
-來，就是你！ＣＯＭＥ ＯＮ！\n讓我們見識一下什麼叫正義必勝ＹＯ！=Come on, you! COME ON! Let's see what true justice looks like, YO!
+來，就是你！ＣＯＭＥ ＯＮ！\n讓我們見識一下什麼叫正義必勝ＹＯ！=Come on, you! COME ON! \nLet's see what true justice looks like, YO!
 
 居然又在擅自制定規則……\n別理它，我們速戰速決吧。=He's making up rules again... \nIgnore it, let's just finish this quickly.
-雖然很想這麼做……\n不過我們這次也繼續違抗規則的話，沒問題嗎？=I'd like to, but if we continue to defy the rules this time, will it be okay?
+雖然很想這麼做……\n不過我們這次也繼續違抗規則的話，沒問題嗎？=I'd like to... but if we continue to defy the rules this time, will it be okay?
 說到底，被指定為惡役的話會怎麼樣啊？=What exactly happens if you're designated as the villain?
-現在還不好說呢……\n但我想，這其中一定隱藏著什麼意義吧=It's hard to say now... but I think it must mean something.
+現在還不好說呢……\n但我想，這其中一定隱藏著什麼意義吧=It's hard to say now... \nbut I think it must mean something.
 總之，我們先找出削弱{{A}}支配力的方法吧。=Anyway, let's find a way to weaken {{A}}'s control.
 嗯。只能各種方法都試試看了。\n指揮就交給你了，隊長。=Hoom. We'll have to try various things. \nI'll leave the command to you, Leader.
 
-現場的氣氛真是越來越白熱化了呢！\n再多送上一些『不幸之蜜』吧ＹＯ！=The atmosphere is getting more intense! Send more "Misfortune Honey" YO!
+現場的氣氛真是越來越白熱化了呢！\n再多送上一些『不幸之蜜』吧ＹＯ！=The vibe's getting more intense!\nSend more "Misfortune Honey" YO!
 唔……那傢伙的支配力上升了……！？\n是選擇出錯了嗎……？=Hoom... his control is rising...! \nDid we make the wrong choice...?
 難道說，被指定為惡役的人\n不能攻擊{{A}}嗎……？=Could it be that the one designated as the villain can't attack {{A}}...?
-恐怕是的。\n惡役還是專心對付觀眾比較好。=I'm afraid so. The villain is better off focusing on the audience.
+恐怕是的。\n惡役還是專心對付觀眾比較好。=I'm afraid so.\nThe villain is better off focusing on the audience.
 
-不錯不錯！\n讓我們暢飲更多『不幸之蜜』吧！=Nice, nice! Let's drink more "Misfortune Honey"!
+不錯不錯！\n讓我們暢飲更多『不幸之蜜』吧！=Nice, nice! \nLet's drink more "Misfortune Honey"!
 OH……觀眾又退場了ＹＯ！=OH... the audience is leaving again, YO!
 惡人獲勝什麼的才不要呢！\n真是群一點風情都不懂的傢伙呢！=Nobody wants to see the villain win! \nWhat a bunch of dense people!
 看來，{{A}}的支配力正在減弱呢……=It seems {{A}}'s control is weakening...
@@ -20511,13 +20530,13 @@ OH……惡人居然獲勝了ＹＯ！\n不過，還沒結束呢！=OH... the vi
 你有什麼資格說教……你也一樣吧！=You have no right to preach... You're the same! 
 擅自篡改了他人的心靈！\n無論是姐姐，還是{{A}}！=Tampering with others' hearts! \nWhether it's Big Sis, or {{A}}!
 而且你甚至連所謂的正義都算不上！\n只是為了滿足私慾而破壞別人的人生！=And you're not even justice! You just destroy people's lives to satisfy your own selfish desires!
-哈哈，正義嗎。\n我這裡或許並不存在什麼正義……=Haha, justice? I might not have any justice here...
+哈哈，正義嗎。\n我這裡或許並不存在什麼正義……=Haha, justice? \nI might not have any justice here...
 但我有我的信念。=But I have my beliefs...
 有我的覺悟。=And my resolve.
 聽好了，{{A}}。如果打算去改變人的內心、\n進而改變這個世界的話……=Listen, {{A}}. If you intend to change people's hearts and thereby change this world...
 就必須做好捨棄一切的覺悟。\n道義、常識、日常生活……甚至是他人的性命。=You must be prepared to sacrifice everything. Morality, common sense, daily life... even the lives of others.
 要是連放棄的覺悟都沒有，\n你們口中所謂的「改心」……=Without that resolve to give things up, your so-called "change of heart"...
-充其量不過是一場小孩子的扮家家酒遊戲罷了。=Is nothing more than a child's game of make-believe.
+充其量不過是一場小孩子的家家酒遊戲罷了。=Is nothing more than a child's game of make-believe.
 你說什麼……=Huh...?
 看來必須由我這個大人來管教管教你們，\n免得你們再繼續惡作劇。=Seems like I, an adult, need to teach you brats a lesson so you stop your mischief.
 
@@ -20534,28 +20553,30 @@ Chapter 6 KOKORO Boss Phase 3
 判處{{A}}死刑的……\n他們正義的聲音！=The righteous voices that sentence {{A}}s to death!
 如果你們執意跳出來阻礙這份民意的實現……我就代替大眾，將你們剷除！=If you insist on standing in the way of this public opinion... I will eliminate you on behalf of the masses!
 
-明明所有惡人都是由你創造出來的，還自封為正義之神……真是滑稽得讓人心生厭惡。=You created all the villains, yet you proclaim yourself the god of justice... It's so ridiculous it's disgusting.
+明明所有惡人都是由你創造出來的，還自封為正義之神……真是滑稽得讓人作嘔。=You created all the villains, yet you proclaim yourself the god of justice... It's so ridiculous it's disgusting.
+也就是說，只要讓 WONDER 說出的數字\n和攻擊次數一致就可以了？=So, all I have to do is make sure the number WONDER says matches the number of attacks?
 確實如此。周圍環境之所以發生變化，也是為了把自己包裝得像神明一樣，從而準備的演出吧。=That's right. The changes in the environment are also performances staged to make you look like a god.
 無聊的表演終於要結束了。\n接下來我們要自由行動了！=That borin' show's finally over. \nWe're gonna go all out!
 
 這是……？透過 ECHO\n能看到某個數字……=This is...? Through ECHO, I can see some numbers...
 你說能看到數字？雖然不知道是什麼意思……\n但應該認為它多少有某種含義吧。=You can see numbers? I'm not sure what they mean... but we should assume they have some significance.
-不好意思，把那個數字讀出來。\n拜託了，Wonder。=Sorry, read out those numbers. Please, Wonder.
+不好意思，把那個數字讀出來。\n拜託了，Wonder。=Sorry, read out those numbers. \nPlease, Wonder.
+不好意思，把那個數字讀出來。\n拜託了，WONDER。=Sorry, read out those numbers. \nPlease, Wonder.
 
-哦吼……竟然看穿了這些數字背後隱藏的含義嗎？=Oh.. You figured out the meaning behind those numbers.
+哦吼……竟然看穿了這些數字背後隱藏的含義嗎？=Oh... You figured out the meaning behind those numbers.
 看來你們還是會用腦子的嘛，{{A}}。=It seems you do use your brains, {{A}}.
 總覺得力量湧出來了……\n這是怎麼回事？=I feel power welling up... What's going on?
 看來 ECHO 上顯示的數字\n代表的是我們應該攻擊的次數。=It seems the numbers shown on ECHO represent the number of hits we should land.
 正確的話似乎就會獲得獎勵。=If correct, we seem to get a reward.
-被敵人獎勵嗎……難道他把這當做神的施捨？\n還真是游刃有餘呢。=Rewarded by the enemy...? Does he think of this as divine charity? How composed of him.
+被敵人獎勵嗎……難道他把這當做神的施捨？\n還真是遊刃有餘呢。=Rewarded by the enemy...? Does he think of this as divine charity? How composed of him.
 真是讓人不快到極點……\n那副得意的嘴臉，我現在就來打碎它。=It's infuriating... \nI'm going to smash that smug look right now.
 解答正確，{{A}}……=Correct, {{A}}...
-哼……可惜了呢，{{A}}。=Hmph... too bad, {{A}}.
+哼……可惜了呢，{{A}}。=Hmph... Too bad, {{A}}.
 不過，還差得遠呢！=But we're far from done!
-它剛才說「可惜了」……\n難道 ECHO 上顯示的數字是……=It said "too bad"... Could the numbers shown on ECHO be...
+它剛才說“可惜了”……\n難道 ECHO 上顯示的數字是……=It said "too bad"... \nCould the numbers shown on ECHO be...
 嗯。恐怕和吾等攻擊那傢伙的次數有關係。=Hoom. It likely relates to the number of hits we land.
-也就是說，只要讓 Wonder 說出的數字\n和攻擊次數一致就可以了？=So wait, all we need to do is make sure the number Wonder says matches the number of hits?
-雖然還不確定……但可能性很高。\n試試看吧，隊長。=It's not certain yet... but it's very likely. Let's try it, Leader.
+也就是說，只要讓 WONDER 說出的數字\n和攻擊次數一致就可以了？=So wait, all we need to do is make sure the number Wonder says matches the number of hits?
+雖然還不確定……但可能性很高。\n試試看吧，隊長。=It's not certain yet... but it's very likely. \nLet's try it, Leader.
 就差一步了呢，{{A}}！=So close, {{A}}!
 完全不成氣候啊，{{A}}……=Pathetic, {{A}}...
 就這點程度的話，在這裡化為灰燼吧！=If that's all, then burn to ashes!
@@ -20576,10 +20597,10 @@ Chapter 6 KOKORO Boss Phase 3
 不對，等一下！\n這傢伙，難不成是……=No, wait! This guy, could it be...?
 啊哈～～，終於察覺了嗎～？=Aha～～ Have you finally realized～?
 沒錯，我既不是「{{A}}」的本體，\n也算不上是他的陰影YO！=That's right. I'm neither the real "{{A}}" nor his Shadow, YO!
-我是「{{B}}」，\n說白了就是{{A}}擺在外面的偽裝面具！=I'm "{{B}}"- In other words, a mask {{A}} puts on display!
+我是「{{B}}」，\n說白了就是{{A}}擺在外面的偽裝面具！=I'm "{{B}}"- In other words, \na mask {{A}} puts on display!
 用輕快的歌詞震撼人心，\n偉大的知名製作人兼大娛樂家啊！=A great, well-known producer and entertainer who stirs people's hearts with catchy lyrics!
 什……！？也就是說……=What...!? So that means...
-嗯，這傢伙只是個認知存在……\n只是一個名為「{{A}}」的提線木偶罷了！=Hoom, this guy is just a cognitive being... a puppet named "{{A}}"!
+嗯，這傢伙只是個認知存在……\n只是一個名為「{{A}}」的提線木偶罷了！=Hoom, this guy is just a cognitive being... \na puppet named "{{A}}"!
 那本人在哪……？=<size\=26>Then where's the real one...?</size>
 快說本人在哪裡！=Tell us where he is!
 誰知道呢～？憑你們是絕對……=Who knows～? You will never...
@@ -20596,20 +20617,21 @@ Chapter 6 KOKORO Boss Phase 3
 正如他們２個所說=As they both said
 不是什麼大問題=It's no big deal
 可是，要是吾能察覺到異樣，\n就不會讓你們去打這場無謂的苦戰了……=But if I had noticed the oddity, I wouldn't have made you all fight such a pointless battle...
-真是的，為什麼要道歉啊！\n我們明明發自內心感謝著CATTLE呀！=Why are you apologizing! \nWe're genuinely grateful for Cattle!
+真是的，為什麼要道歉啊！\n我們明明發自內心感謝著CATTLE呀！=Oh, come on! Why are you apologizing! \nWe're genuinely grateful for Cattle!
 話說回來，要是沒有CATTLE，\n我們連這個{{A}}都發現不了吧？=Besides, without Cattle, we wouldn't have even found {{A}} in the first place, right?
 就是啊，要是CATTLE聽不到{{A}}的聲音，\n我們連{{B}}的大門都摸不到呢。=Yeah. If Cattle couldn't hear the voices in {{A}}, we wouldn't have even found the {{B}} entrance.
 當然，不只是這樣。無論什麼時候，\n你總是為{{A}}著想，給出指引……=Of course, it's not just that. You always think of the {{A}} and guide us...
 正因為一路上有CATTLE陪伴著我們，\n我們才能全員平安無事地走到今天。=Because we've had Cattle with us all along, we've all made it this far safely.
 而且隊長一定也是這麼想的吧？=And I'm sure the leader feels the same way!
 因為當年要是沒有遇到CATTLE，\n根本就不會搞什麼{{A}}嘛。=After all, if we hadn't met Cattle back then, there would be no {{A}} at all.
-不行呢……完全找不到{{A}}……\n這裡明明是最後的區域了……=No good... I can't find {{A}} at all... \nThis is the last area...
+不行呢……完全找不到{{A}}……\n這裡明明是最後的區域了……=No good... I can't find {{A}} at all... This is the last area...
 切……無論在現實還是{{A}}，\n都躲躲藏藏的……=Tch... always hidin', whether in reality or the {{A}}...
 搜尋得這麼艱難，還是第一次呢。\n果然和普通{{A}}不太一樣吧……=This is the first time searching has been this difficult. It's really different from ordinary {{A}}s...
 光待在這裡想也沒用。既然這樣，\n就只能靠我們的腿和眼睛實實在在地去找了！=Stayin' here thinkin' about it won't help. We'll just have to use our own eyes and ears to find it!
+光待在這裡想也沒用。既然這樣，\n就只能靠咱們的腿和眼睛實實在在地去找了！=Stayin' here thinkin' about it won't help. We'll just have to use our own eyes and ears to find it!
 是呢……看來只能地毯式搜索了。\n現在我們先分頭尋找吧。=Yes... looks like we'll have to do a thorough search. For now, let's split up and look.
 剛才那個……\n又是過去的記憶嗎……=Was that... another past memory...?
-尋找{{C}}的不是{{A}}，\n而是{{B}}……=It wasn't {{A}} searching for the {{C}}, but {{B}}...
+尋找{{C}}的不是{{A}}，\n而是{{B}}……=It wasn't {{A}} that can find {{C}}s, but {{B}}...
 {{A}}到底去哪了呢……=Where did {{A}} go...?
 不對……話說回來……=Wait... come to think of it...
 至今為止看到的幻象裡，\n也都沒出現過{{A}}……？=In all the visions I've seen so far, {{A}} hasn't appeared...?
@@ -20627,40 +20649,41 @@ Chapter 6 KOKORO Boss Phase 3
 好了……接下來必須得好好規劃一下後續行動了。\n既然剛才那個{{A}}只是個冒牌貨……=Alright... we need to plan our next move carefully. Since that {{A}} was just a fake...
 這個{{A}}的某處應該藏著本尊的陰影……\n而且{{B}}應該也在那裡對吧？=There should be the real Shadow somewhere in this {{A}}... and the {{B}} should be there too, right?
 按理來說的確是這樣……\n但吾還是感覺不到{{A}}的氣息。=In theory, that's correct... \nbut I still can't sense the {{A}}'s presence.
-究竟是被藏在深處了，\n還是其實根本就不在這裡呢……=Is it hidden deep within, or is it not actually here at all...
+究竟是被藏在深處了，\n還是其實根本就不在這裡呢……=Is it hidden deep within, \nor is it not actually here at all...
 我腦子已經被搞糊塗了……\n該不會這裡不是{{A}}吧？=My head is spinnin'... \nMaybe this isn't {{A}}?
 那種情況應該不會發生。\n畢竟這是以{{A}}的名字找到的{{B}}啊。=That shouldn't happen. We found this {{B}} using the name {{A}}.
 而且，我們目前其實還沒徹底探索完這個{{A}}。=And we haven't finished exploring this {{A}} yet.
 也是呢。如果真有什麼藏{{A}}的地方，\n應該就是遠處那座大樓吧……=That's true. If there's a place where the {{A}} could be hidden, it's probably that distant building...
-礙事的傢伙已經不在了。\n我們找找有沒有辦法去那座大樓吧。=The nuisance is gone. Let's find a way to get to that building.
+礙事的傢伙已經不在了。\n我們找找有沒有辦法去那座大樓吧。=The nuisance is gone. \nLet's find a way to get to that building.
+娛樂到此為止=Entertainment Ends Here
 
 如果能成功啟動這個的話，\n應該就能移動到那座大樓了吧？=If we can activate this, we should be able to move to that building, right?
 WONDER，你試試看。=Wonder, give it a try.
 試著按了按鈕，\n但沒有反應……=I tried pressing the button, but there's no response...
 這裡有像認證鑰匙一樣的東西……=There's something like an authentication key here...
-人臉辨識失敗。=Facial recognition failed.
-……看樣子，如果想啟動這個，\n好像必須要通過人臉辨識才行呢。=...It seems activating this requires passing facial recognition.
-人臉辨識……？到底要刷誰的臉才能給放行啊。\n{{A}}的什麼熟人嗎？=Facial recognition...? Whose face would they use to let us through? Some acquaintance of {{A}}'s?
+人臉識別失敗。=Facial recognition failed.
+……看樣子，如果想啟動這個，\n好像必須要透過人臉識別才行呢。=...It seems activating this requires passing facial recognition.
+人臉識別……？到底要刷誰的臉才能給放行啊。\n{{A}}的什麼熟人嗎？=Facial recognition...? Whose face would they use to let us through? Some acquaintance of {{A}}'s?
 或者是……{{A}}本人？=Or... {{A}} himself?
 確實，不排除這種可能性。=Indeed, that's a possibility.
-喂喂，那怎麼辦？\n難道我們要打扮成{{A}}的模樣嗎？=Hey, so what do we do? Are we supposed to dress up as {{A}}?
+喂喂，那怎麼辦？\n難道我們要打扮成{{A}}的模樣嗎？=Hey, so what do we do? \nAre we supposed to dress up as {{A}}?
 不，應該不是這樣。\n只是……=No, that's not it. It's just...
 吾等只知道{{B}}這個形象，\n並不了解{{A}}這個人。=We only know the {{B}} persona, but we don't know the real {{A}}.
-或者是從不拋頭露面的運營者{{A}}……\n總之，吾等根本就沒見過{{B}}在現實中的長相。=Or the never-publicly-shown manager {{A}}... Anyway, we've never seen {{B}}'s real appearance.
+或者是從不抛頭露面的運營者{{A}}……\n總之，吾等根本就沒見過{{B}}在現實中的長相。=Or the never-publicly-shown manager {{A}}... In any case, we've never seen {{B}}'s real appearance.
 或許必須掌握{{A}}這個男人的真正面貌，\n才能繼續前進。=We probably need to know the true face of the man called {{A}} to proceed.
-也就是說……需要去現實世界見{A}}本人？=Which means... we need to meet the real {{A}} in person?
+也就是說……需要去現實世界見{{A}}本人？=Which means... we need to meet the real {{A}} in person?
 或者想辦法弄到他的照片……=Or find a way to get his photo...
 哈啊……光是查本名就已經那麼費勁了！？=Huh...? Just finding his real name was already hard enough!
 不管怎麼說，只能先想辦法了……\n總之，我們先撤回現實世界吧。=Either way, we have to figure something out... For now, let's return to the real world.
 怎麼這樣……\n我們好不容易走到這一步……！=What... We've come this far...!
-除了人臉辨識的問題沒解決之外，\n大家也都累了。該好好休息一下了。=Aside from the facial recognition issue, everyone is tired. We need to rest.
-在現實世界裡想辦法吧=<size\=28>Let's think in the real world</size>
+除了人臉識別的問題沒解決之外，\n大家也都累了。該好好休息一下了。=Aside from the facial recognition issue, everyone is tired. We need to rest.
+在現實世界裡想辦法吧=<size\=30>Let's think in the real world</size>
 隊長……=Leader...
 正如WONDER和LUCE所說的那樣。\n在這裡乾耗下去，我們也做不了更多事了。=As Wonder and Luce said. \nWe can't do much more by staying here.
-回到現實世界休息。讓頭腦清醒一下，\n然後再重新想辦法。=Let's return to the real world and rest. Clear our heads, and then think of a solution.
+回到現實世界休息。讓頭腦清醒一下，\n然後再重新想辦法。=Let's return to the real world and rest. \nClear our heads, and then think of a solution.
 
-「樂園～{{A}}定期班次，\n全自動運行設備即將發車YO～！」="Paradise～{{A}} regular service, fully automated departure device about to leave, YO～!"
-怎麼還能聽到那混蛋的聲音……\n明明我們都已經打倒那個認知存在了。=Why can I still hear that bastard's voice... we already defeated that cognitive being.
+「樂園～{{A}}定期班次，\n全自動運行設備即將發車YO～！」="Paradise～ {{A}} regular service, fully automated departure device about to leave, YO～!"
+怎麼還能聽到那混蛋的聲音……\n明明我們都已經打倒那個認知存在了。=Why can I still hear that bastard's voice... \nwe already defeated that cognitive being.
 也就是說，我們現在可以透過自動駕駛返回了。\n這點算是不幸中的萬幸吧。=That means we can return via autopilot now. That's a relief.
 CATTLE，怎麼了=Cattle, what's wrong?
 還在擔心什麼嗎？=<size\=25>Still worried about something?</size>
@@ -20670,7 +20693,7 @@ CATTLE，怎麼了=Cattle, what's wrong?
 ……你會不會是有點想太多了？\n如果我們的推測沒錯，{{A}}也有{{B}}吧？=...Could you be overthinking it? If our guess is correct, {{A}} also has the {{B}}, right?
 這麼一想，\n可能單純就是從導航裡得知的情報吧。=That means, he might have simply learned it from the Navigator.
 ……啊。是啊，也許吧。=...Ah. Yes, perhaps.
-抱歉耽誤大家了。\n回現實世界吧。=Sorry for the delay. Let's go back to the real world.
+抱歉耽誤大家了。\n回現實世界吧。=Sorry for the delay. \nLet's go back to the real world.
 
 ----------
 Chapter 6 Part 1 End
@@ -20678,13 +20701,14 @@ Chapter 6 Part 1 End
 哈啊……雖然順利回來了……=Sigh... We made it back safely...
 但這次居然要去弄到{{A}}的照片嗎，\n這難度未免也太高了吧。=But now we have to get a photo of {{A}}? That's way too difficult.
 哪怕去問那些演藝圈的人士，\n估計也只認識作為{{A}}的他吧……=Even if we ask people in the entertainment industry, they'd probably only know him as {{A}}...
+哪怕去問那些娛樂圈的人士，\n估計也只認識作為{{A}}的他吧……=Even if we ask people in the entertainment industry, they'd probably only know him as {{A}}...
 如果去丸得電視臺大樓內部，\n也許能找到他以前留下來的老照片……=If we could get inside Marutoku TV station, maybe we could find old photos of him...
 但歸根結底，\n我們根本進不去丸得電視臺啊……=But we can't even get into Marutoku TV station...
 畢竟就連本名，要不是{{A}}幫我們找到，\n我們也完全沒有任何頭緒呢。=Even finding his real name was only possible thanks to {{A}}.
 我們作為高中生能調查到的事，\n終究是有限的……=Our ability to investigate as high school students is limited...
 確實，僅憑我們自己的力量，\n想要調查清楚或許會非常困難……=That's right, it might be very difficult to uncover everything with just our own power...
 要是有人……能幫忙的話……=If only there was someone... who could help...
-{{A}}刑警……\n如果是這個人的話……=Detective {{A}}... If it's her...
+{{A}}刑警……\n如果是這個人的話……=Detective {{A}}... \nif it's her...
 怎麼了，隊長？=What is it, Leader?
 我有個想法=I have an idea
 給我點時間=Give me some time
@@ -20692,16 +20716,17 @@ Chapter 6 Part 1 End
 什麼什麼！？告訴我嘛！=What is it!? Tell me!
 這個想法目前還沒有絕對把握，\n需要一些時間……=I don't have full confidence in this idea yet, so I need some time...
 這樣啊，總之你是有了一些想法吧。\n既然這樣，這件事就交給隊長了。=I see, you have some kind of plan. \nWe'll leave this to you then.
+這樣啊，總之你是有了一些想法吧。\n既然這樣，這件事就拜託隊長了。=I see, you have some kind of plan. \nWe'll leave this to you then.
 別自己硬撐啊。\n有什麼事馬上聯繫我們！=Don't try to do it all alone. \nContact us immediately if anything happens!
 那麼，今天就先解散……=Well then, let's call it a day...
-哦，{{A}}有新的推播！\n說是要舉行一場緊急直播！=Oh, there's a new notification from {{A}}! \nThey're holding an emergency live broadcast!
+哦，{{A}}有新的推送！\n說是現在要舉行一場緊急直播！=Oh, there's a new notification from {{A}}! They're holding an emergency live broadcast!
 現在開始？好突然啊。\n難道是出現了什麼不得了的{{A}}嗎？=Right now? That's sudden. \nDid some huge {{A}} appear?
 誰知道呢。總之先看看！=Who knows. Let's just watch!
 緊急直播……？會是什麼內容呢？=An emergency broadcast...? What could it be?
 難道因為我們在{{B}}裡打倒了{{A}}，\n產生了什麼影響……？=Maybe because we defeated {{A}} in the {{B}}...?
 但那傢伙是認知存在吧？\n應該跟本人沒關係吧？=But that guy was a cognitive being, right? \nIt shouldn't affect the real person...
 ……總之先看看吧。\n看了就明白了。=...Let's watch it. \nWe'll understand once we see it.
-各位{{A}}的觀眾朋友們，你們好。\n我是{{B}}。=Hello, {{A}} viewers. I am {{B}}.
+各位{{A}}的觀眾朋友們，你們好。\n我是{{B}}。=Hello, {{A}} viewers. \nI am {{B}}.
 今天有件事無論如何都想告訴各位，\n所以進行了直播。=Today, I have something I wanted to tell everyone, so I'm broadcasting live.
 在各位的鼎力協助下，\n{{A}}至今已經揭發了很多{{B}}……=With everyone's help, {{A}} has exposed many {{B}}s so far...
 但遺憾的是，這些{{A}}的數量非但沒有減少，\n反而在不斷增加，這就是目前的現狀。=Unfortunately, the number of {{A}}s hasn't decreased, but is actually increasing. That's the current situation.
@@ -20711,19 +20736,19 @@ Chapter 6 Part 1 End
 沒錯……就是各位耳熟能詳的{{A}}。=That's right... the {{A}} you all know so well.
 如今警察選擇冷眼旁觀，\n能夠站出來阻止{{A}}的人，已經別無他者。=Now that the police are turning a blind eye, there's no one else who can stand up and stop the {{A}}s.
 甚至說，{{A}}承載著我們最後的希望，\n也完全不為過吧。=It's not an exaggeration to say that the {{A}} carry our final hope.
-這種讓人不適的捧殺……\n他到底打的什麼算盤……=Such uncomfortable praise... \nWhat is he planning...?
+這種讓人感到不適的捧殺……\n他到底打的什麼算盤……=Such uncomfortable praise... \nWhat is he planning...?
 但另一方面，\n對{{A}}活動持反對意見的人也不在少數。=But on the other hand, there are many who oppose the {{A}}' activities.
-有人認為他們的行為很危險，應該被認定為\n{{A}}，像這樣的意見也傳到了我這裡。=Some think their actions are dangerous and should be condemed as {{A}}s- such opinions have reached me.
+有人認為他們的行為很危險，應該被認定為\n{{A}}，像這樣的意見也傳到了我這裡。=Some think their actions are dangerous and should be condemned as {{A}}s- such opinions have reached me.
 因此，我想問一下各位。=So, I'd like to ask you all.
 是支持{{A}}的行為，\n還是不支持。=Do you support the {{A}}' actions, or not?
-如果投票的結果，\n是不支持{{A}}行為的人佔多數……=If the majority vote is "do not support"...
-我打算將{{B}}認證為官方{{A}}，\n並向全世界公布他們的真實身份。=I intend to condemn the {{B}} as {{A}}s and reveal their true identities to the world.
-關於本次投票的方式和截止期限，\n將隨後公布。以上就是全部內容。=Regarding the method and deadline for this vote, I will announce them shortly. That's all.
+如果投票的結果，\n是不支持{{A}}行為的人占多數……=If the majority vote is "do not support"...
+我打算將{{B}}認證為官方{{A}}，\n並向全世界公佈他們的真實身份。=I intend to condemn the {{B}} as {{A}}s and reveal their true identities to the world.
+關於本次投票的方式和截止期限，\n將隨後公佈。以上就是全部內容。=Regarding the method and deadline for this vote, I will announce them shortly. That's all.
 喂喂，剛才的內容……也就是說……！=Hey, that just now... Does that means...!
 {{A}}知道{{B}}的真實身份嗎！\n真不愧是神！={{A}} knows the {{B}}' true identities!? As expected from God!
 不，但這有點扯吧……？\n要是知道的話去告訴警察不就行了。=No, but that's a stretch...? \nIf he knew, he could just tell the police.
 告訴警察就會被抓吧！\n那{{A}}怎麼辦！=But if he tells the police, they'd be arrested! Then what about the {{A}}s?
-嗯，話是這麼說……\n你果然是{{A}}支持派？=Well, that's true... \nSo you're on the side supporting the {{A}}?
+嗯，話是這麼說……\n你果然是{{A}}支持派？=Well, that's true... So you're on the side supporting the {{A}}?
 那當然。警察靠不住，\n要是{{A}}也不幹的話就麻煩了！=Of course. The police are useless, it'd be a problem if the {{A}} quit too!
 我確實討厭{{A}}，\n但{{B}}也有點可怕啊……=I do hate {{A}}s, but the {{B}} are also kind of scary...
 這下可麻煩了……=This is bad...
@@ -20734,13 +20759,13 @@ Chapter 6 Part 1 End
 應該就是這樣。\n如果我們繼續攻略{{A}}……=It seems to be the case. \nIf we continue to infiltrate {{A}}...
 在那期間，{{A}}就會是無人管束的狀態。\n如果演變成那種局面的話，你們覺得會發生什麼？=During that time, the {{A}}s would be left unchecked. If that happens, what do you think will happen?
 ……大眾會對{{A}}產生不滿，\n不支持{{A}}的聲音會增加。=...The public will grow dissatisfied with the {{A}}, and the voices opposing us will increase.
-然後一旦不支持的聲浪佔上風，\n{{A}}的真實身份就會被公布……遊戲結束。=And if the opposition wins, the {{A}}' identities will be exposed... Game over.
+然後一旦不支持的聲音占上風，\n{{A}}的真實身份就會被公佈……遊戲結束。=And if the opposition wins, the {{A}}' identities will be exposed... Game over.
 為什麼要搞這麼拐彎抹角的事……=Why go through such roundabout means?
 因為無論如何，他都想透過這種機制，\n讓{{B}}去給{{A}}改心吧………=Because no matter what, he wants to use the {{B}} to change the {{A}}s' hearts...
 這也反映出，對於將{{A}}打造成\n一個完美的娛樂節目，他非常執著。=This also reflects his obsession with turning {{A}} into a perfect entertainment show.
 為什麼執著到這種程度……=Why is he so obsessed...?
 無法理解這傢伙的邏輯……=I can't understand his logic...
-他就是個瘋子吧。\n正常人怎麼可能理解瘋子的邏輯啊。=He's just crazy. \nNormal people can't understand a madman's logic.
+他就是個瘋子吧。\n正常人怎麼可能理解瘋子的邏輯啊。=He's just crazy. Normal people can't understand a madman's logic.
 的確是個完全不可理喻的對手……\n但吾覺得他不會毫無理由突然做出這種事。=He's truly an incomprehensible opponent... but I don't think he'd do something like this without reason.
 也就是說……吾等潛入{{A}}這件事，\n應該已經引起了現實中{{B}}本人的警覺……=That is... our infiltration of {{A}} has likely alerted the real {{B}}...
 原來如此……也就是說，\n他也有讓我們放棄攻略{{A}}的目的。=I see... He also has the goal of making us give up on infiltrating the {{A}}.
@@ -23214,7 +23239,7 @@ sr:"^無論是(.*)那時候，還是現在，\n真的總在受(.*)的照顧啊�
 所以，如果有什麼我能幫忙的事情，\n你一定要告訴我哦！=Let me know if I can ever return the favor!
 一起舉起１００kg啞鈴吧=<size\=29>Let's lift 100 kg together</size>
 我才是呢！\n全靠你啦，隊長！=And I'm counting on you too, Leader!
-嗯，交給我吧！=Yup, leave it to me!
+嗯，交給我吧！=Yes, leave it to me!
 ……喂，能做到才怪呢！=...JK, like that's possible!
 掰掰～！=Bye bye～!
 在適度的疲勞中，與{{A}}道別了……=Exhausted, I parted ways with {{A}}...
@@ -34220,8 +34245,8 @@ sr:"^要不要再詳細問問(.*)\n關於「Club Ludus」的事……$"="Should 
 下次有機會的話，\n再去和他聊聊吧……=I'll look for another chance to talk to him...
 再找機會和她搭話看看吧……=I'll look for another chance to talk to her...
 sr:"^已體驗完與(.*)的所有「故事」……$"="I've experienced all the "stories" with $1..."
-從今往後，就在這個世界裡，\n和他一起創造更多新的回憶吧……=From now on, let’s create even more new memories with him in this world…
-從今往後，就在這個世界裡，\n和她一起創造更多新的回憶吧……=From now on, let’s create even more new memories with her in this world…
+從今往後，就在這個世界裡，\n和他一起創造更多新的回憶吧……=From now on, let's create even more new memories with him in this world…
+從今往後，就在這個世界裡，\n和她一起創造更多新的回憶吧……=From now on, let's create even more new memories with her in this world…
 
 ----------
 Valentine's Day Event
