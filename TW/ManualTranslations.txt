@@ -1125,7 +1125,8 @@ Class/ Stats Screen
 稀有度由低至高=Low to High ★
 稀有度由高至低=High to Low ★
 已開放核心心象=Unlocked Core
-推薦陣容=<size\=30>Recommendation</size>
+推薦陣容=<size\=29>Recommended Party</size>
+陣容特色=Party Characteristics
 初始陣容=Starting Party
 陣容記錄=Party Record
 陣容=Party
@@ -2152,6 +2153,7 @@ r:"^裝<color\=#ff0000ff>飾</color>區·二樓$"="De<color\=#ff0000ff>co</color
 {{A}}·迷你={{A}}·Mini
 丸得世界·{{A}}·迷你=Harvest World Online·{{A}}·Mini
 丸得世界·WONDER=Harvest World Online·Wonder
+迷之貓頭鷹·迷你=Mysterious Owl·Mini
 
 ----------
 Synergy (SL) and City Activities
@@ -3050,13 +3052,14 @@ r:"^透過厄抑巡禮·初階印記兌換$"="<size\=21>Exchange from Challenge 
 獲得解構力場後解鎖=Unlocks after owning this skill
 獲得動力激蕩後解鎖=Unlocks after owning this skill
 獲得世界樹的衍化後解鎖=Unlocks after owning this skill
+獲得萬象湮滅後解鎖=Unlocks after owning this skill
 
-r:"^角色契約簽約時機率獲得$"="Signing Contract"
-r:"^{{A}}精算機等級獎勵$"="{{A}} Ticket Machine"
-r:"^挑戰心軌擇行$"="Challenge Heart Rail"
+角色契約簽約時機率獲得=Signing Contract
+{{A}}精算機等級獎勵={{A}} Ticket Machine
+挑戰心軌擇行=Challenge Heart Rail
 r:"^挑戰閼凶夢之扉$"="<size\=24>Challenge Gates of the Nightmare Catcher</size>"
-r:"^助戰回饋$"="Exchange from Assist Reward"
-r:"^{{A}}探索度獎勵$"="{{A}} Exploration Reward"
+助戰回饋=Exchange from Assist Reward
+{{A}}探索度獎勵={{A}} Exploration Reward
 
 當前陣容額外獎勵加成：=Bonus rewards for the current team:
 每日領取補給\n濃縮咖啡<color\=#FFEC00>x1</color>=Claim daily\nCoffee Aid <color\=#FFEC00>x1</color>
@@ -3677,7 +3680,6 @@ r:"^前往{{A}}(\d+)區$"=$"Go to {{A}} Area $1"
 調查未知的{{A}}=Investigate the unknown {{A}}
 和{{A}}聊天=Chat with {{A}}
 去找{{A}}=Go find {{A}}
-去找{{A}}吧=Go find {{A}}
 搜尋{{A}}的所在=Look for {{A}}
 去看看{{A}}的情況=See how {{A}} is doing
 打倒{{A}}=Defeat {{A}}

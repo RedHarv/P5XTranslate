@@ -105,8 +105,8 @@ General Wonder Prompt
 現在有事=Got something
 已經有安排了=Got something today
 今天有安排了……=Got something today...
-有別的事要做=<size\=30>Have other things to do</size>
-有其他安排=<size\=30>Got other arrangements</size>
+有別的事要做=I've got other plans
+有其他安排=I have other plans
 有其他安排……=<size\=29>Got other arrangements...</size>
 有其他安排了……=<size\=29>Got other arrangements...</size>
 現在有點困難……=Now is a bit tough...
@@ -411,6 +411,7 @@ CITY ACTIVITIES - CLASSROOM
 ----------
 認真地上課……=I diligently listened to the lecture...
 認真地聽講了……=I diligently listened to the lecture...
+自己完成了練習題……=I solved some practice questions by myself...
 跟著{{A}}的步調上了課……=I followed along the teacher's pace in class...
 
 「你拋撇了我這老人而升天，\n叫我怎麼辦呢？」……=What say you I should do after you abandon me and ascend!?
@@ -1262,6 +1263,14 @@ sr:"^欸欸，(.*)你吃過\n可麗餅嗎？$"="So, $1, have you ever had a crep
 ……這樣啊。不過……要是能給吾輩\n也嘗一口的話，吾輩也許就不會阻止他了呢。=...Is that so? Well... if you offered me a bite, I might not stop you.
 
 Leblanc Ryuji
+我自從當怪盜之後，\n經常在做肌肉訓練之類的。=I've been doing tons of working out and stuff since becoming a Phantom Thief!
+sr:"^(.*)在這方面怎麼樣？\n有沒有做什麼特別的事情？$"="How 'bout you, $1?\nYou got any special training regime?"
+我常去健身房=I go to the gym
+我常去擊球練習場=<size\=30>I go to the batting cages</size>
+哦，挺不錯嘛！\n果然使用專用的機器，會很有效果對吧！=Oh, nice! Yeah, you gotta use the right equipment if you want results!
+擊球練習場！？不是……可揮棒練習，\n居然會鍛煉到手臂的肌肉嗎……！？=The batting cages!? Huh... Actually, batting's probably not too bad an upper body workout!
+對我很有啟發！好，我也不能輸啊～\n試著增加１００組伏地挺身吧！=Good stuff! I'd better add another hundred push-ups to my set to keep up with you, man!
+
 要是下次測驗再不及格的話就完蛋了。\n連杏都會跟我說要完蛋了的程度啊……=I'm in deep shit if I fail this next test...\nEven Ann said so...
 我也是在拼盡全力地學習啦！？\n可是……年號之類的，就是記不住數字啊……=I'm doing the best I can, okay!? I just can't remember crap like numbers and dates...
 你知不知道什麼好用的諧音梗？\n「{{A}}內褲的」……類似這種！=You know any good memorizing tricks? Like that "PEMDAS" thing or somethin'?
@@ -1334,6 +1343,10 @@ sr:"^咕啊啊啊啊——！\n你聽我說啊，(.*)～！$"="Gaaah! \nWill you
 有些問題比我想像的要難啊。\n不過嘛，對我來說還是小菜一碟啦！=There are some surprisingly tough ones in here. Well, they're easy for me, of course!
 sr:"^(.*)也要試試看嗎？\n哼哼～，我可以給你提示！$"="Wanna give them a try? I can give you some hints if you need, heheheh!"
 
+sr:"^秘方……秘方……啊！我說，(.*)\n你覺得給咖哩加入什麼秘方比較好？$"="Secret ingredient... secret ingredient... Oh! $1! What secret ingredient do you think I should add to the next curry?"
+我查了一下，一般會放巧克力呀，\n蜂蜜呀，蘋果之類的……=When I looked it up, some of the more common ones included chocolate, honey, and grated apple...
+我想下次教給蓮和惣治郎。\n如果可以的話，讓我聽聽你的意見吧！=I'm overwhelmed by all the options. \nAny ideas? Tell me, tell me!
+
 Leblanc Haru
 吧臺上的書，\n無論哪本都值得一看呢。=All the books on the counter look like they're worth reading.
 不過，是誰擺在這裡的呢？\n今天放著之前看過的系列的後續……=But who's lining them up? Today, there's even a continuation of a series I read recently...
@@ -1349,6 +1362,15 @@ Leblanc Haru
 我和小真都是高三學生，\n所以是大家的{{A}}……=Mako-chan and I are third-years, \nso that makes us everyone's senpai...
 但大家並沒有因為我們是{{A}}\n就跟我們有隔閡，相處起來非常舒適呢。=But no one treats us differently, so it's always nice to spend time with everyone.
 sr:"^(.*)的熟人裡也有(.*)嗎？\n對待她更坦率一點，說不定也不錯哦。$"="Are any of your friends older, $1? You may find that you can be more frank with them after all."
+
+Leblanc Akechi
+啊，運氣不錯嘛。\n今天，蓮破例親自做華夫餅哦。=Ah, you couldn't have come at a better time. Ren's treating us to waffles today.
+好像他偶爾來興致了就會這麼做。\n但他上次擅自這麼幹，被老闆狠狠地訓了呢。=He tends to do it every now and then, although last time, the owner found out and was furious...
+不過華夫餅和咖啡是絕配，味道也很不錯。\n難得的機會，你要不要也點一份？=But they're delicious, and they go so well with coffee. I highly suggest you try one while you're here.
+
+你想知道偵探平時都幹些什麼？\n嗯……怎麼說呢。=You wish to know about detective work?\nHmm, well...
+其實很多都是些瑣碎的事情。\n比如找貓、調查出軌、尋找竊聽器之類的。=To be honest, it's mostly mundane. Finding lost cats, investigating cheating spouses, locating wiretaps, that sort of thing.
+我的話，會和警方合作，參與重大案件調查。\n但實際上，工作本身還是很平凡的。=As for me, I mostly work with the police and public prosecutors on large cases... but it's all rather standard, unremarkable work.
 
 Minami
 和{{A}}一起採購了食材……=Went shopping for ingredients with {{A}}...
@@ -1491,7 +1513,7 @@ CITY ACTIVITIES - PART-TIME + OTHER EVENTS
 上次的數學題，要是換一種做法的話……=I suddenly thought of a way to use the new math formula we learned in class...!
 
 聞起來很香甜的咖啡，充滿了成熟的感覺……=Bewitched by the coffee's aroma, I closed my eyes and readied myself for a sip...
-在味覺的激流中伸出手，似乎抓住了什麼……！Wrapped in the comforts of coffee, I feel like I've discovered something...
+在味覺的激流中伸出手，似乎抓住了什麼……！=Wrapped in the comforts of coffee, I feel like I've discovered something...
 今天嘗試了還沒出現在菜單上的試驗新品……=I was served a special blend that's apparently in the works...
 在衝擊性的味覺激流中拼命伸出手，似乎抓住了什麼……！=As I drifted off to dreamland, I feel like I discovered something...
 
@@ -1571,8 +1593,12 @@ sr:"^啊，是小(.*)！\n還好你今天來了呢！$"="Hey, $1-kun! \nI'm so g
 
 很豐富的遊戲收藏嘛……\n有時間的話，可以適當玩一下喔。=Do you wish to play on the game console?
 
+意外地有點靜不下心來。\n圖書室應該是讓人放鬆的地方吧？=Seems like you're having trouble focusing.
+
 是與記憶中一樣的巨大份量……=It's just as enormous as ever...!
 全部吃光了，\n與吾期待中的一模一樣。=Hoo hoo! Good show! \nI'd expect no less of you.
+
+在腦海中對充滿溫情的樂曲進行了演奏。=A strong urge to help them grow healthy and strong is welling up inside me...
 
 ----------
 CITY ACTIVITIES - GACHAPON
@@ -1623,6 +1649,8 @@ Debuff
 有同伴元素異常！需要掩護！=Someone has a status ailment!\nHelp them, quickly!
 Faint
 WONDER？你怎麼了，快回答！=Wonder? What's wrong, answer me!
+Revive
+很好，繼續戰鬥！=All right, let's keep fighting!
 Victory
 辛苦了，走吧！=Good work, let's go!
 理所當然的結果！=It's the natural outcome!
@@ -17517,7 +17545,7 @@ sr:"^早上好，(.*)！$"="Good morning, $1!"
 我也是\n無論在學校還是網上\n到處都在議論{{A}}的事……=Me too. At school and online, everyone's talking about the {{A}}...
 總覺得有些不安\n定不下心來\n所以想當面見到大家=I feel a bit anxious and can't settle down, so I wanna see everyone in person.
 {{A}}的心情\n我能理解={{A}}, I understand that feeling.
-我的班級裡\n大家也都在聊\n{{B}}和{{A}}的事=Everyone is my class too is talking about the {{B}} and {{A}}.
+我的班級裡\n大家也都在聊\n{{B}}和{{A}}的事=Everyone in my class too is talking about the {{B}} and {{A}}.
 就連{{A}}的會議上\n都有人提議\n應該重新調查{{B}}的事件=Even at the disciplinary committee meeting, someone suggested reopening the investigation into the {{B}}.
 現在這種狀況\n必須時刻保持警惕\n以免說漏了什麼=In this situation, we need to stay vigilant so we don't slip up.
 更何況這幫傢伙\n個個都隨口亂說=Especially since these guys all talk carelessly.
@@ -18270,6 +18298,7 @@ Chapter 6 Part 1 Day 5 Final Exam
 要是{{A}}已經把檔案徹底破壞、\n刪到無法修復的程度，那確實沒辦法……=If {{A}}-san had thoroughly destroyed the files to the point where recovery is impossible, then it's hopeless...
 要是{{A}}已經把文件徹底破壞、\n刪到無法修復的程度，那確實沒辦法……=If {{A}}-san had thoroughly destroyed the files to the point where recovery is impossible, then it's hopeless...
 但如果只是從資源回收筒刪除的程度，\n用市面上的資料恢復軟體應該能救回來。=But if they were just deleted from the recycle bin, a common data recovery software should be able to restore them.
+但如果只是從資源回收桶刪除的程度，\n用市面上的資料恢復軟體應該能救回來。=But if they were just deleted from the recycle bin, a common data recovery software should be able to restore them.
 但如果只是從回收站刪除的程度，\n用市面上的資料恢復軟體應該能救回來。=But if they were just deleted from the recycle bin, a common data recovery software should be able to restore them.
 唔……只是為了不讓家人發現的話，\n刪除到那種程度確實足夠了。=Hmm... if the goal was just to keep it from her family, deleting it to that extent is sufficient.
 要是能把{{A}}特意刪掉的檔案恢復出來……=If we can recover the files {{A}}-san deliberately deleted...
@@ -19172,8 +19201,7 @@ sr:"^那個學生就是(.*)同學吧？\n謝謝你。$"="That student was $1-kun
 sr:"^而且就在事發前不久，\n(.*)還給(.*)發了那條訊息……$"="And this happened shortly after $1 sent that message to $2..."
 sr:"^而且就在事發前不久，\n(.*)還給(.*)發了那條信息……$"="And this happened shortly after $1 sent that message to $2..."
 {{B}}之前獨自暗中調查{{A}}的事……={{B}} had been secretly investigating {{A}} on her own...
-然後她又發簡訊說調查有了進展……對吧？=And then she sent a message saying she'd made progress... right?
-然後她又發短信說調查有了進展……對吧？And then she sent a message saying she'd made progress... right?
+然後她又發短信說調查有了進展……對吧？=And then she sent a message saying she'd made progress... right?
 結果緊接著就捲入官方認證{{A}}引發的車禍，\n這簡直……這簡直就像是……=And right after that, she got caught in an accident caused by a condemned {{A}}. This is... it's almost like...
 是的，未免也太巧合了……=Yes, the timing is far too coincidental...
 我們甚至可以認為……這個{{B}}是受{{A}}的操控，才陷入暴走，從而製造了這場車禍。=We can even assume that this {{B}} was manipulated by {{A}} into going berserk and causing the accident...
@@ -19322,10 +19350,10 @@ sr:"^(.*)、(.*)。走吧。$"="$1, $2, let's go."
 向{{B}}出發吧。\n首先去{{A}}的站前廣場會合……=Let's meet up at the {{A}} station square and head to the {{B}}...
 向{{B}}出發吧。\n首先去{{A}}的站前廣場匯合……=Let's meet up at the {{A}} station square and head to the {{B}}...
 
-大家都比昨天冷靜一些了嗎？=Is everyone a bit calmer than yesterday?
+大家都比昨天冷靜下來一些了嗎？=Is everyone a bit calmer than yesterday?
 多少冷靜點了。雖然心裡還是很不爽……\n但我也沒打算亂來。=I've calmed down a bit. I'm still pissed off, though... but I don't plan on doing anythin' reckless.
 嗯，雖然心裡的怒火還沒有平息……\n但我覺得自己比昨天要理智多了。=Yeah, I'm still angry... but I think I'm thinking more clearly than yesterday.
-嗯，那就出發吧。\n隊長，拜託你啟動{{A}}了。=Hoom, then let's go. Leader, please activate the {{A}}.
+嗯，那就出發吧。\n隊長，拜託你啟動{{A}}了。=Hoom, then let's go. \nLeader, please activate the {{A}}.
 
 ----------
 Chapter 6 Part 1 Metaverse Start
@@ -19703,7 +19731,7 @@ CATTLE，{{A}}可能在哪裡？=Cattle, where could the {{A}} be?
 最後！你應該已經品嘗過招牌飲料\n「不幸之蜜」了吧？=Finally! You've surely already tasted the signature drink "Misfortune Honey", right?
 請用你的話來講述那種絕妙的味道！=Please tell us in your own words about that exquisite flavor!
 每天必喝三杯！=<size\=26>I drink three cups every day!</size>
-衛生堪憂=T<size\=26>The hygiene is questionable</size>
+衛生堪憂=T<size\=25>The hygiene is questionable</size>
 名字不吉利=The name is ominous
 不行……要按對方希望的方式回答，WONDER！=No good... you need to answer the way they want, Wonder!
 太棒了！這正是被選中之人所說的話！\n各位，請為這位狂熱粉絲獻上熱烈掌聲！=Excellent! Those are the words of someone truly chosen! Everyone, let's give this enthusiastic fan a round of applause!
@@ -19814,7 +19842,7 @@ CATTLE，{{A}}可能在哪裡？=Cattle, where could the {{A}} be?
 讓{{A}}遭遇那種事，\n還把那種事當成娛樂……簡直太不正常了。=Making {{A}} go through that, and treating it as entertainment... It's just not right.
 我很理解你的{{A}}。\n雖然這可能會讓你想起很多痛苦的記憶……=I understand your anger. This might bring back painful memories for you...
 但即便如此，也不能在這裡折返。=But even so, we can't turn back here.
-是的。為了不再出現{{A}}那樣的犧牲者……\n也必須繼續前進。=Yes. To prevent any more victims like {{A}}.. We have keep going.
+是的。為了不再出現{{A}}那樣的犧牲者……\n也必須繼續前進。=Yes. To prevent any more victims like {{A}}... We have keep going.
 ……嗯，我知道了。\n我沒事的。走吧。=...I get it. \nI'm fine. Let's go.
 
 哎呀哎呀，客人。\n歡迎來到棒球館主題樂園。=Oh dear, guests. Welcome to the Baseball Stadium Theme Park.
@@ -19830,8 +19858,8 @@ CATTLE，{{A}}可能在哪裡？=Cattle, where could the {{A}} be?
 只要能進入VIP區域，就能比其他處刑人\n在更有利的位置搶佔先機……是這樣嗎。=If we can get into the VIP area, maybe we can gain an advantage over other executioners...
 雖然不清楚詳情，但拿著似乎也沒有壞處。\n怎麼辦，隊長？=I'm not sure of the details, but it seems like it can't hurt. What should we do, Leader?
 參加遊戲吧=Let's play the game
-去找{{A}}吧=Let's go them
-嗯……雖然不太想探索這裡，\n但這種事也沒辦法。=Yeah... I don't really want to explore here, but it can't be helped.
+去找{{A}}吧=Let's find them
+嗯……雖然不太想探索這裡，\n但這種事也沒辦法。=Yeah... I don't really wanna explore here, but it can't be helped.
 應該不會花太多時間=It shouldn't take long
 儘量早點解決吧=Let's get it over with
 嗯……畢竟比真正的{{A}}要小。\n那麼，就開始探索吧。=Hoom... It's smaller than Kiuchi's actual Palace. Then, let's start exploring.
@@ -19959,7 +19987,7 @@ Let's 處刑Time——！=Let's Execution Time-!
 
 ＷＯＷ！這難道是以妨礙節目為幌子，\n實則利用警衛員達成的超神操作～！=WOW! Was that a super fine play using the guards under the guise of obstructing the show～!
 ＷＯＷ！這難道是以妨礙節目為幌子，\n實則利用警衛達成的超神操作～！=WOW! Was that a super fine play using the guards under the guise of obstructing the show～!
-憑藉出色智謀將{{A}}擊落，\n讓我們為處刑人送上掌聲～～！！=Thanks to their brilliant strategy, {{A}} is taken down! Let's give the executioner a round of applause～～!!
+憑藉出色智謀將{{A}}擊落，\n讓我們為處刑人送上掌聲～～！！=Thanks to their brilliant strategy, {{A}} is taken down! Let's give the executioners a round of applause～～!!
 怎麼會……我們明明不是那個意思的……=No... That's not what we intended...
 那麼～還沒被處刑、目前依然留在場上的{{A}}，\n又會迎來怎樣的結局呢～？=Then～ What awaits {{A}}, who's still on stage and hasn't been executed yet～?
 就是說NE～！\n既然如此，{{A}}就……=That's right, NE～! \nIn that case, {{A}} will be...
@@ -25513,6 +25541,73 @@ Rank 14
 我不想了解這種知識！=I don't want to know!
 在鄭重地拒絕了禮物之後，\n作為謝禮，他教了我射擊……=After respectfully declining the gift, he taught me how to shoot as thanks...
 
+Rank 17
+是你啊……剛好有點事情想找你聊聊。\n有空去一趟家庭餐廳嗎？=Oh, hey. I've got something to discuss. \nCan you come with me to the diner?
+不用在意我，\n點你愛吃的就行。=Don't mind me. \nOrder whatever you want.
+這可不行……=You sure...?
+{{A}}想吃什麼？=<size\=29>Anything you want to eat?</size>
+我沒什麼食慾，\n現在不想吃。=I'm not hungry. \nNot much of an appetite today.
+為什麼沒食慾？=Why's that?
+忙著給手術做準備。\n跟平時比起來，會更疲勞一些。=I've been busy prepping for the surgery and feel more rundown than usual.
+雖然在學校裡也有過類似的壓力。=You know, I was just as exhausted back in med school.
+當時在研究室裡住了一個多月呢。=Sometimes I'd practically live in the research lab for over a month.
+所以也不是什麼大問題。=So this isn't such a big deal.
+看起來不像沒問題的樣子，\n但感覺他不想多說……=Sounds like he's playing it down. I doubt he'll elaborate further...
+最好換個話題……=I should change the subject...
+要聊什麼來著？=<size\=24>You had something to discuss?</size>
+為什麼叫我來這？=<size\=26>Why did you invite me here?</size>
+嗯，是關於之前那件事……=Oh, right...
+到目前為止，手術都準備得很順利。\n手續都已經辦好了，日程也定下來了。=The surgery prep is going well. \nThe paperwork is finished, and the date is set.
+雖說沒有先例，但理論上是沒有問題的。\n我也能想像到手術成功時的場景。=Despite no precedent, it's theoretically perfect. \nI can already picture its success.
+都準備好了，沒有任何問題。\n我一直這麼認為，但……=There are no foreseeable issues. \nOr at least that's what I thought, anyway...
+但是？=But?
+出什麼問題了？=Is there a problem?
+隨著手術的日子的臨近，\n我漸漸開始失眠了。=As the date draws closer, I've had more trouble sleeping.
+如果……出現了什麼意外，\n如果……我突然的手抖……=What if something doesn't go as planned, or I make a minor yet careless mistake?
+就在那個瞬間，\n患者可能就會因此失去生命。=One small issue and the patient could die.
+這樣的想法……\n就一直徘徊在我的腦海裡。=Those thoughts are constantly messing with my head.
+實話實說就是……\n我現在感覺要被這壓力壓垮了。=Frankly, I feel like I'm cracking under the pressure.
+至今為止，無論發生了大多的事情，\n我都是靠自己一個人獨自去解決的。=Up until now, I've solved most problems on my own.
+我一直都很自負，\n覺得自己擁有可以做到這些的能力。=I was proud of my self-sufficiency.
+正因為如此，這次的手術，\n我也毫不猶豫地就接下來了……=That's why I took on this surgery without any hesitation. However...
+只是我完全沒能想像到，\n人命居然是如此沉重。=I didn't imagine the responsibility for another's life to feel this heavy.
+作為醫生，我太不成熟了。\n就算被別人說是自戀自大，我也無話可說。=As a doctor, I'm still inexperienced. \nI bet I look like an egomaniac.
+這樣的我……\n究竟有沒有主刀的資格呢？=Is someone like me even qualified to perform this procedure?
+現在的我，不管是精神還是肉體，\n都很難說是做好了萬全的準備。=Right now, I'm not feeling a hundred percent either mentally or physically.
+可能乾脆直接卸任主刀醫生的職責比較好啊。=In fact, it might be better if I step down as chief surgeon right now.
+你怎麼想？=What do you think?
+要逃跑嗎？=Are you running away?
+現在說這話晚了=<size\=30>It's too late to turn back</size>
+你要這麼說，我也沒辦法……=That's a reasonable question...
+為患者考慮的話，\n這也算是個辦法吧？=But isn't this also a way to "do no harm"?
+……說的也是。\n我這結論可能說的太早了。=...You're right. I'm jumping to conclusions.
+不……雖然時間很緊張，\n但現在說的話，還來得及。=No... It may be last minute, but there's still time.
+要做決斷的話，就得趁現在了。=I have to decide now.
+sr:"^看來(.*)是持反對意見的啊。\n說個理由讓我聽聽。$"="You seem against it, $1, but why?"
+患者信賴你=Your patient trusts you
+你不該辜負患者的信賴=<size\=28>Don't betray your patient's trust</size>
+患者的信賴嗎……=My patient's trust...
+說服他接受手術的不是別人，\n正是我啊。=I'm the one who persuaded him to get the surgery after all.
+明明知道存在著死亡的風險，\n即便如此，依然決定將生命託付於我。=He knew the risk, yet still chose to put his life in my hands.
+我卻因為壓力而選擇投降，\n想逃避這份責任，推給其他人……=But here I am cracking under pressure and trying to pass the buck.
+sr:"^(.*)說的沒錯。\n就這樣逃跑，實在是太卑劣了。$"="You're right, $1. It would be really wrong of me to back out now."
+無論結果如何，作為醫生，\n我都要竭盡全力，不能辜負患者的信賴。=No matter the result, as a doctor I must maintain my patients' trust.
+從{{A}}眼中又看到了生氣，\n看來他走出了迷茫……=Light has returned to {{A}}'s eyes. It looks like all his doubts have cleared...
+讓你見笑了。\n多虧你，我終於清醒了。=Sorry you had to see that. \nThanks for setting me straight.
+能幫上忙就好=Glad I could help
+那這頓你請=<size\=29>You can pay for my meal</size>
+sr:"^不僅是這次，\n(.*)已經幫了我很多次了。$"="You helped me out not just today, $1, but countless times already."
+總有一天，我會正式地答謝你。=Let me repay you for real someday.
+不用擔心，\n我一開始就是這麼想的。=Don't worry, I was planning to anyway.
+啊，對了，這之後還有空嗎？=By the way, are you free after this?
+好久沒去遊戲廳了，\n我想順路過去一趟。=I haven't been to the arcade in a while...
+發洩一下情緒，\n讓腦子重啟一下。=Plus, I need to clear my head after that emotional outburst.
+願意陪我一起嗎？=You in?
+好，那麼在出發之前，\n就再攝取一些營養吧。=Cool, then let's fill up first.
+畢竟，\n我已經十天沒吃過東西了。=Actually, I haven't eaten anything for ten days.
+是開玩笑的，\n頂多也就是三天吧。=Just kidding. \nIt's been three at most.
+和{{A}}一起吃完飯後，久違地\n在遊戲廳進行了射擊特訓……=After we ate, {{A}} and I fired off some rounds at the arcade for the first time in a while.
+
 Rank 20
 醫生，真的很感謝您……=Doctor, thank you so much...
 好的，我知道了。=Yes, I understand.
@@ -25621,6 +25716,55 @@ SNS
 ----------
 Masaki SL
 ----------
+Rank 20
+sr:"^你好啊，(.*)同學。\n是準備去打工嗎？有空先聊幾句嗎？$"="Hey, $1-kun. Starting your shift?\nOr do you have some time to chat?"
+這樣啊……真遺憾。\n那我們下次再約吧。=Oh, that's too bad... \nMaybe another time then.
+太好了，\n我正好有些事想問問你。=Great. There was actually something I was hoping to ask you today.
+……有點緊張。\n嗯……深呼吸。=Oh, now I'm getting nervous. \nDeep breaths...
+那個，有空的話……=So hey, would you...
+要不要來我家做客？=...Want to come over to my place sometime?
+之前……你有說過我們之間的關係，\n很「親密」了，對嗎？=You did say that the two of us are close the other day, right?
+所以我覺得也是時候……\n邀請你來我家做客了……=So I figured that maybe it'd be okay to invite you over by now...
+樂意之至=Sure, I don't mind
+期待去溫室看看=<size\=27>I wanna see the greenhouse</size>
+有見面禮的要求嗎=<size\=30>Should I bring anything?</size>
+太好了！\n我還在想要是被拒絕了該怎麼辦呢……=Thank goodness! I didn't know what I was going to do if you said no.
+院子裡的花都會歡迎你的！=I'm sure the flowers will be happy to see you too!
+你不用這麼客氣的，\n但你這麼說我很開心。=You don't need to do that. \nI do appreciate it, though.
+我已經和父母提起過你了。\n說了我想要邀請你來我家做客。=I've already told my parents that I was thinking of having you over too.
+聽了之後，也很高興。=They were so happy when they heard.
+也許是因為這是我第一次提出，\n想要把朋友帶到家裡來吧……=It's the first time I've said I want to invite a friend over before, so...
+為什麼想邀請我？=<size\=28>Why'd you invite me, then?</size>
+我們去你家做什麼呢？=What's the plan?
+啊……那個……=Er, well...
+我想的是，可以去溫室裡看看植物，\n放鬆一下。=I thought we could look at the plants in the greenhouse and just chill together a bit.
+sr:"^還有就是，看著(.*)同學……$"="When I look at you, $1-kun..."
+我有時會覺得你其實特別疲憊。=...There are days when you just emanate exhaustion.
+我甚至覺得你是不是瞞著我，\n在做什麼很麻煩的事情。=To the point where I wonder if you're secretly involved in something really draining on you.
+……但你放心吧，我不會追問的。=...But don't worry. I won't pry.
+你是個能夠獨立自主的人，\n但是……=You're able to solve issues on your own.\nBut...
+我只是希望，\n我能在你覺得疲憊的時候幫助你一點。=I want you to at least let me worry about you being so tired.
+真的什麼都不問嗎？=<size\=26>You really aren't gonna ask?</size>
+我也沒做什麼能讓你道謝的事情。=That's not something you need to thank me for.
+嗯，\n我不會強迫你說任何你不想說的事情。=Nope. I wouldn't try to dig up something you don't want to tell me.
+啊，但是……=Oh, but...
+如果你真的覺得很辛苦的話，\n要立刻告訴我哦。=If things do get unbearable, I want you to let me know right away.
+你是我很重要的朋友。=You're an important friend to me.
+如果能幫到你的話，\n我什麼都可以去做。=I'd do anything to help you out.
+比如呢？=Like what?
+什麼都可以做？=Really? Anything?
+呃……比如……=Er... Well...
+當，當然了。=Y-Yeah, of course.
+我能，為你做的事情……=So long as there's something I can do for you...
+什麼都可以！=...I'm gonna do it!
+啊！差不多到了要去打工的時間了。=It's about time for our shift to start.
+今天我帶來了一些甜點，\n休息的時候我們一起吃吧。=I brought some snacks with me today. \nLet's eat them during our break!
+很期待=I can't wait
+下次我也要帶=<size\=27>I'll bring some too next time</size>
+嗯，所以我們努力工作吧。=Awesome, let's have a good shift together!
+sr:"^(.*)同學選的甜點啊……\n我很期待哦。$"="Ooh, snacks chosen by $1-kun?\nI can't wait."
+和{{A}}一起在花店工作，\n休息時一起吃了甜點……=I worked at the flower shop with {{A}}. We ate his snacks together during our break.
+
 和{{A}}一起來了學校小賣部。\n肚子有點餓，買了麵包……=I came to the school store with {{A}}. I was a little hungry and bought some bread...
 和{{A}}一起來到了淺草。\n觀察花的時候有遊客搭話……=I came to Asakusa with {{A}}. Talked to tourists when we were observing flowers...
 和{{A}}在井之頭公園散步了。\n悠閒地放鬆了身心……=Took a relaxing walk with {{A}} in Inokashira Park...
@@ -26177,7 +26321,6 @@ Akihabara Quest
 朝女僕跑走的方向追過去……=Ran after the maid...
 道歉……？=Apologize...?
 沒事沒事，沒關係的～！\n反正都是要做任務的，對吧？=It's okay, no problem～!\nWe have to complete the mission anyway, right?
-能幫上忙就好=I'm glad I could help
 現在就進去嗎？=Going in now?
 進去吧=Let's go
 再等等=Wait a bit
@@ -26452,6 +26595,57 @@ Rank 16
 {{A}}的笑容變得明快起來，\n和她走到{{B}}後道了別……=<size\=26>{{A}}'s smile brightened, said goodbye to her after arriving in {{B}}...</size>
 輕輕地讓{{A}}靠著肩膀，\n直到她情緒平靜下來……=Gently let {{A}} lean on my shoulder until she calms down...
 之後和{{A}}一起回家，\n在{{B}}分別了……=<size\=28>After that, I went home with {{A}} and said goodbye in {{B}}...</size>
+
+Rank 20
+sr:"^啊，(.*)。你要回去了嗎？\n我待會準備去(.*)……$"="Ah, $1. Are you heading back home? I'm scheduled to go to $2 after this..."
+sr:"^我知道了。\n那麼明天見，(.*)。$"="Okay. See you tomorrow, $1."
+欸？你願意陪我一起嗎？=Oh? Would you like to come with me?
+其實是有線電視的採訪……你還記得嗎？\n以前也有來過的，這次又來了。=Actually, if you recall that TV interview I did a while back... I'll be doing another one today.
+我想應該不會花太長時間，\n那就麻煩你陪我一起啦。=I don't think it will take very long, so I'd like to ask you to join me.
+等採訪結束了，\n我們去{{A}}的咖啡廳吧。=After I'm finished, we could go to a nearby café in the neighborhood.
+到本週末為止，\n{{A}}會在{{B}}車站販售鹹梅乾。={{A}}'s umeboshi will be sold at {{B}} Station until the end of the week.
+大家到附近的時候，\n請務必過來看一看。=Please stop by if you happen to be in the area.
+好，卡～！=Aaaand, cut～!
+哎呀～拍到了很棒的畫面啊！\n我們已經來採訪過{{A}}好幾次了……=Wow, we got some really great stuff! We've done quite a few sessions together, but...
+但今天的笑容，比平時更加燦爛呢！\n非常感謝！=Your smile is absolutely glowing today! \nThanks for the exceptional shoot!
+呵呵……\n我才要謝謝你們！=Hehe... The pleasure is mine. \nThank you very much!
+讓你久等了。等我換好衣服，\n我們就去咖啡廳吧。=Thanks for waiting. I'll get changed and we can head to the café.
+被誇了呢=<size\=26>You were praised quite a bit</size>
+他說你笑容燦爛呢=<size\=24>What a glowing smile you have</size>
+是呀。可能是因為我心裡想通了。=I suppose so. \nPerhaps it's because I feel so refreshed.
+……在那之後，我跟父親說了。=After that day, I talked to my father.
+不管是成為教師，還是繼承{{A}}，\n兩條路所需的知識，我都要學習。=I told him that I'd like to study to become a teacher, but also study to take over {{A}}.
+看了母親的錄影留言，\n我重新感覺到了父母的愛……=After watching that video from my mother, \nI felt the love from both my parents...
+然後我意識到，現在的我……\n只是在急躁地想找到其他道路。=I thought that maybe I was just trying to find another path for myself...
+我想找到新的自己，\n認為自己必須逃離別人為我鋪好的道路。=That I had to find a "new me" to escape from the path that was laid out for me already.
+然後得出了想成為教師的結論。\n這個想法是真心的。=Because of our searching, I came to the conclusion that I really do want to become a teacher.
+可是……我對{{A}}的經營感興趣，\n想要給父親幫忙，也是發自真心的。=But... it's also true that I'm interested in running {{A}} and that I want to help my father.
+既然搞不清楚哪個才是「真正的自己」……=I don't know which is the real me...
+那麼我想，現在不做出決定也可以吧！=But I think it's fine if I don't decide right now!
+我覺得可以=Sounds good to me
+意外地優柔寡斷啊=<size\=25>You're surprisingly indecisive...</size>
+我會關注你之後的道路=<size\=28>I'll keep watching over you, then</size>
+呵呵，我就知道你會這麼說的。=Hehe, I thought you might say that.
+說不定，還存在其他的道路呢。\n我打算慢慢地去探索清楚。=Maybe there is another path for me. \nBut I'll take my time to figure it out.
+哎呀，你討厭這樣的我嗎？=Ah, do you not like that side of me?
+說不定，還存在其他的道路呢。\n我覺得慢慢探索出來也不錯啊。=Maybe there is another path for me. But I think I'd like to take my time and see what happens.
+sr:"^謝謝你，(.*)。\n請在我身邊注視著我的選擇吧。$"="Thank you. I'll be counting on you to keep watching over me until I choose my path, then."
+今後，無論我走上怎樣的道路……=From now on, no matter what path I take...
+我都要幸福，不能辜負父母對我的感情。\n然後……=I hope I'll stay happy, and not betray my parents' wishes. And...
+我想要成為像{{A}}那樣，\n能夠給予別人愛的人。=Just like {{A}}, I'll become the type of person who can spread love to others.
+自助餐和中華街……\n之前讓你陪我去了很多地方……=I took you to a buffet, to Chinatown, to all sorts of places...
+但尋找「真正的自我」還遠遠沒有結束哦。=But I'm still not finished finding my true self.
+可能是我太貪心了，\n但我想去嘗試更多的可能。=It might sound greedy, but I want to try and pursue even more possibilities.
+sr:"^所以……(.*)，\n請你今後也一直陪著我哦。$"="So... I hope you'll continue to be with me to the very end, $1."
+啊，對了。說到將來……\n你覺得這樣如何？=Ah, that reminds me. Speaking of the future... I had a thought...
+如果我選擇了教師這條路……=If I do end up becoming a teacher...
+那麼你要不要作為我的伴侶，\n試著繼承{{A}}？=Would you like to take over {{A}} as my partner?
+我、我考慮一下……=I-I'll think about it...
+呵呵……我是不是有點太心急了。\n這種事可以慢慢考慮的。=Hehe... just kidding. I guess I got ahead of myself. We can talk about that sort of thing later.
+因為，我們今後會一直在一起啊……=After all, we'll be together forever...
+sr:"^好啦，我得去換衣服了！\n稍微等我一下哦，(.*)！$"="Now, I should get changed! \nI'll be right back, $1!"
+等{{A}}換完衣服後，\n2人一起前往咖啡廳。=After {{A}} changed clothes, we made our way to a café...
+一起談論了今後想去的地方，\n一直聊到很晚……=We talked into the night about all the places we wanted to go together...
 
 Hangouts
 sr:"^(.*)，你現在有空嗎？\n我有個想去的地方。$"="Are you free now, $1? \nThere's a place I'd like to visit."
@@ -27140,6 +27334,11 @@ sr:"^(.*)。你來得正好。$"="$1. Perfect timing."
 之後，在時間允許的情況下，\n和{{A}}聊了很久……=Afterwards, while time allowed, I talked for a long time with {{A}}...
 
 Hangouts
+sr:"^(.*)。\n有件事……我想讓你陪我一起。$"="$1, I was actually wondering if we could go somewhere..."
+我想了解一下其他街區的防火措施。=I've been curious about how other neighborhoods handle fire safety.
+太好了。我平時不怎麼去那些地方，\n所以不太熟悉。=Great. I don't often go to these sorts of places, so I wouldn't know my way around.
+那你覺得我們應該去哪裡？=So, where do you suggest we should go?
+是嗎……那也沒辦法。\n下次再說吧。=I see... That's fine. \nAnother time, maybe.
 {{A}}似乎想見面……\n前去她所在的地方吧……={{A}} seems to want to meet... Let's go to where she is...
 不買東西嗎？=Not buying anything?
 要看場電影嗎？=Want to see a movie?
@@ -27152,6 +27351,7 @@ Hangouts
 偶爾把工作拋到腦後吧=<size\=26>Forget about work once in a while</size>
 就用棒球一決勝負吧！=Baseball duel! Now!
 {{A}}出乎意料地興致勃勃……={{A}} is unexpectedly excited...
+你還真是喜歡這裡呢。\n……不過我也不討厭啦。=You really like it here, don't you...?\nWell, I guess it's not bad.
 和{{A}}一起去了擊球中心。\n棒球競賽打成了平手……=Went to the batting cage with {{A}}. The baseball game ended in a tie...
 和{{A}}一起去了擊球中心。\n贏下了棒球競賽……=Went to the batting cage with {{A}}. Won the baseball game...
 和{{A}}一起去了擊球中心。\n{{A}}贏了棒球競賽……=Went to the batting cage with {{A}}. {{A}} won the baseball game...
@@ -27772,6 +27972,19 @@ SNS
 是{{A}}的魅力吧=Probably {{A}}'s charm
 是{{A}}的笑容吧=Probably {{A}}'s smile
 完全是另一種運動吧……=It's a different sport altogether...
+終於要來了啊=It's finally here
+{{A}}的話，沒問題={{A}} will be fine
+我祝你能夠當選=I hope you get selected
+這可以告訴外部人員嗎？=Can this be told to outsiders?
+我一定會看的=I'll watch it
+我還會寫評論的=I'll also write a comment
+已經要5000人了！？=It's already at 5000 people!?
+我真開心=I'm so happy
+我為你驕傲=I'm proud of you
+有汽車相關的工作了！=It's work related to cars!
+{{A}}的話是理所應當的=As expected from {{A}}
+真正的戰鬥才剛剛開始=The real battle has just begun
+這並不是結束哦=This isn't the end, you know
 
 ----------
 Manaka SL
@@ -28862,7 +29075,6 @@ SNS
 感受到愛意了=Can feel the love
 為什麼這麼想？=Why do you think that?
 絕對會聽=Definitely will listen
-很期待=Looking forward to it
 全都聽過了=I've heard it all
 聽了幾首=I heard a few
 電視劇主題曲=TV series theme song
@@ -32447,6 +32659,10 @@ SNS
 {{A}}的酒量很好？=Is {{A}} a good drinker?
 新衣服=New clothes
 想把之前的衣服扔掉=Wanna get rid of the old clothes
+當然要去！=Of course I'm going!
+都會做些什麼？=What do they do?
+會一直支持你=I'll always support you
+我自己也要加油了=I need to work harder myself
 
 ----------
 Shoki SL
@@ -33237,7 +33453,7 @@ sr:"^哦——就是這個！\n不愧是(.*)！Ｇｒａｚｉｅ！$"="Oh- It's
 
 SNS
 有電子書=There are e-books
-沒看到啊……=I I haven't seen it...
+沒看到啊……=I haven't seen it...
 你突然怎麼了？=What's wrong all of a sudden?
 講的是什麼？=What is it about?
 好在哪裡？=What's good about it?
@@ -33822,7 +34038,7 @@ Soulmates
 原來如此，早就是了啊……=I see. \nSo, I already was...
 不過我覺得，應該是我更早吧。=But I think I was first.
 sr:"^因為對我來說，\n(.*)一直都是我最喜歡的人呀。$"="Because for me, you have always been my favorite."
-sr:"^(.*)，好開心呀。\n謝謝你，(.*)。$"="$1, I'm so happy.\nThank you, $2."
+sr:"^哈哈，好開心呀。\n謝謝你，(.*)。$"="Haha, I'm so happy.\nThank you, $1."
 sr:"^我會成為讓(.*)驕傲的，\n最棒的自己。$"="I'll become the best version of myself that you can be proud of."
 啊，雖然我知道你懂但是……\n這件事暫時還不能告訴任何人哦。=Ah, I know you understand, but... \nlet's keep this between us for now, okay?
 好了，打起精神來……\n進行音樂節的總結會吧。=Alright, let's get our spirits up... \nTime for the festival review meeting.
@@ -34232,6 +34448,7 @@ My Palace
 ----------
 Wonder World
 ----------
+要試著搭話嗎？=Should I try talking to them?
 上前搭話=Talk to them
 還是算了……=Maybe another time...
 

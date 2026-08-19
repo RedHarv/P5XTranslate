@@ -317,6 +317,7 @@ r:"^戰鬥中，攻擊力提升<color\=#2899ff>(\d+%)</color>，造成暴擊後�
 【自我】=[Self]
 自我=Self
 r:"^自身消耗精力值後，造成傷害提升<color\=#2899ff>(\d+%)</color>，持續(\d+)回合，可疊加(\d+)層。$"="After user spends SP, increase DMG Dealt by <color\=#2899ff>$1</color> for $2 turns. Stacks up to $3 times."
+r:"^追加效果傷害增幅提升<color\=#2899ff>(\d+%)</color>。$"="Increase Follow Up DMG Amp by <color\=#2899ff>$1</color>."
 
 ----------
 All Arcana Cards
@@ -474,8 +475,16 @@ r:"^4套裝效果：造成傷害提升<color\=#2899ff>(\d+%)</color>；自身獲
 
 【決絕】=<size\=20>  </size>[Cruelty]
 決絕=Cruelty
-r:"^2套裝效果：造成傷害提升<color\=#2899ff>(\d+%)</color>。$"="<size\=23>2 Set Effect: Increase DMG Dealt by <color\=#2899ff>$1</color>."
+r:"^2套裝效果：造成傷害提升<color\=#2899ff>(\d+%)</color>。$"="<size\=23>2 Set Effect: Increase DMG Dealt by <color\=#2899ff>$1</color>.</size>"
 r:"^4套裝效果：攻擊力提升<color\=#2899ff>(\d+%)</color>；自身消耗<link\="s\|297"><u>『狂想節拍』</u></link>時額外獲得(\d+%)暴擊效果，持續(\d+)回合。$"="<size\=23>4 Set Effect: Increase ATK by <color\=#2899ff>$1</color>; When user spends <link\="s|297"><u>[Rhapsodic Beat]</u></link>, additionally increase Crit DMG by $2. Lasts for $3 turns.</size>"
+
+【反思】=<size\=20>  </size>[Failure]
+反思=Failure
+r:"^4套裝效果：每段攻擊都將使自身追加效果造成傷害提升<color\=#2899ff>(\d+%)</color>，持續(\d+)回合，最多疊加(\d+)層。$"="<size\=23>4 Set Effect: After each hit of damage, increase user's Follow Up DMG Dealt by <color\=#2899ff>$1</color>. This effect lasts $2 turns and stacks up to $3 times.</size>"
+
+【喜悅】=<size\=20>  </size>[Happiness]
+喜悅=Happiness
+r:"^4套裝效果：施放{{A}}技能造成治療效果後，使所有同伴造成傷害提升<color\=#2899ff>(\d+%)</color>，持續(\d+)回合。$"="<size\=23>4 Set Effect: After healing with a {{A}} skill, increase all allies' DMG Dealt by <color\=#2899ff>$1</color>. Lasts for $2 turns.</size>"
 
 ----------
 Inspect Details + Combat Pop-Ups
