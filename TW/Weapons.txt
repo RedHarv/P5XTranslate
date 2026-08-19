@@ -78,7 +78,7 @@ r:"^攻擊力提升(.*)。每裝配1種不同屬性的{{A}}，對敵人造成的
 湧動迴響=All In
 【腎上腺素】=[Adrenaline]
 腎上腺素=Adrenaline
-r:"^治療加成、護盾加成提升<color\=#2899FF>(.*)</color>。光環：主角在場時使所有怪盜獲得防禦力提升<color\=#2899FF>(.*)</color>。當為隊友使用技能時，使主要技能目標獲得基於自身生命值上限<color\=#2899FF>(.*)</color>的回復效果。$"="Increase healing and shield by <color\=#2899FF>$1</color>. \nAura: When user is present, increase party's DEF by <color\=#2899FF>$2</color>. After using a skill on an ally, restore <color\=#2899FF>$3</color> of the main target's Max HP."
+r:"^治療加成、護盾加成提升<color\=#2899FF>(.*)</color>。光環：主角在場時使所有怪盜獲得防禦力提升<color\=#2899FF>(.*)</color>。當為隊友使用技能時，使主要技能目標獲得基於自身生命值上限<color\=#2899FF>(.*)</color>的回復效果。$"="Increase Healing Bonus and Shield Bonus by <color\=#2899FF>$1</color>. \nAura: When user is present, increase party's DEF by <color\=#2899FF>$2</color>. After using a skill on an ally, restore the main target's HP by <color\=#2899FF>$3</color> of user's Max HP."
 湧動迴響晶石=All In Crystal
 僅可消耗湧動迴響晶石=Only use All In Crystal
 【輝耀賜福】=[Radiant Blessing]
@@ -231,6 +231,17 @@ r:"^攻擊力提升<color\=#2899FF>(.*)</color>。\nWONDER使用{{A}}技能或�
 r:"^致<color\=#000000>命</color>本能$"="L<color\=#000000>e</color>thal Instinct"
 混沌海克斯晶石=Chaos Hex Crystal
 僅可消耗混沌海克斯晶石=Only use Chaos Hex Crystal
+
+風語者之刺=<size\=22>Whisperer's Sting</size>
+【風靈共鳴】=[Spirit Resonance]
+風靈共鳴=Spirit Resonance
+r:"^攻擊力提升<color\=#2899FF>(.*)</color>,\n所有同伴使用{{A}}技能或追加效果造成疾風屬性傷害時，每擊中1名敵人WONDER可獲得(\d+)顆『風語晶核』\（上限(\d+)顆\）。『風語晶核』可用來運行『風靈法陣』，(\d+)回合後銷毀。\n『風靈法陣』：根據運行時『風語晶核』的數量啟動以下效果：\n不少於(\d+)顆：自身攻擊力提升<color\=#2899FF>(.*)</color>點。\n不少於(\d+)顆：全體敵人受到傷害提升<color\=#2899FF>(.*)</color>。\n不少於(\d+)顆：全體敵人受到的暴擊效果提升<color\=#2899FF>(.*)</color>，受到疾風屬性傷害的暴擊效果提升<color\=#2899FF>(.*)</color>。$"="Increase ATK by <color\=#2899FF>$1</color>.\nWhen allies deal Wind damage with a {{A}} skill/Follow Up, for each foe hit, grant Wonder $2 [Wind Whisper Crystal] stack. Stacks up to $3 times. [Wind Whisper Crystal] can activate [Spirit Sigil]. Lasts for $4 turns.\n[Spirit Sigil]: Gain the following effects based on number of [Wind Whisper Crystal] stacks:\n$5 Crystals: Increase user's ATK by <color\=#2899FF>$6</color>.\n≥$7 Crystals: Increase all foes' DMG Taken by <color\=#2899FF>$8</color>.\n≥$9 Crystals: Increase all foes' Crit DMG Taken by <color\=#2899FF>$10</color> and Wind Crit DMG Taken by <color\=#2899FF>$11</color>."
+風語晶核=Wind Whisper Crystal
+風靈法陣=Spirit Sigil
+r:"^風<color\=#000000>靈</color>法陣$"="S<color\=#000000>p</color>irit Sigil"
+r:"^受到疾風屬性傷害的暴擊效果提升(\d+(.\d+)?(%)?)$"="Increase Wind Crit DMG Taken by $1"
+風語者之刺晶石=Whisperer's Sting Crystal
+僅可消耗風語者之刺晶石=Only use Whisperer's Sting Crystal
 
 極晝=<size\=26>Midnight Sun</size>
 【遷移效應】=[Shift Effect]
@@ -927,11 +938,13 @@ r:"^自身{{A}}能量大於(\d+)點時，傷害提升<color\=#2899FF>(.*)</color
 爵士鋒刃=Jazz Blade
 【鋒刃亂舞】=[Blade Flurry]
 鋒刃亂舞=Blade Flurry
+【爵士鋒刃】=[Jazz Blade]
 r:"^暴擊率提升<color\=#2899FF>(.*)</color>。\n自身處於『幻影形態』時<link\="s\|299"><u>『{{A}}傷害』</u></link>提升<color\=#2899FF>(.*)</color>。\n退出『幻影形態』時使所有同伴暴擊效果提升<color\=#2899FF>(.*)</color>，持續(\d+)回合。$"="Increase Crit Rate by <color\=#2899FF>$1</color>.\nWhen [Phantom Form] is active, increase <link\="s|299"><u>[{{A}} DMG]</u></link> by <color\=#2899FF>$2</color>.\nWhen exiting [Phantom Form], increase all allies' Crit DMG by <color\=#2899FF>$3</color>. Lasts for $4 turns."
 巴塞拉德短劍=Baselard
 r:"^攻擊力提升<color\=#2899FF>(.*)</color>。\n消耗『狂想節拍』時，自身造成傷害提升<color\=#2899FF>(.*)</color>，持續(\d+)回合。$"="Increase ATK by <color\=#2899FF>$1</color>.\nWhen spending When spending [Rhapsodic Beat], increase user's DMG Dealt by <color\=#2899FF>$2</color>. Lasts for $3 turns."
 【舞奏一閃】=[Flash of Dance]
 舞奏一閃=Flash of Dance
+【巴塞拉德短劍】=[Baselard]
 月牙鐮刀=Helper Knife
 r:"^造成{{A}}傷害時，傷害提升<color\=#2899FF>(.*)</color>。$"="When dealing {{A}} damage, increase damage by <color\=#2899FF>$1</color>."
 科皮斯彎刀=Kopis
@@ -984,6 +997,22 @@ r:"^<link\="s\|303"><u>『熱力舞譜』</u></link>的傷害提升<color\=#2899
 蛇腹劍=Whip Sword
 【柔鋒】=[Soft Edge]
 柔鋒=Soft Edge
+
+海色餘音=Ocean Echoes
+【蔚藍戀歌】=Azure Love Song
+蔚藍戀歌=Azure Love Song
+r:"^暴擊率提升<color\=#2899FF>(.*)</color>\n『夏夜星幕』展開後，自身的暴擊效果永久提升<color\=#2899FF>(.*)</color>。\n自身施放HIGHLIGHT後，追加效果傷害增幅提升<color\=#2899FF>(.*)</color>，持續(\d+)回合。$"="Increase Crit Rate by <color\=#2899FF>$1</color>.\nAfter opening [Summer Starscape], permanently increase user's Crit DMG by <color\=#2899FF>$2</color>.\nAfter user uses a HIGHLIGHT, increase Follow Up DMG Amp by <color\=#2899FF>$3</color> for $4 turns."
+風吟潮聲=Tidal Chant
+【潮汐迴響】=Tidal Echo
+潮汐迴響=Tidal Echo
+r:"^攻擊力提升<color\=#2899FF>(.*)</color>。\n每獲得1層『星願』，自身造成傷害都將提升<color\=#2899FF>(.*)</color>，持續(\d+)回合，上限(\d+)層。$"="IncreaseATK by <color\=#2899FF>$1</color>.\nFor each [Star Wish] stack gained, increase user's DMG Dealt by <color\=#2899FF>$2</color> for $3 turn. Stacks up to $4 times."
+夏日花傘=Flower Umbrella
+【花影輕舞】=Flower Dance
+花影輕舞=Flower Dance
+r:"^自身造成追加效果時傷害提升<color\=#2899FF>(.*)</color>。$"="When dealing Follow Up damage, increase damage by <color\=#2899FF>$1</color>."
+遮陽傘=Parasol
+【晴日小調】=Sunny Minor
+晴日小調=Sunny Minor
 
 ----------
 STANDARD 5 STAR UNIT WEAPONS
