@@ -45,6 +45,8 @@ sr:"^通過(.*)\（<color\=#FFFFFF>(\d+)</color>/(\d+)\）波$"="Clear $1 Wave <
 風電之畫作=Painting of Wind Elec
 核萬之畫作=Painting of Nuke Almighty
 祝射之畫作=Painting of Bless Gun
+火物之畫作=Painting of Fire Phys
+冰咒之畫作=Painting of Ice Curse
 本期試煉結束後隨郵件發放排名獎勵=Rewards will be sent to Mail after the season ends.
 r:"^(\d+)-(\d+)名$"="#$1-#$2"
 r:"^(\d+)名以後$"="After #$1"
@@ -69,4 +71,4 @@ sr:"^戰鬥開始時，(.*)、(.*)、(.*)屬性的角色和WONDER可以獲得最
 
 夢魘油彩=Nightmare Paint
 <color\=#FF0000>夢魘油彩</color>=<color\=#FF0000>Nightmare Paint</color>
-r:"^釋放{{A}}技能/HIGHLIGHT/{{C}}造成弱點傷害時，可以累積(\d+)點能量。達到(\d+)點能量時可以釋放，強制擊倒所有敵人並大幅強化本次{{B}}的傷害。$"="When dealing Weak damage with a {{A}} skill/HIGHLIGHT/{{C}}, gain $2 energy. When energy reaches $3, you can activate this to knock down all foes and heavily boost the {{B}}."
+r:"^釋放{{A}}技能/HIGHLIGHT/{{C}}造成弱點傷害時，可以累積(\d+)點能量。達到(\d+)點能量時可以釋放，強制擊倒所有敵人並大幅強化本次{{B}}的傷害。$"="When dealing Weak damage with a {{A}} skill/HIGHLIGHT/{{C}}, gain $1 energy. When energy reaches $2, you can activate this to knock down all foes and heavily boost the {{B}}."
