@@ -798,8 +798,8 @@ PALACE 7
 棒球館樂園=<size\=17>Baseball Stadium Park</size>
 第一攝影棚=Studio 1
 熱情樂園島=<size\=22>Paradise of Passion</size>
-熱情樂園島外=<size\=15>Outer Paradise of Passion</size>
-熱情樂園島內=<size\=15>Inner Paradise of Passion</size>
+熱情樂園島外=<size\=14>Outer Paradise of Passion</size>
+熱情樂園島內=<size\=14>Inner Paradise of Passion</size>
 水壩樂園=Dam Park
 第二攝影棚=Studio 2
 夢想樂園島=<size\=22>Paradise of Dream</size>
@@ -807,9 +807,9 @@ PALACE 7
 夢想樂園島內=<size\=16>Inner Paradise of Dream</size>
 蟻穴樂園=Anthill Park
 第三攝影棚=Studio 3
-崩塌的外場館=<size\=22>Collapsed Stadium</size>
+崩塌的外場館=<size\=21>Collapsed Stadium</size>
 主攝影棚=Main Studio
-終極攝影棚=<size\=23>Ultimate Studio</size>
+終極攝影棚=<size\=24>Ultimate Studio</size>
 
 探索熱情樂園島=Explore Paradise of Passion
 探索夢想樂園島=Explore Paradise of Dream
@@ -4015,3 +4015,8 @@ r:"^溶<color\=#000000>血</color>腐化$"="B<color\=#000000>l</color>ood Rot"
 sr:"^怪盜每累計消耗(.*)精力或釋放HIGHLIGHT/(.*)時，全體同伴獲得(\d+)層『(.*)』；『(.*)』：每層提供(.*)的最終傷害加成，持續(.*)回合，最多可疊加(.*)層。$"="<size\=24>For every $1 total SP spent by Thieves or when using a HIGHLIGHT/$2, grant all Thieves $3 [$4] stack. [$5]: Increase Final DMG Bonus by $6 for $7 turns. Stacks up to $8 times.</size>"
 鋒銳骨片=Sharp Bone
 r:"^鋒<color\=#000000>銳</color>骨片$"="S<color\=#000000>h</color>arp Bone"
+
+往昔回溯=Past Recollections
+sr:"^怪盜每累計消耗(.*)精力或每累計消耗(.*)的HIGHLIGHT能量時，全體同伴獲得(\d+)層『(.*)』；『(.*)』：每層提供(.*)的最終傷害加成，持續(.*)回合，最多可疊加(.*)層。$"="<size\=24>For every $1 total SP spent by Thieves or when spending $2 HIGHLIGHT Energy, grant all Thieves $3 [$4] stack. [$5]: Increase Final DMG Bonus by $6 for $7 turns. Stacks up to $8 times.</size>"
+時空碎片=Time Fragments
+r:"^時<color\=#000000>空</color>碎片$"="T<color\=#000000>i</color>me Fragments"
