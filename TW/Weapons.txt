@@ -138,7 +138,7 @@ r:"^攻擊力提升<color\=#2899FF>(.*)</color>,\n為敵人添加異常狀態時
 r:"^攻擊力提升<color\=#2899FF>(.*)</color>,\n光環『星盤萬象』：根據WONDER的『推衍』層數啟動以下效果：\n(.*)層：全體敵人防禦降低<color\=#2899FF>(.*)</color>\n(.*)層：所有怪盜效果命中提升<color\=#2899FF>(.*)</color>\n(.*)層：所有怪盜念動傷害提升<color\=#2899FF>(.*)</color>\n戰鬥開始獲得(.*)層『推衍』，對每個敵人造成每次傷害，WONDER獲得(.*)層『推衍』。WONDER回合結束消耗(.*)層『推衍』。$"="Increase ATK by <color\=#2899FF>$1</color>. \nAura [Universal Astrolabe]: Gain the following effects based on number of Guidance stacks. \n$2 stacks: Decrease all foes' DEF by <color\=#2899FF>$3</color>.\n$4 stacks: Increase party's Ailment ACC by <color\=#2899FF>$5</color>.\n$6 stacks: Increase party's Psy DMG by <color\=#2899FF>$7</color>.\nAt the start of battle, gain $8 [Guidance] stacks, and each time damage is dealt to a foe, gain $9 stack. At the end of user's turn, lose $10 [Guidance] stacks."
 星盤萬象=Universal Astrolabe
 推衍=Guidance
-sr:"^根據層數激發『(.*)』的效果$"="Activate the effects of [$1] based on the stack amount"
+sr:"^根據層數激發『(.*)』的效果$"="Activate [$1] effects based on the stack"
 天象星儀晶石=<size\=17>Starry Compass Crystal</size>
 僅可消耗天象星儀晶石=Only use Starry Compass Crystal
 【熒惑蝕心】=[Martian Embers]
@@ -239,8 +239,9 @@ r:"^攻擊力提升<color\=#2899FF>(.*)</color>,\n所有同伴使用{{A}}技能�
 風語晶核=Wind Whisper Crystal
 風靈法陣=Spirit Sigil
 r:"^風<color\=#000000>靈</color>法陣$"="S<color\=#000000>p</color>irit Sigil"
+根據數量激發『風靈法陣』的效果=Activate [Spirit Sigil] effects based on the amount
 r:"^受到疾風屬性傷害的暴擊效果提升(\d+(.\d+)?(%)?)$"="Increase Wind Crit DMG Taken by $1"
-風語者之刺晶石=Whisperer's Sting Crystal
+風語者之刺晶石=<size\=16>Whisperer's Sting Crystal</size>
 僅可消耗風語者之刺晶石=Only use Whisperer's Sting Crystal
 
 極晝=<size\=26>Midnight Sun</size>
@@ -999,19 +1000,19 @@ r:"^<link\="s\|303"><u>『熱力舞譜』</u></link>的傷害提升<color\=#2899
 柔鋒=Soft Edge
 
 海色餘音=Ocean Echoes
-【蔚藍戀歌】=Azure Love Song
+【蔚藍戀歌】=[Azure Love Song]
 蔚藍戀歌=Azure Love Song
 r:"^暴擊率提升<color\=#2899FF>(.*)</color>\n『夏夜星幕』展開後，自身的暴擊效果永久提升<color\=#2899FF>(.*)</color>。\n自身施放HIGHLIGHT後，追加效果傷害增幅提升<color\=#2899FF>(.*)</color>，持續(\d+)回合。$"="Increase Crit Rate by <color\=#2899FF>$1</color>.\nAfter opening [Summer Starscape], permanently increase user's Crit DMG by <color\=#2899FF>$2</color>.\nAfter user uses a HIGHLIGHT, increase Follow Up DMG Amp by <color\=#2899FF>$3</color> for $4 turns."
 風吟潮聲=Tidal Chant
-【潮汐迴響】=Tidal Echo
+【潮汐迴響】=[Tidal Echo]
 潮汐迴響=Tidal Echo
 r:"^攻擊力提升<color\=#2899FF>(.*)</color>。\n每獲得1層『星願』，自身造成傷害都將提升<color\=#2899FF>(.*)</color>，持續(\d+)回合，上限(\d+)層。$"="IncreaseATK by <color\=#2899FF>$1</color>.\nFor each [Star Wish] stack gained, increase user's DMG Dealt by <color\=#2899FF>$2</color> for $3 turn. Stacks up to $4 times."
 夏日花傘=Flower Umbrella
-【花影輕舞】=Flower Dance
+【花影輕舞】=[Flower Dance]
 花影輕舞=Flower Dance
 r:"^自身造成追加效果時傷害提升<color\=#2899FF>(.*)</color>。$"="When dealing Follow Up damage, increase damage by <color\=#2899FF>$1</color>."
 遮陽傘=Parasol
-【晴日小調】=Sunny Minor
+【晴日小調】=[Sunny Minor]
 晴日小調=Sunny Minor
 
 ----------
