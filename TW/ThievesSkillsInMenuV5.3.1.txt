@@ -315,6 +315,7 @@ r:"^怪盜提升至Lv.(\d+)可啟動$"="Can activate at Lv.$1"
 <size\=55><sprite\=10 tint\=0></size>疾風屬性系所有角色=<size\=55><sprite\=10 tint\=0></size>All Wind Characters
 <size\=55><sprite\=15 tint\=0></size>念動屬性系所有角色=<size\=55><sprite\=15 tint\=0></size>All Psy Characters
 <size\=55><sprite\=12 tint\=0></size>核熱屬性系所有角色=<size\=55><sprite\=12 tint\=0></size>All Nuke Characters
+<size\=55><sprite\=20 tint\=0></size>祝福屬性系所有角色=<size\=55><sprite\=20 tint\=0></size>All Bless Characters
 <size\=55><sprite\=21 tint\=0></size>詛咒屬性系所有角色=<size\=55><sprite\=21 tint\=0></size>All Curse Characters
 <size\=55><sprite\=17 tint\=0></size>萬能屬性系所有角色=<size\=55><sprite\=17 tint\=0></size>All Almighty Characters
 <size\=55><sprite\=11 tint\=0></size>輔助屬性系所有角色=<size\=55><sprite\=11 tint\=0></size>All Support Characters
@@ -328,6 +329,7 @@ r:"^提升電擊傷害(.*)\n降低受到電擊傷害(.*)$"="Increase Elec DMG by
 r:"^提升疾風傷害(.*)\n降低受到疾風傷害(.*)$"="Increase Wind DMG by $1\nDecrease Wind DMG Taken by $2"
 r:"^提升念動傷害(.*)\n降低受到念動傷害(.*)$"="Increase Psy DMG by $1\nDecrease Psy DMG Taken by $2"
 r:"^提升核熱傷害(.*)\n降低受到核熱傷害(.*)$"="Increase Nuke DMG by $1\nDecrease Nuke DMG Taken by $2"
+r:"^提升祝福傷害(.*)\n降低受到祝福傷害(.*)$"="Increase Bless DMG by $1\nDecrease Bless DMG Taken by $2"
 r:"^提升詛咒傷害(.*)\n降低受到詛咒傷害(.*)$"="Increase Curse DMG by $1\nDecrease Curse DMG Taken by $2"
 r:"^擁有「<link\="itemTips\|(\d+)"><u><color\=#29b6ff>禮遇之徽記★5</color></u></link>」×<color\=#eade10>(\d+)</color> 「<link\="itemTips\|(\d+)"><u><color\=#29b6ff>心選之徽記★5</color></u></link>」×<color\=#eade10>(\d+)</color>$"="Owned: [<link\="itemTips|$1"><u><color\=#29b6ff>Random Emblem ★5</color></u></link>] x<color\=#eade10>$2</color>, [<link\="itemTips|$3"><u><color\=#29b6ff>Custom Emblem ★5</color></u></link>] x<color\=#eade10>$4</color>"
 sr:"^擁有「<color\=#fad400>(.*)</color>」×(\d+)，是否快速使用獲取「<color\=#fad400>(.*)</color>」？$"="Owned: [<color\=#fad400>$1</color>] x$2, exchange them for [<color\=#fad400>$3</color>]?"
@@ -449,14 +451,15 @@ r:"^友方疾風屬性角色攻擊擁有風襲的敵人時，穿透提升(\d+\.\
 r:"^嵐<color\=#000000>之</color>一心$"="T<color\=#000000>e</color>mpest Heart"
 r:"^敵方角色防禦力低於1點時，受到疾風屬性弱點傷害額外提升<color\=#0f69ca>(\d+\.\d+%)</color>。（該效果不能疊加）$"="When foes have DEF less than 1, increase Wind Weak DMG Taken by <color\=#0f69ca>$1</color>. This effect does not stack."
 r:"^敵方角色防禦力低於1點時，受到疾風屬性弱點傷害額外提升(\d+\.\d+%)。（該效果不能疊加）$"="When foes have DEF less than 1, increase Wind Weak DMG Taken by <color\=#0f69ca>$1</color>. This effect does not stack."
+r:"^防禦力低於1點時，受到疾風屬性弱點傷害提升(\d+(.\d+)?(%)?)$"="When DEF is less than 1, \nincrease Wind Weak DMG Taken by $1"
 疾風穿隙=Wind Piercer
 r:"^疾<color\=#000000>風</color>穿隙$"="W<color\=#000000>i</color>nd Piercer"
-r:"^自身每擁有(\d+%)穿透，總傷害增幅提升<color\=#0f69ca>(\d+\.\d+%)</color>，上限(\d+\.\d+%)。$"="For every $1 of user's Pierce, increase Total DMG Amp by <color\=#0f69ca>$2</color>, up to <color\=#0f69ca>$3</color>."
-r:"^自身每擁有(\d+%)穿透，總傷害增幅提升<color\=#0f69ca>(\d+\.\d+%)</color>，上限(\d+\.\d+%)。$"="For every $1 of user's Pierce, increase Total DMG Amp by <color\=#0f69ca>$2</color>, up to <color\=#0f69ca>$3</color>."
+r:"^自身每擁有(\d+%)穿透，總傷害增幅提升<color\=#0f69ca>(\d+\.\d+%)</color>，上限<color\=#0f69ca>(\d+\.\d+%)</color>。$"="For every $1 of user's Pierce, increase Total DMG Amp by <color\=#0f69ca>$2</color>, up to <color\=#0f69ca>$3</color>."
+r:"^自身每擁有(\d+%)穿透，總傷害增幅提升(\d+\.\d+%)，上限(\d+\.\d+%)。$"="For every $1 of user's Pierce, increase Total DMG Amp by $2, up to $3."
 淨化之風=Purging Wind
 r:"^淨<color\=#000000>化</color>之風$"="P<color\=#000000>u</color>rging Wind"
 r:"^自身對敵人釋放HIGHLIGHT/{{A}}後，驅散敵人<color\=#0f69ca>(\d+)</color>個強化效果。$"="After user uses a HIGHLIGHT/{{A}} on foes, remove <color\=#0f69ca>$1</color> buff(s) from foes."
-r:"^自身對敵人釋放HIGHLIGHT/{{A}}後，驅散敵人<color\=#0f69ca>(\d+)</color>個強化效果。$"="After user uses a HIGHLIGHT/{{A}} on foes, remove <color\=#0f69ca>$1</color> buff(s) from foes."
+r:"^自身對敵人釋放HIGHLIGHT/{{A}}後，驅散敵人(\d+)個強化效果。$"="After user uses a HIGHLIGHT/{{A}} on foes, remove $1 buff(s) from foes."
 
 意識截取=Intercept Consciousness
 r:"^自身對敵人釋放{{A}}後使技能目標獲得(\d+)層思維竊取，持續(\d+)回合，上限(\d+)層。\n思維竊取：受到傷害提升<color\=#0f69ca>(\d+\.\d+%)</color>$"="After user uses a {{A}} skill on foes, inflict the skill target with $1 Thought Steal stack. Last for $2 turns. Stacks up to $3 times.\nThought Steal: Increase DMG Taken by <color\=#0f69ca>$4</color>"
@@ -568,6 +571,7 @@ r:"^戰鬥開始時，永久提升友方全體穿透(\d+\.\d+%)。$"="At the sta
 
 MI 100 Skills
 sr:"^(.*) (\d+\.\d+%)→<color\=#FEDA00>(\d+\.\d+%)</color>\n(.*) (\d+\.\d+%)→<color\=#FEDA00>(\d+\.\d+%)</color>$"="$1 $2→<color\=#FEDA00>$3</color>\n$4 $5→<color\=#FEDA00>$6</color>"
+sr:"^(.*) (\d+\.\d+%)→<color\=#FEDA00>(\d+\.\d+%)</color>\n(.*) (\d+\.\d+%)→<color\=#FEDA00>(\d+\.\d+%)</color>\n(.*) (\d+\.\d+%)→<color\=#FEDA00>(\d+\.\d+%)</color>$"="$1 $2→<color\=#FEDA00>$3</color>\n$4 $5→<color\=#FEDA00>$6</color>\n$7 $8→<color\=#FEDA00>$9</color>"
 sr:"^(.*) (\d+\.\d+%)→<color\=#FEDA00>(\d+\.\d+%)</color>\n(.*) (\d+\.\d+%)→<color\=#FEDA00>(\d+\.\d+%)</color>\n(.*) (\d+\.\d+%)→<color\=#FEDA00>(\d+\.\d+%)</color>\n(.*) (\d+\.\d+%)→<color\=#FEDA00>(\d+\.\d+%)</color>$"="$1 $2→<color\=#FEDA00>$3</color>\n$4 $5→<color\=#FEDA00>$6</color>\n$7 $8→<color\=#FEDA00>$9</color>\n$10 $11→<color\=#FEDA00>$12</color>"
 
 r:"^技能強度提升 (.*)→<color\=#FEDA00>(.*)</color>$"="Increase skill potency $1→<color\=#FEDA00>$2</color>"
@@ -1749,7 +1753,7 @@ sr:"^回合開始時，若有任意怪盜低於(\d+%)生命值則獲得1層<link
 鈴蘭啟示=Nurse's Light
 癒合祝福=Healing Grace
 春之恩賜=<size\=19>Compassionate Cure</size>
-賜福=Health Comes First
+賜福=Blessing
 慈心=Peace of Mind
 
 r:"^對1名敵人造成<color\=#FFFC40>(\d+\.\d+%)</color>最大生命值的祝福屬性傷害，使所有同伴獲得1層<link\="s\|111"><u>祝福</u></link>效果；同時自身獲得1層<link\="s\|169"><u>甘露</u></link>效果。\n<b><size\=28><color\=#850101>在璀璨的光芒中，鈴蘭的芬芳彌漫開，溫柔地輕撫同伴，並對敵人造成祝福傷害。</color></size></b>$"="Deal <color\=#FFFC40>$1</color> Max HP Bless damage to 1 foe and give all allies 1 stack of <link\="s|111"><u>Blessing</u></link>; Gain 1 stack of <link\="s|169"><u>Diagnosis</u></link>.\n<b><size\=28><color\=#850101>The fragrance of the lily of the valley spreads out in a radiant glow, gently caressing your companions and dealing Bless damage to foes.</color></size></b>"
@@ -1764,7 +1768,6 @@ r:"^消耗所有<link\="s\|169"><u>甘露</u></link>層數，立即為指定我�
 
 r:"^『HIGHLIGHT』：立即為所有友方怪盜恢復等同於{{A}}<color\=#FFFC40>(\d+\.\d+%)</color>最大生命值\+<color\=#FFFC40>(\d+)</color>的生命值、淨化1種負面狀態並使目標獲得等同於{{A}}<color\=#FFFC40>(\d+\.\d+%)</color>最大生命值（最多<color\=#FFFC40>(\d+)</color>點）的最大生命值提升效果，持續2回合；同時目標行動後恢復等同於{{A}}<color\=#FFFC40>(\d+\.\d+%)</color>最大生命值\+<color\=#FFFC40>(\d+)</color>的生命值，持續1回合。\n『ONE MORE』：對1名敵人造成祝福屬性傷害。\n近戰攻擊：使用近戰武器，對1名敵人造成物理屬性的少量傷害。\n槍械射擊：使用槍械射擊1名敵人，造成射擊屬性傷害，根據子彈數量可以射擊多次。$"="[HIGHLIGHT]: Restore <color\=#FFFC40>$1</color> Max HP + <color\=#FFFC40>$2</color> HP to all allies, dispel 1 debuff and gain <color\=#FFFC40>$3</color> Max HP as Max HP (Up to <color\=#FFFC40>$4</color> HP) for 2 turns; They also restore <color\=#FFFC40>$5</color> Max HP + <color\=#FFFC40>$6</color> HP after action for 1 turn. \n[ONE MORE]: Deal Bless damage to 1 foe.\nMelee Attack: Uses a melee weapon to deal light Phys damage to 1 foe. \nGun Attack: Deal Gun damage to 1 foe. Can fire until out of ammo."
 
-r:"^賜福 Lv.(\d+)$"="<size\=27>Health Comes First Lv.$1</size>"
 r:"^受到治療的單位根據自身<link\="s\|111"><u>祝福</u></link>效果層數獲得傷害提升，提升值為（<color\=#FFFC40>(\d+\.\d+%)</color>\+<color\=#FFFC40>(\d+\.\d+%)</color>\*<link\="s\|111"><u>祝福</u></link>效果層數，最多<color\=#FFFC40>(\d+\.\d+%)</color>），持續1回合。$"="Increase damage of healed target by (<color\=#FFFC40>$1</color> + <color\=#FFFC40>$2</color>*<link\="s|111"><u>Blessing</u></link> stacks，up to <color\=#FFFC40>$3</color>) for 1 turn."
 r:"^受到治療的單位根據自身<link\="s\|111"><u>祝福</u></link>效果層數獲得傷害提升，提升值為（<color\=#0169ca>(\d+\.\d+%)</color>\+<color\=#0169ca>(\d+\.\d+%)</color>\*<link\="s\|111"><u>祝福</u></link>效果層數，最多<color\=#0169ca>(\d+\.\d+%)</color>），持續1回合。$"="Increase damage of healed target by (<color\=#0169ca>$1</color> + <color\=#0169ca>$2</color>*<link\="s|111"><u>Blessing</u></link> stacks，up to <color\=#0169ca>$3</color>) for 1 turn."
 
@@ -2383,8 +2386,8 @@ r:"^戰鬥中自身最大生命值超過(\d+)時，每額外擁有(\d+)點最大
 r:"^釋放『海浪追逐者』後，自身永久獲得<color\=#FFFC40>(\d+\.\d+%)</color>的攻擊力提升、<color\=#FFFC40>(\d+\.\d+%)</color>的暴擊效果提升，最多可疊加(\d+)層。$"="After using [Wave Chaser], permanently increase Motoha's ATK by <color\=#FFFC40>$1</color> and Crit DMG by <color\=#FFFC40>$2</color>. Stacks up to $3 times."
 r:"^釋放『海浪追逐者』後，自身永久獲得<color\=#0169ca>(\d+\.\d+%)</color>的攻擊力提升、<color\=#0169ca>(\d+\.\d+%)</color>的暴擊效果提升，最多可疊加(\d+)層。$"="After using [Wave Chaser], permanently increase Motoha's ATK by <color\=#0169ca>$1</color> and Crit DMG by <color\=#0169ca>$2</color>. Stacks up to $3 times."
 
-r:"^自身釋放{{A}}技能消耗生命值時，使本次技能的技能傷害提升<color\=#FFFC40>(\d+\.\d+%)</color>\+(\d+%)\*意識等級。\n<link\="s\|192"><u>『盛夏』</u></link>狀態下，自身總傷害增幅提升<color\=#FFFC40>(\d+\.\d+%)</color>\+(\d+%)\*意識等級、傷害提升<color\=#FFFC40>(\d+\.\d+%)</color>\+(\d+%)\*意識等級。$"="When Motoha spends HP to use a {{A}} skill, increase that skill's Skill Damage by <color\=#FFFC40>$1</color> + $2 * Motoha's Awareness level.\nWhen <link\="s|192"><u>[Midsummer]</u></link> is active, increase Motoha's Total DMG Amp by <color\=#FFFC40>$3</color> + $4 * Motoha's Awareness level and DMG Bonus by <color\=#FFFC40>$5</color> + $6 * Motoha's Awareness level."
-r:"^自身釋放{{A}}技能消耗生命值時，使本次技能的技能傷害提升<color\=#0169ca>(\d+\.\d+%)</color>\+(\d+%)\*意識等級。\n<link\="s\|192"><u>『盛夏』</u></link>狀態下，自身總傷害增幅提升<color\=#0169ca>(\d+\.\d+%)</color>\+(\d+%)\*意識等級、傷害提升<color\=#0169ca>(\d+\.\d+%)</color>\+(\d+%)\*意識等級。$"="When Motoha spends HP to use a {{A}} skill, increase that skill's Skill Damage by <color\=#0169ca>$1</color> + $2 * Motoha's Awareness level.\nWhen <link\="s|192"><u>[Midsummer]</u></link> is active, increase Motoha's Total DMG Amp by <color\=#0169ca>$3</color> + $4 * Motoha's Awareness level and DMG Bonus by <color\=#0169ca>$5</color> + $6 * Motoha's Awareness level."
+r:"^自身釋放{{A}}技能消耗生命值時，使本次技能的技能傷害提升<color\=#FFFC40>(\d+\.\d+%)</color>\+(\d+%)\*意識等級。\n<link\="s\|192"><u>『盛夏』</u></link>狀態下，自身總傷害增幅提升<color\=#FFFC40>(\d+\.\d+%)</color>\+(\d+\.\d+%)\*意識等級、傷害提升<color\=#FFFC40>(\d+\.\d+%)</color>\+(\d+%)\*意識等級。$"="When Motoha spends HP to use a {{A}} skill, increase that skill's Skill Damage by <color\=#FFFC40>$1</color> + $2 * Motoha's Awareness level.\nWhen <link\="s|192"><u>[Midsummer]</u></link> is active, increase Motoha's Total DMG Amp by <color\=#FFFC40>$3</color> + $4 * Motoha's Awareness level and DMG Bonus by <color\=#FFFC40>$5</color> + $6 * Motoha's Awareness level."
+r:"^自身釋放{{A}}技能消耗生命值時，使本次技能的技能傷害提升<color\=#0169ca>(\d+\.\d+%)</color>\+(\d+%)\*意識等級。\n<link\="s\|192"><u>『盛夏』</u></link>狀態下，自身總傷害增幅提升<color\=#0169ca>(\d+\.\d+%)</color>\+(\d+\.\d+%)\*意識等級、傷害提升<color\=#0169ca>(\d+\.\d+%)</color>\+(\d+%)\*意識等級。$"="When Motoha spends HP to use a {{A}} skill, increase that skill's Skill Damage by <color\=#0169ca>$1</color> + $2 * Motoha's Awareness level.\nWhen <link\="s|192"><u>[Midsummer]</u></link> is active, increase Motoha's Total DMG Amp by <color\=#0169ca>$3</color> + $4 * Motoha's Awareness level and DMG Bonus by <color\=#0169ca>$5</color> + $6 * Motoha's Awareness level."
 
 <color\=#66ccff>『盛夏』</color>=<color\=#66ccff>[Midsummer]</color>
 盛夏=Midsummer
@@ -4347,7 +4350,7 @@ Mint - Ayaka Sakai
 寫給風的旋律=Windward Melody
 輕吟=Gentle Hum
 共奏=Duet
-夏夜星幕=Summer Starscape
+夏夜星幕=<size\=28>Summer Starscape</size>
 時光協奏曲=Concerto of Time
 
 r:"^對所有敵人造成<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的疾風屬性傷害。\n施放後將展開『夏夜星幕』，自身造成傷害永久提升<color\=#FFFC40>(\d+\.\d+%)</color>並回復(\d+%)HIGHLIGHT能量。\n展開『夏夜星幕』後無法施放。\n『夏夜星幕』：在{{A}}回合結束前對所有敵人造成<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的疾風屬性傷害，視為追加傷害。\n<b><size\=28><color\=#850101>數顆閃爍的星辰盤旋而上，璀璨的煙火在升至高處的瞬間一齊綻放，對敵人造成疾風傷害。</color></size></b>$"="Deal Wind damage to all foes equal to <color\=#FFFC40>$1</color> of ATK.\nThen, open [Summer Starscape], permanently increase Ayaka's DMG Dealt by <color\=#FFFC40>$2</color>, and restore $3 HIGHLIGHT Energy.\nAfter opening [Summer Starscape], Ayaka cannot use this skill.\n[Summer Starscape]: Before the end of Ayaka's turn, deal Wind damage to all foes equal to <color\=#FFFC40>$4</color> of ATK. This damage is counted as a Follow Up.\n<b><size\=28><color\=#850101>Several twinkling stars spiral upward, and brilliant fireworks burst forth in unison the moment they reach their peak, dealing Wind damage to foes.</color></size></b>"
@@ -4356,7 +4359,8 @@ r:"^對所有敵人造成<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的疾風�
 
 r:"^對所有敵人造成(\d+)次<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的疾風屬性傷害。若『夏夜星幕』已展開，則消耗全部『星願』，每消耗1層『星願』都會額外觸發1次『夏夜星幕』。若『星願』消耗達到了(\d+)層，額外觸發的『夏夜星幕』的<link\="s\|285"><u>技能傷害</u></link>還會額外提升(\d+%)。\n<b><size\=28><color\=#850101>揮動譜曲之筆，靈動的樂章向敵人飄揚而去，旋律所至之處音浪綻放，傾瀉出驚心動魄的華彩衝擊。</color></size></b>$"="Deal Wind damage to all foes equal to <color\=#FFFC40>$2</color> of ATK ($1 hits). If [Summer Starscape] is open, spend all [Star Wish] stacks, and for each stack spent, activate 1 [Summer Starscape]. If Ayaka spent $3 [Star Wish] stacks, additionally increase [Summer Starscape]'s <link\="s|285"><u>Skill Damage</u></link> by $4.\n<b><size\=28><color\=#850101>Waving the composing pen, an agile melody drifts toward foes. Wherever the tune reaches, sound blossoms forth, unleashing a breathtaking cascade of resplendent impact.</color></size></b>"
  
-r:"^『HIGHLIGHT』：獲得(\d+)層『星願』，並使『夏夜星幕』造成傷害時暴擊效果提升<color\=#FFFC40>(\d+\.\d+%)</color>，持續(\d+)回合。\n消耗(\d+%)HIGHLIGHT能量後每繼續消耗(\d+%)HIGHLIGHT能量都會再獲得(\d+)層『星願』，並使『夏夜星幕』造成傷害時暴擊效果進一步提升<color\=#FFFC40>(\d+\.\d+%)</color>。\n重複施放HIGHLIGHT獲得的暴擊效果提升無法疊加。\n『ONE MORE』：對1名敵人造成疾風屬性傷害。\n近戰攻擊：使用近戰武器，對1名敵人造成物理屬性的少量傷害。\n槍械射擊：使用槍械射擊1名敵人，每次向1名敵人射擊1發，造成射擊屬性傷害，根據子彈數量可以射擊多次。$"="[HIGHLIGHT]: Gain $1 [Star Wish] stack, then increase [Summer Starscape]'s Crit DMG by <color\=#FFFC40>$2</color>. Lasts for $3 turn.\nAfter spending $4 HIGHLIGHT Energy, each subsequent $5 HIGHLIGHT Energy spent will grant $6 bonus [Star Wish] stack. Then further increase [Summer Starscape]'s Crit DMG by <color\=#FFFC40>$7</color>.\nThe Crit DMG buff from repeated HIGHLIGHT activation does not stack.\n[ONE MORE]: Deal Wind damage to 1 foe. \nMelee Attack: Uses a melee weapon to deal light Phys damage to 1 foe. \nGun Attack: Deal Gun damage to 1 foe. Can fire until out of ammo."
+r:"^『HIGHLIGHT』：獲得(\d+)層『星願』，並使『夏夜星幕』造成傷害時暴擊效果提升<color\=#FFFC40>(\d+\.\d+%)</color>，持續(\d+)回合。\n消耗(\d+%)HIGHLIGHT能量後每繼續消耗(\d+%)HIGHLIGHT能量都會再獲得(\d+)層『星願』，並使『夏夜星幕』造成傷害時暴擊效果進一步提升<color\=#FFFC40>(\d+\.\d+%)</color>。\n重複施放HIGHLIGHT獲得的暴擊效果提升無法疊加。\n『ONE MORE』：對1名敵人造成疾風屬性傷害。\n近戰攻擊：使用近戰武器，對1名敵人造成物理屬性的少量傷害。\n槍械攻擊：使用槍械射擊1名敵人，每次向1名敵人射擊1發，造成射擊屬性傷害，根據子彈數量可以射擊多次。$"="[HIGHLIGHT]: Gain $1 [Star Wish] stack, then increase [Summer Starscape]'s Crit DMG by <color\=#FFFC40>$2</color>. Lasts for $3 turn.\nAfter spending $4 HIGHLIGHT Energy, each subsequent $5 HIGHLIGHT Energy spent will grant $6 bonus [Star Wish] stack. Then further increase [Summer Starscape]'s Crit DMG by <color\=#FFFC40>$7</color>.\nThe Crit DMG buff from repeated HIGHLIGHT activation does not stack.\n[ONE MORE]: Deal Wind damage to 1 foe. \nMelee Attack: Uses a melee weapon to deal light Phys damage to 1 foe. \nGun Attack: Deal Gun damage to 1 foe. Can fire until out of ammo."
+r:"^『HIGHLIGHT』：獲得(\d+)層『星願』，並使『夏夜星幕』造成傷害時暴擊效果提升<color\=#FFFC40>(\d+\.\d+%)</color>，持續(\d+)回合。\n消耗(\d+%)HIGHLIGHT能量後每繼續消耗(\d+%)HIGHLIGHT能量都會再獲得(\d+)層『星願』,並使『夏夜星幕』造成傷害時暴擊效果進一步提升<color\=#FFFC40>(\d+\.\d+%)</color>。\n重複施放HIGHLIGHT獲得的暴擊效果提升無法疊加。\n『ONE MORE』：對1名敵人造成疾風屬性傷害。\n近戰攻擊：使用近戰武器，對1名敵人造成物理屬性的少量傷害。\n槍械攻擊：使用槍械射擊1名敵人，每次向1名敵人射擊1發，造成射擊屬性傷害，根據子彈數量可以射擊多次。$"="[HIGHLIGHT]: Gain $1 [Star Wish] stack, then increase [Summer Starscape]'s Crit DMG by <color\=#FFFC40>$2</color>. Lasts for $3 turn.\nAfter spending $4 HIGHLIGHT Energy, each subsequent $5 HIGHLIGHT Energy spent will grant $6 bonus [Star Wish] stack. Then further increase [Summer Starscape]'s Crit DMG by <color\=#FFFC40>$7</color>.\nThe Crit DMG buff from repeated HIGHLIGHT activation does not stack.\n[ONE MORE]: Deal Wind damage to 1 foe. \nMelee Attack: Uses a melee weapon to deal light Phys damage to 1 foe. \nGun Attack: Deal Gun damage to 1 foe. Can fire until out of ammo."
 
 r:"^『夏夜星幕』造成的傷害提升<color\=#FFFC40>(\d+\.\d+%)</color>，並將驅散敵方(\d+)層增益效果。驅散效果每回合最多觸發1次。$"="Increase [Summer Starscape]'s DMG Dealt by <color\=#FFFC40>$1</color>. [Summer Starscape] can dispel $2 buff each turn."
 r:"^『夏夜星幕』造成的傷害提升<color\=#0169ca>(\d+\.\d+%)</color>，並將驅散敵方(\d+)層增益效果。驅散效果每回合最多觸發1次。$"="Increase [Summer Starscape]'s DMG Dealt by <color\=#0169ca>$1</color>. [Summer Starscape] can dispel $2 buff each turn."
@@ -4368,12 +4372,12 @@ r:"^隊友施放HIGHLIGHT或{{B}}後{{A}}的攻擊力提升<color\=#0169ca>(\d+\
 消耗HIGHLIGHT能量或對應戰鬥資源。=Spending HIGHLIGHT Energy or corresponding combat resource.
 
 你給予的夏日時光=The Summer Days You Gave
-r:"^{{A}}在戰鬥中將接管所有隊友的HIGHLIGHT施放，且將隊友的HIGHLIGHT冷卻時間減少一回合，對應地隊友將無法通過<link\="s\|305"><u>常規手段</u></link>施放HIGHLIGHT。\n{{A}}自身回合開始時，通過施放特殊技能『時光協奏曲』，可使隊友無消耗施放一次HIGHLIGHT。\n{{A}}在場時，HIGHLIGHT能量上限提升至(\d+%)，且{{A}}在施放自身HIGHLIGHT後可以獲得『星願』來大幅強化技能『寫給風的旋律』。$"="{{A}} will take over all allies' HIGHLIGHT activation, and decrease their HIGHLIGHT cooldown by 1 turn. Allies cannot activate their HIGHLIGHT through <link\="s|305"><u>Normal Means</u></link>.\nAt the start of {{A}}'s turn, she can use the special skill [Concerto of Time] to activate an ally's HIGHLIGHT for free.\nWhen {{A}} is present, increase HIGHLIGHT Energy cap to $1. After {{A}} uses her HIGHLIGHT, gain [Star Wish] to heavily boost [Windward Melody]."
+r:"^{{A}}在戰鬥中將接管所有隊友的HIGHLIGHT施放，且將隊友的HIGHLIGHT冷卻時間減少一回合，對應地隊友將無法透過<link\="s\|305"><u>常規手段</u></link>施放HIGHLIGHT。\n{{A}}自身回合開始時，透過施放特殊技能『時光協奏曲』，可使隊友無消耗施放一次HIGHLIGHT。\n{{A}}在場時，HIGHLIGHT能量上限提升至(\d+%)，且{{A}}在施放自身HIGHLIGHT後可以獲得『星願』來大幅強化技能『寫給風的旋律』。$"="{{A}} will take over all allies' HIGHLIGHT activation, and decrease their HIGHLIGHT cooldown by 1 turn. Allies cannot activate their HIGHLIGHT through <link\="s|305"><u>Normal Means</u></link>.\nAt the start of {{A}}'s turn, she can use the special skill [Concerto of Time] to activate an ally's HIGHLIGHT for free.\nWhen {{A}} is present, increase HIGHLIGHT Energy cap to $1. After {{A}} uses her HIGHLIGHT, gain [Star Wish] to heavily boost [Windward Melody]."
 
 與那日相同的海色=That Day's Ocean Blue
 r:"^若『夏夜星幕』已展開，{{A}}將在隊友施放HIGHLIGHT後立即發動1次<link\="s\|285"><u>技能傷害</u></link>提升(\d+%)的『夏夜星幕』。\n『夏夜星幕』每次發動，{{A}}的暴擊效果都會提升(\d+%)，持續(\d+)回合，最多疊加(\d+)層。$"="If [Summer Starscape] is open, after an ally uses a HIGHLIGHT, immediately activate 1 [Summer Starscape] and increase its <link\="s|285"><u>Skill Damage</u></link> by $1.\nAfter activating [Summer Starscape], increase {{A}}'s Crit DMG by $2 for $3 turns. Stacks up to $4 times."
 
-追尋不變之物=Searching for the Unchanging
+追尋不變之物=<size\=23>Searching for the Unchanging</size>
 r:"^{{A}}在施放特殊技能『時光協奏曲』後攻擊力提升(\d+%)，持續(\d+)回合，並立即回復(\d+%)HIGHLIGHT能量。\nHIGHLIGHT能量上限進一步提升至(\d+%)。$"="After {{A}} uses [Concerto of Time], increase ATK by $1 for $2 turn. Then immediately restore $3 HIGHLIGHT Energy.\nIncrease HIGHLIGHT Energy cap to $4."
 
 無法停止跳動的心=Unrelenting Heart
