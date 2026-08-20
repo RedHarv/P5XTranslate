@@ -509,6 +509,7 @@ r:"^造成念動傷害時，提升攻擊(\d+%)，如果敵方人數不少於3，
 上次{{A}}技能傷害屬性：萬能=Last {{A}} skill damage: Almighty
 榮耀=Glory
 皈依=Refuge
+r:"^造成的追加傷害提升(\d+(.\d+)?(%)?)$"="Increase Follow Up DMG Dealt by $1"
 
 r:"^繁<color\=#000000>榮</color>$"="W<color\=#000000>e</color>alth"
 
