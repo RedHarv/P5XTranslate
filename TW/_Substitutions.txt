@@ -835,6 +835,7 @@ CV
 和氣杏未=Azumi Waki
 高橋伸也=Shinya Takahashi
 石見舞菜香=Manaka Iwami
+藤田咲=Saki Fujita
 
 ----------
 LOCATIONS
@@ -900,6 +901,7 @@ METAVERSE
 刻托=Cetus
 謝迪姆=Shedim
 塔耳塔羅斯·毀滅者=Tartarus · Destroyer
+毀滅的薩麥爾=Ruinous Samael
 毀滅=Ruin
 拉伽=Raga
 杜維沙=Dvesha
@@ -1148,6 +1150,7 @@ CATTLE前輩=Cattle-senpai
 福圖納=Fortuna
 福爾圖納=Fortuna
 那伽之王=Raja Naga
+那伽王=Raja Naga
 那伽=Naga
 賽特=Seth
 貝爾芬格=Belphegor
