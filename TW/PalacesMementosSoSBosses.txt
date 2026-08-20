@@ -3657,6 +3657,43 @@ r:"^承受的傷害降低(\d+%)。但回合內每受到1次傷害，承受的傷
 淨世之舞=Dance of Purification
 對所有敵人造成極大量攻擊力的萬能屬性傷害。=Deal severe Almighty damage to all foes.
 
+1、一階段{{A}}會週期性釋放「王之凝視」使全體怪盜陷入虛弱狀態。可透過釋放HIGHLIGHT解除全體怪盜的虛弱狀態。\n{{A}}不可被選中，免疫傷害，全部{{B}}死亡後進入二階段。\n2、二階段{{C}}會週期性釋放「極·王之凝視」視使全體怪盜陷入虛弱狀態。可透過釋放HIGHLIGHT解除全體怪盜的虛弱狀態。\n3、{{A}}不會死亡，血量低於1%時進入假死狀態，假死狀態下受到傷害由{{C}}承擔。\n4、{{C}}每回合會為全部{{A}}恢復生命值至最大值的50%，同時會受到恢復值等量的傷害。\n5、全部{{A}}都進入假死狀態，會為全體怪盜添加1回合的最終傷害提升。=1. In phase 1, {{A}} can use [King's Gaze] to inflict all Thieves with Weaken. Thieves can remove Weaken by using a HIGHLIGHT.\n{{A}} has untargetable and damage immunity, enter phase 2 when all {{B}}s are defeated.\n2. In phase 2, {{C}} can use [Ultimate·King's Gaze] to inflict all Thieves with Weaken. Thieves can remove Weaken by using a HIGHLIGHT.\n3. {{A}} cannot be defeated and will enter Faked Death when its HP is below 1%. When Faked Death is active, distribute damage taken with {{C}}.\n4. {{C}} will restore all {{A}}'s HP up to 50%, then take damage equal to the restored amount.\n5. When all {{A}}s are in Faked Death, increase all Thieves' Final DMG for 1 turn.
+{{A}}會週期性釋放王之凝視使全體怪盜陷入虛弱狀態。可透過釋放HIGHLIGHT解除全體怪盜的虛弱狀態。\n{{A}}不可被選中，免疫傷害，全部{{B}}死亡後進入第二階段。={{A}} can use [King's Gaze] to inflict all Thieves with Weaken. Thieves can remove Weaken by using a HIGHLIGHT.\n{{A}} has untargetable and damage immunity, enter phase 2 when all {{B}}s are defeated.
+{{B}}會週期性釋放極·王之凝視使全體怪盜陷入虛弱狀態。可透過釋放HIGHLIGHT解除全體怪盜的虛弱狀態。\n{{A}}不會死亡，血量低於1%時進入假死狀態，假死狀態下受到傷害由{{B}}承擔。\n{{B}}每回合會為全部{{A}}恢復生命值至最大值的50%，同時會受到恢復值等量的傷害。\n全部{{A}}都進入假死狀態，會為全體怪盜添加1回合的最終傷害提升。={{B}} can use [Ultimate·King's Gaze] to inflict all Thieves with Weaken. Thieves can remove Weaken by using a HIGHLIGHT.\n{{A}} cannot be defeated and will enter Faked Death when its HP is below 1%. When Faked Death is active, distribute damage taken with {{B}}.\n{{B}} will restore all {{A}}'s HP up to 50%, then take damage equal to the restored amount.\nWhen all {{A}}s are in Faked Death, increase all Thieves' Final DMG for 1 turn.
+王之賜福=King's Blessing
+r:"^王<color\=#000000>之</color>賜福$"="K<color\=#000000>i</color>ng's Blessing"
+提升所有友方{{A}}的最終傷害，持續1回合。並為其添加護盾。=Increase all {{A}}s' Final DMG for 1 turn. Then grant them a Shield.
+為所有{{A}}附加『賜福』buff，提升全體友方{{A}}的最終傷害。=Increase all {{A}}s' Final DMG.
+王之凝視=King's Gaze
+r:"^王<color\=#000000>之</color>凝視$"="K<color\=#000000>i</color>ng's Gaze"
+為所有敵人附加『虛弱』狀態，最終傷害降低，持續3回合。=Inflict all foes with [Weaken], decreasing their Final DMG for 3 turns.
+極·王之凝視=Ultimate·King's Gaze
+r:"^極<color\=#000000>·</color>王之凝視$"="U<color\=#000000>l</color>timate·King's Gaze"
+為所有敵人附加『極·虛弱』狀態，最終傷害降低且受到傷害增加，持續3回合。=Inflict all foes with [Ultimate·Weaken], decreasing their Final DMG and increasing their DMG Taken for 3 turns.
+極·虛弱=Ultimate·Weaken
+r:"^極<color\=#000000>·</color>虛弱$"="U<color\=#000000>l</color>timate·Weaken"
+復甦之力=Recovery Power
+r:"^使所有{{A}}恢復HP至(\d+%)，會使{{B}}受到{{A}}恢復總生命的傷害$"="Restore all {{A}}s' HP to $1, take damage equal to the restored amount"
+奉獻=Offering
+提升{{A}}的最終傷害，可疊加=Increase {{A}}'s Final DMG, can stack
+不滅=Immortal
+{{A}}生命低於1%時進入假死狀態，假死狀態下傷害由{{B}}承擔=When {{A}}'s HP is below 1%, enter Faked Death. When Faked Death is active, distribute damage taken with {{B}}.
+全力戰鬥=Full Force
+最終傷害提升了……=Final DMG Up!
+怪盜的最終傷害大幅提升，請全力戰鬥……=Heavily increase Thieves' Final DMG
+r:"^賜<color\=#000000>福</color>$"="B<color\=#000000>l</color>essing"
+r:"^最終傷害提升(\d+%)，進入假死狀態會減少1層$"="Increase Final DMG by $1, \nlose 1 stack when entering Faked Death"
+
+『虛弱』『極·虛弱』的最終傷害降低效果提升=Increase the Final DMG debuff from [Weaken] and [Ultimate·Weaken]
+堅盾庇護=Shield of Protection
+一階段{{A}}釋放『王之賜福』添加的護盾量提升=In phase 1, increase the Shield from {{A}}'s [King's Blessing]
+不死不滅=Immortal and Indestructible
+{{B}}釋放『復甦之力』恢復{{A}}的生命值比例增加=Increase the healing from {{B}}'s [Recovery Power]
+王之軍勢=King's Army
+{{A}}釋放『王之祝福』的『賜福』最終傷害提升增加，疊加上限增加=Increase [King's Blessing]'s Final DMG buff and its maximum stack
+恐懼之眼=Eye of Fear
+{{A}}每回合均釋放『極·王之凝視』={{A}} will use [Ultimate·King's Gaze] every turn
+
 ----------
 Sea of Souls Trials (SoS)
 ----------
@@ -3831,6 +3868,10 @@ r:"^受到{{A}}技能的最終傷害提升(\d+%)，受到HIGHTLIGHT、{{B}}的�
 r:"^1、進入戰鬥時，{{A}}會召喚4個隨從與之並肩作戰，{{A}}與所有隨從處於<color\=#ff3b37>「生命連結」</color>狀態。\n「生命連結」：擁有「生命連結」的單位，受到的傷害按當前生命比例分攤到全部擁有「生命連結」的單位上。\n2、{{A}}每個回合會給所有友方添加「{{B}}的守護」。\n「{{B}}的守護」：可以抵擋一定傷害的護盾，但受到的最終傷害會提升(\d+%)，持續(\d+)回合。\n3、弱點和耐性與通常不同。$"="1. At the start of battle, {{A}} will summon 4 minions, {{A}} and all minions have <color\=#ff3b37>[Lifelink]</color>. \n[Lifelink]: Distributes all damage received between all Shadows who shares this condition, based on the percentage of their current HP.\n2. {{A}} will grant all Shadows [{{B}}'s Protection] each turn.\n[{{B}}'s Protection]: Gain a Shield, but increase Final DMG Taken by $1. Lasts for $2 turns.\n3. Shadows have different Weaknesses and Resistances than normal."
 r:"^1、進入戰鬥時，{{A}}會召喚4個隨從與之並肩作戰，{{A}}與所有隨從處於<color\=#ff3b37>「生命連結」</color>狀態。\n「生命連結」：擁有「生命連結」的單位，受到的傷害按當前生命比例分攤到全部擁有「生命連結」的單位上。\n2、{{A}}每個回合會給所有友方添加「{{B}}的守護」。\n「{{B}}的守護」：可以抵擋一定傷害的護盾，但受到的最終傷害會提升(\d+%)，持續(\d+)回合。\n3、注意：弱點和耐性與通常不同。$"="1. At the start of battle, {{A}} will summon 4 minions, {{A}} and all minions have <color\=#ff3b37>[Lifelink]</color>. \n[Lifelink]: Distributes all damage received between all Shadows who shares this condition, based on the percentage of their current HP.\n2. {{A}} will grant all Shadows [{{B}}'s Protection] each turn.\n[{{B}}'s Protection]: Gain a Shield, but increase Final DMG Taken by $1. Lasts for $2 turns.\n3. Shadows have different Weaknesses and Resistances than normal."
 r:"^大<color\=#000000>天</color>使的守護$"="A<color\=#000000>r</color>changel's Protection"
+
+r:"^1、進入戰鬥時，{{B}}會召喚4個隨從與之並肩作戰，{{B}}與所有隨從處於<color\=#ff3b37>「生命連結」</color>狀態。\n「生命連結」：擁有「生命連結」的單位，受到的傷害按當前生命比例分攤到全部擁有「生命連結」的單位上。\n2、{{B}}每個回合開始時，會給所有敵人施加「國津咒鎖」，使其造成的最終傷害降低(\d+%)。任意敵人釋放HL後，{{B}}會為其驅散「國津咒鎖」，並為其施加持續1回合的「{{A}}逆襲」，使其造成的最終傷害提升(\d+%)。$"="<size\=26>1. At the start of battle, {{B}} will summon 4 minions, {{B}} and all minions have <color\=#ff3b37>[Lifelink]</color>. \n[Lifelink]: Distributes all damage received between all Shadows who shares this condition, based on the percentage of their current HP. \n2. At the start of each turn, {{B}} will inflict [Kunitsu Curse] on all foes, decreasing their Final DMG by $1. After any Thief uses a HIGHLIGHT, {{B}} will dispel their [Kunitsu Curse], then grant them [Spirit Counterattack] for 1 turn, increasing their Final DMG by $2.</size>"
+國津咒鎖=Kunitsu Curse
+{{A}}逆襲=Spirit Counterattack
 
 ----------
 SEASONAL EFFECTS

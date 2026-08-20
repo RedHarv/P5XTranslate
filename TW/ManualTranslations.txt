@@ -122,6 +122,7 @@ Onemore自動選擇目標=<size\=27>Automatically select \nONE MORE target</size
 簡化「解明怪盜」表現=Simplify Elucidator Animation
 簡化「HIGHLIGHT」表現=Simplify HIGHLIGHT Animation
 簡化「HIGHLIGHT/{{A}}」表現=Simplify HIGHLIGHT/{{A}} Animation
+解明怪盜戰鬥嚮導=Elucidator Battle Guide
 簡化普通攻擊=Simplify Basic Attack
 簡化特寫表現=Simplify Animation
 完整=Full
@@ -1709,6 +1710,7 @@ sr:"^(.*)·默認$"="$1 · Default"
 怪盜·天地勝意=Thief · Worldly Wish
 怪盜·群青色服裝=Thief · Ultramarine Outfit
 怪盜·秀盡制服=Thief · Shujin Uniform
+WIND·未央=Wind · Vast
 PINKY·偶像Ver=Pinky · Idol Ver
 驚鴻馭春·歲華=Spring's Grace
 r:"^<size\=32><color\=#f7d305>套裝效果</color></size>\n擁有<color\=#f7d305>驚鴻馭春·歲華</color>後，在中華相關店鋪打工時獲得的現金增加(\d+)。$"="<size\=32><color\=#f7d305>Set Effect</color></size>\nAfter obtaining <color\=#f7d305>Spring's Grace</color>, gain $1 bonus Yen when working in Chinese-related shops"
@@ -2936,6 +2938,9 @@ r:"^周可領獎次數：<color\=#0665ca>(\d+)/(\d+)</color>$"="Rewards Left: <c
 『煥新之語』=[[Words of Renewal]
 「煥新之語」=[Words of Renewal]
 煥新之語=Words of Renewal
+『澄明之語』=[[Words of Clarity]
+「澄明之語」=[Words of Clarity]
+澄明之語=Words of Clarity
 
 r:"^陰影受到傷害後，使全體怪盜造成傷害提升(.*)，可疊加(.*)層$"="After a Shadow takes damage, increase all Thieves' DMG Dealt by $1. Stacks up to $2 times"
 r:"^陰影受到傷害後，使所有角色造成傷害提升(.*)，可疊加(.*)層$"="After a Shadow takes damage, increase all characters' DMG Dealt by $1. Stacks up to $2 times"
@@ -2975,6 +2980,7 @@ r:"^所有角色<color\=#ff0036>{{A}}傷害</color>提高(\d+(.\d+)?(%)?)$"="Inc
 r:"^所有角色<color\=#ff0036>{{A}}</color>造成傷害提高(\d+(.\d+)?(%)?)$"="Increase all characters' <color\=#ff0036>{{A}}</color> DMG Dealt by $1"
 勁舞領域=Dance Domain
 r:"^戰鬥開始時獲得(\d+)點<color\=#ff0036>狂想節拍</color>$"="At the start of battle, gain $1 <color\=#ff0036>Rhapsodic Beat</color>"
+r:"^戰鬥開始時獲得(\d+%)<color\=#ff0036>HIGHLIGHT能量</color>$"="At the start of battle, gain $1 <color\=#ff0036>HIGHLIGHT Energy</color>"
 
 此處盤踞著大量的陰影，挑戰成功可獲得怪盜潛能材料。=There are many Shadows here, gain Thief Talent materials on victory.
 此處盤踞著強大的陰影，挑戰成功可獲得武器突破材料。=There are strong Shadows here, gain Weapon Enhance materials on victory.
@@ -3496,6 +3502,7 @@ r:"^累計簽到(\d+)日，即可獲得<size\=66><sprite\=19></size>X(\d+)$"="Lo
 r:"^累計簽到(\d+)日，即可獲得<size\=66><sprite\=21></size>X(\d+)$"="Log in for $1 days to get <size\=66><sprite\=21></size>X$2"
 r:"^累計簽到(\d+)日，獲得<size\=66><sprite\=(\d+)></size>X(\d+)<size\=66><sprite\=(\d+)></size>X(\d+)$"="Log in rewards <size\=66><sprite\=$2></size>X$3<size\=66><sprite\=$4></size>X$5"
 r:"^累計簽到(\d+)日，即可獲得<size\=66><sprite\=(\d+)></size>X(\d+)<size\=66><sprite\=(\d+)></size>X(\d+)$"="Log in rewards <size\=66><sprite\=$2></size>X$3<size\=66><sprite\=$4></size>X$5"
+r:"^累計簽到(\d+)日獲得<size\=66><sprite\=(\d+)></size>X(\d+)<size\=66><sprite\=(\d+)></size>X(\d+)$"="Log in rewards <size\=66><sprite\=$2></size>X$3<size\=66><sprite\=$4></size>X$5"
 r:"^第(\d+)天$"="Day $1"
 
 當前選中：=Selected:

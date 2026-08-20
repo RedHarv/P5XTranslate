@@ -509,6 +509,9 @@ r:"^對<color\=#FFFF00>1名</color>敵人造成(\d+\.\d+%)攻擊力的萬能屬�
 Carnage Allure
 r:"^對<color\=#FFFF00>所有</color>敵人造成(\d+\.\d+%)攻擊力的萬能屬性傷害，(\d+\.\d+%)攻擊力的詛咒屬性傷害。進化後，對<color\=#FFFF00>所有</color>敵人造成(\d+\.\d+%)攻擊力的萬能屬性傷害，(\d+\.\d+%)攻擊力的對應屬性傷害。$"="Deal $1 ATK Almighty damage and $2 ATK Curse damage to <color\=#FFFF00>all</color> foes. After evolving, deals $3 ATK Almighty damage and $4 ATK Elemental damage to <color\=#FFFF00>all</color> foes."
 
+Universal Annihilation
+r:"^對<color\=#FFFF00>所有</color>敵人造成(\d+\.\d+%)攻擊力的萬能屬性傷害，使所有敵人受到傷害提升(\d+\.\d+%)，持續(\d+)回合，倒地易傷提升(\d+\.\d+%)，持續(\d+)回合。主動釋放時無視適應性削減目標(\d+)點倒地值。主動釋放冷卻時間：(\d+)個非額外回合。\n被動效果：其他同伴造成倒地時，自動釋放該技能。$"="Deal Almighty damage to <color\=#FFFF00>all</color> foes equal to $1 of ATK. Increase all foes' DMG Taken by $2 for $3 turns and Downed DMG Taken by $4 for $5 turn. If this skill is selected and used, ignore all affinities and decrease targets' Down Points by $6, then enter cooldown for $7 Wonder's non-Extra Actions.\nPassive: When other allies knocked down a foe, automatically activate this skill."
+
 --- Recovery ---
 
 ST Heal
@@ -760,6 +763,7 @@ sr:"^<color\=#FF0000>(.*)</color>多種屬性提升了……$"="<color\=#FF0000>
 sr:"^<color\=#FF0000>(.*)</color>多種屬性略微降低了……$"="<color\=#FF0000>$1</color> many Stats Down!"
 sr:"^<color\=#FF0000>(.*)</color>暴擊率提升了……$"="<color\=#FF0000>$1</color> Crit Rate Up!"
 r:"^<color\=#FF0000>所有敵人</color>受到的傷害提升了……$"="<color\=#FF0000>All foes</color> DMG Taken Up!"
+sr:"^<color\=#FF0000>(.*)</color>最終傷害降低了……$"="<color\=#FF0000>$1</color> Final DMG Down!"
 
 sr:"^<color\=#FF0000>(.*)</color>獲得了護盾……$"="<color\=#FF0000>$1</color> gained Shield!"
 sr:"^<color\=#FF0000>(.*)</color>免疫一次傷害……$"="<color\=#FF0000>$1</color> is immune to next damage..."
@@ -790,6 +794,9 @@ sr:"^<color\=#FF0000>(.*)</color>獲得了『(.*)』,受到的最終傷害降低
 sr:"^<color\=#FF0000>(.*)</color>失去了「(.*)」……$"="<color\=#FF0000>$1</color> lost [$2]..."
 sr:"^<color\=#FF0000>(.*)</color>失去了所有<color\=#FF0000>「(.*)」</color>$"="<color\=#FF0000>$1</color> lost all [$2]!"
 sr:"^成功驅散掉了(\d+)層<color\=#FF0000>『(.*)』</color>！$"="Dispelled $1 <color\=#FF0000>[$2]</color> stack!"
+sr:"^成功驅散掉了<color\=#FF0000>『(.*)』</color>！$"="Dispelled <color\=#FF0000>[$1]</color>!"
+sr:"^<color\=#FF0000>(.*)</color>成功解除虛弱狀態！$"="<color\=#FF0000>$1</color> removed Weaken!"
+sr:"^<color\=#FF0000>(.*)</color>成功解除極·虛弱狀態！$"="<color\=#FF0000>$1</color> removed Ultimate·Weaken!"
 sr:"^召喚消耗(\d+)層<color\=#FF0000>『(.*)』</color>$"="Summon consumed $1 <color\=#FF0000>[$2]</color> stack"
 
 r:"^被<color\=#FF0000>{{A}}</color>鎖定了$"="Locked on by <color\=#FF0000>{{A}}</color>!"
@@ -999,6 +1006,7 @@ r:"^受<color\=#000000>到</color>傷害提高$"="D<color\=#000000>M</color>G Ta
 r:"^受<color\=#000000>到</color>傷害提升$"="D<color\=#000000>M</color>G Taken Up"
 r:"^受<color\=#000000>追</color>加效果傷害提高$"="F<color\=#000000>o</color>llow Up DMG Taken Up"
 r:"^受<color\=#000000>持</color>續傷害效果提升$"="D<color\=#000000>O</color>T Effect Taken Up"
+r:"^倒<color\=#000000>地</color>易傷提升$"="D<color\=#000000>o</color>wned DMG Taken Up"
 r:"^受<color\=#000000>最</color>終傷害提高$"="F<color\=#000000>i</color>nal DMG Taken Up"
 r:"^受<color\=#000000>到</color>最終傷害提高$"="F<color\=#000000>i</color>nal DMG Taken Up"
 r:"^受<color\=#000000>到</color>最終傷害提升$"="F<color\=#000000>i</color>nal DMG Taken Up"
@@ -1438,6 +1446,7 @@ r:"^造成射擊屬性傷害時的暴擊效果提升(\d+(.\d+)?(%)?)$"="When dea
 r:"^火焰傷害提升(\d+(.\d+)?(%)?)$"="Increase Fire DMG by $1"
 r:"^火焰傷害提高(\d+(.\d+)?(%)?)$"="Increase Fire DMG by $1"
 r:"^火焰屬性傷害提升(\d+(.\d+)?(%)?)$"="Increase Fire DMG by $1"
+r:"^造成的火焰最終傷害提高(\d+(.\d+)?(%)?)$"="Increase Fire Final DMG Dealt by $1"
 r:"^火炎傷害提升(\d+(.\d+)?(%)?)$"="Increase Fire DMG by $1"
 r:"^火炎傷害提高(\d+(.\d+)?(%)?)$"="Increase Fire DMG by $1"
 r:"^冰凍傷害提升(\d+(.\d+)?(%)?)$"="Increase Ice DMG by $1"
@@ -1455,6 +1464,7 @@ r:"^每層提升(\d+(.\d+)?(%)?)的電擊傷害$"="Increase Elec DMG by $1 per s
 r:"^造成的電擊屬性傷害提升(\d+(.\d+)?(%)?)$"="Increase Elec DMG Dealt by $1"
 r:"^疾風傷害提升(\d+(.\d+)?(%)?)$"="Increase Wind DMG by $1"
 r:"^疾風傷害提高(\d+(.\d+)?(%)?)$"="Increase Wind DMG by $1"
+r:"^造成的疾風最終傷害提高(\d+(.\d+)?(%)?)$"="Increase Wind Final DMG Dealt by $1"
 r:"^電擊、疾風傷害提升(\d+(.\d+)?(%)?)$"="Increase Elec, Wind DMG by $1"
 r:"^念動傷害提升(\d+(.\d+)?(%)?)$"="Increase Psy DMG by $1"
 r:"^念動傷害提高(\d+(.\d+)?(%)?)$"="Increase Psy DMG by $1"
@@ -1467,6 +1477,7 @@ r:"^每層提升(\d+(.\d+)?(%)?)的核熱傷害$"="Increase Nuke DMG by $1 per s
 r:"^念動、核熱傷害提升(\d+(.\d+)?(%)?)$"="Increase Psy, Nuke DMG by $1"
 r:"^祝福傷害提升(\d+(.\d+)?(%)?)$"="Increase Bless DMG by $1"
 r:"^祝福傷害提高(\d+(.\d+)?(%)?)$"="Increase Bless DMG by $1"
+r:"^造成的祝福最終傷害提高(\d+(.\d+)?(%)?)$"="Increase Bless Final DMG Dealt by $1"
 r:"^詛咒傷害提升(\d+(.\d+)?(%)?)$"="Increase Curse DMG by $1"
 r:"^詛咒傷害提高(\d+(.\d+)?(%)?)$"="Increase Curse DMG by $1"
 r:"^詛咒屬性傷害提升(\d+(.\d+)?(%)?)$"="Increase Curse DMG by $1"
@@ -1498,6 +1509,7 @@ sr:"^(.*)屬性的適應性變為耐$"="Changed $1 affinity to Resist"
 免疫倒地值傷害=Nullify Down Point damage
 免疫精神異常效果及控制效果=Nullify Mental and Control Ailments
 無法被怪盜方當作技能目標=Cannot be targeted by Thieves
+無法被怪盜方當作技能目標，免疫傷害=Cannot be targeted by Thieves, \nnullify damage
 抵消一定的傷害=Can negate some damage
 
 ----------
@@ -1542,6 +1554,7 @@ r:"^受到持續傷害效果提升(\d+(.\d+)?(%)?)$"="Increase DOT Effect Taken 
 r:"^受到最終傷害提升(\d+%)，最終傷害降低(\d+%)$"="Increase Final DMG Taken by $1; \nDecrease Final DMG by $2"
 r:"^受到最終傷害提升(\d+(.\d+)?(%)?)$"="Increase Final DMG Taken by $1"
 r:"^受到最終傷害提高(\d+(.\d+)?(%)?)$"="Increase Final DMG Taken by $1"
+r:"^受到最終傷害增加(\d+(.\d+)?(%)?)$"="Increase Final DMG Taken by $1"
 r:"^受到的最終傷害提升(\d+(.\d+)?(%)?)$"="Increase Final DMG Taken by $1"
 r:"^最終受到傷害提升(\d+(.\d+)?(%)?)$"="Increase Final DMG Taken by $1"
 r:"^受最終傷害提升(\d+%)，可疊加(\d+)層$"="Increase Final DMG Taken by $1. \nStacks up to $2 times"

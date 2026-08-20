@@ -908,6 +908,7 @@ r:"^累計受到(\d+)次治療效果後，自身獲得『躍動一夏』$"="Afte
 
 Combat Pop-ups
 r:"^躍<color\=#000000>動</color>一夏$"="V<color\=#000000>i</color>brant Summer"
+r:"^潮<color\=#000000>升</color>$"="R<color\=#000000>i</color>sing Tide"
 
 ----------
 Strawberry - Tomoko Noge
@@ -2221,16 +2222,18 @@ r:"^對所有敵人造成(\d+)次<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的
 r:"^對<color\=#FFFF00>所有</color>敵人造成(\d+)次(\d+\.\d+%)攻擊力的疾風屬性傷害。若『夏夜星幕』已展開，則消耗全部『星願』，每消耗1層『星願』都會額外觸發1次『夏夜星幕』。若『星願』消耗達到了(\d+)層，額外觸發的『夏夜星幕』的技能傷害還會額外提升(\d+%)。$"="Deal Wind damage to <color\=#FFFF00>all</color> foes equal to $2 of ATK ($1 hits). If [Summer Starscape] is open, spend all [Star Wish] stacks, and for each stack spent, activate 1 [Summer Starscape]. If Ayaka spent $3 [Star Wish] stacks, additionally increase [Summer Starscape]'s Skill Damage by $4."
 
 r:"^獲得(\d+)層『星願』，並使『夏夜星幕』造成傷害時暴擊效果提升(\d+\.\d+%)，持續(\d+)回合。\n消耗(\d+%)HIGHLIGHT能量後每繼續消耗(\d+%)HIGHLIGHT能量都會再獲得(\d+)層『星願』，並使『夏夜星幕』造成傷害時暴擊效果進一步提升(\d+\.\d+%)。\n重複施放HIGHLIGHT獲得的暴擊效果提升無法疊加。$"="Gain $1 [Star Wish] stack, then increase [Summer Starscape]'s Crit DMG by $2. Lasts for $3 turn.\nAfter spending $4 HIGHLIGHT Energy, each subsequent $5 HIGHLIGHT Energy spent will grant $6 bonus [Star Wish] stack. Then further increase [Summer Starscape]'s Crit DMG by $7.\nThe Crit DMG buff from repeated HIGHLIGHT activation does not stack."
+r:"^獲得(\d+)層『星願』，並使『夏夜星幕』造成傷害時暴擊效果提升(\d+\.\d+%)，持續(\d+)回合。\n消耗(\d+%)HIGHLIGHT能量後每繼續消耗(\d+%)HIGHLIGHT能量都會再獲得(\d+)層『星願』,並使『夏夜星幕』造成傷害時暴擊效果進一步提升(\d+\.\d+%)。\n重複施放HIGHLIGHT獲得的暴擊效果提升無法疊加。$"="Gain $1 [Star Wish] stack, then increase [Summer Starscape]'s Crit DMG by $2. Lasts for $3 turn.\nAfter spending $4 HIGHLIGHT Energy, each subsequent $5 HIGHLIGHT Energy spent will grant $6 bonus [Star Wish] stack. Then further increase [Summer Starscape]'s Crit DMG by $7.\nThe Crit DMG buff from repeated HIGHLIGHT activation does not stack."
 
-r:"^使<color\=#FFFF00>1名</color>除自身外的同伴立即施放一次HIGHLIGHT。$"="Immediately activate <color\=#FFFF00>1</color> other ally's HIGHLIGHT."
+r:"^使<color\=#FFFC40>1名</color>除自身外的同伴立即施放一次HIGHLIGHT。$"="Immediately activate <color\=#FFFC40>1</color> other ally's HIGHLIGHT."
 
 星願=Star Wish
 將使『寫給風的旋律』得到強化=Boost [Windward Melody]
 拾音成曲=Improvised Song
-r:"^造成傷害提升(\d+\.\d+%)，自身回合結束前，對所有敵人造成疾風屬性傷害$"="Increase DMG Dealt by $1, before the end of Ayaka's turn, deal Wind damage to all foes"
+r:"^造成傷害提升(\d+(.\d+)?(%)?)，自身回合結束前，對所有敵人造成疾風屬性傷害$"="<size\=27>Increase DMG Dealt by $1, before the end of Ayaka's turn, deal Wind damage to all foes</size>"
 r:"^自身回合結束時，回復(\d+%)HIGHLIGHT能量$"="At the end of turn, \nrestore $1 HIGHLIGHT Energy"
-r:"^『夏夜星幕』造成的傷害提升(\d+\.\d+%)$"="Increase [Summer Starscape]'s DMG Dealt by $1"
-r:"^『夏夜星幕』造成的暴擊效果提升(\d+\.\d+%)$"="Increase [Summer Starscape]'s Crit DMG by $1"
+r:"^『夏夜星幕』造成的傷害提升(\d+(.\d+)?(%)?)$"="<size\=25>Increase [Summer Starscape]'s DMG Dealt by $1</size>"
+r:"^『夏夜星幕』造成的暴擊效果提升(\d+(.\d+)?(%)?)$"="<size\=25>Increase [Summer Starscape]'s Crit DMG by $1</size>"
+r:"^追加傷害增幅提升(\d+(.\d+)?(%)?)，且所有技能都將視為追加傷害。$"="Increase Follow Up DMG Amp by $1, \nall skills count as Follow Up"
 
 Combat Pop-ups
 r:"^夏<color\=#000000>夜</color>星幕$"="S<color\=#000000>u</color>mmer Starscape"

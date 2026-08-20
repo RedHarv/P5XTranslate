@@ -106,6 +106,7 @@ r:"^暴擊率提升(\d+\.\d+%)。換手攻擊後，造成的傷害提升(.*)，�
 Inugami
 r:"^失控的亂舞者(.*)$"="Berserk Dancer $1"
 r:"^效果命中提升(\d+%)。造成精神異常後，降低目標(.*)防禦力，效果持續(\d+)回合。$"="Increase Ailment ACC by $1. After inflicting Mental Ailments, decrease the target's DEF by $2 for $3 turns."
+日本民間傳說中，會附身在人類身上四處為害的犬靈，主要流傳於四國與九州。\n據說它是由被稱為{{A}}使的咒術師創造出來的，而被其附身的人會失去理智，出現各式各樣異常的行為舉止。=A dog spirit said to possess people in Japanese lore. Those possessed are in a state of "inu-tsuki" and lose consciousness. Onmyoji use Inugami as familiars.
 
 Orobas
 r:"^狂熱的卜者(.*)$"="Fanatic Diviner $1"
@@ -239,6 +240,7 @@ r:"^效果命中提升(\d+%)。造成觸電效果後，提升所有同伴(.*)暴
 Naga
 r:"^天雷的懲戒(.*)$"="<size\=30>Thunder's Punishment $1</size>"
 r:"^暴擊率提升(\d+\.\d+%)。造成電擊屬性傷害時，暴擊效果提升(.*)。$"="Increase Crit Rate by $1. When dealing Elec damage, increase Crit DMG by $2."
+印度神話中將眼鏡蛇神格化之後的半人半蛇之神。掌管再生與復活。據說它們生活在河流、湖泊、大海底下的樂園裡，沒有戰爭的時候便終日載歌載舞。=Half-snake, half-human divine beings in Hindu lore, worshipped as bringers of rain. They live in the bottoms of lakes and seas, singing and dancing when they are not fighting.
 
 Isis
 r:"^豐饒的安卡(.*)$"="Anka of Abundance $1"
@@ -415,6 +417,7 @@ r:"^暴擊率提升(\d+\.\d+%)。造成暴擊擊倒敵人後，使自身攻擊�
 Queen Mab
 r:"^愉悅的美夢(.*)$"="Pleasant Dream $1"
 r:"^攻擊力提升(\d+\.\d+%)。釋放技能攻擊敵人時，若其處於燃燒或凍結狀態，則使自身的攻擊力提升(.*)，若其同時處於燃燒以及凍結狀態，則該效果提升(.*)。$"="<size\=24>Increase ATK by $1. When using a skill to attack foes, increase own ATK by $2 if they have Burn or Freeze, increase the effect by $3 if they have both Burn and Freeze.</size>"
+英國傳說中的妖精，原本近似於一種夢魔，但因為形象常與{{B}}重疊而成為了{{A}}。\n她有很多個丈夫，會自己的鮮血調製成紅色蜂蜜酒分給他們，以此劃分支配權。=The fairy queen in Celtic myth. Often identified with Titania. She would offer mead mixed with her blood to her many consorts.
 
 Kushinada-Hime
 r:"^親暱的愛護(.*)$"="Intimate Care $1"
@@ -522,6 +525,7 @@ r:"^暴擊率提升(\d+\.\d+%)。以1名敵人為目標釋放電擊屬性{{A}}�
 Raja Naga
 r:"^招雷的血統(.*)$"="Electric Bloodline $1"
 r:"^暴擊效果提升(\d+\.\d+%)。使用電擊屬性技能時，消耗的精力值降低(.*)。$"="Increase Crit DMG by $1. Decrease SP cost of Elec skills by $2."
+印度神話中半人半蛇的神，{{B}}族的王。\n力量特別強大的{{B}}就會被如此稱呼。\n難陀、德叉迦等「八大龍王」也屬於這種{{A}}。=The king of the Naga, a half-man, half-snake tribe in Hindu lore. The dragon kings Nanda and Takshaka of Buddhist myth fall into this royal category.
 
 Norn
 r:"^命運的風襲(.*)$"="Windswept of Fate $1"
@@ -604,6 +608,7 @@ r:"^暴擊率提升(\d+\.\d+%)。戰鬥開始時獲得(\d+)層『祭品的悲鳴
 祭品的悲鳴=Screams of Sacrifice
 r:"^祭<color\=#000000>品</color>的悲鳴$"="S<color\=#000000>c</color>reams of Sacrifice"
 r:"^達到(\d+)層時，使自身固有技能產生額外效果$"="When reaching $1 stacks, \nactivate bonus effects from unique skill"
+在古事記中登場，擁有八頭八尾的巨龍。\n後來在中了圈套喝醉之後，被須佐之男以神劍斬殺消滅。=A giant snake with eight heads that Susano-o defeated to save Kushinada-Hime. The legendary sword Ame-no-Murakumo-no-Tsurugi, also known as the "Sword of Kusanagi," emerged from its belly.
 
 Seiryu
 r:"^東方神龍的庇蔭(.*)$"="<size\=28>Eastern Dragon's Shade $1</size>"
@@ -813,6 +818,9 @@ r:"^告<color\=#000000>諭</color>$"="D<color\=#000000>i</color>vine Oracle"
 ----------
 Not in Compendium
 ----------
+Samael
+謎團眾多的天使。名字意為“有毒的光輝之人”，包含了相反的雙重含義。外貌是長有翅膀的巨蛇，雖為天使，但通常也被認為是惡魔的首領。有說法認為他是墮天使，但在聖經等典籍中有許多記述並不支持這種解釋。=A mysterious angel with the name 'poison of God'. He is often shown as a serpent. Opinions differ on whether he is fallen or not, but either way, he is linked with death.
+
 Futsunushi
 日本書紀中所記載的刀劍之神，據說是他在天孫降臨之前，平定了葦原中國。\n據說他的名字是將斬斷物體時所發出的清脆聲響與代表神明的「主」字組合在一起所形成的。=The Nihonshoki sword deity who pacified Ashihara-no-Nakatsukuni. His name comes from "futsu," the fashion in which things are cut, and "nushi," his nature as a god.
 
