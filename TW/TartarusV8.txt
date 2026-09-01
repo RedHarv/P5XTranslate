@@ -2117,9 +2117,8 @@ r:"^所有敵人對射擊屬性的適應性改變\（若為無效/反彈/吸收�
 r:"^每個角色回合結束時，有(\d+%)機率直接發動{{A}}$"="At the end of every character's turn, there is a $1 chance to active an {{A}}"
 寶劍·全面清掃=Swords · Complete Wipeout
 r:"^所有敵人每次受到{{A}}，使後續受{{A}}傷害提升(\d+%)，可疊加(\d+)層$"="After every {{A}}, increase all subsequent {{A}} damage by $1. Stacks up to $2 times"
-所有敵人受到{{A}}後，清除自身的倒地狀態=After all enemies are subjected to {{A}}, they can clear their own fall status
 寶劍·{{A}}狂潮=Swords · All-Out Frenzy
-所有敵人受到{{A}}後，清除自身的倒地狀態=After an {{A}}, remove all foes' Down state
+所有敵人受到{{A}}後，清除自身的倒地狀態=When a foe takes damage from an {{A}}, they recover from being knocked down
 寶劍·{{A}}判決=Swords · {{A}} Judgement
 r:"^所有角色{{A}}傷害提升(\d+%)$"="Increase all characters' {{A}} DMG by $1"
 寶劍·{{A}}威懾=Swords · {{A}} Threat
