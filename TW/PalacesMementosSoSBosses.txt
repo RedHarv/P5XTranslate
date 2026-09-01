@@ -3418,10 +3418,14 @@ r:"^所有敵人屬性提升，最大生命值額外提升(\d+(.\d+)?(%)?)。$"=
 r:"^所有敵人屬性提升，攻擊力額外提升(\d+(.\d+)?(%)?)。$"="Increase all foes' stats, additionally increase ATK by $1."
 r:"^所有敵人屬性提升，造成傷害額外提升(\d+(.\d+)?(%)?)。$"="Increase all foes' stats, additionally increase DMG Dealt by $1."
 r:"^所有敵人屬性提升，受到傷害額外降低(\d+(.\d+)?(%)?)。$"="Increase all foes' stats, additionally decrease DMG Taken by $1."
-r:"^所有同伴造成火焰屬性傷害時，最終傷害提升(\d+(.\d+)?(%)?)。$"="When party deals Fire damage, increase Final DMG by $1."
-r:"^所有同伴造成冰凍屬性傷害時，最終傷害提升(\d+(.\d+)?(%)?)。$"="When party deals Ice damage, increase Final DMG by $1."
-r:"^所有同伴造成念動屬性傷害時，最終傷害提升(\d+(.\d+)?(%)?)。$"="When party deals Psy damage, increase Final DMG by $1."
-r:"^所有同伴造成核熱屬性傷害時，最終傷害提升(\d+(.\d+)?(%)?)。$"="When party deals Nuke damage, increase Final DMG by $1."
+r:"^所有同伴造成火焰屬性傷害時，最終傷害提升(\d+(.\d+)?(%)?)。$"="When all allies deal Fire damage, increase Final DMG by $1."
+r:"^所有同伴造成冰凍屬性傷害時，最終傷害提升(\d+(.\d+)?(%)?)。$"="When all allies deal Ice damage, increase Final DMG by $1."
+r:"^所有同伴造成電擊屬性傷害時，最終傷害提升(\d+(.\d+)?(%)?)。$"="When all allies deal Elec damage, increase Final DMG by $1."
+r:"^所有同伴造成疾風屬性傷害時，最終傷害提升(\d+(.\d+)?(%)?)。$"="When all allies deal Wind damage, increase Final DMG by $1."
+r:"^所有同伴造成念動屬性傷害時，最終傷害提升(\d+(.\d+)?(%)?)。$"="When all allies deal Psy damage, increase Final DMG by $1."
+r:"^所有同伴造成核熱屬性傷害時，最終傷害提升(\d+(.\d+)?(%)?)。$"="When all allies deal Nuke damage, increase Final DMG by $1."
+r:"^所有同伴造成祝福屬性傷害時，最終傷害提升(\d+(.\d+)?(%)?)。$"="When all allies deal Bless damage, increase Final DMG by $1."
+r:"^所有同伴造成詛咒屬性傷害時，最終傷害提升(\d+(.\d+)?(%)?)。$"="When all allies deal Curse damage, increase Final DMG by $1."
 
 1、隱者在生命值降低到一定程度時將進行『充電』並生成大量護盾。若護盾在持續時間內未被打破，則『充電』將順利完成，隱者將在一段時間大幅強化自身傷害能力。但如果在此時<color\=#FFFC40>擊破護盾</color>，則隱者會進入『超載』狀態，在一段時間內無法行動且將承受更多的傷害。\n2、隱者在進行『充電』時將持續偷取我方精力值。但在護盾被擊破時會釋放電力，為我方補充精力值。\n3、隱者進入二階段後『充電』將強化為效果更強的『高速充電』。請小心應對吧！=1. When Hermit reach a set amount of HP, use [Charging] and generate a Shield. If the Shield is not broken within its duration, Hermit will complete [Charging] and heavily buff its damage. If the Shield is <color\=#FFFC40>broken</color> within its duration, Hermit will enter [Overload] mode, gain unable to act and take more damage.\n2. Hermit will steal Thieves' SP during [Charging] and will restore Thieves' SP when the Shield is broken.\n3. After entering phase 2, upgrade [Charging] into [Accelerated Charging].
 1、隱者在生命值降低到一定程度時將進行『充電』並生成大量護盾。若護盾在持續時間內未被打破，則『充電』將順利完成，隱者將在一段時間大幅強化自身傷害能力。但如果在此時<color\=#FFFC40>擊破護盾</color>，則隱者會進入『超載』狀態，在一段時間內無法行動且將承受更多的傷害。\n2、隱者在進行『充電』時將持續偷取我方精力值。但在護盾被擊破時會釋放電力，為我方補充精力值。\n3、隱者進入二階段後『充電』將強化為效果更強的『高速充電』。=1. When Hermit reach a set amount of HP, use [Charging] and generate a Shield. If the Shield is not broken within its duration, Hermit will complete [Charging] and heavily buff its damage. If the Shield is <color\=#FFFC40>broken</color> within its duration, Hermit will enter [Overload] mode, gain unable to act and take more damage.\n2. Hermit will steal Thieves' SP during [Charging] and will restore Thieves' SP when the Shield is broken.\n3. After entering phase 2, upgrade [Charging] into [Accelerated Charging].
@@ -3679,6 +3683,7 @@ r:"^使所有{{A}}恢復HP至(\d+%)，會使{{B}}受到{{A}}恢復總生命的�
 不滅=Immortal
 {{A}}生命低於1%時進入假死狀態，假死狀態下傷害由{{B}}承擔=When {{A}}'s HP is below 1%, enter Faked Death. When Faked Death is active, distribute damage taken with {{B}}.
 全力戰鬥=Full Force
+r:"^全<color\=#000000>力</color>戰鬥$"="F<color\=#000000>u</color>ll Force"
 最終傷害提升了……=Final DMG Up!
 怪盜的最終傷害大幅提升，請全力戰鬥……=Heavily increase Thieves' Final DMG
 r:"^賜<color\=#000000>福</color>$"="B<color\=#000000>l</color>essing"
