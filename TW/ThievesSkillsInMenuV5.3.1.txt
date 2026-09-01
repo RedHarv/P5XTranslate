@@ -14,7 +14,7 @@ r:"^怪盜(\d+)級時可解鎖$"="Unlocks at Lv. $1"
 r:"^角色(\d+)級時可解鎖$"="Unlocks at Lv. $1"
 r:"^怪盜(\d+)級時可繼續提升$"="Can upgrade at Lv. $1"
 r:"^角色(\d+)級時可繼續提升$"="Can upgrade at Lv. $1"
-該技能已達最高等級=<size\=30>Skill is at highest level</size>
+該技能已達最高等級=Skill Level Max
 r:"^潛能(\d+)級時解鎖$"="Unlocks at Talent $1"
 該怪盜已培養至滿級！=Thief Lv. maxed!
 該角色已培養至滿級！=Thief Lv. maxed!
@@ -365,92 +365,92 @@ r:"^萬能屬性傷害提升<color\=#0f69ca>(\d+\.\d+%)</color>$"="Increase Almi
 
 重傷易損=Grievous Wound
 r:"^自身削弱敵方倒地值時，給予所有敵人(\d+)層脆弱，持續(\d+)回合，上限(\d+)層。脆弱：受到傷害提升<color\=#0f69ca>(\d+\.\d+%)</color>。$"="When user deals Down Points damage to foes, inflict all foes with $1 Frail stack for $2 turns. Stacks up to $3 times. Frail: Increase DMG Taken by <color\=#0f69ca>$4</color>."
-r:"^自身削弱敵方倒地值時，給予所有敵人(\d+)層脆弱，持續(\d+)回合，上限(\d+)層。脆弱：受到傷害提升(\d+\.\d+%)。$"="When user deals Down Points damage to foes, inflict all foes with $1 Frail stack for $2 turns. Stacks up to $3 times. Frail: Increase DMG Taken by <color\=#0f69ca>$4</color>."
+r:"^自身削弱敵方倒地值時，給予所有敵人(\d+)層脆弱，持續(\d+)回合，上限(\d+)層。脆弱：受到傷害提升(\d+\.\d+%)。$"="When user deals Down Points damage to foes, inflict all foes with $1 Frail stack for $2 turns. Stacks up to $3 times. Frail: Increase DMG Taken by $4."
 破綻追擊=Exploit Vulnerability
 r:"^破<color\=#000000>綻</color>追擊$"="E<color\=#000000>x</color>ploit Vulnerability"
 r:"^友方物理屬性同伴攻擊擁有脆弱的敵人時，總傷害增幅提升<color\=#0f69ca>(\d+\.\d+%)</color>。（該效果不能疊加）$"="When Phys allies attack foes with Frail, increase Total DMG Amp by <color\=#0f69ca>$1</color>. This effect does not stack."
-r:"^友方物理屬性同伴攻擊擁有脆弱的敵人時，總傷害增幅提升(\d+\.\d+%)。（該效果不能疊加）$"="When Phys allies attack foes with Frail, increase Total DMG Amp by <color\=#0f69ca>$1</color>. This effect does not stack."
+r:"^友方物理屬性同伴攻擊擁有脆弱的敵人時，總傷害增幅提升(\d+\.\d+%)。（該效果不能疊加）$"="When Phys allies attack foes with Frail, increase Total DMG Amp by $1. This effect does not stack."
 裂傷爆發=Wound Burst
 r:"^裂<color\=#000000>傷</color>爆發$"="W<color\=#000000>o</color>und Burst"
 r:"^擁有(\d+)層脆弱的敵人，受到物理傷害時倒地易傷提升<color\=#0f69ca>(\d+\.\d+%)</color>。（該效果不能疊加）$"="Foes with $1 Frail stacks increase Phys Downed DMG Taken by <color\=#0f69ca>$1</color>. This effect does not stack."
-r:"^擁有(\d+)層脆弱的敵人，受到物理傷害時倒地易傷提升(\d+\.\d+%)。（該效果不能疊加）$"="Foes with $1 Frail stacks increase Phys Downed DMG Taken by <color\=#0f69ca>$1</color>. This effect does not stack."
+r:"^擁有(\d+)層脆弱的敵人，受到物理傷害時倒地易傷提升(\d+\.\d+%)。（該效果不能疊加）$"="Foes with $1 Frail stacks increase Phys Downed DMG Taken by $1. This effect does not stack."
 失衡打擊=Staggering Strike
 r:"^失<color\=#000000>衡</color>打擊$"="S<color\=#000000>t</color>aggering Strike"
 r:"^自身對敵人釋放HIGHLIGHT/{{A}}後，無視適應性削弱所有敵人<color\=#0f69ca>(\d+)</color>層倒地值。$"="After user uses a HIGHLIGHT/{{A}} on foes, ignore all affinities and decrease all foes' Down Points by <color\=#0f69ca>$1</color>."
-r:"^自身對敵人釋放HIGHLIGHT/{{A}}後，無視適應性削弱所有敵人<color\=#0f69ca>(\d+)</color>層倒地值。$"="After user uses a HIGHLIGHT/{{A}} on foes, ignore all affinities and decrease all foes' Down Points by <color\=#0f69ca>$1</color>."
+r:"^自身對敵人釋放HIGHLIGHT/{{A}}後，無視適應性削弱所有敵人(\d+)層倒地值。$"="After user uses a HIGHLIGHT/{{A}} on foes, ignore all affinities and decrease all foes' Down Points by $1."
 
 r:"^絕<color\=#000000>地</color>反擊$"="D<color\=#000000>e</color>sperate Counterattack"
 r:"^自身攻擊敵人時，若目標擁有(\d+)層脆弱，則自身倒地特攻提升<color\=#0f69ca>(\d+\.\d+%)</color>。$"="When user attacks foes, if the target has $1 Frail stacks, then increase Down ATK by <color\=#0f69ca>$2</color>."
-r:"^自身攻擊敵人時，若目標擁有(\d+)層脆弱，則自身倒地特攻提升(\d+\.\d+%)。$"="When user attacks foes, if the target has $1 Frail stacks, then increase Down ATK by <color\=#0f69ca>$2</color>."
+r:"^自身攻擊敵人時，若目標擁有(\d+)層脆弱，則自身倒地特攻提升(\d+\.\d+%)。$"="When user attacks foes, if the target has $1 Frail stacks, then increase Down ATK by $2."
 要害洞悉=Vital Insight
 r:"^要<color\=#000000>害</color>洞悉$"="V<color\=#000000>i</color>tal Insight"
 r:"^自身給予敵人脆弱時，使其受到射擊屬性總傷害增幅提升<color\=#0f69ca>(\d+\.\d+%)</color>，持續(\d+)回合。（該效果不能疊加）$"="When user inflicts foes with Frail, increase their Gun Total DMG Taken Amp by <color\=#0f69ca>$1</color> for $2 turn. This effect does not stack."
-r:"^自身給予敵人脆弱時，使其受到射擊屬性總傷害增幅提升(\d+\.\d+%)，持續(\d+)回合。（該效果不能疊加）$"="When user inflicts foes with Frail, increase their Gun Total DMG Taken Amp by <color\=#0f69ca>$1</color> for $2 turn. This effect does not stack."
+r:"^自身給予敵人脆弱時，使其受到射擊屬性總傷害增幅提升(\d+\.\d+%)，持續(\d+)回合。（該效果不能疊加）$"="When user inflicts foes with Frail, increase their Gun Total DMG Taken Amp by $1 for $2 turn. This effect does not stack."
 弱點狙擊=Weakness Shot
 r:"^弱<color\=#000000>點</color>狙擊$"="W<color\=#000000>e</color>akness Shot"
 
 星火焚身=Stellar Immolation
 r:"^自身釋放{{A}}技能後，為敵人添加燃燒效果。\n若敵人已有燃燒效果，則使其獲得高溫燃燒，持續(\d+)回合，上限(\d+)層。\n高溫燃燒：回合結束時受到添加者<color\=#0f69ca>(\d+\.\d+%)</color>攻擊力的傷害。$"="After user uses a {{A}} skill, inflict foes with Burn.\nIf foes already have Burn, then inflict foes with Severe Burn for $1 turns. Stacks up to $2 times.\nSevere Burn: At the end of turn, take damage equal to <color\=#0f69ca>$3</color> of the user's ATK."
-r:"^自身釋放{{A}}技能後，為敵人添加燃燒效果。\n若敵人已有燃燒效果，則使其獲得高溫燃燒，持續(\d+)回合，上限(\d+)層。\n高溫燃燒：回合結束時受到添加者(\d+\.\d+%)攻擊力的傷害。$"="After user uses a {{A}} skill, inflict foes with Burn.\nIf foes already have Burn, then inflict foes with Severe Burn for $1 turns. Stacks up to $2 times.\nSevere Burn: At the end of turn, take damage equal to <color\=#0f69ca>$3</color> of the user's ATK."
+r:"^自身釋放{{A}}技能後，為敵人添加燃燒效果。\n若敵人已有燃燒效果，則使其獲得高溫燃燒，持續(\d+)回合，上限(\d+)層。\n高溫燃燒：回合結束時受到添加者(\d+\.\d+%)攻擊力的傷害。$"="After user uses a {{A}} skill, inflict foes with Burn.\nIf foes already have Burn, then inflict foes with Severe Burn for $1 turns. Stacks up to $2 times.\nSevere Burn: At the end of turn, take damage equal to $3 of the user's ATK."
 烈焰爆破=Inferno Burst
 r:"^烈<color\=#000000>焰</color>爆破$"="I<color\=#000000>n</color>ferno Burst"
 r:"^高溫燃燒可以發生暴擊。\n自身回合結束時，結算<color\=#0f69ca>(\d+)</color>次所有敵人的高溫燃燒效果。$"="Severe Burn can deal Critical. \nAt the end of user's turn, deal Severe Burn damage <color\=#0f69ca>$1</color> time(s)."
-r:"^高溫燃燒可以發生暴擊。\n自身回合結束時，結算<color\=#0f69ca>(\d+)</color>次所有敵人的高溫燃燒效果。$"="Severe Burn can deal Critical. \nAt the end of user's turn, deal Severe Burn damage <color\=#0f69ca>$1</color> time(s)."
+r:"^高溫燃燒可以發生暴擊。\n自身回合結束時，結算(\d+)次所有敵人的高溫燃燒效果。$"="Severe Burn can deal Critical. \nAt the end of user's turn, deal Severe Burn damage <color\=#0f69ca>$1 time(s)."
 『超燃燒』的結算傷害可以暴擊，自身回合結束時結算所有敵人的『超燃燒』=Severe Burn can deal Critical. At the end of user's turn, activate all foes' Severe Burn
 燃燒殆盡=Complete Combustion
 r:"^燃<color\=#000000>燒</color>殆盡$"="C<color\=#000000>o</color>mplete Combustion"
 r:"^友方火焰屬性角色攻擊擁有高溫燃燒的敵人時，總傷害增幅提升<color\=#0f69ca>(\d+\.\d+%)</color>。（該效果不能疊加）$"="When Fire allies attack foes with Severe Burn, increase Total DMG Amp by <color\=#0f69ca>$1</color>. This effect does not stack."
-r:"^友方火焰屬性角色攻擊擁有高溫燃燒的敵人時，總傷害增幅提升(\d+\.\d+%)。（該效果不能疊加）$"="When Fire allies attack foes with Severe Burn, increase Total DMG Amp by <color\=#0f69ca>$1</color>. This effect does not stack."
+r:"^友方火焰屬性角色攻擊擁有高溫燃燒的敵人時，總傷害增幅提升(\d+\.\d+%)。（該效果不能疊加）$"="When Fire allies attack foes with Severe Burn, increase Total DMG Amp by $1. This effect does not stack."
 r:"^攻擊擁有高溫燃燒的敵人時總傷害增幅提升(\d+(.\d+)?(%)?)$"="When attacking foes with Severe Burn,\nincrease Total DMG Amp by $1"
 燼滅烙印=Cinder Brand
 r:"^燼<color\=#000000>滅</color>烙印$"="C<color\=#000000>i</color>nder Brand"
 r:"^自身對敵人釋放HIGHLIGHT/{{A}}後，使敵人受到治療效果降低<color\=#0f69ca>(\d+\.\d+%)</color>，持續(\d+)回合。$"="After user uses a HIGHLIGHT/{{A}} on foes, decrease foes' Healing Received by <color\=#0f69ca>$1</color> for $2 turns."
-r:"^自身對敵人釋放HIGHLIGHT/{{A}}後，使敵人受到治療效果降低(\d+\.\d+%)，持續(\d+)回合。$"="After user uses a HIGHLIGHT/{{A}} on foes, decrease foes' Healing Received by <color\=#0f69ca>$1</color> for $2 turns."
+r:"^自身對敵人釋放HIGHLIGHT/{{A}}後，使敵人受到治療效果降低(\d+\.\d+%)，持續(\d+)回合。$"="After user uses a HIGHLIGHT/{{A}} on foes, decrease foes' Healing Received by $1 for $2 turns."
 高溫燃燒=Severe Burn
 r:"^高<color\=#000000>溫</color>燃燒$"="S<color\=#000000>e</color>vere Burn"
 
 寒冰守護=Ice Guard
 r:"^自身回合開始時，為友方同伴添加<color\=#0f69ca>(\d+)</color>點護盾，持續(\d+)回合。$"="At the start of user's turn, grant allies a <color\=#0f69ca>$1</color> Shield for $2 turns."
-r:"^自身回合開始時，為友方同伴添加(\d+)點護盾，持續(\d+)回合。$"="At the start of user's turn, grant allies a <color\=#0f69ca>$1</color> Shield for $2 turns."
+r:"^自身回合開始時，為友方同伴添加(\d+)點護盾，持續(\d+)回合。$"="At the start of user's turn, grant allies a $1 Shield for $2 turns."
 霜盾共鳴=Aegis Resonance
 r:"^霜<color\=#000000>盾</color>共鳴$"="A<color\=#000000>e</color>gis Resonance"
 r:"^自身每有(\d+)點護盾，總傷害增幅提升(\d+%)，上限<color\=#0f69ca>(\d+\.\d+%)</color>。$"="For every $1 Shield on user, increase Total DMG Amp by $2, up to <color\=#0f69ca>$3</color>."
-r:"^自身每有(\d+)點護盾，總傷害增幅提升(\d+%)，上限(\d+\.\d+%)。$"="For every $1 Shield on user, increase Total DMG Amp by $2, up to <color\=#0f69ca>$3</color>."
+r:"^自身每有(\d+)點護盾，總傷害增幅提升(\d+%)，上限(\d+\.\d+%)。$"="For every $1 Shield on user, increase Total DMG Amp by $2, up to $3."
 冰霜之環=Frost Ring
 r:"^冰<color\=#000000>霜</color>之環$"="F<color\=#000000>r</color>ost Ring"
 r:"^處於護盾狀態下的友方角色，冰凍屬性弱點傷害提升<color\=#0f69ca>(\d+\.\d+%)</color>。（該效果不能疊加）$"="Allies with Shield increase Ice Weak DMG by <color\=#0f69ca>$1</color>. This effect does not stack."
-r:"^處於護盾狀態下的友方角色，冰凍屬性弱點傷害提升(\d+\.\d+%)。（該效果不能疊加）$"="Allies with Shield increase Ice Weak DMG by <color\=#0f69ca>$1</color>. This effect does not stack."
+r:"^處於護盾狀態下的友方角色，冰凍屬性弱點傷害提升(\d+\.\d+%)。（該效果不能疊加）$"="Allies with Shield increase Ice Weak DMG by $1. This effect does not stack."
 凜冬已至=Winter Arrival
 r:"^凜<color\=#000000>冬</color>已至$"="W<color\=#000000>i</color>nter Arrival"
 r:"^自身對敵人釋放HIGHLIGHT/{{A}}後，有<color\=#0f69ca>(\d+\.\d+%)</color>基礎機率使技能主目標陷入冰封狀態，持續(\d+)回合。$"="After user uses a HIGHLIGHT/{{A}} on foes, there is a <color\=#0f69ca>$1</color> base chance to inflict the main target with Ice Seal for $2 turn."
-r:"^自身對敵人釋放HIGHLIGHT/{{A}}後，有(\d+\.\d+%)基礎機率使技能主目標陷入冰封狀態，持續(\d+)回合。$"="After user uses a HIGHLIGHT/{{A}} on foes, there is a <color\=#0f69ca>$1</color> base chance to inflict the main target with Ice Seal for $2 turn."
+r:"^自身對敵人釋放HIGHLIGHT/{{A}}後，有(\d+\.\d+%)基礎機率使技能主目標陷入冰封狀態，持續(\d+)回合。$"="After user uses a HIGHLIGHT/{{A}} on foes, there is a $1 base chance to inflict the main target with Ice Seal for $2 turn."
 
 感電效應=Electric Induction
 r:"^自身釋放{{A}}技能後，為所有敵人添加觸電效果。\n若敵人已有觸電效果，為敵人添加高壓觸電效果，持續(\d+)回合，上限(\d+)層。\n高壓觸電：受到電擊屬性傷害時，受到暴擊率提升<color\=#0f69ca>(\d+\.\d+%)</color>。$"="After user uses a {{A}} skill, inflict all foes with Shock.\nIf foes already have Shock, inflict foes with High Voltage for $1 turns. Stacks up to $2 times.\nHigh Voltage: When taking Elec damage, increase Crit Taken Rate by <color\=#0f69ca>$3</color>."
-r:"^自身釋放{{A}}技能後，為所有敵人添加觸電效果。\n若敵人已有觸電效果，為敵人添加高壓觸電效果，持續(\d+)回合，上限(\d+)層。\n高壓觸電：受到電擊屬性傷害時，受到暴擊率提升(\d+\.\d+%)。$"="After user uses a {{A}} skill, inflict all foes with Shock.\nIf foes already have Shock, inflict foes with High Voltage for $1 turns. Stacks up to $2 times.\nHigh Voltage: When taking Elec damage, increase Crit Taken Rate by <color\=#0f69ca>$3</color>."
+r:"^自身釋放{{A}}技能後，為所有敵人添加觸電效果。\n若敵人已有觸電效果，為敵人添加高壓觸電效果，持續(\d+)回合，上限(\d+)層。\n高壓觸電：受到電擊屬性傷害時，受到暴擊率提升(\d+\.\d+%)。$"="After user uses a {{A}} skill, inflict all foes with Shock.\nIf foes already have Shock, inflict foes with High Voltage for $1 turns. Stacks up to $2 times.\nHigh Voltage: When taking Elec damage, increase Crit Taken Rate by $3."
 r:"^受到電擊傷害時受到暴擊率提升(\d+(.\d+)?(%)?)$"="When taking Elec damage, \nincrease Crit Taken Rate by $1"
 超頻暴傷=Critical Overclock
 r:"^超<color\=#000000>頻</color>暴傷$"="C<color\=#000000>r</color>itical Overclock"
 r:"^自身暴擊率超過(\d+%)時，每超過(\d+%)暴擊率，轉化為<color\=#0f69ca>(\d+\.\d+%)</color>暴擊效果，最多計入(\d+%)暴擊率。$"="For every $2 of user's Crit Rate that exceeds $1, increase Crit DMG by <color\=#0f69ca>$3</color>. Counts up to $4 Crit Rate."
-r:"^自身暴擊率超過(\d+%)時，每超過(\d+%)暴擊率，轉化為(\d+\.\d+%)暴擊效果，最多計入(\d+%)暴擊率。$"="For every $2 of user's Crit Rate that exceeds $1, increase Crit DMG by <color\=#0f69ca>$3</color>. Counts up to $4 Crit Rate."
+r:"^自身暴擊率超過(\d+%)時，每超過(\d+%)暴擊率，轉化為(\d+\.\d+%)暴擊效果，最多計入(\d+%)暴擊率。$"="For every $2 of user's Crit Rate that exceeds $1, increase Crit DMG by $3. Counts up to $4 Crit Rate."
 磁暴擊破=Magnetic Breach
 r:"^磁<color\=#000000>暴</color>擊破$"="M<color\=#000000>a</color>gnetic Breach"
 r:"^任意敵人擁有(\d+)層高壓觸電時，使其受到電擊屬性弱點傷害提升<color\=#0f69ca>(\d+\.\d+%)</color>。（該效果不能疊加）$"="When any foe has $1 High Voltage stacks, increase their Elec Weak DMG Taken by <color\=#0f69ca>$2</color>. This effect does not stack."
-r:"^任意敵人擁有(\d+)層高壓觸電時，使其受到電擊屬性弱點傷害提升(\d+\.\d+%)。（該效果不能疊加）$"="When any foe has $1 High Voltage stacks, increase their Elec Weak DMG Taken by <color\=#0f69ca>$2</color>. This effect does not stack."
+r:"^任意敵人擁有(\d+)層高壓觸電時，使其受到電擊屬性弱點傷害提升(\d+\.\d+%)。（該效果不能疊加）$"="When any foe has $1 High Voltage stacks, increase their Elec Weak DMG Taken by $2. This effect does not stack."
 電湧增幅=Amplified Surge
 r:"^電<color\=#000000>湧</color>增幅$"="A<color\=#000000>m</color>plified Surge"
 r:"^自身對友方釋放HIGHLIGHT/{{A}}後，使友方全體電擊屬性角色暴擊率提升<color\=#0f69ca>(\d+\.\d+%)</color>。$"="After user uses a HIGHLIGHT/{{A}} on allies, increase all Elec allies' Crit Rate by <color\=#0f69ca>$1</color>."
-r:"^自身對友方釋放HIGHLIGHT/{{A}}後，使友方全體電擊屬性角色暴擊率提升(\d+\.\d+%)。$"="After user uses a HIGHLIGHT/{{A}} on allies, increase all Elec allies' Crit Rate by <color\=#0f69ca>$1</color>."
+r:"^自身對友方釋放HIGHLIGHT/{{A}}後，使友方全體電擊屬性角色暴擊率提升(\d+\.\d+%)。$"="After user uses a HIGHLIGHT/{{A}} on allies, increase all Elec allies' Crit Rate by $1."
 高壓觸電=High Voltage
 r:"^高<color\=#000000>壓</color>觸電$"="H<color\=#000000>i</color>gh Voltage"
 
 破風強襲=Wind Assault
 r:"^友方疾風屬性角色攻擊擁有風襲的敵人時，穿透提升<color\=#0f69ca>(\d+\.\d+%)</color>。（該效果不能疊加）$"="When Wind allies attack foes with Windswept, increase Pierce by <color\=#0f69ca>$1</color>. This effect does not stack."
-r:"^友方疾風屬性角色攻擊擁有風襲的敵人時，穿透提升(\d+\.\d+%)。（該效果不能疊加）$"="When Wind allies attack foes with Windswept, increase Pierce by <color\=#0f69ca>$1</color>. This effect does not stack."
+r:"^友方疾風屬性角色攻擊擁有風襲的敵人時，穿透提升(\d+\.\d+%)。（該效果不能疊加）$"="When Wind allies attack foes with Windswept, increase Pierce by $1. This effect does not stack."
 嵐之一心=Tempest Heart
 r:"^嵐<color\=#000000>之</color>一心$"="T<color\=#000000>e</color>mpest Heart"
 r:"^敵方角色防禦力低於1點時，受到疾風屬性弱點傷害額外提升<color\=#0f69ca>(\d+\.\d+%)</color>。（該效果不能疊加）$"="When foes have DEF less than 1, increase Wind Weak DMG Taken by <color\=#0f69ca>$1</color>. This effect does not stack."
-r:"^敵方角色防禦力低於1點時，受到疾風屬性弱點傷害額外提升(\d+\.\d+%)。（該效果不能疊加）$"="When foes have DEF less than 1, increase Wind Weak DMG Taken by <color\=#0f69ca>$1</color>. This effect does not stack."
+r:"^敵方角色防禦力低於1點時，受到疾風屬性弱點傷害額外提升(\d+\.\d+%)。（該效果不能疊加）$"="When foes have DEF less than 1, increase Wind Weak DMG Taken by $1. This effect does not stack."
 r:"^防禦力低於1點時，受到疾風屬性弱點傷害提升(\d+(.\d+)?(%)?)$"="When DEF is less than 1, \nincrease Wind Weak DMG Taken by $1"
 疾風穿隙=Wind Piercer
 r:"^疾<color\=#000000>風</color>穿隙$"="W<color\=#000000>i</color>nd Piercer"
@@ -463,111 +463,111 @@ r:"^自身對敵人釋放HIGHLIGHT/{{A}}後，驅散敵人(\d+)個強化效果�
 
 意識截取=Intercept Consciousness
 r:"^自身對敵人釋放{{A}}後使技能目標獲得(\d+)層思維竊取，持續(\d+)回合，上限(\d+)層。\n思維竊取：受到傷害提升<color\=#0f69ca>(\d+\.\d+%)</color>$"="After user uses a {{A}} skill on foes, inflict the skill target with $1 Thought Steal stack. Last for $2 turns. Stacks up to $3 times.\nThought Steal: Increase DMG Taken by <color\=#0f69ca>$4</color>"
-r:"^自身對敵人釋放{{A}}後使技能目標獲得(\d+)層思維竊取，持續(\d+)回合，上限(\d+)層。\n思維竊取：受到傷害提升(\d+\.\d+%)$"="After user uses a {{A}} skill on foes, inflict the skill target with $1 Thought Steal stack. Last for $2 turns. Stacks up to $3 times.\nThought Steal: Increase DMG Taken by <color\=#0f69ca>$4</color>"
+r:"^自身對敵人釋放{{A}}後使技能目標獲得(\d+)層思維竊取，持續(\d+)回合，上限(\d+)層。\n思維竊取：受到傷害提升(\d+\.\d+%)$"="After user uses a {{A}} skill on foes, inflict the skill target with $1 Thought Steal stack. Last for $2 turns. Stacks up to $3 times.\nThought Steal: Increase DMG Taken by $4"
 異念增幅=Amplified Distortion
 r:"^異<color\=#000000>念</color>增幅$"="A<color\=#000000>m</color>plified Distortion"
 r:"^自身攻擊擁有精神異常或思維竊取的敵人時，最終傷害增幅提升<color\=#0f69ca>(\d+\.\d+%)</color>。$"="When user attacks foes with Mental Ailments or Thought Steal, increase Final DMG Amp by <color\=#0f69ca>$1</color>."
-r:"^自身攻擊擁有精神異常或思維竊取的敵人時，最終傷害增幅提升(\d+\.\d+%)。$"="When user attacks foes with Mental Ailments or Thought Steal, increase Final DMG Amp by <color\=#0f69ca>$1</color>."
+r:"^自身攻擊擁有精神異常或思維竊取的敵人時，最終傷害增幅提升(\d+\.\d+%)。$"="When user attacks foes with Mental Ailments or Thought Steal, increase Final DMG Amp by $1."
 精神獵手=Mind Hunter
 r:"^精<color\=#000000>神</color>獵手$"="M<color\=#000000>i</color>nd Hunter"
 r:"^任意敵人擁有思維竊取時，受到念動屬性弱點傷害提升<color\=#0f69ca>(\d+\.\d+%)</color>。（該效果不能疊加）$"="When any foe has Thought Steal, increase their Psy Weak DMG Taken by <color\=#0f69ca>$1</color>. This effect does not stack."
-r:"^任意敵人擁有思維竊取時，受到念動屬性弱點傷害提升(\d+\.\d+%)。（該效果不能疊加）$"="When any foe has Thought Steal, increase their Psy Weak DMG Taken by <color\=#0f69ca>$1</color>. This effect does not stack."
+r:"^任意敵人擁有思維竊取時，受到念動屬性弱點傷害提升(\d+\.\d+%)。（該效果不能疊加）$"="When any foe has Thought Steal, increase their Psy Weak DMG Taken by $1. This effect does not stack."
 精神掠奪=Mind Plunder
 r:"^精<color\=#000000>神</color>掠奪$"="M<color\=#000000>i</color>nd Plunder"
 r:"^自身根據敵人的思維竊取的層數降低敵人的屬性效果，自身提升等量的屬性（獲得的屬性有多個敵人時最多生效1次）\n(\d+)層思維竊取：偷取敵人<color\=#0f69ca>(\d+\.\d+%)</color>防禦力加成\n(\d+)層思維竊取：偷取敵人<color\=#0f69ca>(\d+\.\d+%)</color>攻擊力加成\n(\d+)層思維竊取：偷取敵人<color\=#0f69ca>(\d+\.\d+%)</color>傷害加成\n（該效果不能疊加）$"="Decrease foes' stats and increase user's stats based on Thought Steal stacks on foes (the stats increase can only be applied once when there are multiple foes). This effect does not stack.\n$1 Thought Steal: Steal <color\=#0f69ca>$2</color> of foe's DEF.\n$3 Thought Steal: Steal <color\=#0f69ca>$4</color> of foe's ATK.\n$5 Thought Steal: Steal <color\=#0f69ca>$6</color> of foe's DMG Bonus."
-r:"^自身根據敵人的思維竊取的層數降低敵人的屬性效果，自身提升等量的屬性（獲得的屬性有多個敵人時最多生效1次）\n(\d+)層思維竊取：偷取敵人(\d+\.\d+%)防禦力加成\n(\d+)層思維竊取：偷取敵人(\d+\.\d+%)攻擊力加成\n(\d+)層思維竊取：偷取敵人(\d+\.\d+%)傷害加成\n（該效果不能疊加）$"="Decrease foes' stats and increase user's stats based on Thought Steal stacks on foes (the stats increase can only be applied once when there are multiple foes). This effect does not stack.\n$1 Thought Steal: Steal <color\=#0f69ca>$2</color> of foe's DEF.\n$3 Thought Steal: Steal <color\=#0f69ca>$4</color> of foe's ATK.\n$5 Thought Steal: Steal <color\=#0f69ca>$6</color> of foe's DMG Bonus."
+r:"^自身根據敵人的思維竊取的層數降低敵人的屬性效果，自身提升等量的屬性（獲得的屬性有多個敵人時最多生效1次）\n(\d+)層思維竊取：偷取敵人(\d+\.\d+%)防禦力加成\n(\d+)層思維竊取：偷取敵人(\d+\.\d+%)攻擊力加成\n(\d+)層思維竊取：偷取敵人(\d+\.\d+%)傷害加成\n（該效果不能疊加）$"="Decrease foes' stats and increase user's stats based on Thought Steal stacks on foes (the stats increase can only be applied once when there are multiple foes). This effect does not stack.\n$1 Thought Steal: Steal $2 of foe's DEF.\n$3 Thought Steal: Steal $4 of foe's ATK.\n$5 Thought Steal: Steal $6 of foe's DMG Bonus."
 思維竊取=Thought Steal
 r:"^思<color\=#000000>維</color>竊取$"="T<color\=#000000>h</color>ought Steal"
 
 混沌反應=Chaos Reaction
 r:"^自身對敵人釋放{{A}}技能後，有<color\=#0f69ca>(\d+\.\d+%)</color>固定機率為所有敵人添加(\d+)個隨機的元素異常，並使其獲得(\d+)層輻射。$"="After user uses a Persona skill on foes, there is a <color\=#0f69ca>$1</color> fixed chance to inflict all foes with $2 random Elemental Ailment, then inflict $3 Radiation."
-r:"^自身對敵人釋放{{A}}技能後，有(\d+\.\d+%)固定機率為所有敵人添加(\d+)個隨機的元素異常，並使其獲得(\d+)層輻射。$"="After user uses a Persona skill on foes, there is a <color\=#0f69ca>$1</color> fixed chance to inflict all foes with $2 random Elemental Ailment, then inflict $3 Radiation."
+r:"^自身對敵人釋放{{A}}技能後，有(\d+\.\d+%)固定機率為所有敵人添加(\d+)個隨機的元素異常，並使其獲得(\d+)層輻射。$"="After user uses a Persona skill on foes, there is a $1 fixed chance to inflict all foes with $2 random Elemental Ailment, then inflict $3 Radiation."
 無序裂變=Chaotic Fission
 r:"^無<color\=#000000>序</color>裂變$"="C<color\=#000000>h</color>aotic Fission"
 r:"^自身攻擊敵人時，敵人身上每有(\d+)種元素異常，自身總傷害增幅提升<color\=#0f69ca>(\d+\.\d+%)</color>，上限<color\=#0f69ca>(\d+\.\d+%)</color>。$"="When user attacks a foe, for every $1 Elemental Ailment type on foe, increase Total DMG Amp by <color\=#0f69ca>$2</color>, up to <color\=#0f69ca>$3</color>."
-r:"^自身攻擊敵人時，敵人身上每有(\d+)種元素異常，自身總傷害增幅提升(\d+\.\d+%)，上限(\d+\.\d+%)。$"="When user attacks a foe, for every $1 Elemental Ailment type on foe, increase Total DMG Amp by <color\=#0f69ca>$2</color>, up to <color\=#0f69ca>$3</color>."
+r:"^自身攻擊敵人時，敵人身上每有(\d+)種元素異常，自身總傷害增幅提升(\d+\.\d+%)，上限(\d+\.\d+%)。$"="When user attacks a foe, for every $1 Elemental Ailment type on foe, increase Total DMG Amp by $2, up to $3."
 元素催化=Elemental Catalysis
 r:"^元<color\=#000000>素</color>催化$"="E<color\=#000000>l</color>emental Catalysis"
 r:"^強化敵人所有元素異常的效果值。\n燃燒：受到治療效果降低<color\=#0f69ca>(\d+\.\d+%)</color>\n觸電：受到核熱屬性暴擊效果提升<color\=#0f69ca>(\d+\.\d+%)</color>\n風襲：核熱屬性防禦力降低<color\=#0f69ca>(\d+\.\d+%)</color>\n冰凍：攻擊力降低<color\=#0f69ca>(\d+\.\d+%)</color>\n輻射：受到核熱傷害提升<color\=#0f69ca>(\d+\.\d+%)</color>\n（該效果不能疊加）$"="Enhance all Elemental Ailment effects. These effects do not stack.\nBurn: Decrease Healing Received by <color\=#0f69ca>$1</color>.\nShock: Increase Nuke Crit DMG Taken by <color\=#0f69ca>$2</color>.\nWindswept: Decrease Nuke DEF by <color\=#0f69ca>$3</color>.\nFreeze: Decrease ATK by <color\=#0f69ca>$4</color>.\nRadiation: Increase Nuke DMG Taken by <color\=#0f69ca>$5</color>."
-r:"^強化敵人所有元素異常的效果值。\n燃燒：受到治療效果降低(\d+\.\d+%)\n觸電：受到核熱屬性暴擊效果提升(\d+\.\d+%)\n風襲：核熱屬性防禦力降低(\d+\.\d+%)\n冰凍：攻擊力降低(\d+\.\d+%)\n輻射：受到核熱傷害提升(\d+\.\d+%)\n（該效果不能疊加）$"="Enhance all Elemental Ailment effects. These effects do not stack.\nBurn: Decrease Healing Received by <color\=#0f69ca>$1</color>.\nShock: Increase Nuke Crit DMG Taken by <color\=#0f69ca>$2</color>.\nWindswept: Decrease Nuke DEF by <color\=#0f69ca>$3</color>.\nFreeze: Decrease ATK by <color\=#0f69ca>$4</color>.\nRadiation: Increase Nuke DMG Taken by <color\=#0f69ca>$5</color>."
+r:"^強化敵人所有元素異常的效果值。\n燃燒：受到治療效果降低(\d+\.\d+%)\n觸電：受到核熱屬性暴擊效果提升(\d+\.\d+%)\n風襲：核熱屬性防禦力降低(\d+\.\d+%)\n冰凍：攻擊力降低(\d+\.\d+%)\n輻射：受到核熱傷害提升(\d+\.\d+%)\n（該效果不能疊加）$"="Enhance all Elemental Ailment effects. These effects do not stack.\nBurn: Decrease Healing Received by $1.\nShock: Increase Nuke Crit DMG Taken by $2.\nWindswept: Decrease Nuke DEF by $3.\nFreeze: Decrease ATK by $4.\nRadiation: Increase Nuke DMG Taken by $5."
 共鳴核爆=Resonance Blast
 r:"^共<color\=#000000>鳴</color>核爆$"="R<color\=#000000>e</color>sonance Blast"
 r:"^敵人同時擁有燃燒、觸電、風襲、冰凍、輻射時，使其受到核熱屬性弱點傷害提升<color\=#0f69ca>(\d+\.\d+%)</color>。（該效果不能疊加）$"="When foes have Burn, Shock, Windswept, Freeze, and Radiation, increase their Nuke Weak DMG Taken by <color\=#0f69ca>$1</color>. This effect does not stack."
-r:"^敵人同時擁有燃燒、觸電、風襲、冰凍、輻射時，使其受到核熱屬性弱點傷害提升(\d+\.\d+%)。（該效果不能疊加）$"="When foes have Burn, Shock, Windswept, Freeze, and Radiation, increase their Nuke Weak DMG Taken by <color\=#0f69ca>$1</color>. This effect does not stack."
+r:"^敵人同時擁有燃燒、觸電、風襲、冰凍、輻射時，使其受到核熱屬性弱點傷害提升(\d+\.\d+%)。（該效果不能疊加）$"="When foes have Burn, Shock, Windswept, Freeze, and Radiation, increase their Nuke Weak DMG Taken by $1. This effect does not stack."
 
 恩澤滿溢=Overflowing Grace
 r:"^自身釋放{{A}}技能後，為友方同伴添加(\d+)層祝福。若目標的祝福層數大於等於(\d+)層，則使其獲得強效祝福，持續(\d+)回合。\n強效祝福：每回合恢復<color\=#0f69ca>(\d+\.\d+%)</color>最大生命值。（該效果不能疊加）$"="After user uses a {{A}} skill, grant all allies $1 Blessing stack. If target has $2 or more Blessing stacks, then grant them Greater Blessing. Lasts for $3 turns.\nGreater Blessing: Each turn, restore <color\=#0f69ca>$4</color> of Max HP. This effect does not stack."
-r:"^自身釋放{{A}}技能後，為友方同伴添加(\d+)層祝福。若目標的祝福層數大於等於(\d+)層，則使其獲得強效祝福，持續(\d+)回合。\n強效祝福：每回合恢復(\d+\.\d+%)最大生命值。（該效果不能疊加）$"="After user uses a {{A}} skill, grant all allies $1 Blessing stack. If target has $2 or more Blessing stacks, then grant them Greater Blessing. Lasts for $3 turns.\nGreater Blessing: Each turn, restore <color\=#0f69ca>$4</color> of Max HP. This effect does not stack."
+r:"^自身釋放{{A}}技能後，為友方同伴添加(\d+)層祝福。若目標的祝福層數大於等於(\d+)層，則使其獲得強效祝福，持續(\d+)回合。\n強效祝福：每回合恢復(\d+\.\d+%)最大生命值。（該效果不能疊加）$"="After user uses a {{A}} skill, grant all allies $1 Blessing stack. If target has $2 or more Blessing stacks, then grant them Greater Blessing. Lasts for $3 turns.\nGreater Blessing: Each turn, restore $4 of Max HP. This effect does not stack."
 神聖裁決=Divine Adjudication
 r:"^神<color\=#000000>聖</color>裁決$"="D<color\=#000000>i</color>vine Adjudication"
 r:"^任意同伴擁有強效祝福時，使其祝福屬性弱點傷害提升<color\=#0f69ca>(\d+\.\d+%)</color>。（該效果不能疊加）$"="When any ally has Greater Blessing, increase their Bless Weak DMG by <color\=#0f69ca>$1</color>. This effect does not stack."
-r:"^任意同伴擁有強效祝福時，使其祝福屬性弱點傷害提升(\d+\.\d+%)。（該效果不能疊加）$"="When any ally has Greater Blessing, increase their Bless Weak DMG by <color\=#0f69ca>$1</color>. This effect does not stack."
+r:"^任意同伴擁有強效祝福時，使其祝福屬性弱點傷害提升(\d+\.\d+%)。（該效果不能疊加）$"="When any ally has Greater Blessing, increase their Bless Weak DMG by $1. This effect does not stack."
 祝福審判=Blessed Judgement
 r:"^祝<color\=#000000>福</color>審判$"="B<color\=#000000>l</color>essed Judgement"
 r:"^自身擁有強效祝福時，總傷害增幅提升<color\=#0f69ca>(\d+\.\d+%)</color>。$"="When user has Greater Blessing, increase Total DMG Amp by <color\=#0f69ca>$1</color>."
-r:"^自身擁有強效祝福時，總傷害增幅提升(\d+\.\d+%)。$"="When user has Greater Blessing, increase Total DMG Amp by <color\=#0f69ca>$1</color>."
+r:"^自身擁有強效祝福時，總傷害增幅提升(\d+\.\d+%)。$"="When user has Greater Blessing, increase Total DMG Amp by $1."
 聖光降臨=Holy Descent
 r:"^聖<color\=#000000>光</color>降臨$"="H<color\=#000000>o</color>ly Descent"
 r:"^自身對友方同伴釋放HIGHLIGHT/{{A}}後，友方全體的最大生命值提升<color\=#0f69ca>(\d+\.\d+%)</color>，持續(\d+)回合。$"="After user uses a HIGHLIGHT/{{A}} on allies, increase all allies' Max HP by <color\=#0f69ca>$1</color> for $2 turns."
-r:"^自身對友方同伴釋放HIGHLIGHT/{{A}}後，友方全體的最大生命值提升(\d+\.\d+%)，持續(\d+)回合。$"="After user uses a HIGHLIGHT/{{A}} on allies, increase all allies' Max HP by <color\=#0f69ca>$1</color> for $2 turns."
+r:"^自身對友方同伴釋放HIGHLIGHT/{{A}}後，友方全體的最大生命值提升(\d+\.\d+%)，持續(\d+)回合。$"="After user uses a HIGHLIGHT/{{A}} on allies, increase all allies' Max HP by $1 for $2 turns."
 強效祝福=Greater Blessing
 r:"^強<color\=#000000>效</color>祝福$"="G<color\=#000000>r</color>eater Blessing"
 
 咒怨纏身=Haunting Curse
 r:"^自身釋放{{A}}技能後，為所有敵人添加(\d+)層詛咒。若目標的詛咒層數大於等於(\d+)層，則使其獲得深淵詛咒，持續(\d+)回合。\n深淵詛咒：每回合受到相當於<color\=#0f69ca>(\d+\.\d+%)</color>最大生命值的傷害\（上限為添加者<color\=#0f69ca>(\d+\.\d+%)</color>攻擊力的傷害\）。（該效果不能疊加）$"="After user uses a {{A}} skill, inflict all foes with $1 Curse stack. If target has $2 or more Curse stacks, then inflict them with Abyssal Curse. Lasts for $3 turns.\nAbyssal Curse: Each turn, take damage equal to <color\=#0f69ca>$4</color> of Max HP, up to <color\=#0f69ca>$5</color> of the user's ATK. This effect does not stack."
-r:"^自身釋放{{A}}技能後，為所有敵人添加(\d+)層詛咒。若目標的詛咒層數大於等於(\d+)層，則使其獲得深淵詛咒，持續(\d+)回合。\n深淵詛咒：每回合受到相當於(\d+\.\d+%)最大生命值的傷害\（上限為添加者(\d+\.\d+%)攻擊力的傷害\）。（該效果不能疊加）$"="After user uses a {{A}} skill, inflict all foes with $1 Curse stack. If target has $2 or more Curse stacks, then inflict them with Abyssal Curse. Lasts for $3 turns.\nAbyssal Curse: Each turn, take damage equal to <color\=#0f69ca>$4</color> of Max HP, up to <color\=#0f69ca>$5</color> of the user's ATK. This effect does not stack."
+r:"^自身釋放{{A}}技能後，為所有敵人添加(\d+)層詛咒。若目標的詛咒層數大於等於(\d+)層，則使其獲得深淵詛咒，持續(\d+)回合。\n深淵詛咒：每回合受到相當於(\d+\.\d+%)最大生命值的傷害\（上限為添加者(\d+\.\d+%)攻擊力的傷害\）。（該效果不能疊加）$"="After user uses a {{A}} skill, inflict all foes with $1 Curse stack. If target has $2 or more Curse stacks, then inflict them with Abyssal Curse. Lasts for $3 turns.\nAbyssal Curse: Each turn, take damage equal to $4 of Max HP, up to $5 of the user's ATK. This effect does not stack."
 暗影侵蝕=Shadow Erosion
 r:"^暗<color\=#000000>影</color>侵蝕$"="S<color\=#000000>h</color>adow Erosion"
-r:"^任意敵人擁有深淵詛咒時，使其受到詛咒屬性弱點傷害提升<color\=#0f69ca>(\d+\.\d+%)</color>。（該效果不能疊加）$"="When any foe has Abyssal Curse, increase their Curse Weak DMG Taken by<color\=#0f69ca>$1</color>. This effect does not stack."
-r:"^任意敵人擁有深淵詛咒時，使其受到詛咒屬性弱點傷害提升(\d+\.\d+%)。（該效果不能疊加）$"="When any foe has Abyssal Curse, increase their Curse Weak DMG Taken by<color\=#0f69ca>$1</color>. This effect does not stack."
+r:"^任意敵人擁有深淵詛咒時，使其受到詛咒屬性弱點傷害提升<color\=#0f69ca>(\d+\.\d+%)</color>。（該效果不能疊加）$"="When any foe has Abyssal Curse, increase their Curse Weak DMG Taken by <color\=#0f69ca>$1</color>. This effect does not stack."
+r:"^任意敵人擁有深淵詛咒時，使其受到詛咒屬性弱點傷害提升(\d+\.\d+%)。（該效果不能疊加）$"="When any foe has Abyssal Curse, increase their Curse Weak DMG Taken by $1. This effect does not stack."
 易傷咒印=Vulnerability Seal
 r:"^易<color\=#000000>傷</color>咒印$"="V<color\=#000000>u</color>lnerability Seal"
 r:"^自身攻擊擁有深淵詛咒的敵人時，總傷害增幅提升<color\=#0f69ca>(\d+\.\d+%)</color>。$"="When user attacks foes with Abyssal Curse, increase Total DMG Amp by <color\=#0f69ca>$1</color>."
-r:"^自身攻擊擁有深淵詛咒的敵人時，總傷害增幅提升(\d+\.\d+%)。$"="When user attacks foes with Abyssal Curse, increase Total DMG Amp by <color\=#0f69ca>$1</color>."
+r:"^自身攻擊擁有深淵詛咒的敵人時，總傷害增幅提升(\d+\.\d+%)。$"="When user attacks foes with Abyssal Curse, increase Total DMG Amp by $1."
 深淵低語=Abyssal Whisper
 r:"^深<color\=#000000>淵</color>低語$"="A<color\=#000000>b</color>yssal Whisper"
 r:"^自身對敵人釋放HIGHLIGHT/{{A}}後，使其受到持續傷害效果提升<color\=#0f69ca>(\d+\.\d+%)</color>，持續(\d+)回合。（該效果不能疊加）$"="After user uses a HIGHLIGHT/{{A}} on foes, increase their DOT Effect Taken by <color\=#0f69ca>$1</color> for $2 turns. This effect does not stack."
-r:"^自身對敵人釋放HIGHLIGHT/{{A}}後，使其受到持續傷害效果提升(\d+\.\d+%)，持續(\d+)回合。（該效果不能疊加）$"="After user uses a HIGHLIGHT/{{A}} on foes, increase their DOT Effect Taken by <color\=#0f69ca>$1</color> for $2 turns. This effect does not stack."
+r:"^自身對敵人釋放HIGHLIGHT/{{A}}後，使其受到持續傷害效果提升(\d+\.\d+%)，持續(\d+)回合。（該效果不能疊加）$"="After user uses a HIGHLIGHT/{{A}} on foes, increase their DOT Effect Taken by $1 for $2 turns. This effect does not stack."
 深淵詛咒=Abyssal Curse
 r:"^深<color\=#000000>淵</color>詛咒$"="A<color\=#000000>b</color>yssal Curse"
 
 屬性羈絆=Attribute Bond
 r:"^屬<color\=#000000>性</color>羈絆$"="A<color\=#000000>t</color>tribute Bond"
 r:"^戰鬥開始時，友方每有1名不同屬性的怪盜，自身攻擊力提升<color\=#0f69ca>(\d+\.\d+%)</color>。$"="At the start of battle, for each ally with a different attribute, increase user's ATK by <color\=#0f69ca>$1</color>."
-r:"^戰鬥開始時，友方每有1名不同屬性的怪盜，自身攻擊力提升(\d+\.\d+%)。$"="At the start of battle, for each ally with a different attribute, increase user's ATK by <color\=#0f69ca>$1</color>."
+r:"^戰鬥開始時，友方每有1名不同屬性的怪盜，自身攻擊力提升(\d+\.\d+%)。$"="At the start of battle, for each ally with a different attribute, increase user's ATK by $1."
 和諧之力=Harmonic Power
 r:"^和<color\=#000000>諧</color>之力$"="H<color\=#000000>a</color>rmonic Power"
 r:"^友方每造成(\d+)種不同適應性屬性傷害時，自身獲得(\d+)層調和。調和達到(\d+)層時，自身最終傷害增幅提升<color\=#0f69ca>(\d+\.\d+%)</color>。$"="When allies deal $1 different attribute damage, user gains $2 Balance stack. When Balance reaches $3 stacks, increase user's Final DMG Amp by <color\=#0f69ca>$4</color>."
-r:"^友方每造成(\d+)種不同適應性屬性傷害時，自身獲得(\d+)層調和。調和達到(\d+)層時，自身最終傷害增幅提升(\d+\.\d+%)。$"="When allies deal $1 different attribute damage, user gains $2 Balance stack. When Balance reaches $3 stacks, increase user's Final DMG Amp by <color\=#0f69ca>$4</color>."
+r:"^友方每造成(\d+)種不同適應性屬性傷害時，自身獲得(\d+)層調和。調和達到(\d+)層時，自身最終傷害增幅提升(\d+\.\d+%)。$"="When allies deal $1 different attribute damage, user gains $2 Balance stack. When Balance reaches $3 stacks, increase user's Final DMG Amp by $4."
 調和=Balance
 r:"^達到(\d+)層時觸發和諧之力的效果$"="When reaching $1 stacks,\nactivate Harmonic Power"
 鐵壁剋星=Barrier Bane
 r:"^鐵<color\=#000000>壁</color>剋星$"="B<color\=#000000>a</color>rrier Bane"
 r:"^當敵人的適應性有(\d+)個以上耐無反吸時，受到最終傷害增幅提升<color\=#0f69ca>(\d+\.\d+%)</color>。（該效果不能疊加）$"="When foes have more than $1 Resist/Null/Repel/Drain, increase their Final DMG Taken Amp by <color\=#0f69ca>$2</color>. This effect does not stack."
-r:"^當敵人的適應性有(\d+)個以上耐無反吸時，受到最終傷害增幅提升(\d+\.\d+%)。（該效果不能疊加）$"="When foes have at least $1 Resist/Null/Repel/Drain, increase their Final DMG Taken Amp by <color\=#0f69ca>$2</color>. This effect does not stack."
+r:"^當敵人的適應性有(\d+)個以上耐無反吸時，受到最終傷害增幅提升(\d+\.\d+%)。（該效果不能疊加）$"="When foes have at least $1 Resist/Null/Repel/Drain, increase their Final DMG Taken Amp by $2. This effect does not stack."
 r:"^擁有至少(\d+)個耐無反吸的適應性屬性時，受到最終傷害增幅提升$"="When this has at least $1 Resist/Null/Repel/Drain,\nincrease Final DMG Taken Amp"
 
 攻擊心得=Attack Master
 r:"^攻<color\=#000000>擊</color>心得$"="A<color\=#000000>t</color>tack Master"
 r:"^戰鬥開始時，永久提升友方全體攻擊力<color\=#0f69ca>(\d+\.\d+%)</color>。$"="At the start of battle, permanently increase party's ATK by <color\=#0f69ca>$1</color>."
-r:"^戰鬥開始時，永久提升友方全體攻擊力(\d+\.\d+%)。$"="At the start of battle, permanently increase party's ATK by <color\=#0f69ca>$1</color>."
+r:"^戰鬥開始時，永久提升友方全體攻擊力(\d+\.\d+%)。$"="At the start of battle, permanently increase party's ATK by $1."
 r:"^戰鬥開始時，永久提升友方全體攻擊力提升<color\=#0f69ca>(\d+\.\d+%)</color>。$"="At the start of battle, permanently increase party's ATK by <color\=#0f69ca>$1</color>."
-r:"^戰鬥開始時，永久提升友方全體攻擊力提升(\d+\.\d+%)。$"="At the start of battle, permanently increase party's ATK by <color\=#0f69ca>$1</color>."
+r:"^戰鬥開始時，永久提升友方全體攻擊力提升(\d+\.\d+%)。$"="At the start of battle, permanently increase party's ATK by $1."
 傷害專精=Damage Expert
 r:"^傷<color\=#000000>害</color>專精$"="D<color\=#000000>a</color>mage Expert"
 r:"^戰鬥開始時，永久提升友方全體傷害<color\=#0f69ca>(\d+\.\d+%)</color>。$"="At the start of battle, permanently increase party's DMG Bonus by <color\=#0f69ca>$1</color>."
-r:"^戰鬥開始時，永久提升友方全體傷害(\d+\.\d+%)。$"="At the start of battle, permanently increase party's DMG Bonus by <color\=#0f69ca>$1</color>."
+r:"^戰鬥開始時，永久提升友方全體傷害(\d+\.\d+%)。$"="At the start of battle, permanently increase party's DMG Bonus by $1."
 r:"^戰鬥開始時，永久提升友方全體傷害提升<color\=#0f69ca>(\d+\.\d+%)</color>。$"="At the start of battle, permanently increase party's DMG Bonus by <color\=#0f69ca>$1</color>."
-r:"^戰鬥開始時，永久提升友方全體傷害提升(\d+\.\d+%)。$"="At the start of battle, permanently increase party's DMG Bonus by <color\=#0f69ca>$1</color>."
+r:"^戰鬥開始時，永久提升友方全體傷害提升(\d+\.\d+%)。$"="At the start of battle, permanently increase party's DMG Bonus by $1."
 暴擊強化=Critical Boost
 暴擊效果強化=Crit DMG Boost
 r:"^暴<color\=#000000>擊</color>效果強化$"="C<color\=#000000>r</color>it DMG Boost"
 r:"^戰鬥開始時，永久提升友方全體暴擊效果<color\=#0f69ca>(\d+\.\d+%)</color>。$"="At the start of battle, permanently increase party's Crit DMG by <color\=#0f69ca>$1</color>."
-r:"^戰鬥開始時，永久提升友方全體暴擊效果(\d+\.\d+%)。$"="At the start of battle, permanently increase party's Crit DMG by <color\=#0f69ca>$1</color>."
+r:"^戰鬥開始時，永久提升友方全體暴擊效果(\d+\.\d+%)。$"="At the start of battle, permanently increase party's Crit DMG by $1."
 穿透強化=Pierce Boost
 r:"^穿<color\=#000000>透</color>強化$"="P<color\=#000000>i</color>erce Boost"
 r:"^戰鬥開始時，永久提升友方全體穿透<color\=#0f69ca>(\d+\.\d+%)</color>。$"="At the start of battle, permanently increase party's Pierce by <color\=#0f69ca>$1</color>."
-r:"^戰鬥開始時，永久提升友方全體穿透(\d+\.\d+%)。$"="At the start of battle, permanently increase party's Pierce by <color\=#0f69ca>$1</color>."
+r:"^戰鬥開始時，永久提升友方全體穿透(\d+\.\d+%)。$"="At the start of battle, permanently increase party's Pierce by $1."
 
 MI 100 Skills
 sr:"^(.*) (\d+\.\d+%)→<color\=#FEDA00>(\d+\.\d+%)</color>\n(.*) (\d+\.\d+%)→<color\=#FEDA00>(\d+\.\d+%)</color>$"="$1 $2→<color\=#FEDA00>$3</color>\n$4 $5→<color\=#FEDA00>$6</color>"
@@ -2613,37 +2613,33 @@ r:"^使用『以不死鳥的名義』時會對我方全體怪盜釋放，同時�
 Noir - Haru Okumura
 ----------
 {{A}}的槍械射擊造成群體念動傷害，使用特定技能後會獲得相應『改裝』並重新裝填子彈，『改裝』可以強化槍械射擊的效果；完成槍械射擊後清空所有『改裝』。=<size\=22>Your Gun Attack deal AoE Psy damage, after using skills gain certain [Customization] and reload, [Customization] can upgrade your GUN; Remove all [Customization] after using Gun Attack.</size>
-聚合瞄準=Fusion Aiming
+聚合瞄準=Convergent Aim
 火力壓制=<size\=24>Suppressing Fire</size>
 全金屬爆發=<size\=19>Full Metal Explosion</size>
 彈射=Launch
 策動=Instigate
 
-r:"^聚合瞄準 Lv.(\d+)$"="Fusion Aiming Lv.$1"
-r:"^聚合瞄準 <color\=#0F69CB>Lv.(\d+)</color>$"="Fusion Aiming <color\=#0F69CB>Lv.$1</color>"
-r:"^對所有敵人造成2段<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的念動屬性傷害，有<color\=#FFFC40>(\d+\.\d+%)</color>的基礎機率為主目標添加<link\="s\|114"><u>『準星』</u></link>同時有<color\=#FFFC40>(\d+\.\d+%)</color>的基礎機率為其他目標添加<link\="s\|114"><u>『準星』</u></link>，而後將敵人身上的<link\="s\|114"><u>『準星』</u></link>轉化為自身的<link\="s\|114"><u>『準星』</u></link>，持續(\d+)回合；自身獲得『熱能改裝』：使用槍械射擊時，若自身擁有<link\="s\|114"><u>『準星』</u></link>，<link\="s\|285"><u>技能傷害</u></link>提升<color\=#FFFC40>(\d+\.\d+%)</color>，槍械射擊完成後移除自身所有<link\="s\|114"><u>『準星』</u></link>。\n<b><size\=28><color\=#850101>絢麗的色彩迷亂了敵人的思緒，如夢一般持續旋轉的漩渦，將群體拖入早已設定好的陷阱中，造成念動傷害。</color></size></b>$"="Deal <color\=#FFFC40>$1</color> ATK Psy damage to all foes 2 times, there is a <color\=#FFFC40>$2</color> base chance to inflict the main target with <link\="s|114"><u>[Sight]</u></link> and a <color\=#FFFC40>$3</color> base chance to inflict all other foes with <link\="s|114"><u>[Sight]</u></link>, then converts all foes' <link\="s|114"><u>[Sight]</u></link> into own <link\="s|114"><u>[Sight]</u></link> for $4 turns; Gain [Thermal Customization]: When using Gun Attack, if you have <link\="s|114"><u>[Sight]</u></link>, increase <link\="s|285"><u>Skill Damage</u></link> by <color\=#FFFC40>$5</color>, removes all own <link\="s|114"><u>[Sight]</u></link> after Gun Attack.\n<b><size\=28><color\=#850101>The colorful swirls of color confuse the foe's mind, and the swirls continue to spin like a dream, dragging the group into the set traps and dealing psychic damage.</color></size></b>"
+r:"^對所有敵人造成2段<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的念動屬性傷害，有<color\=#FFFC40>(\d+\.\d+%)</color>的基礎機率為主目標添加<link\="s\|114"><u>『準星』</u></link>同時有<color\=#FFFC40>(\d+\.\d+%)</color>的基礎機率為其他目標添加<link\="s\|114"><u>『準星』</u></link>，而後將敵人身上的<link\="s\|114"><u>『準星』</u></link>轉化為自身的<link\="s\|114"><u>『準星』</u></link>，持續(\d+)回合；自身獲得『熱能改裝』：使用槍械射擊時，若自身擁有<link\="s\|114"><u>『準星』</u></link>，<link\="s\|285"><u>技能傷害</u></link>提升<color\=#FFFC40>(\d+\.\d+%)</color>，槍械射擊完成後移除自身所有<link\="s\|114"><u>『準星』</u></link>。\n<b><size\=28><color\=#850101>絢麗的色彩迷亂了敵人的思緒，如夢一般持續旋轉的漩渦，將群體拖入早已設定好的陷阱中，造成念動傷害。</color></size></b>$"="Deal Psy damage to all foes equal to <color\=#FFFC40>$1</color> of ATK (2 hits). There is a <color\=#FFFC40>$2</color> base chance to inflict <link\="s|114"><u>[Sight]</u></link> on the main target with and a <color\=#FFFC40>$3</color> base chance to inflict <link\="s|114"><u>[Sight]</u></link> on all other foes. Then convert <link\="s|114"><u>[Sight]</u></link> on foes into <link\="s|114"><u>[Sight]</u></link> on Haru. Lasts for $4 turns; Gain [Thermal Customization]: When using a Gun Attack, if Haru has <link\="s|114"><u>[Sight]</u></link>, increase <link\="s|285"><u>Skill Damage</u></link> by <color\=#FFFC40>$5</color>. After the Gun Attack, remove all <link\="s|114"><u>[Sight]</u></link> granted to Haru.\n<b><size\=28><color\=#850101>The colorful swirls of color confuse the foe's mind, and the swirls continue to spin like a dream, dragging the group into the set traps and dealing Psy damage.</color></size></b>"
 
 r:"^火力壓制 Lv.(\d+)$"="Suppressing Fire Lv.$1"
 r:"^火力壓制 <color\=#0F69CB>Lv.(\d+)</color>$"="Suppressing Fire <color\=#0F69CB>Lv.$1</color>"
-r:"^對1名敵人造成<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的射擊屬性傷害，自身擁有<link\="s\|114"><u>『準星』</u></link>時穿透提升<color\=#FFFC40>(\d+\.\d+%)</color>；自身獲得『卸甲改裝』：槍械射擊時額外對主目標造成<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的念動屬性傷害，可觸發『熱能改裝』的<link\="s\|285"><u>技能傷害</u></link>提升效果。\n<b><size\=28><color\=#850101>優雅的姿態一如往昔，看到黑洞洞的槍口了嗎，那將是敵人的死亡倒計時，瞄準並造成射擊傷害。</color></size></b>$"="Deal <color\=#FFFC40>$1</color> ATK Gun damage to 1 foe, increase Pierce by <color\=#FFFC40>$2</color> when you have <link\="s|114"><u>[Sight]</u></link>; Gain [Piercing Customization]: Deal an additional <color\=#FFFC40>$3</color> ATK Psy damage to the main target when using Gun Attack, this can activate the <link\="s|285"><u>Skill Damage</u></link> boosting effect of [Thermal Customization].\n<b><size\=28><color\=#850101>Elegant as ever, see the black hole in the muzzle, that's the foe's countdown to death, aim and deal damage.</color></size></b>"
+r:"^對1名敵人造成<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的射擊屬性傷害，自身擁有<link\="s\|114"><u>『準星』</u></link>時穿透提升<color\=#FFFC40>(\d+\.\d+%)</color>；自身獲得『卸甲改裝』：槍械射擊時額外對主目標造成<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的念動屬性傷害，可觸發『熱能改裝』的<link\="s\|285"><u>技能傷害</u></link>提升效果。\n<b><size\=28><color\=#850101>優雅的姿態一如往昔，看到黑洞洞的槍口了嗎，那將是敵人的死亡倒計時，瞄準並造成射擊傷害。</color></size></b>$"="Deal Gun damage to 1 foe equal to <color\=#FFFC40>$1</color> of ATK. When Haru has <link\="s|114"><u>[Sight]</u></link>, increase this skill's Pierce by <color\=#FFFC40>$2</color>; Gain [Piercing Customization]: When using a Gun Attack, deal bonus Psy damage to the main target equal to <color\=#FFFC40>$3</color> of ATK (can gain <link\="s|285"><u>Skill Damage</u></link> increases from [Thermal Customization]).\n<b><size\=28><color\=#850101>Elegant as ever, see the black hole in the muzzle, that's the foe's countdown to death, aim then deal Gun damage.</color></size></b>"
 
 r:"^全金屬爆發 Lv.(\d+)$"="<size\=26>Full Metal Explosion Lv.$1</size>"
 r:"^全金屬爆發 <color\=#0F69CB>Lv.(\d+)</color>$"="<size\=26>Full Metal Explosion <color\=#0F69CB>Lv.$1</color></size>"
-r:"^對所有敵人造成<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的念動屬性傷害，自身擁有<link\="s\|114"><u>『準星』</u></link>時暴擊率提升<color\=#FFFC40>(\d+\.\d+%)</color>；自身獲得『擴散改裝』：槍械射擊時額外對所有敵人造成<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的念動屬性傷害，可觸發『熱能改裝』的<link\="s\|285"><u>技能傷害</u></link>提升效果。\n<b><size\=28><color\=#850101>喚醒沉睡在敵人心中的夢魘，凝視著他們內心的恐懼，對敵人群體造成念動傷害。</color></size></b>$"="Deal <color\=#FFFC40>$1</color> ATK Psy damage to all foes, increase Crit Rate by <color\=#FFFC40>$2</color> when you have <link\="s|114"><u>[Sight]</u></link>; Gain [Spreading Customization]: Deal an additional <color\=#FFFC40>$3</color> ATK Psy damage to all foes, this can activate the <link\="s|285"><u>Skill Damage</u></link> boosting effect of [Thermal Customization].\n<b><size\=28><color\=#850101>Awaken the nightmares in your foes' hearts and stare into their fears, dealing psychic damage to their bodies.</color></size></b>"
+r:"^對所有敵人造成<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的念動屬性傷害，自身擁有<link\="s\|114"><u>『準星』</u></link>時暴擊率提升<color\=#FFFC40>(\d+\.\d+%)</color>；自身獲得『擴散改裝』：槍械射擊時額外對所有敵人造成<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的念動屬性傷害，可觸發『熱能改裝』的<link\="s\|285"><u>技能傷害</u></link>提升效果。\n<b><size\=28><color\=#850101>喚醒沉睡在敵人心中的夢魘，凝視著他們內心的恐懼，對敵人群體造成念動傷害。</color></size></b>$"="Deal Psy damage to all foes equal to <color\=#FFFC40>$1</color> of ATK. When Haru has <link\="s|114"><u>[Sight]</u></link>, increase this skill's Crit Rate by <color\=#FFFC40>$2</color>; Gain 1 [Spreading Customization]: When using a Gun Attack, deal bonus Psy damage to all foes equal to <color\=#FFFC40>$3</color> of ATK (can gain <link\="s|285"><u>Skill Damage</u></link> increases from [Thermal Customization]).\n<b><size\=28><color\=#850101>Awaken the nightmares in your foes' hearts and stare into their fears, dealing Psy damage to all foes.</color></size></b>"
 
-r:"^『HIGHLIGHT』：對所有敵人造成<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的念動屬性傷害。若『改裝』未滿且未獲得『超荷改裝』,則獲得『超荷改裝』：槍械射擊時暴擊率提升<color\=#FFFC40>(\d+\.\d+%)</color>；否則，本次攻擊<link\="s\|285"><u>技能傷害</u></link>提升<color\=#FFFC40>(\d+\.\d+%)</color>。\n『ONE MORE』：對1名敵人造成念動屬性傷害。\n近戰攻擊：使用近戰武器，對1名敵人造成物理屬性的少量傷害。\n槍械射擊：使用槍械射擊全體敵人，造成念動屬性傷害；每種『改裝』都會為槍械射擊帶來獨特的功能強化。$"="[HIGHLIGHT]: Deal <color\=#FFFC40>$1</color> ATK Psy damage to all foes. gain [Overload Customization] If [Customization] is not full or you don't have [Overload Customization]: Increase Gun Attack Crit Rate by <color\=#FFFC40>$2</color>; Otherwise, increase this damage by <color\=#FFFC40>$3</color>. \n[ONE MORE]: Deal Psy damage to 1 foe. \nMelee Attack: Uses a melee weapon to deal light Phys damage to 1 foe.\nGun Attack: Deal Psy damage to all foes; each [Customization] bring unique effects to Gun Attack."
+r:"^『HIGHLIGHT』：對所有敵人造成<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的念動屬性傷害。若『改裝』未滿且未獲得『超荷改裝』,則獲得『超荷改裝』：槍械射擊時暴擊率提升<color\=#FFFC40>(\d+\.\d+%)</color>；否則，本次攻擊<link\="s\|285"><u>技能傷害</u></link>提升<color\=#FFFC40>(\d+\.\d+%)</color>。\n『ONE MORE』：對1名敵人造成念動屬性傷害。\n近戰攻擊：使用近戰武器，對1名敵人造成物理屬性的少量傷害。\n槍械射擊：使用槍械射擊全體敵人，造成念動屬性傷害；每種『改裝』都會為槍械射擊帶來獨特的功能強化。$"="[HIGHLIGHT]: Deal Psy damage to all foes equal to <color\=#FFFC40>$1</color> of ATK. Gain [Overload Customization] if Haru doesn't have [Overload Customization] and is below maximum [Customization]. [Overload Customization]: When using a Gun Attack, increase Crit Rate by <color\=#FFFC40>$2</color>. Otherise, increase this <link\="s|285"><u>Skill Damage</u></link> by <color\=#FFFC40>$3</color>.\n[ONE MORE]: Deal Psy damage to 1 foe. \nMelee Attack: Uses a melee weapon to deal light Phys damage to 1 foe.\nGun Attack: Deal Psy damage to all foes. Grant effects to Gun Attack via [Customization]."
 
-r:"^彈射 Lv.(\d+)$"="Launch Lv.$1"
-r:"^戰鬥中，每有(\d+\.\d+%)的效果命中，獲得(\d+%)的攻擊力加成，最多可獲得<color\=#FFFC40>(\d+\.\d+%)</color>的攻擊力加成；\n每有(\d+%)的效果命中，額外獲得1層(\d+%)暴擊效果提升，最多可獲得<color\=#FFFC40>(\d+)</color>層。$"="During battle, for every $1 Ailment ACC, increase ATK Bonus by $2, up to <color\=#FFFC40>$3</color> ATK Bonus;\nFor every $4 Ailment ACC, additionally gain 1 stack of $5 Crit DMG, up to <color\=#FFFC40>$6</color> stacks."
-r:"^戰鬥中，每有(\d+\.\d+%)的效果命中，獲得(\d+%)的攻擊力加成，最多可獲得<color\=#0169ca>(\d+\.\d+%)</color>的攻擊力加成；\n每有(\d+%)的效果命中，額外獲得1層(\d+%)暴擊效果提升，最多可獲得<color\=#0169ca>(\d+)</color>層。$"="During battle, for every $1 Ailment ACC, increase ATK Bonus by $2, up to <color\=#0169ca>$3</color> ATK Bonus;\nFor every $4 Ailment ACC, additionally gain 1 stack of $5 Crit DMG, up to <color\=#0169ca>$6</color> stacks."
+r:"^戰鬥中，每有(\d+\.\d+%)的效果命中，獲得(\d+%)的攻擊力加成，最多可獲得<color\=#FFFC40>(\d+\.\d+%)</color>的攻擊力加成；\n每有(\d+%)的效果命中，額外獲得1層(\d+%)暴擊效果提升，最多可獲得<color\=#FFFC40>(\d+)</color>層。$"="During battle, for every $1 Ailment ACC, increase ATK by $2, up to <color\=#FFFC40>$3</color> ATK;\nFor every $4 Ailment ACC, additionally gain 1 $5 Crit DMG stack. Stacks up to <color\=#FFFC40>$6</color> times."
+r:"^戰鬥中，每有(\d+\.\d+%)的效果命中，獲得(\d+%)的攻擊力加成，最多可獲得<color\=#0169ca>(\d+\.\d+%)</color>的攻擊力加成；\n每有(\d+%)的效果命中，額外獲得1層(\d+%)暴擊效果提升，最多可獲得<color\=#0169ca>(\d+)</color>層。$"="During battle, for every $1 Ailment ACC, increase ATK by $2, up to <color\=#0169ca>$3</color> ATK;\nFor every $4 Ailment ACC, additionally gain 1 $5 Crit DMG stack. Stacks up to <color\=#0169ca>$6</color> times."
 
-r:"^策動 Lv.(\d+)$"="Instigate Lv.$1"
-r:"^每使用1種改裝，永久獲得1層『槍管加熱』；『槍管加熱』層數達到指定層數自身可獲得屬性提升：\n1層：效果命中提升<color\=#FFFC40>(\d+\.\d+%)</color>、效果抵抗提升<color\=#FFFC40>(\d+\.\d+%)</color>；\n2層：攻擊力提升<color\=#FFFC40>(\d+\.\d+%)</color>、防禦力提升<color\=#FFFC40>(\d+\.\d+%)</color>；\n3層：暴擊效果提升<color\=#FFFC40>(\d+\.\d+%)</color>。$"="Everytime you gain 1 Customization, permanently gain 1 stack of [Barrel Heat]; Increase own stats when [Barrel Heat] reach certain stacks:\n1 stack: Increase Ailment ACC by <color\=#FFFC40>$1</color>, Ailment RES by <color\=#FFFC40>$2</color>;\n2 stacks: Increase ATK by <color\=#FFFC40>$3</color>, DEF by <color\=#FFFC40>$4</color>;\n3 stacks: Increase Crit DMG by <color\=#FFFC40>$5</color>."
-r:"^每使用1種改裝，永久獲得1層『槍管加熱』；『槍管加熱』層數達到指定層數自身可獲得屬性提升：\n1層：效果命中提升<color\=#0169ca>(\d+\.\d+%)</color>、效果抵抗提升<color\=#0169ca>(\d+\.\d+%)</color>；\n2層：攻擊力提升<color\=#0169ca>(\d+\.\d+%)</color>、防禦力提升<color\=#0169ca>(\d+\.\d+%)</color>；\n3層：暴擊效果提升<color\=#0169ca>(\d+\.\d+%)</color>。$"="Everytime you gain 1 Customization, permanently gain 1 stack of [Barrel Heat]; Increase own stats when [Barrel Heat] reach certain stacks:\n1 stack: Increase Ailment ACC by <color\=#0169ca>$1</color>, Ailment RES by <color\=#0169ca>$2</color>;\n2 stacks: Increase ATK by <color\=#0169ca>$3</color>, DEF by <color\=#0169ca>$4</color>;\n3 stacks: Increase Crit DMG by <color\=#0169ca>$5</color>."
+r:"^每使用1種改裝，永久獲得1層『槍管加熱』；『槍管加熱』層數達到指定層數自身可獲得屬性提升：\n1層：效果命中提升<color\=#FFFC40>(\d+\.\d+%)</color>、效果抵抗提升<color\=#FFFC40>(\d+\.\d+%)</color>；\n2層：攻擊力提升<color\=#FFFC40>(\d+\.\d+%)</color>、防禦力提升<color\=#FFFC40>(\d+\.\d+%)</color>；\n3層：暴擊效果提升<color\=#FFFC40>(\d+\.\d+%)</color>。$"="For every 1 Customization gained, permanently gain 1 [Barrel Heat] stack. Increase Haru's stats based on the number of [Barrel Heat] stacks:\n1 stack: Increase Ailment ACC by <color\=#FFFC40>$1</color> and Ailment RES by <color\=#FFFC40>$2</color>;\n2 stacks: Increase ATK by <color\=#FFFC40>$3</color> and DEF by <color\=#FFFC40>$4</color>;\n3 stacks: Increase Crit DMG by <color\=#FFFC40>$5</color>."
+r:"^每使用1種改裝，永久獲得1層『槍管加熱』；『槍管加熱』層數達到指定層數自身可獲得屬性提升：\n1層：效果命中提升<color\=#0169ca>(\d+\.\d+%)</color>、效果抵抗提升<color\=#0169ca>(\d+\.\d+%)</color>；\n2層：攻擊力提升<color\=#0169ca>(\d+\.\d+%)</color>、防禦力提升<color\=#0169ca>(\d+\.\d+%)</color>；\n3層：暴擊效果提升<color\=#0169ca>(\d+\.\d+%)</color>。$"="For every 1 Customization gained, permanently gain 1 [Barrel Heat] stack. Increase Haru's stats based on the number of [Barrel Heat] stacks:\n1 stack: Increase Ailment ACC by <color\=#0169ca>$1</color> and Ailment RES by <color\=#0169ca>$2</color>;\n2 stacks: Increase ATK by <color\=#0169ca>$3</color> and DEF by <color\=#0169ca>$4</color>;\n3 stacks: Increase Crit DMG by <color\=#0169ca>$5</color>."
 
 <color\=#66ccff>『準星』</color>=<color\=#66ccff>[Sight]</color>
 準星=Sight
-r:"^{{A}}自身帶有『準星』時，釋放技能會產生額外效果；{{A}}的槍械射擊後被移除。『準星』最多可疊加(\d+)層，持續(\d+)回合（每層獨立計算）。$"="When Noir has [Sight], triggers additional effects when using skills; Removes after Noir's Gun Attack. Up to $1 stacks for $2 turns (stacks are spent separately)"
+r:"^{{A}}自身帶有『準星』時，釋放技能會產生額外效果；{{A}}的槍械射擊後被移除。『準星』最多可疊加(\d+)層，持續(\d+)回合（每層獨立計算）。$"="When {{A}} has [Sight], for $2 turns, effects are activated when using skills. These effects are removed after she uses a Gun Attack and can stack up to $1 times $2 turns. The number of turns for each effect is counted separately."
 
 熱能改裝=Thermal Customization
 卸甲改裝=Piercing Customization
@@ -2653,26 +2649,23 @@ r:"^{{A}}自身帶有『準星』時，釋放技能會產生額外效果；{{A}}
 槍管加熱=Barrel Heat
 
 狂熱下午茶=Frenzy Teatime
-r:"^{{A}}的槍械射擊對所有敵人造成(\d+%)攻擊力的念動傷害，使用特定技能後會獲得相應『改裝』並重新裝填子彈，每種『改裝』會為槍械射擊帶來獨特的功能強化；{{A}}進行槍械射擊時，根據『改裝』數量增加<link\="s\|285"><u>技能傷害</u></link>\（『改裝』數量為1/2/3時，<link\="s\|285"><u>技能傷害</u></link>提升(\d+%)/(\d+%)/(\d+%)\），並在『改裝』數量不少於2個時，額外獲得(\d+%)的攻擊力提升；完成槍械射擊後清空所有『改裝』。$"="Noir's Gun Attack deal $1 ATK Psy damage to all foes, after using specific skills gain the corresponding [Customization] and reload ammo, each [Customization] bring unique effects to Gun Attack; When Noir uses Gun Attack, increase skill damage based on [Customization] amount (When you have 1/2/3 [Customization], increase skill damage by $2/$3/$4), when [Customization] is not below 2, additionally increase ATK by $5; Removes all [Customization] after using Gun Attack."
+r:"^{{A}}的槍械射擊對所有敵人造成(\d+%)攻擊力的念動傷害，使用特定技能後會獲得相應『改裝』並重新裝填子彈，每種『改裝』會為槍械射擊帶來獨特的功能強化；{{A}}進行槍械射擊時，根據『改裝』數量增加<link\="s\|285"><u>技能傷害</u></link>\（『改裝』數量為1/2/3時，<link\="s\|285"><u>技能傷害</u></link>提升(\d+%)/(\d+%)/(\d+%)\），並在『改裝』數量不少於2個時，額外獲得(\d+%)的攻擊力提升；完成槍械射擊後清空所有『改裝』。$"="{{A}}'s Gun Attack will deal Psy damage to all foes equal to $1 of Attack. When using certain skills, gain 1 corresponding [Customization] and reload. For each [Customization] stack, grant unique effects to Gun Attack. When Haru uses a Gun Attack, increase <link\="s|285"><u>Skill Damage</u></link> based on [Customization] stacks (increase by $2/$3/$4 at 1/2/3 stacks, respectively). If at 2+ [Customization], also increase ATK by $5. After using a Gun Attack, remove all [Customization]."
 
 破碎綺羅裙=Broken Rococo Dress
-r:"^首回合開始時，為生命值最高的敵人添加<link\="s\|114"><u>『準星』</u></link>，同時有(\d+%)的基礎機率為其他敵人添加<link\="s\|114"><u>『準星』</u></link>，隨後自身獲得1個『熱能改裝』；戰鬥中每有一個帶有<link\="s\|114"><u>『準星』</u></link>的敵人，攻擊力提升(\d+%)\（最多提升(\d+%)\），槍械射擊暴擊率提升(\d+%)\（最多提升(\d+%)\）。$"="At the start of battle, inflict the highest HP foe with <link\="s|114"><u>[Sight]</u></link>, there is a $1 base chance to inflict all other foes with <link\="s|114"><u>[Sight]</u></link>, then gain 1 [Thermal Customization]; For every 1 foe with <link\="s|114"><u>[Sight]</u></link>, increase ATK by $2 (Up to $3), Gun Attack Crit Rate by $4 (Up to $5)."
-r:"^新的敵人出現後，{{A}}會在回合開始自動對其釋放『聚合瞄準』；{{A}}每有1層<link\="s\|114"><u>『準星』</u></link>，攻擊力提升(\d+%)\（最多提升(\d+%)\），槍械射擊暴擊率提升(\d+%)\（最多提升(\d+%)\）。$"="After a new foe appears, Noir will automatically use [Fusion Aiming] at the start of her turn; For every 1 stack of <link\="s|114"><u>[Sight]</u></link> on Noir, increase ATK by $1 (Up to $2), Gun Attack Crit Rate by $3 (Up to $4)."
+r:"^新的敵人出現後，{{A}}會在回合開始自動對其釋放『聚合瞄準』；{{A}}每有1層<link\="s\|114"><u>『準星』</u></link>，攻擊力提升(\d+%)\（最多提升(\d+%)\），槍械射擊暴擊率提升(\d+%)\（最多提升(\d+%)\）。$"="After a new foe appears, automatically activate [Convergent Aim] for that foe at the start of {{A}} turn. For every 1 [Customization] stack, increase ATK by $1 (up to $2) and Gun Attack Crit Rate by $3 (up to $4)."
 
 槍械玫瑰花=Guns and Roses
 
 喋血華爾滋=Bloody Waltz
-r:"^帶有<link\="s\|114"><u>『準星』</u></link>的敵人數量不少於1個時，受到傷害降低(\d+%)；帶有<link\="s\|114"><u>『準星』</u></link>的敵人數量不少於(\d+)個時，念動傷害提升(\d+%)。$"="When there is not below 1 foe with <link\="s|114"><u>[Sight]</u></link>, decrease DMG Taken by $1; When there are not below $2 foes with <link\="s|114"><u>[Sight]</u></link>, increase Psy damage by $3."
-r:"^{{A}}擁有的<link\="s\|114"><u>『準星』</u></link>層數不少於(\d+)層時，受到傷害降低(\d+%)；擁有<link\="s\|114"><u>『準星』</u></link>的層數不少於(\d+)層時，念動傷害提升(\d+%)。$"="When Noir has not below $1 stack of <link\="s|114"><u>[Sight]</u></link>, decrease DMG Taken by $2; When Noir has not below $3 stacks of <link\="s|114"><u>[Sight]</u></link>, increase Psy DMG by $4."
+r:"^{{A}}擁有的<link\="s\|114"><u>『準星』</u></link>層數不少於(\d+)層時，受到傷害降低(\d+%)；擁有<link\="s\|114"><u>『準星』</u></link>的層數不少於(\d+)層時，念動傷害提升(\d+%)。$"="When {{A}} has $1+ <link\="s|114"><u>[Sight]</u></link> stacks, decrease DMG Taken by $2. When at $3+ <link\="s|114"><u>[Sight]</u></link> stacks, increase Psy DMG by $4."
 
 驚魂野藤蔓=Wild Vine
 
 爆炸小蛋糕=Explosive Cupcakes
-r:"^『超荷改裝』獲得額外效果：槍械射擊時的暴擊效果提升(\d+%)。$"="[Overload Customization] Bonus Effect: Increase Gun Attack Crit DMG by $1."
+r:"^『超荷改裝』獲得額外效果：槍械射擊時的暴擊效果提升(\d+%)。$"="[Overload Customization] Enhanced: When using a Gun Attack, increase Crit DMG by $1."
 
 噩夢狂想曲=Nightmare Rhapsody
-r:"^『改裝』數量不少於2個時，{{A}}發射的榴彈進化為『臨別贈禮』；\n{{B}}技能提供的『改裝』獲得額外效果：\n『熱能改裝』：槍械技能額外使敵人的效果抵抗降低(\d+%)，持續2回合；\n『卸甲改裝』：槍械技能攻擊帶有<link\="s\|114"><u>『準星』</u></link>的敵人時，穿透提升(\d+%)；\n『擴散改裝』：槍械技能攻擊帶有<link\="s\|114"><u>『準星』</u></link>的敵人時，暴擊率提升(\d+%)、暴擊效果提升(\d+%)。$"="When you have not below 2 [Customization], evolve your Gun Attack to [Farewell Gift]:\n[Customization] from Persona skills give additional effects:\n[Thermal Customization]: Gun Attack additionally decrease foes' Ailment RES by $1 for 2 turns;\n[Piercing Customization]: Gun Attack gain $2 Pierce when attacking foes with <link\="s|114"><u>[Sight]</u></link>;\n[Spreading Customization]: Gun Attack gain $3 Crit Rate and $4 Crit DMG when attacking foes with <link\="s|114"><u>[Sight]</u></link>."
-r:"^『改裝』數量不少於(\d+)個時，{{A}}發射的榴彈進化為『臨別贈禮』，額外造成1次可觸發所有『改裝』效果的槍械射擊效果，所有傷害均為原傷害的(\d+%)；\n{{B}}技能提供的『改裝』獲得額外效果：\n『熱能改裝』：槍械技能額外使敵人的效果抵抗降低(\d+%)，持續(\d+)回合；\n『卸甲改裝』：使用槍械技能時，若{{A}}擁有<link\="s\|114"><u>『準星』</u></link>，穿透提升(\d+%)；\n『擴散改裝』：使用槍械技能時，若{{A}}擁有<link\="s\|114"><u>『準星』</u></link>，暴擊率提升(\d+%)、暴擊效果提升(\d+%)。$"="When Noir has not below $1 [Customization], evolve her Gun Attack to [Farewell Gift], additionally deal 1 hit of Gun Attack damage with all [Customization] effects at $2 original damage;\n[Customization] from {{B}} skills give additional effects:\n[Thermal Customization]: Gun Attack additionally decrease foes' Ailment RES by $3 for $4 turns;\n[Piercing Customization]: Gun Attack gain $5 Pierce when Noir has <link\="s|114"><u>[Sight]</u></link>;\n[Spreading Customization]: Gun Attack gain $6 Crit Rate and $7 Crit DMG when Noir has <link\="s|114"><u>[Sight]</u></link>."
+r:"^『改裝』數量不少於(\d+)個時，{{A}}發射的榴彈進化為『臨別贈禮』，額外造成1次可觸發所有『改裝』效果的槍械射擊效果，所有傷害均為原傷害的(\d+%)；\n{{B}}技能提供的『改裝』獲得額外效果：\n『熱能改裝』：槍械技能額外使敵人的效果抵抗降低(\d+%)，持續(\d+)回合；\n『卸甲改裝』：使用槍械技能時，若{{A}}擁有<link\="s\|114"><u>『準星』</u></link>，穿透提升(\d+%)；\n『擴散改裝』：使用槍械技能時，若{{A}}擁有<link\="s\|114"><u>『準星』</u></link>，暴擊率提升(\d+%)、暴擊效果提升(\d+%)。$"="When at $1+ [Customization] stacks, evolve {{A}}'s Gun Attack to Farewell Gift], deal a bonus Gun Attack that activates all [Customization] effects once. This additional attack's damage is $2 of the original attack.\nActivate the following effects for [Customization] gained from skills.\n[Thermal Customization]: When using a Gun Attack, also decrease the foe's Ailment RES by $3 for $4 turns.\n[Piercing Customization]: When using a Gun Attack and Haru has <link\="s|114"><u>[Sight]</u></link>, increase Pierce by $5.\n[Spreading Customization]: When using a Gun Attack and Haru has <link\="s|114"><u>[Sight]</u></link>, increase Crit Rate by $6 and Crit DMG by $7."
 臨別贈禮=Farewell Gift
 
 ----------
@@ -2866,7 +2859,7 @@ r:"^自身使用『梅自香，時過香濃』，根據消耗SP的數量給予�
 <color\=#66ccff>『凋落』</color>=<color\=#66ccff>[Wither]</color>
 凋落=Wither
 受到疾風屬性傷害時，該次傷害攻擊力提升。=When taking Wind damage, increase that damage's ATK.
-受到任意屬性傷害時，該次傷害攻擊力提升。=When taking any Elemental damage, increase that damage's ATK.
+受到任意屬性傷害時，該次傷害攻擊力提升。=When taking any attribute damage, increase that damage's ATK.
 含苞=Budding
 <color\=#66ccff>『花開』</color>=<color\=#66ccff>[Blossom]</color>
 花開=Blossom
@@ -2884,12 +2877,12 @@ r:"^{{A}}的精力值上限額外提升(\d+)點（消耗精力值觸發『梅自
 月彌漫=Full Moon
 
 拂滿山=Through Mountains
-r:"^HIGHLIGHT效果提升：增益效果會對除自身以外的所有同伴生效，並使技能主目標的暴擊效果額外提升(\d+%)，除自身以外的所有同伴的精力值恢復量提升至(\d+)點。$"="HIGHLIGHT Enhanced: The buffs now applies to all other allies, additionally increase the main target's Crit DMG by $1, increase the SP restored to $2."
+r:"^HIGHLIGHT效果提升：增益效果會對除自身以外的所有同伴生效，並使技能主目標的暴擊效果額外提升(\d+%)，除自身以外的所有同伴的精力值恢復量提升至(\d+)點。$"="HIGHLIGHT Enhanced: The buff effect now applies to all other allies, additionally increase the main target's Crit DMG by $1, increase the SP restored to $2."
 
 心悠然=Carefree Heart
 
 待春顏=Await Spring
-r:"^『梅自香，時過香濃』會對除自身以外的所有同伴生效，技能主目標使用{{B}}技能後，自身立刻對敵方目標釋放1次『花滿枝，風過枝頭』，該效果在單次『梅自香，時過香濃』持續時間內僅會觸發一次。『花滿枝，風過枝頭』的<link\="s\|218"><u>『凋落』</u></link>狀態的持續時間延長1回合。\n{{A}}在場時，所有怪盜造成傷害時若暴擊率超過(\d+%)，每超過(\d+%)使該傷害的暴擊效果額外提升(\d+%)。$"="[Fragrance of Time] now works on all other allies, after the main target used a Persona skill, immediately use [Wind of Vitality] to the foe once, this can only trigger once per [Fragrance of Time]. Extend <link\="s|218"><u>[Wither]</u></link> from [Wind of Vitality] by 1 turn.\nWhen you are present, when allies deal damage with a Crit Rate over $1, for every $2, additionally increase that damage's Crit DMG by $3."
+r:"^『梅自香，時過香濃』會對除自身以外的所有同伴生效，技能主目標使用{{B}}技能後，自身立刻對敵方目標釋放1次『花滿枝，風過枝頭』，該效果在單次『梅自香，時過香濃』持續時間內僅會觸發一次。『花滿枝，風過枝頭』的<link\="s\|218"><u>『凋落』</u></link>狀態的持續時間延長1回合。\n{{A}}在場時，所有怪盜造成傷害時若暴擊率超過(\d+%)，每超過(\d+%)使該傷害的暴擊效果額外提升(\d+%)。$"="[Fragrance of Time] now affects all other allies, after the main target uses a Persona skill, immediately use [Wind of Vitality] on the target foe once, this can only activate once per [Fragrance of Time]. Extend <link\="s|218"><u>[Wither]</u></link> from [Wind of Vitality] by 1 turn.\nWhen {{A}} is present, when any ally deals damage, for every $1 of their Crit Rate that exceeds $2, increase the Crit DMG of that damage by $3."
 
 ----------
 RLD - Yaoling Li
@@ -4389,3 +4382,5 @@ r:"^HIGHLIGHT效果提升：{{A}}造成傷害額外提高(\d+%)，持續(\d+)回
 
 直到將歌聲傳達給你=Until This Song Reaches You
 r:"^{{A}}的追加效果傷害增幅提升(\d+%)，且所有{{B}}技能都將視為追加效果。\n『夏夜星幕』展開後，{{A}}將獲得永久的『拾音成曲』。\n『夏夜星幕』每發動1次，都將回復(\d+%)HIGHLIGHT能量。$"="Increase {{A}}'s Follow Up DMG Amp by $1. All {{B}} skills count as Follow Up.\nAfter opening [Summer Starscape], permanently gain [Improvised Song].\nWhen activating [Summer Starscape], restore $2 HIGHLIGHT Energy."
+
+<size\=22>Ram: Miracle Ichi-Boat</size>
