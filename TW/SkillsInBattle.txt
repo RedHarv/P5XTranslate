@@ -308,9 +308,6 @@ sr:"^有(\d+\.\d+%)基礎機率使<color\=#FFFF00>所有</color>敵人在(\d+)�
 r:"^對<color\=#FFFF00>1名</color>敵人造成(\d+\.\d+%)攻擊力的物理屬性傷害，暴擊率提升(\d+%)，命中率下降(\d+%)$"="Deal $1 ATK Phys damage to <color\=#FFFF00>1</color> foe with a $2 increase in Crit Rate, and $3 decrease in Hit Rate."
 r:"^對<color\=#FFFF00>1名</color>敵人造成(\d+\.\d+%)攻擊力的物理屬性傷害，暴擊率提升(\d+%)，命中率下降(\d+%)。$"="Deal $1 ATK Phys damage to <color\=#FFFF00>1</color> foe with a $2 increase in Crit Rate, and $3 decrease in Hit Rate."
 
-//Mind Slice because it has a comma at the end instead of a period???
-sr:"對所有敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的(.*)屬性傷害，有<color\=#fffc40>(\d+\.\d+%)</color>基礎機率使敵人陷入(.*)狀態，效果持續2回合，"=Deal <color\=#FFFF00>$1</color> ATK $2 damage to <color\=#FFFF00>all</color> foes, there is a <color\=#FFFF00>$3</color> base chance to inflict $4 for 2 turns.
-
 //Memory Blow
 sr:"對<color\=#FFFF00>所有</color>敵人造成(\d+\.\d+%)攻擊力的(.*)屬性傷害，有(\d+\.\d+%)基礎機率使其陷入(.*)狀態，持續(\d+)回合。"=Deal <color\=#FFFF00>$1</color> ATK $2 damage to <color\=#FFFF00>all</color> foes, there is a <color\=#FFFF00>$3</color> chance to inflict $4 for $5 turns.
 
@@ -495,10 +492,10 @@ r:"^使<color\=#FFFF00>所有</color>敵人受到的詛咒屬性傷害提升(\d+
 --- Almighty ---
 
 //ST Almighty
-r:"^對<color\=#FFFF00>1名</color>敵人造成(\d+\.\d+%)攻擊力的萬能屬性傷害，無視其防禦力$"="Deal $1 ATK Almighty damage to <color\=#FFFF00>1</color> foe, ignoring their DEF."
+r:"^對<color\=#FFFF00>1名</color>敵人造成(\d+\.\d+%)攻擊力的萬能屬性傷害，無視其防禦力$"="Deal Almighty damage to <color\=#FFFF00>1</color> foe equal to $1 of ATK, ignoring their DEF."
 
 AoE Almighty
-r:"^對<color\=#FFFF00>所有</color>敵人造成(\d+\.\d+%)攻擊力的萬能屬性傷害，無視其防禦力$"="Deal $1 ATK Almighty damage to <color\=#FFFF00>all</color> foe, ignoring their DEF."
+r:"^對<color\=#FFFF00>所有</color>敵人造成(\d+\.\d+%)攻擊力的萬能屬性傷害，無視其防禦力$"="Deal Almighty damage to <color\=#FFFF00>all</color> foes equal to $1 of ATK, ignoring their DEF."
 
 //Spirit Drain
 r:"^吸收<color\=#FFFF00>1名</color>敵人(.*)點精力值。$"="Drain $1 SP from <color\=#FFFF00>1</color> foe."
@@ -959,9 +956,9 @@ r:"^祝<color\=#000000>福</color>傷害提高$"="B<color\=#000000>l</color>ess 
 r:"^詛<color\=#000000>咒</color>傷害提高$"="C<color\=#000000>u</color>rse DMG Up"
 r:"^萬<color\=#000000>能</color>傷害提高$"="A<color\=#000000>l</color>mighty DMG Up"
 
-r:"^物<color\=#000000>理</color>特化$"="<size\=27> </size>P<color\=#000000>h</color>ys DMG Up"
-r:"^射<color\=#000000>擊</color>特化$"="<size\=22> </size>G<color\=#000000>u</color>n DMG Up"
-r:"^火<color\=#000000>焰</color>特化$"="<size\=22> </size>F<color\=#000000>i</color>re DMG Up"
+r:"^物<color\=#000000>理</color>特化$"=P<color\=#000000>h</color>ys DMG Up"
+r:"^射<color\=#000000>擊</color>特化$"="G<color\=#000000>u</color>n DMG Up"
+r:"^火<color\=#000000>焰</color>特化$"="F<color\=#000000>i</color>re DMG Up"
 r:"^冰<color\=#000000>凍</color>特化$"="I<color\=#000000>c</color>e DMG Up"
 r:"^電<color\=#000000>擊</color>特化$"="E<color\=#000000>l</color>ec DMG Up"
 r:"^疾<color\=#000000>風</color>特化$"="W<color\=#000000>i</color>nd DMG Up"
@@ -970,6 +967,18 @@ r:"^核<color\=#000000>熱</color>特化$"="N<color\=#000000>u</color>ke DMG Up"
 r:"^祝<color\=#000000>福</color>特化$"="B<color\=#000000>l</color>ess DMG Up"
 r:"^詛<color\=#000000>咒</color>特化$"="C<color\=#000000>u</color>rse DMG Up"
 r:"^萬<color\=#000000>能</color>特化$"="A<color\=#000000>l</color>mighty DMG Up"
+
+r:"^物<color\=#000000>理</color>強化$"="P<color\=#000000>h</color>ys Boost"
+r:"^射<color\=#000000>擊</color>強化$"="G<color\=#000000>u</color>n Boost"
+r:"^火<color\=#000000>焰</color>強化$"="F<color\=#000000>i</color>re Boost"
+r:"^冰<color\=#000000>凍</color>強化$"="I<color\=#000000>c</color>e Boost"
+r:"^電<color\=#000000>擊</color>強化$"="E<color\=#000000>l</color>ec Boost"
+r:"^疾<color\=#000000>風</color>強化$"="W<color\=#000000>i</color>nd Boost"
+r:"^念<color\=#000000>動</color>強化$"="P<color\=#000000>s</color>y Boost"
+r:"^核<color\=#000000>熱</color>強化$"="N<color\=#000000>u</color>ke Boost"
+r:"^祝<color\=#000000>福</color>強化$"="B<color\=#000000>l</color>ess Boost"
+r:"^詛<color\=#000000>咒</color>強化$"="C<color\=#000000>u</color>rse Boost"
+r:"^萬<color\=#000000>能</color>強化$"="A<color\=#000000>l</color>mighty Boost"
 
 r:"^生<color\=#000000>命</color>連結$"="L<color\=#000000>i</color>felink"
 r:"^反<color\=#000000>抗</color>特化$"="A<color\=#000000>s</color>sassin Buff"
@@ -989,6 +998,7 @@ Combat Pop-ups for debuffs
 r:"^屬<color\=#000000>性</color>降低$"="S<color\=#000000>t</color>ats Down"
 r:"^屬<color\=#000000>性</color>下降$"="S<color\=#000000>t</color>ats Down"
 r:"^女<color\=#000000>巫</color>詛咒$"="D<color\=#000000>e</color>bilitate"
+r:"^拉<color\=#000000>昆</color>達$"="R<color\=#000000>a</color>kunda"
 r:"^攻<color\=#000000>擊</color>降低$"="A<color\=#000000>T</color>K Down"
 r:"^攻<color\=#000000>擊</color>力降低$"="A<color\=#000000>T</color>K Down"
 r:"^受<color\=#000000>攻</color>擊提升$"="A<color\=#000000>T</color>K Taken Up"
