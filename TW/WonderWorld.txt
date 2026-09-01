@@ -64,6 +64,7 @@ Twisted Trial
 ----------
 扭曲的奇遇·JOKER=Twisted Trial·Joker
 扭曲的奇遇·MONA=Twisted Trial·Mona
+扭曲的奇遇·PANTHER=Twisted Trial·Panther
 當前已完成目標：=Goals:
 『奇遇鑰匙』\n用於解鎖「扭曲的奇遇」玩法中的任意挑戰章節。可在「契約之間」-「認知精選」商店中進行兌換。=[Adventure Key]\nUsed to unlock [Twisted Trial]. Can be exchanged from [Cognition Shop]
 {{A}}的躁動={{A}}'s Agitation

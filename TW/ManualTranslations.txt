@@ -974,6 +974,7 @@ r:"^<sprite\=(\d+) tint\=1>時<sprite\=(\d+) tint\=1><sprite\=(\d+) tint\=1>分�
 r:"^<sprite\=(\d+) tint\=1>小時<sprite\=(\d+) tint\=1><sprite\=(\d+) tint\=1>分後開啟$"="Unlocks after <sprite\=$1 tint\=1>h <sprite\=$2 tint\=1><sprite\=$3 tint\=1>m"
 
 r:"^擁有：(\d+)$"="Held: $1"
+r:"^擁有:(\d+)$"="Held: $1"
 擁有：=Held:
 擁有:=Held:
 擁有=Held
@@ -1144,6 +1145,7 @@ r:"^陣容\((\d+)\)$"="Party ($1)"
 <color\=#FFF000>{{A}}</color>無法與<color\=#FFF000>{{B}}</color>同時上陣，是否替換？=Unable to bring <color\=#FFF000>{{A}}</color> with <color\=#FFF000>{{B}}</color>, change them?
 <color\=#FFF000>{{B}}</color>無法與<color\=#FFF000>{{A}}</color>同時上陣，是否替換？=Unable to bring <color\=#FFF000>{{B}}</color> with <color\=#FFF000>{{A}}</color>, change them?
 已設為關注怪盜。=Added Thief to favourites.
+已設為關注角色，將強化該角色的養成提醒。=Added character to favourites, will enable upgrade reminder.
 關注已取消。=Removed from favourites.
 
 慾望奏鳴=Desire Sonata
@@ -1711,6 +1713,7 @@ sr:"^(.*)·默認$"="$1 · Default"
 怪盜·群青色服裝=Thief · Ultramarine Outfit
 怪盜·秀盡制服=Thief · Shujin Uniform
 WIND·未央=Wind · Vast
+WIND·未央·泳裝Ver=WIND · Vast · Swimsuit Ver
 PINKY·偶像Ver=Pinky · Idol Ver
 驚鴻馭春·歲華=Spring's Grace
 r:"^<size\=32><color\=#f7d305>套裝效果</color></size>\n擁有<color\=#f7d305>驚鴻馭春·歲華</color>後，在中華相關店鋪打工時獲得的現金增加(\d+)。$"="<size\=32><color\=#f7d305>Set Effect</color></size>\nAfter obtaining <color\=#f7d305>Spring's Grace</color>, gain $1 bonus Yen when working in Chinese-related shops"
@@ -3416,8 +3419,9 @@ sr:"^未知宿命橙·(.*)"="Random 4★ $1"
 可自選獲得一枚心象紋章，用於「怪盜心象·屬性戰技」啟動的材料。=Used to obtain a Mindscape Heraldry for [Mindscape - Attribute Tactics].
 可自選獲得一枚心象紋章，用於5★角色「怪盜心象·屬性戰技」啟動的材料。=Used to obtain a Mindscape Heraldry for 5★ character's [Mindscape - Attribute Tactics].
 可自選獲得一枚心象紋章，用於4★角色「怪盜心象·屬性戰技」啟動的材料。=Used to obtain a Mindscape Heraldry for 5★ character's [Mindscape - Attribute Tactics].
-可自選獲得一枚心象紋章，用於角色「心象協鳴」、「心象戰技」點位啟動的材料。=Used to randomly obtain a Mindscape Heraldry for a character's [Mindscape Harmony] and [Mindscape Tactics].
+可自選獲得一枚心象紋章，用於角色「心象協鳴」、「心象戰技」點位啟動的材料。=Used to obtain a Mindscape Heraldry for a character's [Mindscape Harmony] and [Mindscape Tactics].
 可隨機獲得一枚心象紋章，用於角色「心象協鳴」、「心象戰技」點位啟動的材料。=Used to randomly obtain a Mindscape Heraldry for a character's [Mindscape Harmony] and [Mindscape Tactics].
+可用於角色「心象協鳴」、「心象戰技」點位啟動的材料。=Used for character's [Mindscape Harmony] and [Mindscape Tactics].
 
 物理·紋章=Phys Heraldry
 射擊·紋章=Gun Heraldry
@@ -3798,6 +3802,7 @@ Send Em Flying
 今日任務=Daily Tasks
 本期挑戰=Seasonal Tasks
 每日5:00重置任務=Tasks reset daily on 05:00 UTC+8
+r:"^在「星盤試煉」中通過任意(\d+)個監測點\(<color\=#e50a06>(\d+)</color>/(\d+)\)$"="Clear $1 Monitoring Point in [Astrolabe Trials] (<color\=#e50a06>$2</color>/$3)"
 r:"^消耗(\d+)點體力\(<color\=#e50a06>(\d+)</color>/(\d+)\)$"="Use $1 Stamina (<color\=#e50a06>$2</color>/$3)"
 r:"^消耗(\d+)點行動力\(<color\=#e50a06>(\d+)</color>/(\d+)\)$"="Use $1 Action Points (<color\=#e50a06>$2</color>/$3)"
 r:"^完成(\d+)次委託派遣\(<color\=#e50a06>(\d+)</color>/(\d+)\)$"="Clear $1 Task (<color\=#e50a06>$2</color>/$3)"
@@ -4394,8 +4399,8 @@ r:"^選擇(\d+)次彩色事件"="Select $1 Rainbow Event"
 r:"^經營資金總計達到(\d+)$"="Total Business Funds reach $1"
 營業許可=Business License
 經營資金=Business Funds
-r:"^『營業許可』\n開啟海之家的一個新的經營日時使用的憑證，每天自動獲得(\d+)個。$"="[Business License]\nUsed to start a new business day, automatically obtain $1 daily."
-『經營資金』\n經營海之家時獲得的貨幣，可以用於經營店鋪的各類支出。=[Business Funds]\nObtained from operating Beach House, used for various expenses when running the store.
+r:"^『營業許可』\n開啟{{A}}的一個新的經營日時使用的憑證，每天自動獲得(\d+)個。$"="[Business License]\nUsed to start a new business day, automatically obtain $1 daily."
+『經營資金』\n經營{{A}}時獲得的貨幣，可以用於經營店鋪的各類支出。=[Business Funds]\nObtained from operating {{A}}, used for various expenses when running the store.
 
 r:"^事件增加的營收額外提升(\d+%)$"="Increase Revenue gain from events by $1"
 r:"^事件增加的營收額外提升(\d+%)，但該類事件每次降低(\d+)點服務$"="Increase Revenue gain from events by $1, but decrease Service by $2 from these events"
@@ -4512,7 +4517,7 @@ r:"^選擇(\d+)/(\d+)位夥伴開始經營$"="Select $1/$2 companions to start b
 選擇「<color\=#ff3b37>{{A}}</color>」，\n可大幅提升店鋪<color\=#ff3b37>客流</color>！=Select [<color\=#ff3b37>{{A}}</color>] to greatly increase <color\=#ff3b37>Customer Flow</color>!
 「準備」完成，\n「<color\=#ff3b37>開始營業</color>」！=[Preparation] complete.\n[<color\=#ff3b37>Start the business</color>]!
 海濱經營大作戰·店鋪屬性=Seaside Business Blitz·Store Attributes
-海之家擁有<color\=#ff3b37>五種</color>對每日營業額有著很大影響的<color\=#ff3b37>屬性</color>。\n\n<color\=#07d974>營收</color>、<color\=#18dcff>客流</color>、<color\=#e55ff2>口碑</color>：\n直接影響當前經營日的基礎營業額。=There are <color\=#ff3b37>five</color> <color\=#ff3b37>attributes</color> that significantly impact daily Earnings.\n<color\=#07d974>Revenue</color>, <color\=#18dcff>Customer Flow</color>, and <color\=#e55ff2>Reputation</color>:\nThese directly influence the day's base Earnings.
+{{A}}擁有<color\=#ff3b37>五種</color>對每日營業額有著很大影響的<color\=#ff3b37>屬性</color>。\n\n<color\=#07d974>營收</color>、<color\=#18dcff>客流</color>、<color\=#e55ff2>口碑</color>：\n直接影響當前經營日的基礎營業額。=There are <color\=#ff3b37>five</color> <color\=#ff3b37>attributes</color> that significantly impact daily Earnings.\n<color\=#07d974>Revenue</color>, <color\=#18dcff>Customer Flow</color>, and <color\=#e55ff2>Reputation</color>:\nThese directly influence the day's base Earnings.
 r:"^<color\=#f58c24>安全</color>、<color\=#f9d40a>服務</color>，對店鋪運營有額外影響：\n(\d+%)~(\d+%)：對營業額有<color\=#ff3b37>正向收益</color>；\n(\d+%)~(\d+%)：對營業額<color\=#ff3b37>無影響</color>；\n(\d+%)~(\d+%)：對營業額有<color\=#ff3b37>負面影響</color>。$"="<color\=#f58c24>Safety</color>, and <color\=#f9d40a>Service</color> have additional effects on shop operations：\n$1~$2: <color\=#ff3b37>Positive effect</color> on Earnings;\n$3~$4: <color\=#ff3b37>No effect</color> on Earnings;\n$5~$6: <color\=#ff3b37>Negative effect</color> on Earnings."
 本經營日「<color\=#ff3b37>事件影響</color>」提升<color\=#ff3b37>客流</color>，\n選擇<color\=#ff3b37>客流事件</color>，獲取最大收益。=This business day's <color\=#ff3b37>event effects</color> can increase <color\=#ff3b37>Customer Flow</color>,\nselect <color\=#ff3b37>Customer Flow Events</color> to maximize profits.
 店鋪管理屬性說明=Store Attributes Info
@@ -4537,7 +4542,7 @@ r:"^結算時營業額額外提升(.*)$"="Increase Earnings at the end of the da
 r:"^結算時經營額額外提高(.*)$"="Increase Earnings at the end of the day by $1"
 r:"^結算時經營額額外提升(.*)$"="Increase Earnings at the end of the day by $1"
 
-「<color\=#ff3b37>確認</color>」前往「<color\=#ff3b37>海之家經營記錄</color>」=[<color\=#ff3b37>Confirm</color>] to head to [<color\=#ff3b37>Business Record</color>]
+「<color\=#ff3b37>確認</color>」前往「<color\=#ff3b37>{{A}}經營記錄</color>」=[<color\=#ff3b37>Confirm</color>] to head to [<color\=#ff3b37>Business Record</color>]
 
 本次經營營業額=Today's Earnings
 今日營業目標=<size\=25>Today's Target</size>
@@ -4592,7 +4597,7 @@ r:"^（1）高品質事件出現機率進一步提升\n（2）下(.*)次提升<s
 r:"^（1）高品質事件出現機率大幅提升\n（2）下1次提升<sprite\=0>的事件<sprite\=0>額外提升<color\=#007FF5>(.*)</color>$"="<size\=24>(1) Heavily increase the chance of high quality events\n(2) The next $1 <sprite\=0> increase event additionally increases <sprite\=0> by <color\=#007FF5>$1</color>"
 r:"^選項1：更多高品質事件\n選項2：提升<sprite\=(\d+)>$"="Option 1: More high quality events\nOption 2: Increase <sprite\=$1>"
 真沒想到經營一家店會這麼辛苦……=I never realized running a store would be this tough...
-而且，雖然我已經習慣工作了，\n但讓別人在海之家幹活還是第一次。=Plus, I'm used to working myself, but letting others work at Beach House? That's new.
+而且，雖然我已經習慣工作了，\n但讓別人在{{A}}幹活還是第一次。=Plus, I'm used to working myself, but letting others work at {{A}}? That's new.
 如果我自己不振作起來的話，\n恐怕也會影響大家的積極性。=If I don't step up, \nit'll kill the team's morale
 得加油啊！=I gotta push through!
 ……光我一個人努力也只是白費力氣，\n得告訴其他員工才行。=...But my effort alone is pointless, \nI need to rally the staff too.
@@ -4604,7 +4609,7 @@ r:"^<color\=#0F69CA>「一起加油吧」</color>\n下(\d+)次提升口碑的事
 高品質事件出現機率進一步提升=Increase the chance of high quality events
 {{A}}的心事={{A}}'s Concerns
 r:"^（1）<sprite\=2>降低時，提升<color\=#007FF5>(.*)</color>點<sprite\=4>\n（2）(.*)機率提升<color\=#007FF5>(.*)</color>點<sprite\=0>$"="<size\=24>(1)When <sprite\=2> decrease, increase <sprite\=4> by <color\=#007FF5>$1</color>\n(2) $2 chance to increase <sprite\=0> by <color\=#007FF5>$3</color>"
-因為平常已經習慣在店裡幫忙了，\n經營海之家也還算順利……=Since I'm already used to helping out at the store, running Beach House has been going pretty smoothly...
+因為平常已經習慣在店裡幫忙了，\n經營{{A}}也還算順利……=Since I'm already used to helping out at the store, running {{A}} has been going pretty smoothly...
 但租賃店和沙灘排球場，\n總感覺還有點缺乏人氣……=But the rental store and volleyball court are still not popular...
 可是……要做點什麼宣傳，\n才能有效果呢……=But... what kind of promotion should we do...
 比如沙灘排球場那邊……\n我們要不要直接在那裡打球來吸引遊客？=Like the volleyball court... \nShould we just play there to attract tourists?
@@ -4712,7 +4717,7 @@ r:"^<color\=#0F69CA>就選晚上吧</color>\n當前時段事件增加的營收�
 當前時段營收減少，白天時營收額外提升=Decrease Revenue gain for this time, increase Revenue gain during Day
 當前時段營收減少，傍晚時營收額外提升=Decrease Revenue gain for this time, increase Revenue gain during Evening
 當前時段營收減少，夜晚時營收額外提升=Decrease Revenue gain for this time, increase Revenue gain during Night
-海之家作戰計畫=Beach House Plan
+{{A}}作戰計畫={{A}} Plan
 r:"^（1）下(.*)次增加<sprite\=4>的事件<sprite\=4>額外提升<color\=#007FF5>(.*)</color>\n（2）下(.*)次增加<sprite\=3>的事件<sprite\=3>額外提升<color\=#007FF5>(.*)</color>$"="<size\=24>(1) The next $1 <sprite\=4> increase event increase <sprite\=4> by <color\=#007FF5>$2</color>\n(2) The next $3 <sprite\=3> increase event increase <sprite\=3> by <color\=#007FF5>$4</color>"
 r:"^選項1：提升<sprite\=4>收益\n選項2：提升<sprite\=3>收益$"="Option 1: Increase <sprite\=4> gain\nOption 2: Increase <sprite\=3> gain"
 我正在把這間店過往的營業額數據化……=I'm digitizing this store's past sales data...
@@ -4730,7 +4735,7 @@ r:"^（1）減少經營資金降低值<color\=#007FF5>(.*)</color>；結算時�
 不是特別嚴重的問題啦……\n只是店裡流水有些低於預期。=It's not a particularly serious problem...\nIt's just that the store's earnings is lower than expected.
 雖然沒有虧損，\n但還是希望能想辦法改善一下。=Although we're not losing money, I still hope we can find a way to improve the situation.
 可是，要怎麼做才能帶來變化呢……=But how can we bring about change...
-也不能嘗試太張揚的方法，\n這畢竟是{{A}}非常珍視的海之家。=We can't try anything too flashy. \nAfter all, this is {{A}}'s beloved Beach House.
+也不能嘗試太張揚的方法，\n這畢竟是{{A}}非常珍視的{{B}}。=We can't try anything too flashy. \nAfter all, this is {{A}}'s beloved {{B}}.
 r:"^嗯……(.*)，\n你有什麼想法嗎？$"="Hmm... $1, do you have any ideas?"
 r:"^<color\=#0F69CA>用菜單品質取勝</color>\n結算時經營額額外提升(\d+%)$"="<color\=#0F69CA>With menu quality</color>\nIncrease Earnings at the end of the day by $1"
 r:"^<color\=#0F69CA>用菜單數量取勝</color>\n後續經營資金降低時，降低值減少(\d+%)；結算時經營額額外提升(\d+%)$"="<color\=#0F69CA>With menu quantity</color>\nDecreasing Business Funds loss by $1; Increase Earnings at the end of the day by $2"
@@ -4752,7 +4757,7 @@ r:"^（1）<sprite\=1>事件可提升<color\=#007FF5>(.*)</color>點<sprite\=0>\
 r:"^<color\=#0F69CA>聯繫商會處理吧</color>\n安全事件可提升(\d+)點口碑$"="<size\=25><color\=#0F69CA>Contact the Chamber of Commerce</color>\nSafety event can increase Reputation by $1</size>"
 r:"^<color\=#0F69CA>把石頭挪開吧</color>\n提升(\d+)點服務$"="<color\=#0F69CA>Move the rocks</color>\nIncrease Sevice by $1"
 在商會的主導下，\n開始了掩埋石頭的清除工作……=Cleared the buried rocks under the Chamber of Commerce's direction...
-清除了絆倒{{A}}的石頭後，\n回到了海之家……=We returned to Beach House with the tripping hazards removed...
+清除了絆倒{{A}}的石頭後，\n回到了{{B}}……=We returned to {{B}} with the tripping hazards removed...
 r:"^安全事件可提升(\d+)點口碑$"="Safety event can increase Reputation by $1"
 商會會長的饋贈=President's Gift
 r:"^（1）下(.*)次事件不降低<sprite\=1>\n（2）獲得<color\=#007FF5>(.*)</color>經營資金；結算時經營額額外提升<color\=#007FF5>(.*)</color>$"="<size\=24>(1) The next $1 event will not decrease <sprite\=1>\n(2) Obtain <color\=#007FF5>$2</color> Business Funds; Increase Earnings at the end of the day by <color\=#007FF5>$3</color>"
@@ -4776,8 +4781,8 @@ r:"^(.*)～！太好了～！\n那個，我得趕快回去幹活了……$"="$1�
 要是沙灘排球火起來的話，\n說不定也能吸引來更多客人……=If beach volleyball catches on, it might attract more customers...
 r:"^<color\=#0F69CA>讓{{A}}擔任指導</color>\n提升(\d+)點客流$"="<color\=#0F69CA>Let {{A}} coach the team</color>\nIncrease Customer Flow by $1"
 r:"^<color\=#0F69CA>讓{{A}}參加比賽</color>\n提升(\d+)點客流、口碑、營收，降低(\d+)點安全$"="<size\=26><color\=#0F69CA>Let {{A}} join the match</color>\nIncrease Customer Flow, Reputation, and Revenue by $1, decrease Safety by $2</size>"
-在{{A}}指導下獲得勝利的隊伍，\n與粉絲在海之家舉辦了慶功會……=The team that won under {{A}}'s guidance held a victory party with fans at Beach House...
-因為{{A}}的活躍而興奮的客人們，\n在比賽後去了海之家用餐……！=The customers electrified by {{A}}'s performance flocked to Beach House after the match...!
+在{{A}}指導下獲得勝利的隊伍，\n與粉絲在{{B}}舉辦了慶功會……=The team that won under {{A}}'s guidance held a victory party with fans at {{B}}...
+因為{{A}}的活躍而興奮的客人們，\n在比賽後去了{{B}}用餐……！=The customers electrified by {{A}}'s performance flocked to {{B}} after the match...!
 可愛的巡邏隊=Cute Patrol
 r:"^（1）消耗中型魚，後續事件不降低<sprite\=1>\n（2）提升<color\=#007FF5>(.*)</color>點<sprite\=1>$"="<size\=24>(1) Spend Medium Fish, will not decrease <sprite\=1>\n(2) Increase <sprite\=1> by <color\=#007FF5>$1</color>"
 
@@ -4847,12 +4852,12 @@ r:"^選項1：{{A}}恢復夥伴體力\n選項2：提升<sprite\=(\d+)>$"="Option
 那個拖稿的混蛋作家。\n跑哪兒去了！？=That damn writer! Where the hell did he run off to!?
 r:"^<color\=#0F69CA>別管他了……</color>\n{{A}}恢復(\d+)點夥伴體力$"="<color\=#0F69CA>Leave him alone...</color>\n{{A}} restores $1 Stamina"
 r:"^<color\=#0F69CA>追上去看看？</color>\n提升(\d+)點安全$"="<color\=#0F69CA>Going after him?</color>\nIncrease Safety by $1"
-聽說作家“墨利屋”來了海之家，\n在遊客之間成了熱門話題……=Rumor has it that the writer "Sumi-sensei" came to Beach House, it's a hot topic amount tourists now...
+聽說作家“墨利屋”來了{{A}}，\n在遊客之間成了熱門話題……=Rumor has it that the writer "Sumi-sensei" came to {{A}}, it's a hot topic amount tourists now...
 電影聯動=Movie Collab
 r:"^（1）下次提升<sprite\=4>或<sprite\=0>的事件<sprite\=4><sprite\=0>變為<sprite\=3>且提升<color\=#007FF5>(.*)</color>\n（2）提升<color\=#007FF5>(.*)</color>點<sprite\=3>$"="<size\=24>(1) Change the next <sprite\=4> or <sprite\=0> increase event into <sprite\=3> and increase it by <color\=#007FF5>$1</color>\n(2) Increase <sprite\=3> by <color\=#007FF5>$2</color></size>"
 r:"^選項1：轉化為<sprite\=(\d+)>\n選項2：提升<sprite\=(\d+)>$"="Option 1: Convert <sprite\=$1>\nOption 2: Increase <sprite\=$2>"
 r:"^啊，(.*)……\n剛剛導演找我聊了一下。$"="Ah, $1... \nThe director just pulled me aside."
-我不是在海之家幫忙嘛，\n他問能不能順便宣傳下電影。=Since I'm helping at Beach House, \nhe asked if we could promote his movie too.
+我不是在{{A}}幫忙嘛，\n他問能不能順便宣傳下電影。=Since I'm helping at {{A}},\nhe asked if we could promote his movie too.
 雖然有人來搭話我也會配合拍照，\n但說不定還有什麼別的宣傳方式？=I don't mind taking photos with fans, \nbut maybe there's a better way to advertise?
 考慮到太張揚的話，\n可能也會給{{A}}添麻煩……=If we go overboard though, \nit might bother {{A}}...
 既然是宣傳電影，\n那是不是該搞點跟鯊魚有關的事呢……=Since it's a shark movie, \nshould we lean into that theme...?
@@ -4860,8 +4865,8 @@ r:"^啊，(.*)……\n剛剛導演找我聊了一下。$"="Ah, $1... \nThe direc
 r:"^<color\=#0F69CA>佩戴鯊魚徽章工作</color>\n下(\d+)次提升營收或口碑的事件，營收口碑將變為客流且額外提升(\d+%)$"="<size\=23><color\=#0F69CA>Work while wearing shark badges</color>\nChange the next $1 Revenue or Reputation increase event into Customer Flow and increase it by $2</size>"
 r:"^<color\=#0F69CA>持電影票根有優惠</color>\n提升(\d+)點客流$"="<color\=#0F69CA>Offer discounts for ticket holders</color>\nIncrease Customer Flow by $1"
 鯊魚徽章大受歡迎，\n用來出售的徽章被一掃而光……！=The shark badges were so popular and were sold out instantly...!
-看過電影的粉絲紛紛來到了海之家……！=Fans who have seen the movie flocked to Beach House...!
-我推的海之家=Beach House's My Fave
+看過電影的粉絲紛紛來到了{{A}}……！=Fans who have seen the movie flocked to Beach House...!
+我推的{{A}}={{A}}'s My Fave
 r:"^（1）結算時若<sprite\=3>>(.*)，則額外提升<color\=#007FF5>(.*)</color>點<sprite\=3>\n（2）提升<color\=#007FF5>(.*)</color>點<sprite\=0>$"="(1) When the day end, if <sprite\=3> is >$1, increase <sprite\=3> by <color\=#007FF5>$2</color>\n(2) Increase <sprite\=0> by <color\=#007FF5>$3</color>"
 
 r:"^魚類事件增加的屬性額外提升<color\=#007FF5>(.*)</color>$"="<size\=26>Increase attribute gain from Fish events by <color\=#007FF5>$1</color>"
@@ -4898,7 +4903,7 @@ Green Event
 為了招攬很多顧客，大家在海岸四處宣傳了……=In order to attract many customers, we promoted around the beach...
 為了招攬大量顧客，全體員工都去發傳單了……=In order to attract lots of customers, all the staff went to hand out flyers...
 需要打廣告=Need to Advertise
-商會提議海之家打些像樣的廣告……=The Chamber of Commerce suggested that the Beach Hous should put out some decent ads...
+商會提議{{A}}打些像樣的廣告……=The Chamber of Commerce suggested that the {{A}} should put out some decent ads...
 抵達的旅行團=Arriving Tour Group
 好像是當地的學生們來{{A}}舉辦活動……=Looks like local students came to {{A}} for an event...
 從東京來旅行的學生們，聚集在了{{A}}上……=Students from Tokyo came to {{A}}...
@@ -4939,8 +4944,8 @@ Green Event
 大量收藏家來競拍沙灘上的漂流物……=Lots of collectors come to bid on flotsam...
 r:"^結算時營業額額外提升<sprite\=(\d+) tint\=1><sprite\=(\d+) tint\=1>$"="<size\=25>Increase Earnings at the end of the day by <sprite\=$1 tint\=1><sprite\=$2 tint\=1></size>"
 緊跟本地潮流=Keeping Up with Local Trends
-好像有當地居民成了海之家的熟客……=It seems like some locals have become regulars of Beach House...
-好像當地居民在向遊客推薦海之家……=It seems like some locals are recommending Beach House...
+好像有當地居民成了{{A}}的熟客……=It seems like some locals have become regulars of {{A}}...
+好像當地居民在向遊客推薦{{A}}……=It seems like some locals are recommending {{A}}...
 準備刊登廣告=Preparing Ads
 當地的娛樂雜誌，來詢問要不要做廣告……=The local entertainment magazine asked if we wanted to advertise...
 {{A}}的高級禮物=Gift from {{A}}
@@ -4962,7 +4967,7 @@ r:"^(\d+%)機率提升<sprite\=(\d+)>\n消耗(\d+)經營資金$"="$1 chance to i
 r:"^(\d+%)機率提升<sprite\=(\d+)>\n所有角色消耗(\d+)點夥伴體力$"="$1 chance to increase <sprite\=$2>\nSpend $3 Stamina"
 收到商會主辦的安全講座邀請。店裡人手有點不足……=We received an invitation to a safety lecture hosted by the Chamber of Commerce. The store is a bit understaffed...
 網紅來訪=Celebrity Visit
-知名旅行達人來訪，正在評價海之家……=A famous travel expert is visiting and reviewing Beach House...
+知名旅行達人來訪，正在評價{{A}}……=A famous travel expert is visiting and reviewing {{A}}...
 紀念寫真攝影=Commemorative Photo Shoot
 收到消防隊主辦的急救講座邀請，店裡人手嚴重短缺……=We received an invitation to a first aid lecture hosted by the fire department. The store is severely understaffed...
 善有善報=Kindness Begets Kindness
@@ -5001,15 +5006,15 @@ r:"^後續事件增加的客流額外提升(\d+%)$"="Future events increase Cust
 天氣喜怒無常=Unpredictable Weather
 猛烈的雷陣雨，海水浴遊客為了避雨聚集了到店裡……=A violent thunderstorm forced the tourists to seek shelter...
 暢遊{{A}}=Roaming {{A}}
-海之家的店被雜誌推薦了，顧客絡繹不絕……=Beach House's feature in a food magazine has customers flooding in...
-海之家在當地小有熱度，不少顧客被安利前來……=Beach House is getting popular, plenty of customers are flocking in on recommendations...
+{{A}}的店被雜誌推薦了，顧客絡繹不絕……={{A}}'s feature in a food magazine has customers flooding in...
+{{A}}在當地小有熱度，不少顧客被安利前來……={{A}} is getting popular, plenty of customers are flocking in on recommendations...
 {{A}}的Vlog很受歡迎！拍攝者蜂擁而至……={{A}}'s vlog was a hit! Photographers are flocking to it...
 發佈店鋪近況=Posting Store Update
 r:"^後續事件增加的營收額外提升<sprite\=(\d+) tint\=1><sprite\=(\d+) tint\=1><sprite\=(\d+) tint\=1>$"="<size\=25>Future events increase Revenue by <sprite\=$1 tint\=1><sprite\=$2 tint\=1><sprite\=$3 tint\=1></size>"
-{{A}}為海之家的SNS更新了宣傳照……={{A}} updated the promotional photos for Beach House's SNS...
+{{A}}為{{B}}的SNS更新了宣傳照……={{A}} updated the promotional photos for {{B}}'s SNS...
 優質食材採購=Sourcing Quality Ingredients
-好像海之家的供應商送來了好食材……=It seems that the Beach House's supplier has delivered some good ingredients...
-好像海之家的供應商送來了非常好的食材……=It seems that the Beach House's supplier has delivered some very good ingredients...
+好像{{A}}的供應商送來了好食材……=It seems that the {{A}}'s supplier has delivered some good ingredients...
+好像{{A}}的供應商送來了非常好的食材……=It seems that the {{A}}'s supplier has delivered some very good ingredients...
 特殊的夜晚=A Special Night
 r:"^夜晚時事件增加的屬性額外提升(\d+%)$"="Increase Night events attributes gain by $1"
 r:"^夜晚時事件增加的屬性額外提升<sprite\=(\d+) tint\=1><sprite\=(\d+) tint\=1>$"="<size\=25>Increase Night events attributes gain by <sprite\=$1 tint\=1><sprite\=$2 tint\=1></size>"
@@ -5078,7 +5083,7 @@ r:"^<color\=#0F69CA>替換現有哈密瓜口味</color>\n後續事件增加的�
 嗯……說不定是串佛珠。\n相當古老啊，可能是江戶時代的物件吧。=Hmm... Might be a Buddhist prayer bead strand. It's ancient, maybe from the Edo period?
 不過……為什麼沙灘上會有這種東西？=But... why would this be on the beach?
 ……喂，在發現那串佛珠的那片地方，\n好像還埋著類似骨頭的東西……=...Hey, near where we found these beads, there's something bone-like buried too...
-喂、喂！那邊的海之家店員小哥！\n這串佛、佛珠就送給你了！=H-Hey! You, the Beach House guy! \nYou can have these... these beads!
+喂、喂！那邊的{{A}}店員小哥！\n這串佛、佛珠就送給你了！=H-Hey! You, the {{A}} guy! \nYou can have these... these beads!
 r:"^<color\=#0F69CA>那我就不客氣了……</color>\n獲得(\d+)種通用事件持續效果$"="<color\=#0F69CA>I'll take them...</color>\nGain $1 common event buffs"
 r:"^<color\=#0F69CA>還是埋回去吧……</color>\n所有角色恢復(\d+)點夥伴體力$"="<color\=#0F69CA>Better bury them back...</color>\nAll characters restore $1 Stamina"
 我決定把這串佛珠\n裝飾在店門口……=I decided to display the beads at the shop entrance...
@@ -5099,7 +5104,7 @@ r:"^選項1：根據<sprite\=(\d+)>提升<sprite\=(\d+)><sprite\=(\d+)><sprite\=
 可惡……到底丟在哪兒了……=Dammit... where is it...?
 對不起……\n我要是再小心一點就好了……=I'm so sorry... \nI should've been more careful...
 沒事啦。\n我一定會找到的，放心吧……=It's okay. I'll find it, don't worry.
-啊、那個！\n你是海之家的店員對吧！=Hey, you! You work at Beach House, right?!
+啊、那個！\n你是{{A}}的店員對吧！=Hey, you! You work at {{A}}, right?!
 我太太的婚戒丟在這附近了！\n大概就在這一片……=My wife's wedding ring is lost around here! \nSomewhere in this area...
 拜託您了！\n能幫忙一起找找嗎？=Please! Can you help me find?
 r:"^<color\=#0F69CA>全部員工一起去找</color>\n獲得當前(\d+%)安全的營收、客流、口碑$"="<size\=26><color\=#0F69CA>Let's get all the staff to search</color>\nGain Revenue, Customer Flow, and Reputation by $1 of Safety</size>"
@@ -5173,7 +5178,7 @@ r:"^下1次事件增加的屬性額外提升(\d+%)$"="Increase attribute gain fr
 r:"^下<sprite\=(\d+) tint\=1>次事件增加的屬性額外提升<sprite\=(\d+) tint\=1><sprite\=(\d+) tint\=1><sprite\=(\d+) tint\=1>$"="<size\=25>Increase attribute gain from the next <sprite\=$1 tint\=1> event by <sprite\=$2 tint\=1><sprite\=$3 tint\=1><sprite\=$4 tint\=1></size>"
 純白女神降臨=The White Goddess Descends
 r:"^後續<sprite\=(\d+)>提升時，提升(\d+)點<sprite\=(\d+)>$"="When increasing <sprite\=$1>, increase <sprite\=$3> by $2"
-海之家出現了「純白女神」，\n所有遊客都在熱議這件事……！=Beach House's "White Goddess" has all the tourists buzzing...!
+{{A}}出現了「純白女神」，\n所有遊客都在熱議這件事……！={{A}}'s "White Goddess" has all the tourists buzzing...!
 r:"^後續服務提升時，提升<sprite\=(\d+) tint\=1><sprite\=(\d+) tint\=1>點口碑$"="<size\=25>When increasing Service, increase Reputation by <sprite\=$1 tint\=1><sprite\=$2 tint\=1></size>"
 突發意外=Sudden Accident
 {{A}}特製員工餐={{A}}'s Special Staff Meal
@@ -5204,7 +5209,7 @@ r:"^下<sprite\=(\d+) tint\=1>次事件客流提升發生變化$"="<size\=25>Cha
 r:"^下(\d+)次事件客流提升發生變化$"="Change Customer Flow gain for the next $1 events"
 空中宣傳=Aerial Promotion
 r:"^傍晚時事件增加的<sprite\=(\d+)>額外提升(\d+%)$"="Increase <sprite\=$1> gain from Evening events by $2"
-根據{{A}}的提案，決定四處宣傳海之家菜單……=Based on {{A}}'s proposal, we've decided to promote our menu everywhere...
+根據{{A}}的提案，決定四處宣傳{{B}}菜單……=Based on {{A}}'s proposal, we've decided to promote our menu everywhere...
 r:"^傍晚時事件增加的客流額外提升<sprite\=(\d+) tint\=1><sprite\=(\d+) tint\=1><sprite\=(\d+) tint\=1>$"="<size\=22>Increase Customer Flow gain from Evening events by <sprite\=$1 tint\=1><sprite\=$2 tint\=1><sprite\=$3 tint\=1></size>"
 合影服務=Photo Op Service
 
@@ -5275,7 +5280,7 @@ r:"^{{A}}額外消耗(.*)點夥伴體力\n提升更多<sprite\=4><sprite\=3><spr
 {{A}}需要幫助={{A}} Needs Help
 {{A}}看起來非常忙碌……\n去後廚支援她了……={{A}} looks very busy... I went to the kitchen to help her...
 飲料新品=New Beverage
-{{A}}提案的『海之家特製薄荷水』大受歡迎……={{A}}'s proposal of "Beach House's Mint Special" was a big hit...
+{{A}}提案的『{{B}}特製薄荷水』大受歡迎……={{A}}'s proposal of "{{B}}'s Mint Special" was a big hit...
 特製餌料=Special Bait
 {{A}}特製的餌料讓魚爭相咬鉤……\n也許連魚的胃都抓住了……={{A}}'s special bait has fishes vying for it... maybe it's even catching their stomachs...
 上熱門推薦了=Popular Recommendation
@@ -5321,7 +5326,6 @@ r:"^\（提取比例為本期累計經營資金的(\d+(.\d+)?(%)?)\）$"="(At a 
 
 該獎勵在活動結束後透過郵件發放，同時清空經營資金=Rewards will be distributed via mail after the event ends
 升級店鋪=Upgrade Store
-海之家=Beach House
 租賃店=Rental Store
 攬客點=Visitor Hub
 炒麵攤=Yakisoba Stand
@@ -5338,14 +5342,14 @@ r:"^\（提取比例為本期累計經營資金的(\d+(.\d+)?(%)?)\）$"="(At a 
 可選擇夥伴數量=Available Companion
 每日獲得培訓手冊=Daily Training Manual
 增加基礎營收倍率=Base Revenue Mult
-海之家特殊事件=Beach House Event
+{{A}}特殊事件={{A}} Event
 解鎖新店鋪=New Store
 解鎖新夥伴=New Companion
 店鋪稀有事件數量=Rare Events
 
-r:"^海之家達到(\d+)級後可繼續升級$"="Can upgrade after Beach House Lv. $1"
-r:"^海之家達到(\d+)級後解鎖。$"="Unlocked after Beach House Lv. $1"
-r:"^「海之家提升至Lv.(\d+)」後解鎖。$"="Unlocked after Beach House Lv. $1"
+r:"^{{A}}達到(\d+)級後可繼續升級$"="Can upgrade after {{A}} Lv. $1"
+r:"^{{A}}達到(\d+)級後解鎖。$"="Unlocked after {{A}} Lv. $1"
+r:"^「{{A}}提升至Lv.(\d+)」後解鎖。$"="Unlocked after {{A}} Lv. $1"
 
 r:"^在一個經營日內達到(\d+)營業額$"="Reach $1 Earnings in one business day"
 r:"^觸發(\d+)個Story事件$"="Trigger $1 Story Events"
@@ -5355,10 +5359,11 @@ r:"^完成(\d+)個經營日\((\d+)\/(\d+)\)$"="Clear $1 business days ($2/$3)"
 r:"^見證第(\d+)章經營故事$"="Witness Business Stories Chapter $1"
 r:"^完成「經營故事」Chapter(\d+)$"="Clear [Business Stories] Chapter $1"
 r:"^完成(\d+)個夏日回憶\((\d+)\/(\d+)\)$"="Clear $1 Summer Memories ($2/$3)"
-r:"^將店鋪「海之家」升至(\d+)級\((\d+)\/(\d+)\)$"="Upgrade Beach House to Lv. $1 ($2/$3)"
+r:"^將店鋪「{{A}}」升至(\d+)級\((\d+)\/(\d+)\)$"="Upgrade {{A}} to Lv. $1 ($2/$3)"
 r:"^在釣場(\d+)進行一次海釣$"="Go Fishing at Fishing Spot $1"
 r:"^進行(\d+)次海釣\((\d+)\/(\d+)\)$"="Go Fishing $1 time(s) ($2/$3)"
-r:"^完成(\d+)個「海濱故事」\((\d+)\/(\d+)\)$"="Clear $1 [Waterfront Stories] ($2/$3)"
+r:"^完成(\d+)個「海濱故事」\((\d+)\/(\d+)\)$"="Clear $1 [Seaside Stories] ($2/$3)"
+r:"^完成(\d+)個海濱趣聞\((\d+)\/(\d+)\)$"="Clear $1 Seaside Stories ($2/$3)"
 r:"^與{{A}}完成(\d+)次出海釣魚$"="Go Fishing with {{A}} $1 time(s)"
 r:"^與{{A}}完成(\d+)次出海釣魚\((\d+)\/(\d+)\)$"="Go Fishing with {{A}} $1 time(s) ($2/$3)"
 r:"^和{{A}}完成(\d+)次出海釣魚\((\d+)\/(\d+)\)$"="Go Fishing with {{A}} $1 time(s) ($2/$3)"
@@ -5841,14 +5846,21 @@ r:"^分數：(\d+)$"="Score: $1"
 參賽選手=Contestants
 本輪補給=Round Supplies
 使用技能後，可以再次觸發所在地塊的效果。=After using skill, activate the current Tile effect again
+使用技能後，當前所持有的正面BUFF持續回合數+1。=After using skill, increase all positive buff duration by 1
+使用技能後，下次投擲骰子後將先後觸發停留格的前置格及後置格效果（停留格效果不再觸發）。\n使用該技能後，若停留在地圖最後兩格，則技能不生效並返還技能消耗。=After using skill, activate the front and back Tile effects after rolling the dice (won't activate the stopped Tile). This skill will not work and will be refunded if you are at the final 2 Tiles
 當圈無法在已使用過技能的地塊再次使用技能。=You cannot use the skill again on Tiles where the skill has already been used.
 每次會投擲出隨機的行進點數，可在「命運骰子爭霸賽」中使用。活動期間內每天會自動補充。=Roll a random number each time, used in [Dice Championship]. Automatically replenished daily during the event.
+每次會投擲出隨機的行進點數，可在「命運骰子爭霸賽」中使用。=Roll a random number each time, used in [Dice Championship].
 可投擲出指定的行進點數，可在可在「命運骰子爭霸賽」中使用。=Roll a specific number each time, used in [Dice Championship].
+體力點=Stamina Points
+{{A}}主辦的「命運骰子爭霸賽」的重要資源，可以用來投擲骰子或使用技能，活動期間內每天會自動補充。=Used to roll dice or activate skills. Automatically replenished daily during the event.
 慾望點數=Desire Points
 由慾望凝結而成的貨幣，是{{A}}主辦的「命運骰子爭霸賽」的基礎貨幣。=Currency formed from desire, used as basic currency in {{A}}'s [Dice Championship].
 談判卡=Negotiation Card
 <color\=#ff3b37>事件地塊</color>：停留時會觸發隨機事件。=<color\=#ff3b37>Event Tile</color>: Activate random events.
-<color\=#ff3b37>普通戰鬥地塊</color>：停留時會觸發戰鬥挑戰，成功完成會獲得<color\=#ff3b37>少量</color>資金獎勵。=<color\=#ff3b37>Normal Combat Tile</color>: Activate combat challenge, clear to gain <color\=#ff3b37>little</color> Funds.
+<color\=#ff3b37>玩法地塊</color>：停留時會隨機進入問答玩法或掃雷玩法，可在玩法內獲取獎勵。=<color\=#ff3b37>Minigame Tile</color>: Enter a trivia game or a minesweeper game.
+<color\=#ff3b37>商店地塊</color>：停留時會進入商店，可消耗資金購買道具。=<color\=#ff3b37>Shop Tile</color>: Enter a shop where you can spend Funds for items.
+<color\=#ff3b37>普通戰鬥地塊</color>：停留時會觸發戰鬥挑戰，成功完成會獲得<color\=#ff3b37>少量</color>資金獎勵。=<color\=#ff3b37>Basic Combat Tile</color>: Activate combat challenge, clear to gain <color\=#ff3b37>little</color> Funds.
 <color\=#ff3b37>精英戰鬥地塊</color>：停留時會觸發戰鬥挑戰，成功完成會獲得<color\=#ff3b37>大量</color>資金獎勵。=<color\=#ff3b37>Elite Combat Tile</color>: Activate combat challenge, clear to gain <color\=#ff3b37>many</color> Funds.
 <color\=#ff3b37>BOSS戰鬥地塊</color>：停留時會觸發戰鬥挑戰，成功完成會獲得<color\=#ff3b37>巨量</color>資金獎勵。=<color\=#ff3b37>BOSS Combat Tile</color>: Activate combat challenge, clear to gain <color\=#ff3b37>enormous</color> Funds.
 使用後可以跳過部分戰鬥格的戰鬥，直接獲取對應的戰鬥獎勵。可透過每一圈開始時發放的補給獲得。=Used to skip certain Combat Tiles and gain their rewards immediately. Obtained at the start of each lap.
@@ -5861,7 +5873,8 @@ r:"^僅展示前(\d+)名{{A}}資訊$"="Only the top $1 {{A}} are displayed"
 建築等級：=<size\=23>Building Lv:</size>
 資金收益：=<size\=23>Funds Gain:</size>
 升級消耗：=<size\=23>Upgrade Cost:</size>
-停留時可消耗資金購買/升級建築，<color\=#fea700>停留或途經</color>已購買的建築時可獲得資金。=<size\=22>Can spend Funds to purchase/upgrade Buildings, <color\=#fea700>stop at or pass through</color> purchased Buildings to obtain Funds.</size>
+停留時可消耗資金購買/升級建築，<color\=#ff3333>停留或途經</color>已購買的建築時可獲得資金。=<size\=23>Can spend Funds to buy/upgrade Buildings, <color\=#ff3333>stop at or pass through</color> bought Buildings to obtain Funds.</size>
+獲得資金=Gain Funds
 購物中心=Shopping Center
 體育館=Gymnasium
 體育中心=Sports Center
@@ -5879,16 +5892,38 @@ r:"^僅展示前(\d+)名{{A}}資訊$"="Only the top $1 {{A}} are displayed"
 咖啡館=Café
 家庭餐廳=Diner
 
+築地市場=Tsukiji Market
+遊艇碼頭=Yacht Marina
+日光浴場=Sunbathing Area
+水樂園=Water Park
+花火大會=Fireworks Festival
+手工市集=Craft Market
+衝浪中心=Surf Center
+燈塔=Lighthouse
+沙堡=Sandcastle
+海釣場=Fishing Pier
+沙灘露營=Beach Camp
+海景咖啡=Ocean View Café
+伴手禮店=Souvenir Shop
+更衣室=Changing Room
+章魚燒攤=Takoyaki Stand
+沙灘排球=Beach Volleyball
+打靶攤=Shooting Gallery
+
 技能確認=Confirm Skill
 使用技能後可以再次觸發當前停留地塊的效果。\n每開始新的一圈，若可使用次數不足2次，則會令可使用次數恢復至2次。=After using skill, activate the current Tile effect again. At the start of each lap, if usage is less than 2, restore to 2 usage.
 是否需要暫時離開遊戲，離開遊戲進度會保存下來=Exit the game? Your progress be saved
 r:"^擁有(\d+)塊等級(\d+)級的建築地塊$"="Own $1 level $2 Building Tiles"
-r:"^擁有(\d+)塊等級(\d+)級及以上的建築地塊$"="Own $1 level $2 and above Building Tiles"
-r:"^擁有(\d+)塊等級(\d+)級及以上的建築地塊\((\d+)/(\d+)\)$"="Own $1 level $2 and above Building Tiles ($3/$4)"
+r:"^擁有(\d+)塊等級(\d+)級及以上的建築地塊$"="Own $1 level $2+ Building Tiles"
+r:"^擁有(\d+)塊等級(\d+)級及以上的建築地塊\((\d+)/(\d+)\)$"="Own $1 level $2+ Building Tiles ($3/$4)"
 r:"^累計完成(\d+)次戰鬥地塊挑戰\((\d+)/(\d+)\)$"="Clear $1 Combat Tiles ($2/$3)"
 r:"^累計完成(\d+)次事件地塊挑戰\((\d+)/(\d+)\)$"="Clear $1 Event Tiles ($2/$3)"
+r:"^累計完成(\d+)次普通戰鬥地塊挑戰\((\d+)/(\d+)\)$"="Clear $1 Basic Combat Tiles ($2/$3)"
+r:"^累計完成(\d+)次玩法地塊挑戰\((\d+)/(\d+)\)$"="Clear $1 Minigame Tiles ($2/$3)"
+r:"^累計完成(\d+)次商店地塊挑戰\((\d+)/(\d+)\)$"="Clear $1 Shop Tiles ($2/$3)"
 r:"^累計完成(\d+)次BOSS戰鬥地塊挑戰$"="Clear $1 BOSS Tile"
 r:"^累計完成(\d+)次BOSS戰鬥地塊挑戰\((\d+)/(\d+)\)$"="Clear $1 BOSS Tiles ($2/$3)"
+r:"^累計消耗(\d+)點體力值\((\d+)/(\d+)\)$"="Spend $1 Stamina Points ($2/$3)"
 r:"^累計消耗(\d+)個未知之數\((\d+)/(\d+)\)$"="Spend $1 Unknown Numbers ($2/$3)"
 r:"^累計消耗(\d+)個預言之數\((\d+)/(\d+)\)$"="Spend $1 Prophecy Numbers ($2/$3)"
 
@@ -5896,7 +5931,7 @@ r:"^累計消耗(\d+)個預言之數\((\d+)/(\d+)\)$"="Spend $1 Prophecy Numbers
 當停留在<color\=#ff3b37>事件地塊</color>上時，會觸發隨機事件。\n根據玩家選擇選項的不同，可能會觸發不同的效果：\n如獲取物品、獲得有利的正面BUFF。=When stopping at an <color\=#ff3b37>Event Tile</color>, activate random events.\nActivate different effects based on your choice.
 選擇選項後，會投擲骰子進行判定，\n判定結果分為3檔：一般點數越大，收益也越好。\n<color\=#ff3b37>點數1~2：失敗</color>；<color\=#ff3b37>點數3~5：成功</color>；<color\=#ff3b37>點數6~8：大成功</color>=After selecting an option, roll a dice to determine the result.\n<color\=#ff3b37>1~2: Failure</color>；<color\=#ff3b37>3~5: Success</color>；<color\=#ff3b37>6~8: Great Success</color>
 命運骰子爭霸賽·建築格=Dice Championship·Building Tiles
-當停留在<color\=#ff3b37>建築地塊</color>上時，可以消耗資金<color\=#ff3b37>購買</color>該建築；\n經過已購買的建築時，可以獲取<color\=#ff3b37>資金收益</color>。\n停留在已購買建築地塊上時，可以<color\=#ff3b37>升級</color>該建築；\n升級後，該建築產生的資金收益也會得到提升。=When stopping at a <color\=#ff3b37>Building Tile</color>, you can spend Funds to <color\=#ff3b37>purchase</color> that Building;\nWhen passing through a purchased Building, you can obatin <color\=#ff3b37>Funds</color>.\nWhen stopping at a purchased Building Tile, you can <color\=#ff3b37>level up</color> that Building\n; After levelled, increase that Building's Fund Gain.
+當停留在<color\=#ff3b37>建築地塊</color>上時，可以消耗資金<color\=#ff3b37>購買</color>該建築；\n經過已購買的建築時，可以獲取<color\=#ff3b37>資金收益</color>。\n停留在已購買建築地塊上時，可以<color\=#ff3b37>升級</color>該建築；\n升級後，該建築產生的資金收益也會得到提升。=When stopping at a <color\=#ff3b37>Building Tile</color>, you can spend Funds to <color\=#ff3b37>buy</color> that Building;\nWhen passing through a bought Building, you can obatin <color\=#ff3b37>Funds</color>.\nWhen stopping at a bought Building Tile, you can <color\=#ff3b37>level up</color> that Building\n; After levelled, increase that Building's Fund Gain.
 部分建築會由多個連續地塊組成。\n停留在任一地塊上時，都可以觸發該建築的效果。\n在這些地塊內部移動時，僅可<color\=#ff3b37>觸發一次</color>建築效果。=Cetain Buildings consist of multiple consecutive Tiles. \nWhen stopping at any Tiles, you can activate that Building's effect.\nWhen moving within those Tiles, you can only activate the Building effect <color\=#ff3b37>once</color>.
 可以隨時查看當前的建築收購情況。\n在<color\=#ff3b37>建築列表</color>中，羅列了包含的全部建築的詳細資訊。=You can check the <color\=#ff3b37>Building List</color> for details on all Buildings.
 命運骰子爭霸賽·戰鬥格=Dice Championship·Combat Tiles
@@ -5911,19 +5946,21 @@ r:"^(\d+)回合內擊殺所有敵人$"="Defeat all foes within $1 actions"
 步數：=<size\=23>Steps:</size>
 數：=<size\=23>Numbers:</size>
 
+道具使用成功。=Used item.
+骰子數量不足，每日會恢復2個或完成目標任務獲取。=Not enough dice, you will restore 2 daily or can obtain them by clearing missions.
 r:"^當前所進行的圈數。圈數越多，獲取資金收益率越高。\n當前資金收益率：(\d+%)$"="Increase Funds Gain based on laps.\nCurrent Funds Buff: $1"
 簡約雅致的門=Simple Elegant Door
 華麗可疑的門=Gorgeous Suspicious Door
 r:"^<sprite\=(\d+)>收益提升$"="Increase <sprite\=$1>"
 r:"^建築<sprite\=(\d+)>收益提升$"="Increase Buildings <sprite\=$1>"
-獲得狀態：=Gain Status:
+獲得狀態：=Status:
 收益增幅=Increase Gain
 r:"^獲取的貨幣<color\=#FEA700>\+(\d+%)</color>，可生效(\d+)次。$"="Obtained Funds <color\=#FEA700>+$1</color>, effective $2 times."
 r:"^從建築格獲取的貨幣<color\=#FEA700>\+(\d+%)</color>，可生效(\d+)次。$"="Building Tiles Funds Gain <color\=#FEA700>+$1</color>, effective $2 times."
 暴力破解=Brute force
 思考後動手=Think then act
-r:"^<sprite\=(\d+)>收益:建築提升\n事件降低$"="Buff Building\nDecrease Event"
-r:"^<sprite\=(\d+)>收益:建築提升\n戰鬥降低$"="Buff Building\nDecrease Battle"
+r:"^<sprite\=(\d+)>收益:建築提升\n事件降低$"="Increase Building\nDecrease Event"
+r:"^<sprite\=(\d+)>收益:建築提升\n戰鬥降低$"="Increase Building\nDecrease Battle"
 r:"^從建築格獲取的貨幣<color\=#FEA700>\+(\d+%)</color>，從事件格獲取的貨幣<color\=#900500>-(\d+%)</color>，永久生效。$"="Building Tiles Funds Gain <color\=#FEA700>+$1</color>, Event Tiles Funds Gain <color\=#900500>-$2</color>, permanent."
 r:"^從建築格獲取的貨幣<color\=#FEA700>\+(\d+%)</color>，從戰鬥格獲取的貨幣<color\=#900500>-(\d+%)</color>，永久生效。$"="Building Tiles Funds Gain <color\=#FEA700>+$1</color>, Combat Tiles Funds Gain <color\=#900500>-$2</color>, permanent."
 我是資深主播=I'm a veteran streamer
@@ -5944,13 +5981,18 @@ r:"^從戰鬥格獲取的貨幣<color\=#FEA700>\+(\d+%)</color>，可生效(\d+)
 偷襲左邊的陰影=Ambush the left Shadow
 偷襲右邊的陰影=Ambush the right Shadow
 乾脆地收下=Just take it
+不收來路不明的物品=Do not accept the unknown item
 可能立即獲得建築收益=Can immediately gain Buildings buff
 不搭理陰影=Ignore the Shadow
 講些陳年老梗=Tell some old jokes
 表演個看家本領！=Show off your skills!
+給大家表演個技能！=Show off your skills!
 r:"^事件<sprite\=(\d+)>收益臨時提升$"="Temporary increase Event <sprite\=$1>"
 r:"^事件<sprite\=(\d+)>收益永久提升$"="Permanently increase Event <sprite\=$1>"
+r:"^<sprite\=(\d+)>收益:事件提升,戰鬥降低$"="<sprite\=$1>Increase Event\nDecrease Battle"
+r:"^<sprite\=(\d+)>收益:戰鬥提升,事件降低$"="<sprite\=$1>Increase Battle\nDecrease Event"
 r:"^從事件格獲取的貨幣<color\=#FEA700>\+(\d+%)</color>，從戰鬥格獲取的貨幣<color\=#900500>-(\d+%)</color>，永久生效。$"="Event Tiles Funds Gain <color\=#FEA700>+$1</color>, Combat Tiles Funds Gain <color\=#900500>-$2</color>, permanent."
+r:"^從戰鬥格獲取的貨幣<color\=#FEA700>\+(\d+%)</color>，從事件格獲取的貨幣<color\=#900500>-(\d+%)</color>，可生效(\d+)次。$"="Combat Tiles Funds Gain <color\=#FEA700>+$1</color>, Event Tiles Funds Gain <color\=#900500>-$2</color>, effective $3 times."
 事件成功率提升的增益=Event Success Rate Buff
 前去修理=Go fix it
 就交給{{A}}了=Leave it to {{A}}
@@ -5964,13 +6006,18 @@ r:"^事件格進行判定時，有更高的機率判定出“大成功”，可�
 r:"^當前操作角色的技能使用次數增加(\d+)次。$"="Add $1 skill usage."
 認真參與=Participate seriously
 隨便玩玩=Play for fun
-小小的很可愛=Tiny is cute
+小小的很可愛=Small is cute
+小小的也很可愛=Small is cute
 大就是最棒的=Bigger is better
 r:"^從戰鬥格獲取的貨幣<color\=#FEA700>\+(\d+%)</color>，從事件格獲取的貨幣<color\=#900500>-(\d+%)</color>，永久生效。$"="Combat Tiles Funds Gain <color\=#FEA700>+$1</color>, Event Tiles Funds Gain <color\=#900500>-$2</color>, permanent."
+r:"^<sprite\=(\d+)>收益:玩法提升,事件降低$"="<sprite\=$1>Increase Minigame\nDecrease Event"
+r:"^<sprite\=(\d+)>收益:事件提升,玩法降低$"="<sprite\=$1>Increase Event\nDecrease Minigame"
 安慰它=Comfort it
 趕走它=Drive it away
 穩定的大企業=Stable large enterprise
 初創的小企業=Startup small business
+選擇穩定的大企業=Choose the stable large enterprise
+選擇初創的小企業=Choose the startup small business
 撿到就是我的！=Finders keepers!
 交還失物=Return the lost property
 滿意收下=Happily accept it
@@ -5980,13 +6027,112 @@ r:"^戰鬥<sprite\=(\d+)>收益永久提升$"="Permanently increase Combat <spri
 {{A}}的禮物={{A}}'s gift
 主辦方的禮物=Organizer's gift
 做浮誇的動作=Make exaggerated moves
+做吸引眼球的行為=Do something eye-catching
 不搭理{{A}}=Ignore {{A}}
 r:"^接下來(\d+)次使用未知之數時，(\d+%)機率不會消耗物品數量。$"="The next $1 times you use Unknown Number, there is a $2 chance to not spend it."
 r:"^接下來(\d+)次使用預言之數時，(\d+%)機率不會消耗物品數量。$"="The next $1 times you use Prophecy Number, there is a $2 chance to not spend it,"
 r:"^接下來(\d+)次使用談判卡時，(\d+%)機率不會消耗物品數量。$"="The next $1 times you use Negotiation Card, there is a $2 chance to not spend it."
 r:"^接下來(\d+)次使用任意道具或消耗資金時，(\d+%)機率不會消耗物品數量。$"="The next $1 times you use any items or spend Funds, there is a $2 chance to not spend it."
-
+r:"^接下來(\d+)次消耗體力點時，(\d+%)機率不會消耗物品數量。$"="The next $1 times you use Stamina Points, there is a $2 chance to not spend it."
 {{A}}點數={{A}} Points
+
+手持風扇=Handheld Fan
+頸掛式空調=Neck Air Conditioner
+r:"^<sprite\=(\d+)>收益:玩法提升,戰鬥降低$"="Increase Minigame\nDecrease Battle"
+r:"^<sprite\=(\d+)>收益:戰鬥提升,玩法降低$"="Increase Battle\nDecrease Minigame"
+r:"^從戰鬥格獲取的貨幣<color\=#FEA700>\+(\d+%)</color>，從玩法格獲取的貨幣<color\=#900500>-(\d+%)</color>，可生效(\d+)次。$"="Combat Tiles Funds Gain <color\=#FEA700>+$1</color>, Minigame Tiles Funds Gain <color\=#900500>-$2</color>, effective $3 times."
+看看怎麼個事=Let's see what's going on
+靠近不了一點=I can't get any closer
+去合掌參拜=Go and pay respects 
+在附近休息=Rest nearby
+相信直覺直接動手=Trust your intuition
+絞盡腦汁到最後一刻=Rack your brain
+r:"^玩法<sprite\=(\d+)>收益提升$"="Increase Minigame <sprite\=$1>"
+商店商品打折=Shop items on sale
+r:"^從玩法格獲取的貨幣<color\=#FEA700>\+(\d+%)</color>，可生效(\d+)次。$"="Minigame Tiles Funds Gain <color\=#FEA700>+$1</color>, effective $2 times."
+
+已拆開獎勵=Opened Rewards
+隨時可以帶著已拆到的獎勵離開\n拆到炸彈只能帶走一半獎勵=You can leave with the rewards you've opened at any time. If you get a bomb, you can only take half the rewards.
+
+答對：=Correct:
+答錯：=Incorrect:
+{{A}}的屬性是什麼？=What is {{A}}'s attribute?
+在{{B}}「{{A}}」可以吃到什麼？=What can you eat at {{B}} "{{A}}"?
+海鮮刨冰=Seafood Shaved Ice
+餡蜜義大利麵=Spiced Honey Pasta
+特辣壽喜燒=Spicy Sukiyaki
+{{A}}的中華料理店叫什麼？=What is the name of the Chinese restaurant at {{A}}?
+長仙軒=Immortal Kitchen
+招待軒=Guest Kitchen
+{{A}}的健身房前站著的人是誰？=Who is the person that stands in front of the {{A}} gym?
+要提升靈巧，可以怎麼做？=What can I do to improve my Proficiency?
+去爵士俱樂部=Go to the Jazz Club
+去遊戲中心=Go to the Arcade
+去卡拉OK=Go to the Karaoke
+以下適合在海邊進行的娛樂活動是？=Which of the following recreational activities is suitable for the beach?
+賽車=Racing
+跳傘=Skydiving
+刨冰製作=Making Shaved Ice
+撲克=Poker
+{{A}}彈奏的樂器是什麼？=What instrument does {{A}} play?
+貝斯=Bass
+鋼琴=Piano
+吉他=Guitar
+小提琴=Violin
+{{A}}地下商場的花店叫什麼？=What is the name of the follow shop in the {{A}} underground mall?
+花店Shibuya=Shibuya Flower Shop
+花之Shibuya=Flowers of Shibuya
+花屋助兵衛=Hanaya Sukebe
+阿斯蒙蒂斯=Asmodeus
+前往{{A}}所使用的手機APP叫什麼？=What is the name of the app used to enter the {{A}}?
+{{A}}APP={{A}} APP
+掌中{{A}}=Mobile {{A}}
+{{A}}地圖={{A}} Map
+穿泳裝的{{A}}身上沒有什麼東西？=What is {{A}} not wearing in his swimsuit?
+遮陽帽=Visor
+髮夾=Hair Clip
+游泳圈=Floatie
+護目鏡=Goggles
+{{A}}的「常服」沒有以下哪個元素？=Which is {{A}} not wearing in her casual outfit?
+耳機=Headphones
+帽子=Hat
+項圈=Collar
+花飾=Floral Ornament
+在{{A}}給寶箱開鎖的道具叫什麼？=What is the name of the item used to unlock {{A}} Treasure Chests?
+備用鑰匙=Spare Key
+萬能鑰匙=Master Key
+啞鈴=Dumbbell
+{{A}}戴的項鍊是什麼設計？=What is the design of {{A}}'s necklace {{A}}?
+十字架=Cross
+可麗餅=Crepes
+在海邊租賃店租不到的東西是什麼？=What is something you cannot rent at the beach rental shop?
+滑雪板=Snowboard
+
+恭喜你回答正確，正確答案是{{A}}=Congratulations!\nThe answer is {{A}}.
+恭喜你回答正確，正確答案是冰凍=Congratulations!\nThe answer is Ice.
+恭喜你回答正確，正確答案是炒麵=Congratulations!\nThe answer is Yakisoba.
+恭喜你回答正確，正確答案是去遊戲中心=Congratulations! The answer is go to the arcade.
+恭喜你回答正確，正確答案是刨冰製作=Congratulations! The answer is making shaved ice.
+恭喜你回答正確，正確答案是吉他=Congratulations! The answer is guitar.
+恭喜你回答正確，正確答案是花店Shibuya=Congratulations! The answer is Shibuya Flower Shop.
+恭喜你回答正確，正確答案是髮夾=Congratulations!\nThe answer is hair clip.
+恭喜你回答正確，正確答案是花飾=Congratulations!\nThe answer is floral ornament.
+恭喜你回答正確，正確答案是開鎖工具=Congratulations!\nThe answer is lockpick.
+恭喜你回答正確，正確答案是拉麵=Congratulations!\nThe answer is ramen.
+恭喜你回答正確，正確答案是滑雪板=Congratulations!\nThe answer is snowboard.
+
+r:"^體力點\*(\d+)$"="Stamina Points * $1"
+應援棒=Light Stick
+r:"^使用後，事件格貨幣收益永久提升(\d+%)，戰鬥格貨幣收益永久降低(\d+%)$"="After use, permanently increase Event Funds Gain by $1, permanently decrease Combat Funds Gain by $2"
+r:"^使用後，建築格貨幣收益永久提升(\d+%)，事件格貨幣收益永久降低(\d+%)$"="After use, permanently increase Building Funds Gain by $1, permanently decrease Event Funds Gain by $2"
+慾望磁鐵=Desire Magnet
+r:"^使用後，建築格貨幣收益永久提升(\d+%)，戰鬥格貨幣收益永久降低(\d+%)$"="After use, permanently increase Building Funds Gain by $1, permanently decrease Combat Funds Gain by $2"
+漁場餌料=Fish Bait
+r:"^使用後，玩法格貨幣收益永久提升(\d+%)，事件格貨幣收益永久降低(\d+%)$"="After use, permanently increase Minigame Funds Gain by $1, permanently decrease Event Funds Gain by $2"
+珍貴海螺=Precious Conch
+r:"^使用後，玩法格貨幣收益永久提升(\d+%)，戰鬥格貨幣收益永久降低(\d+%)$"="After use, permanently increase Minigame Funds Gain by $1, permanently decrease Combat Funds Gain by $2"
+許可憑證=License Certificate
+r:"^使用後，戰鬥格貨幣收益永久提升(\d+%)，事件格貨幣收益永久降低(\d+%)$"="After use, permanently increase Combat Funds Gain by $1, permanently decrease Event Funds Gain by $2"
 
 ----------
 TASKS UI
@@ -6165,8 +6311,8 @@ r:"^天<color\=#ff0000ff>鵝</color>絨房間$"="Ve<color\=#ff0000ff>lv</color>e
 rank等級：=Rank:
 面具屬性要求=Mask Element Requirement
 面具職業要求=Mask Role Requirement
-面具階級要求 <color\=#ffffff>V級以上</color>=Mask Element Requirement <color\=#ffffff>Rank V and above</color>
-面具階級要求 <color\=#ffffff>VII級以上</color>=Mask Element Requirement <color\=#ffffff>Rank VII and above</color>
+面具階級要求 <color\=#ffffff>V級以上</color>=Mask Element Requirement <color\=#ffffff>Rank V+</color>
+面具階級要求 <color\=#ffffff>VII級以上</color>=Mask Element Requirement <color\=#ffffff>Rank VII+</color>
 便捷合體=<size\=38>Quick Fuse</size>
 sr:"^省略中途合體步驟獲得<color\=#FFF000>(.*)</color>所需的全部印記如下：$"="Skip fusion steps and obtain <color\=#FFF000>$1</color>:"
 r:"^是否快速從兌換商店，自動兌換全部【缺少印記材料】？\n將消耗<size\=60><sprite\=33></size>x(\d+)。$"="Automatically redeem all missing [Persona Seal]? \nThis will cost <size\=60><sprite\=33></size>x$1."
@@ -6262,18 +6408,18 @@ sr:"^攻擊造成(.*)屬性傷害。$"="Attacks deal $1 damage."
 冰凍坦克=<size\=19>Ice Tank</size>
 冰凍增益=<size\=18>Ice Buffer</size>
 冰凍減益=<size\=15>Ice Debuffer</size>
-疾風單攻=<size\=16>Wind ST DPS</size>
-疾風群攻=<size\=15>Wind AoE DPS</size>
-疾風治療=<size\=18>Wind Healer</size>
-疾風坦克=<size\=19>Wind Tank</size>
-疾風增益=<size\=18>Wind Buffer</size>
-疾風減益=<size\=15>Wind Debuffer</size>
 電擊單攻=<size\=16>Elec ST DPS</size>
 電擊群攻=<size\=15>Elec AoE DPS</size>
 電擊治療=<size\=18>Elec Healer</size>
 電擊坦克=<size\=19>Elec Tank</size>
 電擊增益=<size\=18>Elec Buffer</size>
 電擊減益=<size\=15>Elec Debuffer</size>
+疾風單攻=<size\=16>Wind ST DPS</size>
+疾風群攻=<size\=15>Wind AoE DPS</size>
+疾風治療=<size\=18>Wind Healer</size>
+疾風坦克=<size\=19>Wind Tank</size>
+疾風增益=<size\=18>Wind Buffer</size>
+疾風減益=<size\=15>Wind Debuffer</size>
 念動單攻=<size\=16>Psy ST DPS</size>
 念動群攻=<size\=15>Psy AoE DPS</size>
 念動治療=<size\=18>Psy Healer</size>
@@ -6333,6 +6479,7 @@ r:"^不羈紋章·虹\*(\d+)$"="<size\=18>Wild Card Emblem·Rainbow*$1</size>"
 r:"^在{{A}}育成中習得被動技能『(.*)』的技能卡。$"="Can be used to learn this passive skill."
 r:"^在{{A}}育成中習得輔助系技能『(.*)』的技能卡。$"="Can be used to learn this support skill."
 r:"^在{{A}}育成中習得異常系技能『(.*)』的技能卡。$"="Can be used to learn this debuff skill."
+r:"^在{{A}}育成中習得萬系技能『(.*)』的技能卡。$"="Can be used to learn this Almighty skill."
 <color\=#FFF000>面具階級</color>不符合技能卡要求。=<color\=#FFF000>Mask Rank</color> does not meet skill card requirement.
 
 r:"^與「<color\=#FFC000>{{A}}</color>」好感度提升至<color\=#FFC000>rank(\d+)</color>後，\n解鎖{{B}}的合成。$"="<size\=24><color\=#FFC000>{{A}}</color>'s Synergy <color\=#FFC000>Rank $1</color>: You can now fuse {{B}}.</size>"
@@ -6362,6 +6509,7 @@ sr:"^(.*)印記$"="$1's Seal"
 殘暴的{{A}}=Furious {{A}}
 特殊的{{A}}=Special {{A}}
 被操控的{{A}}=Manipulated {{A}}
+被操控的{{A}}、被操控的{{A}}、被操控的{{A}}=Manipulated {{A}}, Manipulated {{A}}, Manipulated {{A}}
 躁動的{{A}}=Agitated {{A}}
 乖戾的{{A}}=Sullen {{A}}
 生氣的{{A}}=Angry {{A}}
