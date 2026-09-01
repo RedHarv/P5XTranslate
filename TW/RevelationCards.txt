@@ -495,7 +495,7 @@ r:"^生命值、攻擊力、防禦力提升(\d+%)$"="Increase HP, ATK, DEF by $1
 r:"^當前生命值百分比不低於(\d+%)時，祝福屬性的暴擊率提升(\d+%)$"="When current HP% is not below $1, \nincrease Bless skill Crit Rate by $2"
 怨恨=Resentment
 r:"^『怨恨』不少於(\d+)層，則物理傷害、效果命中提升(\d+%)$"="Increase Phys DMG and Ailment ACC by $2 when [Resentment] is not less than $1 stacks"
-r:"^造成念動傷害時，提升攻擊(\d+%)，如果敵方人數不少於3，則攻擊力額外提升(\d+%)$"="<size\=26>Increase ATK by $1 when dealing Psy damage,\nincrease ATK by $2 if there are 3 ≥ foes</size>"
+r:"^造成念動傷害時，提升攻擊(\d+%)，如果敵方人數不少於3，則攻擊力額外提升(\d+%)$"="<size\=25>When dealing Psy damage, increase ATK by $1.\nIf 3+ foes are present, increase ATK by $2 more</size>"
 上次{{A}}技能傷害屬性：物理=Last {{A}} skill damage: Phys
 上次{{A}}技能傷害屬性：槍械=Last {{A}} skill damage: Gun
 上次{{A}}技能傷害屬性：火焰=Last {{A}} skill damage: Fire
@@ -512,6 +512,7 @@ r:"^造成念動傷害時，提升攻擊(\d+%)，如果敵方人數不少於3，
 r:"^造成的追加傷害提升(\d+(.\d+)?(%)?)$"="Increase Follow Up DMG Dealt by $1"
 
 r:"^繁<color\=#000000>榮</color>$"="W<color\=#000000>e</color>alth"
+r:"^決<color\=#000000>絕</color>$"="C<color\=#000000>r</color>uelty"
 
 sr:"^覺知&(.*)$"="Awareness & $1"
 sr:"^啟程&(.*)$"="Departure & $1"
