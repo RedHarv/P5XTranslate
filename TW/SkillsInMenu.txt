@@ -588,7 +588,7 @@ Claw Assault
 r:"^對1名敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的物理屬性傷害。若敵人生命值低於(\d+%)，則該傷害額外提升(\d+%)。$"="Deal <color\=#fffc40>$1</color> ATK Phys damage to 1 foe. If the target is below $2 HP, additionally increase damage by $3."
 
 //Mind Slice because it has a comma at the end instead of a period???
-sr:"對所有敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的(.*)屬性傷害，有<color\=#fffc40>(\d+\.\d+%)</color>基礎機率使敵人陷入(.*)狀態，效果持續2回合，"=Deal <color\=#FFFF00>$1</color> ATK $2 damage to all foes and has a <color\=#FFFF00>$3</color> chance of inflicting $4 for 2 turns.
+sr:"^對所有敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的(.*)屬性傷害，有<color\=#fffc40>(\d+\.\d+%)</color>基礎機率使敵人陷入(.*)狀態，效果持續(\d+)回合，$"="Deal $2 damage to all foes equal to <color\=#FFFF00>$1</color> of ATK, there is a <color\=#FFFF00>$3</color> base chance to inflict $4 for $5 turns."
 
 Painful Judgement
 r:"^對1名敵人造成(\d+)段<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的物理屬性傷害，使敵人附加「噩夢」效果並且附帶<color\=#fffc40>(\d+\.\d+%)</color>基礎機率<link\="s\|157"><u>恐懼</u></link>效果。$"="Deal <color\=#fffc40>$2</color> ATK Phys damage to 1 foe $1 times, inflict the foe with [Nightmare] and there is a <color\=#fffc40>$3</color> base chance to inflict <link\="s|157"><u>Fear</u></link>."
@@ -777,10 +777,10 @@ r:"^使所有敵人受到的詛咒屬性傷害提升<color\=#fffc40>(\d+\.\d+%)<
 --- Almighty ---
 
 // AoE Almighty
-r:"對所有敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的萬能屬性傷害，無視其防禦力。"=Deal <color\=#fffc40>$1</color> ATK Almighty damage to <color\=#fffc40>all</color> foes, ignoring their DEF.
+r:"^對所有敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的萬能屬性傷害，無視其防禦力。$"="Deal Almighty damage to all foes equal to <color\=#fffc40>$1</color> of ATK, ignoring their DEF."
 
 //ST Almighty
-r:"對1名敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的萬能屬性傷害，無視其防禦力。"=Deal <color\=#fffc40>$1</color> ATK Almighty damage to <color\=#fffc40>1</color> foe, ignoring their DEF.
+r:"^對1名敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的萬能屬性傷害，無視其防禦力。$"="Deal Almighty damage to 1 foe equal to <color\=#fffc40>$1</color> of ATK, ignoring their DEF."
 
 //Spirit Drain
 r:"吸收1名敵人<color\=#fffc40>(.*)</color>點精力值。"=Drain <color\=#fffc40>$1</color> SP from 1 foe.
