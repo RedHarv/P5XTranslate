@@ -1234,8 +1234,8 @@ sr:"^這樣啊，(.*)也會在家做飯嗎。\n很大的廚房……讓人有點
 sr:"^啊，如果(.*)也想吃就跟我說吧，\n不過前提是……你不介意是員工餐的水準。$"="Oh, $1, just say the word and I'll save you a plate too. So long as you don't mind a barebones meal..."
 
 {{A}}剛才是不是對你說了什麼？=Didn't {{A}} say something to you earlier?
-……讓你給他買壽司？\n抱歉，我會好好跟他說說的……=...He asked for sushi? Sorry about that, I'll talk to him...
-不過話說回來，他到底是有多想吃壽司啊……\n我記得前不久剛給他買了帶回去過。=How much more can he want...? I feel like I just got some the other day.
+……讓你給他買壽司？\n抱歉，我會好好跟他說說的……=...He asked for sushi? \nSorry about that, I'll talk to him...
+不過話說回來，他到底是有多想吃壽司啊……\n我記得前不久剛給他買了帶回去過。=How much more can he want...? \nI feel like I just got some the other day.
 
 Leblanc Morgana
 對了，放在那裡的書。\n不嫌棄的話，你也可以看看。=Oh, right. You should give that book right there a read some time.
@@ -1329,6 +1329,14 @@ sr:"^下次就在這裡自習吧。\n(.*)同學可以陪我一起嗎？$"="Maybe
 我倒是沒想過，原來他是這麼講究的人嗎……\n不過，這工作適合他就行，這樣也挺好的。=Maybe he's more committed to it than I first\nthought. Of course, all the better if he's developing a talent.
 
 Leblanc Futaba
+你不覺得光是喝咖啡\n有點那個嗎？=Don't you think having just a coffee seems a bit weird?
+我心中的天使和惡魔在向我低語，\n最好有意義地利用時間……！=The angel and devil inside me are fighting about if I should be more productive in my free time...!
+試著做下料理？=How about cooking?
+試著做下打掃？=How about cleaning?
+sr:"^唔，那就要向(.*)和蓮學習嗎……\n咖哩的配料，我應該能切吧？$"="Hmm, I could learn from you and Ren... \nI wonder if I can cut the curry ingredients?"
+打掃嗎……我不太擅長這種事啊……\n不過，就是拖一下地板的話……？=Cleaning... I'm not very good at it... \nMaybe I could mop the hallway at least...?
+嘻嘻嘻，謝謝你給出的意見！\n我之後會跟蓮商量看看的！=Thanks for your input... I'll talk about it with Ren later! Mweheheh...
+
 sr:"^咕啊啊啊啊——！\n你聽我說啊，(.*)～！$"="Gaaah! \nWill you hear me out, $1?"
 我放在房間裡的模型，\n又被御狐擺出了奇怪的姿勢。=Inari messed with all the figures in my room again and now they're in all sorts of strange poses!
 但可惡的是，充滿了藝術感啊……！\n我正在苦惱要不要維持那個姿勢一段時間……=I hate that artsy feel they all have now..! What should I do? Should I just leave them like that...?
@@ -1598,6 +1606,13 @@ sr:"^啊，是小(.*)！\n還好你今天來了呢！$"="Hey, $1-kun! \nI'm so g
 是與記憶中一樣的巨大份量……=It's just as enormous as ever...!
 全部吃光了，\n與吾期待中的一模一樣。=Hoo hoo! Good show! \nI'd expect no less of you.
 
+上次看的那個關於修養的節目……=Come to think of it, I saw something on TV the other day...
+上次看的寺廟恐怖電影好像有類似的情節……=Come to think of it, that horror movie had a place just like this...
+上次看的都市靈異系列還挺有趣的……=That DVD I just watched of "Ghost Misadventures" really had me spooked...
+家裡的花需要補充營養劑了……=The flowers didn't look too good when I left the house...
+
+不知不覺演練了各種帥氣的拋硬幣姿勢。=It needs some work, but it's bound to catch people's eye...
+突然想要去吃一碗特辣口味的拉麵……=I suddenly have a craving for super spicy ramen...
 在腦海中對充滿溫情的樂曲進行了演奏。=A strong urge to help them grow healthy and strong is welling up inside me...
 
 ----------
@@ -2636,12 +2651,13 @@ Choice 2
 
 ……早安。=...Good morning.
 早安……=Good morning...
-
 唔，早安，看來睡得不錯。\n抱歉一大早打擾，但吾有事要報告。=Hoom, greetings. You're quite congenial for the morning. Sorry to pester you first thing, but I have something to report.
 午餉……？=My what...?
 你之前有說過工作什麼的……=<size\=25>What's the deal with this job?</size>
 
-……還挺能幹嘛。=...You're quite capable.
+怎麼啦？=What's wrong?
+
+……還挺能幹嘛。=...Not bad.
 
 那、今早的事情也是他幹的？=So, he was behind what happened this morning?
 
@@ -22425,13 +22441,13 @@ sr:"^(.*)。\n可以耽誤你一下嗎？$"="$1.\nCan I have a moment?"
 什……什……什麼！？=Wh-What...!?
 這……這是什麼情況……？=Wh-What's happening...?
 我什麼都沒聽到啊～！？=I never heard anything about this～!?
-向{{A}}詳細解釋了，\n來海之家幫忙的緣由……=I explained in detail to {{A}} why I'm helping out at Beach House...
+向{{A}}詳細解釋了，\n來{{B}}幫忙的緣由……=I explained in detail to {{A}} why I'm helping out at {{B}}...
 多虧了大家=Thanks to everyone
 我以為你工作忙=<size\=30>I thought you were busy</size>
 下次我會說的=I'll tell you next time
 啊，真的嗎！？=Ah, really!?
 啊，來了！=Ah, coming!
-{{A}}決定來海之家幫忙了……={{A}} has decided to help out at Beach House...
+{{A}}決定來{{B}}幫忙了……={{A}} has decided to help out at {{B}}...
 嗯……但是……=Hmm... but...
 啊？是嗎？=Oh? Really?
 {{A}}，是嗎？={{A}}, really?
@@ -22526,6 +22542,8 @@ sr:"^沒錯。謝謝你，(.*)同學。$"="That's right. Thank you, $1-kun."
 你再說一遍……=Say that again...
 你剛剛說什麼……？=<size\=28>What did you just say...?</size>
 哥哥，這裡就交給{{A}}吧！=Onii-sama, leave this to {{A}}!
+
+我也很開心=I had a lot of fun too
 
 ----------
 2025 Sports Festival
@@ -25247,14 +25265,17 @@ Rank 7
 有什麼我能幫忙的？=How can I help?
 想想別的辦法吧=<size\=29>Let's think of another way</size>
 想想怎麼緩解緊張……=<size\=25>Think about calming your nerves...</size>
-好呀～！=Okay～!
+好呀～！=Booyah～!
 嗚呼～～！=Ready, set, go～～!
-沒問題哦～～！=No problem～～!
+沒問題哦～～！=Here... we... GO!
+好耶——！=Booyah～～!
+嗚呼——！=Ready, set, go～～!
+沒問題哦——！=Here... we... GO!
 嗚……嗚呼～！=R-Ready, set, go!?
 {{A}}看起來從沒這麼開心過，\n剛才那首歌讓她有了自信。=<size\=28>{{A}} never looked so happy, that song just gave her confidence.</size>
 肯定能行=Definitely
 我很期待=<size\=30>I'm looking forward to it</size>
-之後，２人熱烈地討論了音樂……=Afterward, we passionately discussed music...
+之後，２人熱烈地討論了音樂……=Afterwards, we had a heated discussion about music for a while...
 
 Rank 9
 好耶～～！=Yeah～～!
@@ -26746,6 +26767,8 @@ SNS
 羈絆不能用時間衡量=Bonds can't be measured by time
 你也是我珍貴的朋友=You are my precious friend too
 你是特別的存在=You are special
+頭緒指的是？=Idea meaning?
+她很喜歡你呢=She really likes you
 
 ----------
 Mio SL
@@ -29136,69 +29159,69 @@ Rank 1
 sr:"^(.*)，高二$"="<size\=30>$1, second year</size>"
 sr:"^(.*)高二的(.*)$"="<size\=19>$1 Second Year, $2</size>"
 sr:"^(.*)殿下啊……\n(.*)，(.*)要稍微年長一點呢。$"="$1-sama... \n$2, $3's a little older than you."
-sr:"^那個，剛才(.*)殿下，\n為(.*)做的事……真的超厲害啾！$"="Um, what $1-sama did for $2 earlier... was seriously amazing, chu～!"
+sr:"^那個，剛才(.*)殿下，\n為(.*)做的事……真的超厲害啾！$"="Um, what $1-sama did for $2 earlier... was seriously amazing, kyun～!"
 {{A}}有一部特別喜歡的動畫，\n裡面的女主角和{{B}}初遇的情節……=There's an anime {{A}} loves, the scene where the heroine meets the {{B}}...
 sr:"^和剛才(.*)與(.*)殿下的，\n完全一致！這就是命運呀！$"="It was just like $1 and $2-sama's meeting! This is destiny!"
 命運……？=Destiny...?
 什麼情節……？=What scene...?
-啾……？=Chu...?
-那個{{B}}讓出炸肉餅的情節，\n{{A}}做夢都想體驗一遍啾！=That scene where the {{B}} gives up his menchi, {{A}}'s always dreamed of experiencing it, chu～!
+啾……？=Kyun...?
+那個{{B}}讓出炸肉餅的情節，\n{{A}}做夢都想體驗一遍啾！=That scene where the {{B}} gives up his menchi, {{A}}'s always dreamed of experiencing it kyun～!
 sr:"^所以，(.*)殿下……\n是(.*)命中註定的王子！$"="So, $1-sama... is $2's destined Prince!"
-這緣分……絕不會讓它溜走啾！=This bond... I won't let it slip away, chu～!
+這緣分……絕不會讓它溜走啾！=This bond... I won't let it slip away kyun～!
 呐呐，交換一下聯絡方式吧！\n可以嗎？=Hey hey, let's exchange contact info! Okay?
 這麼快就發訊息來了……=There's a message already...
 那個，{{A}}雖然是高中生，\n但同時也是個聲優呢。=Um, {{A}} may be a high school student, \nbut she's also a voice actress!
-點開我剛才發給你的連結，\n就能聽到{{A}}的語音合集啾！=Click the link {{A}} just sent you, and you can listen to her voice collection, chu～!
+點開我剛才發給你的連結，\n就能聽到{{A}}的語音合集啾！=Click the link {{A}} just sent you, and you can listen to her voice collection kyun～!
 這樣就能隨時聽到{{A}}的聲音了。\n一定要多聽，被{{A}}可愛的聲音治癒哦！=That way, you can hear {{A}}'s voice anytime. Listen a lot and let {{A}}'s cute voice heal you!
 能如此積極地表達慾望的人，\n可不多見……=Someone who expresses their desires so openly is rare...
 為了探究這份慾望的來源，\n今後積極地和{{A}}共處吧……=To explore the source of this desire, I'll spend more time with {{A}}...
-從今往後，\n要作為{{B}}好好地守護{{A}}哦！=From now on, \nprotect {{A}} properly as her {{B}}, chu～!
+從今往後，\n要作為{{B}}好好地守護{{A}}哦！=From now on, \nprotect {{A}} properly as her {{B}} kyun～!
 聽{{A}}講著命中註定的邂逅，\n直到她滿足後才返程……=I listened to {{A}} talk about our destined encounter, until she was satisfied...
 
 Rank 3
 哈啊……今天的{{A}}也好沒用……\n毫無生存價值……{{A}}渣狀態持續中……=Sigh... Today {{A}} was useless again... \nNot worth living... Still in "Trashigo" mode...
-這樣啊……真可惜啾……=I see... Too bad, chu...
+這樣啊……真可惜啾……=I see... Too bad kyun...
 你願意和{{A}}聊天嗎？\n果然是{{A}}的{{B}}……！=You'll chat with {{A}}? \nAs expected from {{A}}'s {{B}}...!
 sr:"^那個，(.*)殿下！\n(.*)今天去做了聲優哦～$"="Um, $1-sama! \n$2 did voice acting today～!"
 聲優是要做什麼？=<size\=26>What does a voice actor do?</size>
 具體工作內容是？=<size\=26>What's the actual work like?</size>
 sr:"^(.*)殿下對聲優感興趣嗎！？\n(.*)來給你好好科普一下！$"="$1-sama is interested in voice acting!? \n$2 will explain properly!"
 聲優呀，就是在動畫或遊戲裡，\n給角色配音的工作！=Voice acting is when you give characters their voices in anime or games!
-要僅靠聲音來表現角色的性格和情緒，\n超級難的啾！=You have to express their personality and emotions just through your voice, it's super hard, chu～!
+要僅靠聲音來表現角色的性格和情緒，\n超級難的啾！=You have to express their personality and emotions just through your voice, it's super hard kyun～!
 其他的嘛，還有電影的配音和旁白，\n總之要做很多聲音相關的工作。=There's also dubbing for movies and narration, so it's all kinds of voice-related work!
 {{A}}會用世界第一可愛的聲音，\n為作品注入滿滿的可愛能量！={{A}} will use the cutest voice in the world to fill the role with cute energy!
-不過今天的試音，{{A}}落選了。\n所以其實很沮喪的啾……=But today's audition... {{A}} failed. \nSo she's actually really down, chu...
+不過今天的試音，{{A}}落選了。\n所以其實很沮喪的啾……=But today's audition... {{A}} failed. \nSo she's actually really down kyun...
 但因為{{B}}來了，\n{{A}}一下子就元氣滿滿了！=But now that the {{B}} is here, \n{{A}}'s energy is back to max!
 好有專業風範=So professional
 是、是嗎？\n可我落選了呢，好丟臉……=R-Really? But I failed... it's so embarrassing...
 不過聽到{{B}}這麼說，\n{{A}}就變得更～有精神了啾！=Still, hearing the {{B}} say that makes {{A}} feel way～ more energetic!
-sr:"^果然(.*)殿下是(.*)的王子呀。\n隨時都可以讓(.*)變得超開心的啾！$"="As expected, $1-sama is $2's Prince. \nYou always make $3 super happy, chu～!"
-啾？=Chu?
+sr:"^果然(.*)殿下是(.*)的王子呀。\n隨時都可以讓(.*)變得超開心的啾！$"="As expected, $1-sama is $2's Prince. \nYou always make $3 super happy kyun～!"
+啾？=Kyun?
 那個句尾是……=That ending...?
 這個呀，\n是能讓大家心動的魔法咒語哦！=This? It's a magical spell to make everyone's heart flutter!
-{{B}}也對{{A}}的「啾」動心了嗎？=Did the {{B}}'s heart skip because of {{A}}'s "chu～"?
+{{B}}也對{{A}}的「啾」動心了嗎？=Did the {{B}}'s heart skip because of {{A}}'s "kyun～"?
 動心了=I'm moved
 並沒有=Not really
-啾啾！=Chu chu!
+啾啾！=Kyun kyun!
 Choice 1
-真的嗎？\n那{{B}}也對{{A}}神魂顛倒了啾啾！=Really? Then the {{B}} is totally smitten with {{A}}, chu chu～!
+真的嗎？\n那{{B}}也對{{A}}神魂顛倒了啾啾！=Really? Then the {{B}} is totally smitten with {{A}} kyun kyun～!
 Choice 2
 {{B}}難道是個傲嬌？\n反而讓{{A}}更心動了啦～！=Is the {{B}} a tsundere? That just makes {{A}}'s heart race even more～!
 Choice 3
 呀啊，超有效果！{{C}}和{{A}}，\n果然是天生一對的{{B}}呀！=Kya, super effective! The {{C}} and {{A}} must be destined soulmates!
 sr:"^和(.*)殿下第一次見面時，\n(.*)分享了最喜歡的動畫對吧？$"="When $2 first met $1-sama, \nshe talked about her favorite anime, right?"
 那部作品叫：\n「不可思議王國魔法桃桃」……=That show is called... \n"The Magical Peach of Wonderland"...
-{{A}}的句尾就是從「魔法桃桃」的{{C}}，\n「{{B}}」那裡學來的啾！={{A}}'s "chu～" comes from its heroine, {{B}}!
+{{A}}的句尾就是從「魔法桃桃」的{{C}}，\n「{{B}}」那裡學來的啾！={{A}}'s "kyun～" comes from its heroine, {{B}}!
 {{A}}從{{B}}那裡收穫了許多許多，\n閃閃發光的感動……={{A}} got so, so much sparkling inspiration from {{B}}...
-{{A}}希望也能把那些感動傳遞給其他人，\n就用「啾」當作句尾了啾！=She wants to share that feeling with others, so she made "chu～" her signature!
+{{A}}希望也能把那些感動傳遞給其他人，\n就用「啾」當作句尾了啾！=She wants to share that feeling with others, so she made "kyun～" her signature!
 從{{A}}身上感受到了，\n積極向上的強烈慾望……=I can feel {{A}}'s intense, unstoppable desire...
 看來她身上，\n確實有可以學習的地方……=There's definitely something to learn from her...
-sr:"^(.*)殿下也加上個啾試試嘛？\n和(.*)一樣啾！$"="$1-sama should try adding "chu～" too! \nJust like $2, chu～!"
-是這樣嗎啾？=Like this, chu～?
-很害羞的啾……=<size\=28>This is embarrassing, chu...</size>
-呀啊～這對{{A}}來說太刺激了！\n腦袋要燒壞了啾……啾嗚嗚嗚……=KYA～ This is too much for {{A}}! \nHer brain's overheating... Chu... uuu...
-哈～不愧是{{A}}的{{B}}……\n和{{A}}真是太合拍了啾！=Ha～ As expected from {{A}}'s {{B}}... \nWe two are just too perfect together, chu～!
-sr:"^對了。希望(.*)殿下，\n也能看一看「魔法桃桃」啾！$"="Oh! Ichigo wants $1-sama to watch \n"Magical Peach" too, chu～!"
+sr:"^(.*)殿下也加上個啾試試嘛？\n和(.*)一樣啾！$"="$1-sama should try adding "kyun～" too! \nJust like $2 kyun～!"
+是這樣嗎啾？=Like this kyun～?
+很害羞的啾……=<size\=28>This is embarrassing kyun...</size>
+呀啊～這對{{A}}來說太刺激了！\n腦袋要燒壞了啾……啾嗚嗚嗚……=KYA～ This is too much for {{A}}! \nHer brain's overheating... kyun... uuu...
+哈～不愧是{{A}}的{{B}}……\n和{{A}}真是太合拍了啾！=Ha～ As expected from {{A}}'s {{B}}... \nWe two are just too perfect together kyun～!
+sr:"^對了。希望(.*)殿下，\n也能看一看「魔法桃桃」啾！$"="Oh! Ichigo wants $1-sama to watch \n"Magical Peach" too kyun～!"
 {{A}}下次把光碟帶過來哦？\n包括全49話，和2部劇場版……=Should {{A}} bring the DVDs next time? \nAll 49 episodes, plus 2 movies...
 {{A}}下次把光碟帶過來哦！\n包括全49話，和2部劇場版……=Should {{A}} bring the DVDs next time? \nAll 49 episodes, plus 2 movies...
 {{A}}熱情地為我介紹了，\n「魔法桃桃」的魅力……={{A}} passionately explained the charm of "Magical Peach"...
@@ -29213,7 +29236,7 @@ sr:"^那個，(.*)殿下。\n願意聽(.*)傾訴嗎……？$"="Um, $1-sama... \
 真是辛苦你了=That sounds rough
 嗯……今天上完課以後，\n{{A}}去事務所拿結果……=Hm... After class today, {{A}} went to the agency for the results...
 經紀人說，\n「聲音可塑性不足的話會很危險」……=The manager said, \n"The lack of vocal range is dangerous"...
-不像平時一樣句尾有「啾」……\n看來{{A}}是真的很傷心……=No "chu～" at the end... \n{{A}} must be really sad...
+不像平時一樣句尾有「啾」……\n看來{{A}}是真的很傷心……=No "kyun～" at the end... \n{{A}} must be really sad...
 危險是什麼意思？=Dangerous?
 這樣下去很糟嗎？=Is this bad?
 現在很多人都想成為聲優嘛……\n算是供大於求吧？=Lots of people want to be voice actors now... \nSo there's way more supply than demand.
@@ -29241,13 +29264,13 @@ sr:"^……對不起，明明(.*)殿下，\n特意提出要幫助(.*)的。$"=".
 可以再等等{{A}}嗎……？\n{{A}}需要時間做心理準備。=Can you wait for {{A}}...? \n{{A}} needs time to brace herself.
 我會一直等到你下定決心=<size\=24>I'll wait until you make up your mind</size>
 我倒是無所謂……=I don't mind...
-今天沒聽到你的啾呀？=<size\=30>No "chu～" from you today?</size>
+今天沒聽到你的啾呀？=<size\=30>No "kyun～" from you today?</size>
 Choice 1
 謝謝……\n只要有王子的聲援，{{A}}就……！=Thank you... \nJust having the Prince's support means...!
 Choice 2
 嗯，{{A}}很清楚……\n已經沒什麼時間猶豫了。=Mm. {{A}} knows...\nThere's no time to hesitate.
 Choice 3
-啊！{{A}}真是的……\n有點小壞呢啾。=Ah! {{A}}, you're... \nkinda mean, chu～.
+啊！{{A}}真是的……\n有點小壞呢啾。=Ah! {{A}}, you're... \nkinda mean kyun～.
 {{A}}會努力練習……\n除可愛以外的聲線……={{A}} will try practicing... \nother voices besides cute ones...
 可是那樣的話，{{A}}就不再是{{A}}了呀……=But then... {{A}} won't be {{A}} anymore...
 目送{{A}}搖搖晃晃地離開……=I watched {{A}} stumble away unsteadily...
@@ -29257,16 +29280,16 @@ Rank 7
 果然是命運啊……\n我命中註定的{{A}}……♪=So it really is destiny... \nMy destined {{A}}...♪
 那個那個，\n之前不是說要拓展聲線嗎？=Hey hey, remember how we talked about expanding my vocal range?
 雖然不知道能不能做好，\n但{{A}}還是想從現在就開始練習一下。=I'm not sure if I can do it well, \nbut {{A}} wants to start practicing now!
-如果{{B}}願意陪著{{A}}，\n{{A}}就一定會很有幹勁的啾！=If the {{B}} stays with {{A}}, \nshe'll be super motivated, chu～!
+如果{{B}}願意陪著{{A}}，\n{{A}}就一定會很有幹勁的啾！=If the {{B}} stays with {{A}}, \nshe'll be super motivated kyun～!
 我能行嗎=Can I?
 我不太會表演……=<size\=30>I'm not good at acting...</size>
 沒事啦。只要有人在旁邊聽著，\n那種緊張感就完全不一樣了！=It's fine! Just having someone listen makes the nervousness totally different!
 那麼，要找一個適合練習的地方……\n要不去卡拉OK？=So, we need a place to practice... \nHow about the karaoke?
 鏘鏘～\n{{A}}把最喜歡的魔法桃桃劇本帶過來了！=Ta-da～! {{A}} brought her favorite Magical Peach script!
 {{A}}平時都只念{{B}}那些可愛的臺詞，\n但今天畢竟是練習嘛……=Normally, {{A}} only does {{B}}'s cute lines, but since this is practice...
-……就試試這個角色吧。\n邪惡帝國咕咕的女幹部，「{{A}}」！=...Let's try this character. The evil empire's executive, "{{A}}"!
+……就試試這個角色吧。\n邪惡帝國咕咕的女幹部，「飢餓女士」！=...Let's try this character. The evil empire's executive, "Miss Hungry"!
 她是位超酷的反派角色，\n人氣非常高哦！=She's this super cool villain, \nsuper popular too!
-而且，飾演{{A}}的中林優奈小姐，\n是一位資深的實力派聲優……=And the voice actress, Yuna Nakabayashi-san, is a super skilled veteran...
+而且，飾演飢餓女士的中林優奈小姐，\n是一位資深的實力派聲優……=And the voice actress, Yuna Nakabayashi-san, is a super skilled veteran...
 從邪惡的反派到可愛的魔法少女，\n各種類型都能完美演繹！=From evil villains to magical girls, \nshe can do anything!
 從邪惡反派到可愛的魔法少女，\n各種類型都能完美演繹！=From evil villains to magical girls, \nshe can do anything!
 聽起來是個人物=Sounds like a legend
@@ -29320,13 +29343,13 @@ sr:"^今天讓(.*)殿下聽過以後，\n感覺還是能拓寬聲線的。$"="Af
 如果能繼續維持可愛的聲音，\n那就最好不過了……=If I can keep using my cute voice, \nthat'd be best...
 ……嗯，再堅持用可愛的聲線試試吧！=...Hm, let's keep trying with the cute voice!
 sr:"^多虧了(.*)殿下，\n(.*)下定決心了！真的非常感謝！$"="Thanks to $1-sama, $2 made up her mind! Thank you so much!"
-你果然是{{A}}的{{B}}啾！\n和你相遇就是命運的指引，是命中註定！=You really are {{A}}'s {{B}}, chu～! \nMeeting you was fate, it's destiny!
+你果然是{{A}}的{{B}}啾！\n和你相遇就是命運的指引，是命中註定！=You really are {{A}}'s {{B}} kyun～! \nMeeting you was fate, it's destiny!
 機會難得，\n在卡拉OK唱了幾首才回去……=Since we were here, we sang a few karaoke songs before leaving...
 {{A}}的歌聲真的非常可愛……={{A}}'s singing voice was very cute...
 
 Rank 9
-謝謝你上次陪{{A}}練習！\n{{A}}真的好開心。=Thank you for practicing with {{A}} last time! {{A}} was really happy, chu～!
-雖然還沒有通過試音，\n但會用可愛聲線繼續努力的啾！=Even though I still haven't passed any auditions, I'll keep doing my best with my cute voice, chu～!
+謝謝你上次陪{{A}}練習！\n{{A}}真的好開心。=Thank you for practicing with {{A}} last time! {{A}} was really happy kyun～!
+雖然還沒有通過試音，\n但會用可愛聲線繼續努力的啾！=Even though I still haven't passed any auditions, I'll keep doing my best with my cute voice kyun～!
 然後，今天為了轉換心情，\n想和{{A}}一起逛街喲……=And today, to change my mood, \nI want to go shopping with the {{A}}...
 嘶，好痛。=Oof, ouch.
 啊，抱歉抱歉……！=Ah, sorry sorry...!
@@ -29366,18 +29389,18 @@ Choice 3
 sr:"^(.*)！\n(.*)殿下，果然很溫柔～！$"="$1! $2-sama really is too kind～!"
 {{A}}、{{A}}呀，一旦焦慮起來，\n就總是胡思亂想些很糟糕的事……={{A}}... when {{A}} panics, \nshe's always spirals into awful thoughts...
 又要陷入{{A}}奶油的漩渦了……\n等一下哦……=About to fall into the strawberry cream whirlpool again... Wait...
-呼……稍微冷靜下來了。\n給王子添麻煩了，對不起啾……=Phew... calmed down a little. \nSorry for troubling the Prince, chu...
+呼……稍微冷靜下來了。\n給王子添麻煩了，對不起啾……=Phew... calmed down a little. \nSorry for troubling the Prince kyun...
 欸嘿嘿……果然是{{A}}的{{B}}，\n永遠都站在{{A}}這邊。=Ehehe... as expected from {{A}}'s {{B}}, \nalways on {{A}}'s side.
 你是{{A}}的王子，真是太好了！\n沒有{{B}}，{{A}}可能就活不下去了呢。=You're {{A}}'s Prince, how wonderful! \nWithout the {{B}}, {{A}} might not survive.
 啊，但是那個不可愛的聲音，\n希望你可以忘掉哦……？=Ah, but that uncute voice, \nhope you can forget it, okay...?
-{{B}}只需要記住，\n可可愛愛的{{A}}就好了啾！=The {{B}} only needs to remember the super cute {{A}}, chu～!
+{{B}}只需要記住，\n可可愛愛的{{A}}就好了啾！=The {{B}} only needs to remember the super cute {{A}} kyun～!
 果然，{{A}}對可愛的聲音，\n有超乎尋常的執著與慾望……=As expected, {{A}} has an extraordinary obsession with cute voices...
 把{{A}}送到了車站，\n然後分別了……=I walked {{A}} to the station then left...
 
 Rank 11
 sr:"^啊，(.*)殿下……$"="Ah, $1-sama..."
-之前的事，對不起哦？\n{{A}}已經在反省了啾……=About last time... sorry, okay? \n{{A}}'s been reflecting, chu...
-之前的事，對不起哦！\n{{A}}已經在反省了啾……=About last time... sorry!\n{{A}}'s been reflecting, chu...
+之前的事，對不起哦？\n{{A}}已經在反省了啾……=About last time... sorry, okay? \n{{A}}'s been reflecting kyun...
+之前的事，對不起哦！\n{{A}}已經在反省了啾……=About last time... sorry!\n{{A}}'s been reflecting kyun...
 在那之後，{{A}}想了很多……\n決定要把一切都向{{B}}坦白。=After that, {{A}} thought a lot... and decided to confess everything to the {{B}}.
 sr:"^如果是(.*)殿下的話，\n一定會接受真正的(.*)吧。$"="If it's $1-sama, \nyou'll accept the real $2, right?"
 請說給我聽=Please tell me
@@ -29398,7 +29421,7 @@ sr:"^如果是(.*)殿下的話，\n一定會接受真正的(.*)吧。$"="If it's
 ……也正是因為明白這一點，\n{{A}}才更難受。=...And it is precisely because {{A}} understood this that it hurt even more.
 {{A}}的本音，根本不適合可愛的世界……\n繼續用這種低音只會被嘲笑。={{A}}'s real voice didn't belong in a cute world... it just invited ridicule.
 ……所以從那天起，\n{{A}}就開始故意修飾聲線了。=...So from that day, \n{{A}} started forcing a cuter voice.
-為了沒有違和感地說出{{A}}的臺詞，\n努力地讓自己的聲音變得可愛。=Practiced Miruchu's lines endlessly until the fake voice felt natural.
+為了沒有違和感地說出{{A}}的臺詞，\n努力地讓自己的聲音變得可愛。=That way I'd sound cute like {{A}} and nobody'll think I sound funny when I say her lines.
 完全沒有違和感=It's totally natural
 完全沒注意到那不是本音=<size\=30>I never noticed it wasn't real</size>
 {{B}}願意這麼說，\n{{A}}的努力就是值得的……=For the {{B}} to say that... \nmakes all of {{A}}'s effort worth it...
@@ -29414,7 +29437,7 @@ sr:"^如果是(.*)殿下的話，\n一定會接受真正的(.*)吧。$"="If it's
 ……{{A}}對聲音的自卑，\n似乎遠超想像……=...{{A}}'s insecurity about their voice seems far worse than imagined...
 不過或許正是這份自卑，\n讓她的慾望強大到不會被奪走……=But perhaps this insecurity made her desire too strong to steal...
 {{A}}的慾望究竟會如何成長，\n好想繼續見證下去……=How will {{A}}'s desire grow? \nI want to keep watching...
-所以{{A}}必須要保持可愛的聲線。\n不然就拿不到可愛的角色了啾……=So {{A}} has to keep the cute voice. \nOr she won't get cute roles anymore, chu...
+所以{{A}}必須要保持可愛的聲線。\n不然就拿不到可愛的角色了啾……=So {{A}} has to keep the cute voice. \nOr she won't get cute roles anymore kyun...
 這聲線是你努力的結晶=<size\=22>That voice is the fruits of your hard work</size>
 你的低音也很有魅力=<size\=24>Your deep voice has charm too</size>
 我覺得兩種聲線都好可愛=I think both voices are cute
@@ -29429,7 +29452,7 @@ Choice 3
 嗚嗚嗚。\n{{A}}的話，太感人了～！=Sob... The {{A}}'s words are too moving～!
 剛才那些事，\n{{A}}沒有跟任何人說過呢……好害怕。={{A}} never told anyone those things before... \nshe was so scared.
 但{{B}}不僅認真聽完了，\n還這麼溫柔地鼓勵{{A}}……=But the {{B}} listened seriously, \nand even kindly encouraged {{A}}...
-……嗯！{{A}}會繼續加油的啾。=...Mm! {{A}} will keep trying, chu～.
+……嗯！{{A}}會繼續加油的啾。=...Mm! {{A}} will keep trying kyun～.
 {{B}}……\n以後也會繼續支持{{A}}嗎？={{B}}... will you keep supporting {{A}}?
 再次送{{A}}到車站，\n然後分別了……=I walked {{A}} to the station again then left...
 
@@ -29439,7 +29462,7 @@ sr:"^(.*)殿下……！\n(.*)到底該怎麼辦才好呀？$"="$1-sama...! \nWh
 求求了，聽聽{{A}}的煩惱吧……！=Please, listen to {{A}}'s troubles...!
 那個……再這樣下去的話，\n{{A}}可能要被事務所解約了！=Um... if this keeps up, \n{{A}} might get dropped by the agency!
 之前說的，{{A}}手上唯一的重要角色……\n一款偶像遊戲裡的……=That one major role {{A}} mentioned earlier... \nin that idol game...
-那個遊戲，好像要關服了……=The game's servers are shutting down...
+那個遊戲，好像要關服了……=That game's servers are shutting down...
 {{A}}現在的事務所規模還挺大的，\n說做不出成績，就會被開除……={{A}}'s current agency is quite large. If you don't achieve results, you will be fired...
 sr:"^(.*)殿下！\n(.*)要怎麼辦才好呀？$"="$1-sama!\nWhat should $2 do?"
 有什麼解決辦法嗎？=Any solutions?
@@ -29463,30 +29486,30 @@ sr:"^(.*)殿下！\n(.*)要怎麼辦才好呀？$"="$1-sama!\nWhat should $2 do?
 經紀人叫我去試試！\n那個原作漫畫超有名的！=The manager wants me to try out! \nIt's based on a super famous manga!
 在這個時機，突然降臨的大型試音……\n{{A}}感受到了命運的氣息！=A huge audition opportunity, dropping at this moment... {{A}} can feel fate at work!
 這一定和{{A}}的邂逅一樣，\n是命中註定……=This must be destiny, \njust like meeting the {{A}}...
-這個機會，\n一定是來決定{{A}}命運的啾……！=This chance will decide Ichigo's fate, chu...!
+這個機會，\n一定是來決定{{A}}命運的啾……！=This chance will decide Ichigo's fate kyun...!
 事務所離這裡不遠，\n{{A}}現在就去問一下詳細資訊！=The agency's close by, \nso {{A}}'ll go ask for details now!
 sr:"^(.*)殿下在這裡等一下！\n(.*)很快就回來，好嗎？$"="$1-sama, wait here! \n$2'll be right back, okay?"
 {{A}}拿到試音用的劇本啦！={{A}} got the audition script!
-對{{A}}來說，這是最後的機會了……！\n絕對絕對要把握住啾！=This is {{A}}'s last chance...! \nGotta seize it no matter what, chu～!
+對{{A}}來說，這是最後的機會了……！\n絕對絕對要把握住啾！=This is {{A}}'s last chance...! \nGotta seize it no matter what kyun～!
 sr:"^所以，那個……\n(.*)有件事想拜託(.*)殿下。$"="So, um... $1 has a favor to ask the $2."
-希望{{B}}可以陪在{{A}}身邊啾……=Please stay by {{A}}'s side, chu...
+希望{{B}}可以陪在{{A}}身邊啾……=Please stay by {{A}}'s side kyun...
 如果有{{B}}的指導，\n{{A}}一定可以發揮得很好……！=With the {{B}}'s guidance, \n{{A}} can definitely perform well...!
 我會拼盡全力=I'll give it my all
 看來我責任重大呀=<size\=23>Sounds like serious responsibility</size>
 Choice 1
-好、好可靠啾……！\n{{A}}的心臟砰砰跳個不停……！=S-So reliable, chu...! \n{{A}}'s heart won't stop pounding...!
+好、好可靠啾……！\n{{A}}的心臟砰砰跳個不停……！=S-So reliable kyun...! \n{{A}}'s heart won't stop pounding...!
 Choice 2
 責、責任？{{B}}要對{{A}}負責！？\n哈哇哇哇哇……！=R-Responsibility? The {{B}}'s taking responsibility for {{A}}!? Ha-Wa-Wa...!
 Choice 2
 sr:"^嗯！只要和(.*)殿下一起，\n(.*)就會加倍努力的！$"="Mm! With $1-sama here, $2'll work twice as hard!"
-啊，不過就算是對{{A}}，\n也不能透露試音的劇本啾……=Ah, but even the {{A}} can't see the audition script, chu...
+啊，不過就算是對{{A}}，\n也不能透露試音的劇本啾……=Ah, but even the {{A}} can't see the audition script kyun...
 {{A}}會先精讀劇本，把問題整理好！\n要好好等著{{A}}哦！={{A}}'ll study the script thoroughly and sort out the questions! Wait for {{A}}!
-絕對絕對絕對，要陪著{{A}}啾！=Absolutely, stay with {{A}}, chu～!
+絕對絕對絕對，要陪著{{A}}啾！=Absolutely, stay with {{A}} kyun～!
 
 Rank 15
 那個那個，今天想和{{A}}一起，\n商量一下試音的事！=Hey, today Ichigo wants to discuss the audition with the {{A}}!
 這裡不方便說，\n能不能再一起去一次卡拉OK呢？=I can't talk about it here, \ncould we go to karaoke again?
-哈啊……不愧是{{A}}的王子，好溫柔啾……\n要被迷得神魂顛倒了……=Wow～ As expected from {{A}}'s prince, \nso kind chu～ {{A}}'s heart is melting...
+哈啊……不愧是{{A}}的王子，好溫柔啾……\n要被迷得神魂顛倒了……=Wow～ As expected from {{A}}'s prince, \nso kind kyun～ {{A}}'s heart is melting...
 那就去上次那個地方吧！=Then let's go to the spot last time!
 試音用的劇本{{A}}已經精讀完啦！\n要商量的事情是……={{A}} finished studying the audition script! \nWhat we need to discuss is...
 {{A}}應該嘗試哪個角色呢？=Which role should {{A}} try for?
@@ -29514,7 +29537,7 @@ sr:"^呐，(.*)應該怎麼做呢？\n好想聽聽(.*)殿下的意見呀。$"="H
 我會為你加油=I'll cheer for you
 我的陪伴有作用嗎？=<size\=30>Is my presence helping?</size>
 Choice 1
-嗯！有{{B}}加油打氣，\n{{A}}的勇氣增加了100倍啾！=Mhm! With the {{B}}'s support, \n{{A}}'s courage increased 100-fold, chu～!
+嗯！有{{B}}加油打氣，\n{{A}}的勇氣增加了100倍啾！=Mhm! With the {{B}}'s support, \n{{A}}'s courage increased 100-fold kyun～!
 Choice 2
 嗯……雖然有點賭的成分，\n但既然決定了就全力以赴吧！=Mm... it's a gamble, \nbut now that I've decided, I'll go all out!
 Choice 3
@@ -29536,7 +29559,7 @@ Close Friends
 啊……啊哈哈。這樣啊……=Ah... Haha. I see...
 這、這樣啊……\n欸嘿嘿……欸嘿嘿……嘿嘿……=I-I see... \nEhehe... Ehehe... Hehe...
 sr:"^……真是的，\n(.*)殿下太謙虛了啦。$"="...Geez, $1-sama is too humble."
-對{{A}}來說，只有你才是{{B}}啾！=To {{A}}, only you are the {{B}}, chu～!
+對{{A}}來說，只有你才是{{B}}啾！=To {{A}}, only you are the {{B}} kyun～!
 這一點……要好好記住哦？=This fact... please remember it, okay?
 這一點……要好好記住哦！=This fact... please remember it, okay?
 ……總之，\n現在必須專心準備試音。=...Anyway, \nnow we must focus on audition prep.
@@ -29548,15 +29571,15 @@ sr:"^(.*)……(.*)！？(.*)殿下，\n剛才說要一直守護(.*)……！？
 要做只屬於{{A}}的王子哦！\n只屬於{{A}}的……嘿……嘿嘿……=You'll be {{A}}'s Prince only? \nOnly {{A}}'s... He... Hehe...
 太好啦！\n好開心好開心好開心！=Yay! \nSo happy so happy so happy!
 這不是{{A}}的幻想吧？=This isn't {{A}}'s delusion, right?
-{{A}}的，只屬於{{A}}的{{B}}……！\n絕對、絕對、絕對……不會放手的啾。={{A}}'s, the {{B}} who only belongs to {{A}}...! I'm never, ever, ever... letting you go, chu～!
+{{A}}的，只屬於{{A}}的{{B}}……！\n絕對、絕對、絕對……不會放手的啾。={{A}}'s, the {{B}} who only belongs to {{A}}...! I'm never, ever, ever... letting you go kyun～!
 ……哈哇！=...Ha-Wa!
 不行，不能光顧著開心……=No, I can't just focus on being happy...
 總之現在，\n必須專心準備試音。=Anyway, \nnow we must focus on audition prep.
 
 sr:"^但不能向(.*)殿下，\n透露試音的具體臺詞……$"="But I can't reveal the actual audition lines to $1-sama..."
-所以還是用桃桃的劇本來練習演技啾！=So we'll practice using "Magical Peach" scripts, chu～!
+所以還是用桃桃的劇本來練習演技啾！=So we'll practice using "Magical Peach" scripts kyun～!
 sr:"^(.*)殿下，\n願意繼續陪(.*)練習嗎？$"="$1-sama, \nwill you keep practicing with $2?"
-那……{{A}}就分飾兩角，\n練習{{B}}和{{C}}的對手戲吧！=Then... {{A}} will play both roles, practicing {{B}} versus {{C}}'s scenes!
+那……{{A}}就分飾兩角，\n練習{{B}}和飢餓女士的對手戲吧！=Then... {{A}} will play both roles, practicing {{B}} versus Miss Hungry's scenes!
 一直陪著{{A}}練習，\n直到卡拉OK的時間結束……=I kept practicing with {{A}} until our karaoke time ended...
 
 Rank 17
@@ -29568,7 +29591,7 @@ sr:"^(.*)殿下！\n(.*)有件事想彙報呢……$"="$1-sama! $2 has something
 不過！\n被選中的那位聲優……=But! The one who got selected was...
 居然是中、林、優、奈小姐！=Yuna Nakabayashi-san!
 給魔法桃桃配音的人？=<size\=25>The one who voices Magical Peach?</size>
-{{A}}的聲優？={{A}}'s VA?
+飢餓女士的聲優？=Miss Hungry's VA?
 沒錯！而且{{A}}堅持到只剩最後2個人……=Yes! And {{A}} made it to the final two candidates!
 就在中林優奈小姐的身邊，\n完成了表演呢！=I performed right beside Yuna Nakabayashi-san herself!
 在試音的時候，和憧憬的人同台競技，\n簡直就像第24話裡的火熱展開一樣……=Auditioning alongside someone I admire so much... it was just like episode 24's showdown!
@@ -29587,11 +29610,11 @@ sr:"^(.*)殿下！\n(.*)有件事想彙報呢……$"="$1-sama! $2 has something
 和初見時判若兩人=<size\=21>So different from when we first met</size>
 無論哪個你都很棒=<size\=22>Any versions of you are wonderful</size>
 Choice 1
-sr:"^是、是嗎……？\n那也是(.*)殿下的功勞啾！$"="R-Really...? \nThat's all thanks to $1-sama too, chu～!"
+sr:"^是、是嗎……？\n那也是(.*)殿下的功勞啾！$"="R-Really...? \nThat's all thanks to $1-sama too kyun～!"
 Choice 2
 那個時候的{{A}}，真的很沒用……\n但也因此，{{A}}才遇到了{{B}}呀！=Back then, {{A}} was so useless... \nBut that's how {{A}} met the {{B}}!"
 Choice 3
-不管是怎樣的{{A}}，{{B}}都願意接納……\n所以{{A}}再也不害怕了啾！=The {{B}} accepts every version of {{A}}... \nso {{A}}'s not scared anymore, chu～!
+不管是怎樣的{{A}}，{{B}}都願意接納……\n所以{{A}}再也不害怕了啾！=The {{B}} accepts every version of {{A}}... \nso {{A}}'s not scared anymore kyun～!
 雖然試音的結果很遺憾……\n但{{A}}會繼續努力的。=Even though the audition didn't work out... \n{{A}} will keep trying.
 哪怕被現在的事務所開除，\n只要{{A}}不放棄，就一定有出路！=Even if the agency drops me, as long as {{A}} doesn't give up, there's always a way!
 就像{{A}}憧憬的{{B}}，\n無論什麼時候都不會輕言放棄！=Just like {{B}} that {{A}} admires, \nshe never gives up no matter what!
@@ -29605,7 +29628,7 @@ Choice 3
 欸？這、這個嘛……\n比如給{{A}}一個擁抱……什麼的……？=Huh? W-Well... Maybe like... giving {{A}} a hug... or something...?
 哈哇？哈哇哇哇哇哇哇……！=Ha-Wa? Ha-Wa-Wa-Wa...!
 欸，真的抱了！？=Eh, you're really hugging me!?
-這、這對{{A}}來說，\n有點太刺激了啾……=T-This is too stimulating for {{A}} to handle, chu...
+這、這對{{A}}來說，\n有點太刺激了啾……=T-This is too stimulating for {{A}} to handle kyun...
 把{{A}}送到車站之後，\n和她分別了……=I left after walking {{A}} to the station...
 
 Rank 20
@@ -29614,7 +29637,7 @@ Rank 20
 最近那些試音， \n{{A}}填報的角色都沒被選上……=All those recent auditions... \nnone of the roles {{A}} applied for worked out...
 不過好像有評審員推薦了{{A}}， \n讓{{A}}拿到了另外一個小角色呢！=But apparently a judge recommended {{A}} for a different minor role!
 雖然是小人物， \n但也算定期出場的準常駐角色……=It's a small part, but a recurring character with regular appearances...
-具體細節不能透露，\n但是個非常可愛的角色啾！=I can't share details, \nbut they're super cute, chu～!
+具體細節不能透露，\n但是個非常可愛的角色啾！=I can't share details, \nbut they're super cute kyun～!
 簡直超級適合可愛的{{A}}！\n雖然自己這樣說有點害羞，但真的很適合！=Perfect for cute {{A}}! Feels a bit embarrassing to say it myself, but it really fits!
 真是太好了……=That's great...
 嘿嘿，謝謝！ \n讓{{B}}這麼為{{A}}擔心，抱歉哦～=Hehe, thanks! \nSorry for making the {{B}} worry about {{A}}～
@@ -29639,7 +29662,7 @@ Choice 3
 哈……這樣不行呢。\n{{A}}，得變得再成熟一點。=Ha... this won't do. \n{{A}} have to be more mature.
 對不起，{{A}}又進入了奇怪的狀態。 \n嘿嘿嘿……=Sorry, {{A}} entered a strange state again. \nHehehe...
 不過，{{A}}有{{B}}在嘛。=But, {{A}} has the {{B}}.
-從現在開始，{{A}}會更加努力，\n儘量不再那麼憂鬱了啾！=From now on, {{A}} will try harder not to get so gloomy, chu～!
+從現在開始，{{A}}會更加努力，\n儘量不再那麼憂鬱了啾！=From now on, {{A}} will try harder not to get so gloomy kyun～!
 所以，{{B}}……\n不會拋棄{{A}}的吧？=So {{B}}... \nyou won't abandon {{A}}, right?
 {{A}}是個很軟弱的人，\n以後也肯定會再次陷入苦惱……={{A}}'s weak, \nand will surely fall down again...
 但只要有{{B}}在，\n{{A}}一定能很快振作起來！=But with the {{B}}, \n{{A}} can always get back up!
@@ -29655,18 +29678,18 @@ sr:"^這一切，都多虧了(.*)殿下！\n真的非常感謝！$"="It's all th
 要永遠、永遠永遠， \n永～遠……在{{A}}身邊哦？=Promise you'll stay by {{A}}'s side...? \nForever, and ever, and ever～
 要永遠、永遠永遠， \n永～遠……在{{A}}身邊哦！=Promise you'll stay by {{A}}'s side...? \nForever, and ever, and ever～
 如果中途離開……=If you leave midway...
-{{A}}，可不知道會發生什麼事情啾～=Who knows what {{A}} might do, chu～
+{{A}}，可不知道會發生什麼事情啾～=Who knows what {{A}} might do kyun～
 被強制發誓，\n絕對不會丟下{{A}}孤單1人了……=I was forced to promise never to leave {{A}} alone again...
 
 Hangouts
 sr:"^(.*)殿下，\n待會有空嘛！？有空的吧！？$"="$1-sama, are you free!?\nYou're free right!?"
-想一起出門啾～\n和{{A}}兩人！=I want to go out, chu～\nJust with the {{A}}!
+想一起出門啾～\n和{{A}}兩人！=I want to go out kyun～\nJust with the {{A}}!
 當然有空=Of course I have time
 暫時沒空=No time right now
 太好啦！\n開心開心開心！=Great!\nYay I'm so happy!
 這樣啊……\n明白了，{{A}}會努力忍耐的……=Ah... I see, \n{{A}} will try to be patient....
-心跳加速啦！\n好可愛啾！=Heart's racing! \nSo cute, chu～!
-餐具也好，椅子也好，桌子也好，\n店裡的一切都可愛到爆炸了啾！=The plates, the chairs, the tables, everything in this cafe is exploding with cuteness, chu～!
+心跳加速啦！\n好可愛啾！=Heart's racing! \nSo cute kyun～!
+餐具也好，椅子也好，桌子也好，\n店裡的一切都可愛到爆炸了啾！=The plates, the chairs, the tables, everything in this cafe is exploding with cuteness kyun～!
 不過果然，\n最可愛的還是女僕小姐呢！=But of course, \nthe cutest thing are the maids!
 {{A}}超喜歡這裡的女僕小姐！\n實在是太可愛了！={{A}} loves the maids here! \nThey're just too cute!
 sr:"^(.*)殿下也這麼覺得吧？$"="Don't you think so too, $1-sama?"
@@ -29679,12 +29702,12 @@ Choice 2
 sr:"^(.*)殿下這麼說的話，\n下次(.*)也試著穿穿看怎麼樣……？$"="If $1-sama says so... maybe $2 should try that outfit next time...?"
 啊，蛋包飯來了！=Ah, the omelet rice is here!
 女僕小姐可愛，\n蛋包飯也可愛……=The maid's cute, \nthe omelet's cute...
-店裡到處都可愛極了！\n滿滿的心動的感覺啾！=Everything here is maximum cute! \nMy heart's overflowing with joy, chu～!
+店裡到處都可愛極了！\n滿滿的心動的感覺啾！=Everything here is maximum cute! \nMy heart's overflowing with joy kyun～!
 {{A}}好想一直待在這裡呀～！\n好想住在這樣的家裡呀～！={{A}} wants to stay here forever～! \nWant to live in a place like this～!
 sr:"^(.*)殿下會不會也喜歡呢？\n要是喜歡就好了。$"="I wonder if $1-sama would like it too... \nI hope he does."
 嘛，不過，\n只把{{A}}的房間佈置成這樣也不錯。=Well, maybe just decorating {{A}}'s room like this would be nice too.
-sr:"^(.*)殿下也有自己的喜好呢。\n放心啦，(.*)不會強行要求的啾！$"="$1-sama has his own tastes too. Don't worry, $2 won't force anything, chu～!"
-好想吃女僕小姐的蛋包飯啾！\n要施過魔法的～！=Wanna eat the maid's magic omelet rice, chu～! \nThe one with the spell～!
+sr:"^(.*)殿下也有自己的喜好呢。\n放心啦，(.*)不會強行要求的啾！$"="$1-sama has his own tastes too. Don't worry, $2 won't force anything kyun～!"
+好想吃女僕小姐的蛋包飯啾！\n要施過魔法的～！=Wanna eat the maid's magic omelet rice kyun～! \nThe one with the spell～!
 和{{A}}一起去了女僕咖啡館。\n一起和女僕小姐拍了照……=I went to the maid cafe with {{A}}. We took photos with the maid together...
 和{{A}}一起去了女僕咖啡館。\n一起吃了一個超大的聖代……=I went to the maid cafe with {{A}}. We shared a giant parfait together...
 和{{A}}一起去了女僕咖啡館。\n互相品嘗了飲料的味道……=I went to the maid cafe with {{A}}. We tried each other's drinks...
@@ -29692,23 +29715,23 @@ sr:"^(.*)殿下也有自己的喜好呢。\n放心啦，(.*)不會強行要求�
 和{{A}}一起去了女僕咖啡館。\n一起給蛋包飯施了魔法……=I went to the maid cafe with {{A}}. We cast a spell on the omelet rice together...
 原宿可是可愛風格的最前沿！=Harajuku is the cutting edge of cuteness!
 到處都是打扮可愛的可愛女孩在走動呢。=So many cutely dressed girls walking around.
-為了變得更加可愛，\n{{A}}要在這裡學習可愛之道啾！=To become even cuter, \n{{A}} will study the ways of cuteness here, chu!
-可愛可不是一朝一夕就能練成的！\n啾！=Cuteness isn't mastered overnight! Chu～!
+為了變得更加可愛，\n{{A}}要在這裡學習可愛之道啾！=To become even cuter, \n{{A}} will study the ways of cuteness here kyun!
+可愛可不是一朝一夕就能練成的！\n啾！=Cuteness isn't mastered overnight! Kyun～!
 sr:"^啊，快看快看(.*)殿下。\n那件衣服好可愛呀～！$"="Ah, look look $1-sama! \nThat outfit is so cute～!"
 sr:"^啊，這邊這個顏色也不錯呢！\n(.*)殿下更喜歡哪一個呀？$"="Oh, this color is nice too! \nWhich does $1-sama prefer?"
 淡藍色=Light blue
 粉色=Pink
 我懂～！\n是可愛的淡藍色呢！=I knew it～! \nLight blue is super cute!
-果然！\n我和{{A}}心靈相通啾！=See! \nThe {{A}} and I are totally in sync, chu!
+果然！\n我和{{A}}心靈相通啾！=See! \nThe {{A}} and I are totally in sync kyun!
 {{A}}是聲優，聲音很可愛，\n不過讓{{A}}來說的話……=As a voice actress, {{A}}'s voice is cute, \nbut to be truly cute...
 打造可愛的{{A}}，不僅僅是聲音要可愛，\n全身上下都可愛才好呢！=Cute {{A}} needs more than just a cute voice, \nevery part should be cute!
 全部、完完全全！=Everything, absolutely everything!
 衣服、髮型、妝容，\n說話方式，所有的一切！=Clothes, hairstyle, makeup, way of speaking, everything!
-每一處都變得可愛的{{A}}，\n才是最可愛的啾！=Only when every single part is cute is {{A}} the cutest, chu～!
+每一處都變得可愛的{{A}}，\n才是最可愛的啾！=Only when every single part is cute is {{A}} the cutest kyun～!
 啊，不過只是{{A}}自己覺得可愛可不行。=Ah, but only {{A}} thinking she's cute isn't enough.
 因為如果不能讓{{A}}也覺得可愛，\n那就沒意義啦。=If the {{A}} doesn't find me cute too, \nthen it's meaningless.
-接下來也要多多告訴我，\n{{A}}心中的「可愛」啾！=So keep telling Ichigo what "cute" means to you, chu!
-啊，那家店也很可愛啾！\n走吧，{{A}}。=Ah, that shop looks cute too, chu～! \nLet's go, {{A}}.
+接下來也要多多告訴我，\n{{A}}心中的「可愛」啾！=So keep telling Ichigo what "cute" means to you kyun!
+啊，那家店也很可愛啾！\n走吧，{{A}}。=Ah, that shop looks cute too kyun～! \nLet's go, {{A}}.
 在可愛聖地，\n盡情沐浴可愛能量吧！=In the sanctuary of cuteness, \nlet's enjoy the cute energy!
 和{{A}}一起在原宿漫步。\n一起學習最前沿的可愛之道……=I took a stroll through Harajuku with {{A}}. We studied cutting-edge cuteness together...
 和{{A}}一起在原宿漫步。\n一起品嘗可愛的可麗餅……=I took a stroll through Harajuku with {{A}}. We shared a cute crepe together...
@@ -29717,7 +29740,7 @@ sr:"^啊，這邊這個顏色也不錯呢！\n(.*)殿下更喜歡哪一個呀？
 和{{A}}一起在原宿漫步。\n一起分享彩色的棉花糖……=I took a stroll through Harajuku with {{A}}. We shared colorful cotton candy together...
 哇～好香啊！\n吃點什麼好呢～？=Wow～ It smells so good!\nWhat should I eat～?
 這就是那個街邊中餐店吧？\n最近經常聽說，好像很有人氣。=Is this that popular Chinese restaurant I've been hearing about?
-我不太了解這類店，\n殿下能帶我來我好開心啾！=I don't know much about this, so I'm very happy that the Prince brought me here, chu～!
+我不太了解這類店，\n殿下能帶我來我好開心啾！=I don't know much about this, so I'm very happy that the Prince brought me here kyun～!
 不過{{A}}胃口小，\n可能吃不了太多……=But {{A}} has a small appetite.\nMaybe I can't eat too much...
 sr:"^啊……！\n那個，(.*)殿下，我能問個問題嘛。$"="Ah...! Um, $1-sama, let me ask a question."
 sr:"^說不定(.*)殿下，\n更喜歡能吃的女孩子……？$"="Maybe $1-sama prefers girls who can eat...?"
@@ -29734,7 +29757,7 @@ sr:"^(.*)在遇到(.*)殿下之前，\n有時候都不太吃得下東西。$"="B
 看著{{A}}的臉，\n飯都變得更好吃了！=Looking at the {{A}}'s face makes the meal tastes even better!
 肚子吃飽了，\n心情也變好了，全是好事呢！=I'm full and happy, everything's perfect!
 嘿嘿，\n差不多該決定吃什麼啦～=Hehe, time to decide what to eat～
-啊，不過……要是{{A}}吃不完，\n希望殿下能幫幫{{A}}。{{A}}會餵殿下的啾！=Ah, but... if {{A}} can't finish it, I hope the Prince can help {{A}}. {{A}} will feed the Prince, chu～!
+啊，不過……要是{{A}}吃不完，\n希望殿下能幫幫{{A}}。{{A}}會餵殿下的啾！=Ah, but... if {{A}} can't finish it, I hope the Prince can help {{A}}. {{A}} will feed the Prince kyun～!
 好香！肚子似乎餓了～！\n{{A}}，我們快進去吧！=It smells good! I feel hungry! \n{{A}}, let's go in!
 和{{A}}來了{{B}}。\n把{{A}}吃不完的炒飯吃了……=I went to {{B}} with {{A}}. I ate the fried rice that {{A}} couldn't finish...
 和{{A}}來了{{B}}。\n兩人分食了一人份的餃子……=I went to {{B}} with {{A}}. We shared one portion of dumplings...
@@ -29779,7 +29802,7 @@ sr:"^要是(.*)殿下送(.*)禮物的話，\n會選……？$"="If $1-sama were 
 哇啊，戒指！？原、原來是這樣……\n原來是這樣呀～嘿嘿～！=Wow, a ring!? W-Wait... \nI see～ Hehe～!
 飾品呢，\n雖然自己買自己喜歡的也不錯啦……=Accessories are nice when buying what you like yourself...
 要是能讓別人幫忙選適合自己的，\n就會更更有趣呢對吧？=But having someone else pick what suits you makes it extra special, right?
-由命中註定的{{A}}來選，\n簡直太棒了啾！=Having my destined {{A}} choose is absolutely perfect, chu～!
+由命中註定的{{A}}來選，\n簡直太棒了啾！=Having my destined {{A}} choose is absolutely perfect kyun～!
 因為{{A}}為了讓{{B}}覺得{{A}}可愛……=Because {{A}} wants the {{B}} to think {{A}} is cute...
 每天都在鏡子前，\n努力研究怎麼可愛呢！=Ichigo practices in front of the mirror every day to perfect her cuteness!
 因為{{A}}希望{{B}}呀，\n不只是覺得{{A}}的聲音可愛……={{A}} hopes the {{B}} won't just find {{A}}'s voice cute...
@@ -29793,9 +29816,9 @@ sr:"^要是(.*)殿下送(.*)禮物的話，\n會選……？$"="If $1-sama were 
 和{{A}}來飾品店了。\n{{A}}一直在看心形的首飾……=I went to an accessory shop with {{A}}. {{A}} lingered over heart-shaped jewelry...
 和{{A}}來飾品店了。\n{{A}}長時間地糾結著……=I went to an accessory shop with {{A}}. {{A}} took forever deciding...
 
-{{A}}送的禮物……！\n真的假的，簡直像在做夢啾！=A gift from the {{A}}...! \nNo way, this feels like a dream, chu～!
+{{A}}送的禮物……！\n真的假的，簡直像在做夢啾！=A gift from the {{A}}...! \nNo way, this feels like a dream kyun～!
 把這麼好的東西送給{{A}}！？\n只給{{A}}一人嘛？太開心了！！=You're giving something this wonderful to {{A}}!? Just for me? I'm so happy!!
-{{B}}的心意……\n{{A}}真切的感受到了啾！=The {{B}}'s feelings... \n{{A}} can really feel them, chu～!
+{{B}}的心意……\n{{A}}真切的感受到了啾！=The {{B}}'s feelings... \n{{A}} can really feel them kyun～!
 
 Home Date
 sr:"^那、那個、(.*)殿下，\n有突發情況……$"="U-Um, $1-sama... \nThere's an emergency...$"
@@ -29864,8 +29887,8 @@ SNS
 聲優真不容易啊=It's not easy being a voice actor
 很可愛啊=Very cute
 超級可愛的啊=Super cute
-好呀秋～=Yes, chu～
-不要啦啾～=No, chu～
+好呀秋～=Yes kyun～
+不要啦啾～=No kyun～
 不太清楚=Not sure
 不太喜歡=Don't like it very much
 我才不討厭你=I don't dislike you
