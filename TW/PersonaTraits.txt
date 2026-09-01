@@ -94,6 +94,7 @@ RANK 2
 Eligor
 r:"^騎士的銳利目光(.*)$"="Knight's Sharp Gaze $1"
 r:"^暴擊效果提升(\d+%)。以1名敵人為目標造成物理屬性傷害時，攻擊力提升(\d+%)，暴擊率提升(\d+%)。$"="<size\=28>Increase Crit DMG by $1. When dealing Phys damage to 1 foe, increase ATK by $2 and increase Crit Rate by $3.</size>"
+為所羅門王所統領的７２大魔神之一。\n以騎著黑馬的騎士形象示人。\n據說能為召喚出他的人帶來愛與戰鬥的力量。\n此外據說他也十分博學，擁有看透未來與發現財寶的力量。=One of the 72 demons of the Goetia. He looks like a knight and has the power to see things to come. He also knows much about war.
 
 Ippon-Datara
 r:"^隻眼隻足的隱士(.*)$"="<size\=22>One-Eyed One-Legged Hermit $1</size>"
@@ -181,6 +182,8 @@ r:"^生命值提升(\d+\.\d+%)。釋放{{A}}技能造成治療效果後，使技
 Archangel
 r:"^崇高的光耀(.*)$"="Sublime Brilliance $1"
 r:"^效果命中提升(\d+%)。釋放{{A}}技能後，有(\d+%)固定機率使自身獲得1個祝福效果。若該技能造成了祝福屬性傷害，則額外獲得1個祝福效果。$"="<size\=24>Increase Ailment ACC by $1. After using a {{A}} skill, there is a $2 fixed chance to gain 1 Blessing. If that skill dealt Bless damage, gain 1 additional Blessing.</size>"
+在神學的九等天使中位於第八等的下級天使，亦被稱為「天使長」。掌管著國家與文明的興衰。\n擔任中間人的角色，在理解天堂的意志後將其傳達給底層的天使。=Eighth of the nine orders of angels. Their duty is to minister to humans and deliver messages. They are warriors of Heaven and lead Heaven's forces during battle with the armies of evil.
+在神學的九等天使中位於第八等的下級天使，亦被稱為『天使長』。\n掌管著國家與文明的興衰。\n擔任中間人的角色，在理解天堂的意志後將其傳達給底層的天使。=Eighth of the nine orders of angels. Their duty is to minister to humans and deliver messages. They are warriors of Heaven and lead Heaven's forces during battle with the armies of evil.
 
 Onmoraki
 r:"^餓肚子的怨氣(.*)$"="Hungry Resentment $1"
@@ -189,6 +192,7 @@ r:"^攻擊力提升(\d+\.\d+%)。場上只有1名敵人時，使所有同伴造�
 Nue
 r:"^詛咒的啼鳴(.*)$"="Cursed Cries $1"
 r:"^暴擊率提升(\d+\.\d+%)。釋放技能造成詛咒屬性傷害時，有(.*)的固定機率使敵人獲得(.*)個詛咒效果。$"="<size\=26>Increase Crit Rate by $1. When dealing damage with a Curse skill, there is a $2 fixed chance to inflict the foe with $3 stack of Curse.</size>"
+日本傳說中所記載的怪物，據說擁有猿猴的頭、狸貓的身軀、老虎的四肢和蛇的尾巴。是個在夜間活動的怪物，根據平家物語的記載，到了丑時三刻就會藏在黑雲裡襲擊天皇的{{A}}。=A creature of Japanese lore with a monkey's head, tiger's legs, and snake's tail. The Tale of Heike says it hid behind a dark cloud each night to attack the Emperor.
 
 ----------
 RANK 3
@@ -383,6 +387,7 @@ r:"^戰意的奔湧(.*)$"="<size\=28>Surge of Fighting Spirit $1</size>"
 r:"^暴擊率提升(\d+\.\d+%)。回合結束時，獲得『戰意』，提升(.*)攻擊力，最多疊加(.*)層，擊敗敵人時，獲得(.*)層『戰意』。$"="<size\=24>Increase Crit Rate by $1. At the end of turn, gain [Fighting Spirit], increase ATK by $2, up to $3 stacks. Gains $4 stacks of [Fighting Spirit] when defeating foe.</size>"
 r:"^暴擊率提升(\d+\.\d+%)。回合結束時，獲得『戰意』，提升(.*)攻擊力，(.*)暴擊率，最多疊加(.*)層，擊敗敵人時，獲得(.*)層『戰意』。$"="<size\=24>Increase Crit Rate by $1. At the end of turn, gain [Fighting Spirit], increase ATK by $2 and Crit Rate by $3, up to $4 stacks. Gains $5 stacks of [Fighting Spirit] when defeating foe.</size>"
 戰意=Fighting Spirit
+在眾多神話和思想中所傳頌的『四聖獸』之一。\n掌管西方、秋季、五行中的金。\n老虎被視為百獸之王，而{{A}}更是老虎中位於頂點的存在。=One of the Ssu-Ling, celestial creatures of Chinese myth. It represents the direction west, the season of autumn, and the element of metal. He is believed to be the king of all beasts.
 
 Valkyrie
 r:"^戰意的眼神(.*)$"="<size\=28>Gaze of Fighting Spirit $1</size>"
@@ -427,6 +432,7 @@ r:"^效果命中提升(\d+\.\d+%)。每釋放1個增益技能，則使所有同�
 Yurlungur
 r:"^眠居聖泉的長蛇(.*)$"="Holy Pond's Serpent $1"
 r:"^暴擊效果提升(\d+\.\d+%)。使場上敵人受到的暴擊效果提升(\d+%)。若其處於觸電狀態，則額外提升(\d+%)。$"="<size\=24>Increase Crit DMG by $1. Increase all foes' Crit DMG Taken by $2, if they are inflicted with Shock, additionally increase the effect by $3.</size>"
+澳大利亞原住民傳說中的蛇神。擁有能觸及天際的巨大身軀，被尊崇為掌管天氣的神聖精靈。棲息於名為米利爾米那的聖泉中，據說要是泉水遭到污染就會發怒，進而導致大洪水。=A snake with a rainbow body from Murngin lore. He is a fertility deity who controls the weather and resides in a holy pond filled with rainbow-colored water.
 
 Scathach
 r:"^風襲之魔(.*)$"="Windswept Demon $1"
@@ -593,6 +599,8 @@ r:"^攻擊力提升(\d+\.\d+%)。戰鬥開始時獲得(\d+)層「火種」，並
 r:"^淨<color\=#000000>世</color>之火$"="F<color\=#000000>i</color>re of Purification"
 r:"^釋放技能造成傷害後，有(\d+%)基礎機率使隨機敵人陷入燃燒狀態。$"="There is a $1 base chance to inflict Burn after dealing skill damage</size>"
 r:"^(\d+)層時釋放技能，可以提升傷害$"="<size\=26>Increase damage when using a skill at $1 stacks</size>"
+在神學的九等天使中位於第三等的上級天使，亦被稱為「上{{A}}」。\n在擁有物質身軀的天使當中屬最高階級，名字的含義為「車輪」，被視為上帝寶座的搬運者。=The third of the nine orders of angels. They are the angels of dignity and justice who carry God's throne and govern thought. They are angels of knowledge.
+在神學的天階9等級中位於第3階級的上級天使，亦被成為「上{{A}}」。在擁有物質身軀的天使當中屬最高階級，名字的含義為「車輪」，被視為上帝寶座的搬運者。=The third of the nine orders of angels. They are the angels of dignity and justice who carry God's throne and govern thought. They are angels of knowledge.
 
 Black Frost
 r:"^得逞了吼(.*)$"="Win-ho! $1"
@@ -645,6 +653,7 @@ r:"^雷<color\=#000000>神</color>的威嚴$"="T<color\=#000000>u</color>under G
 Quetzalcoatl
 r:"^羽蛇之厲風(.*)$"="<size\=23>Feathered Serpent's Cyclone $1</size>"
 r:"^攻擊力提升(\d+\.\d+%)。對生命值高於(.*)的敵人造成的疾風屬性傷害提升(.*)。$"="<size\=28>Increase ATK by $1. Increase Wind DMG Dealt to foes above $2 HP by $3.</size>"
+阿茲特克神話的創造神，名字的含義為「擁有羽毛的蛇」，被描述為一條長有翅膀的大蛇。\n會用自己的血創造人類，並為人類帶來了豐饒和文化。\n據說將火、農耕、曆法傳授給人類的就是這位神。=An Aztec deity known as the Feathered Serpent. He created humans with his own blood and taught them how to sustain themselves.
 
 Dionysus
 r:"^酒醉的狂歡(.*)$"="Drunken Revelry $1"
@@ -760,6 +769,8 @@ r:"^神<color\=#000000>之</color>耳$"="G<color\=#000000>o</color>d's Ear"
 神之耳=God's Ear
 發動絕對服從時獲得額外效果=<size\=25>Additional effects when using Absolute Obedience</size>
 r:"^絕<color\=#000000>對</color>服從$"="A<color\=#000000>b</color>solute Obedience"
+祆教的{{B}}，名字含義為「側耳傾聽」。\n據說是作為主神阿胡拉·馬茲達的耳朵，負責傾聽人民訴求的。\n每天晚上，在邪惡蠢蠢欲動的時候，他會降臨{{A}}，監視著暴力的{{C}}艾什瑪。=In Zoroastrian lore, Sraosha's duty is to listen to the cry of humans for Ahura Mazda. He is also known to descend after sunset to vanquish evil. His name literally means "observance."
+祆教七{{A}}的第一位天使，司“服從”的天使，字意有“用耳傾聽”意，即職務為最高神的耳朵，亦為神的仲裁官，傾聽人間所發生的惡行而下凡執行天罰，並指引人的亡魂。=In Zoroastrian lore, Sraosha's duty is to listen to the cry of humans for Ahura Mazda. He is also known to descend after sunset to vanquish evil. His name literally means "observance."
 
 Alice
 r:"^重生的詛咒(.*)$"="Curse of Rebirth $1"
