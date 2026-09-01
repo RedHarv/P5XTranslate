@@ -222,7 +222,7 @@ r:"^對<color\=#FFFF00>所有</color>敵人造成(\d+)次(\d+\.\d+%)攻擊力的
 r:"^對所有敵人造成(\d+)次<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的疾風屬性傷害。根據攻擊時敵人數量有\（敵人數量\*<color\=#FFFC40>(\d+\.\d+%)</color>\）基礎機率獲得<link\="s\|118"><u>『激勵』</u></link>狀態。$"="Deal <color\=#FFFC40>$2</color> ATK Wind damage to all foes $1 times. When attacking foes there is a (Number of foes * <color\=#FFFC40>$3</color>) base chance to gain <link\="s|118"><u>[Right to Strike]</u></link>."
 
 r:"^對<color\=#FFFF00>1名</color>敵人造成(\d+)次(\d+\.\d+%)攻擊力的風屬性傷害，『激勵』不少於(\d+)層時，額外造成(\d+)次傷害，並提升(\d+%)暴擊率。$"="Deal $2 ATK Wind damage to <color\=#FFFF00>1</color> foe $1 times. When you have not below $3 stacks of [Right to Strike], deal $4 additional hit of damage and increase Crit Rate by $5."
-r:"^對1名敵人造成(\d+)次<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的疾風屬性傷害，<link\="s\|118"><u>『激勵』</u></link>狀態不少於(\d+)層時該技能造成額外(\d+)次傷害，且暴擊率提升(\d+%)。$"="Deal <color\=#FFFC40>$2</color> ATK Wind damage to 1 foe $1 times. When you have not below $3 stacks of <link\="s|118"><u>[Right to Strike]</u></link> deal $4 additonal hit of damage and increase Crit Rate by $5."
+r:"^對1名敵人造成(\d+)次<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的疾風屬性傷害，<link\="s\|118"><u>『激勵』</u></link>狀態不少於(\d+)層時該技能造成額外(\d+)次傷害，且暴擊率提升(\d+%)。$"="Deal <color\=#FFFC40>$2</color> ATK Wind damage to 1 foe $1 times. When you have not below $3 stacks of <link\="s|118"><u>[Right to Strike]</u></link> deal $4 additional hit of damage and increase Crit Rate by $5."
 
 r:"^對<color\=#FFFF00>1名</color>敵人造成(\d+)段(\d+\.\d+%)攻擊力的疾風屬性傷害，若自身『激勵』不少於(\d+)層，則額外造成(\d+)段傷害。$"="Deal $2 ATK Wind damage to <color\=#FFFF00>1</color> foe. If you have not below $3 stacks of [Right to Strike], deal $4 additional hit of damage."
 
@@ -1006,31 +1006,31 @@ r:"^遠<color\=#000000>程</color>協助$"="R<color\=#000000>e</color>mote Assis
 ----------
 Noir - Haru Okumura
 ----------
-r:"^對<color\=#FFFF00>所有</color>敵人造成2段(\d+\.\d+%)攻擊力的念動屬性傷害，有(\d+\.\d+%)的基礎機率為主目標添加『準星』同時有(\d+\.\d+%)的基礎機率為其他目標添加『準星』，而後將敵人身上的『準星』轉化為自身的『準星』，持續(\d+)回合；自身獲得『熱能改裝』：槍械射擊帶有『準星』的敵人時，技能傷害提升(\d+\.\d+%)，槍械射擊完成後移除『準星』。$"="Deal $1 ATK Psy damage to <color\=#FFFF00>all</color> foes 2 times, there is a $2 base chance to inflict the main target with [Sight] and a $3 base chance to inflict all other foes with [Sight], then converts all foes' [Sight] into own [Sight] for $4 turns; Gain [Thermal Customization]: When using Gun Attack, if you have [Sight], increase skill damage by $5, removes all own [Sight] after Gun Attack."
-r:"^對所有敵人造成2段<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的念動屬性傷害，有<color\=#FFFC40>(\d+\.\d+%)</color>的基礎機率為主目標添加<link\="s\|114"><u>『準星』</u></link>同時有<color\=#FFFC40>(\d+\.\d+%)</color>的基礎機率為其他目標添加<link\="s\|114"><u>『準星』</u></link>，而後將敵人身上的<link\="s\|114"><u>『準星』</u></link>轉化為自身的<link\="s\|114"><u>『準星』</u></link>，持續(\d+)回合；自身獲得『熱能改裝』：使用槍械射擊時，若自身擁有<link\="s\|114"><u>『準星』</u></link>，<link\="s\|285"><u>技能傷害</u></link>提升<color\=#FFFC40>(\d+\.\d+%)</color>，槍械射擊完成後移除自身所有<link\="s\|114"><u>『準星』</u></link>。$"="Deal <color\=#FFFC40>$1</color> ATK Psy damage to all foes 2 times, there is a <color\=#FFFC40>$2</color> base chance to inflict the main target with <link\="s|114"><u>[Sight]</u></link> and a <color\=#FFFC40>$3</color> base chance to inflict all other foes with <link\="s|114"><u>[Sight]</u></link>, then converts all foes' <link\="s|114"><u>[Sight]</u></link> into own <link\="s|114"><u>[Sight]</u></link> for $4 turns; Gain [Thermal Customization]: When using Gun Attack, if you have <link\="s|114"><u>[Sight]</u></link>, increase <link\="s|285"><u>Skill Damage</u></link> by <color\=#FFFC40>$5</color>, removes all own <link\="s|114"><u>[Sight]</u></link> after Gun Attack."
+r:"^對<color\=#FFFF00>所有</color>敵人造成2段(\d+\.\d+%)攻擊力的念動屬性傷害，有(\d+\.\d+%)的基礎機率為主目標添加『準星』同時有(\d+\.\d+%)的基礎機率為其他目標添加『準星』，而後將敵人身上的『準星』轉化為自身的『準星』，持續(\d+)回合；自身獲得『熱能改裝』：槍械射擊帶有『準星』的敵人時，技能傷害提升(\d+\.\d+%)，槍械射擊完成後移除『準星』。$"="Deal Psy damage to <color\=#FFFF00>all</color> foes equal to $1 of ATK (2 hits). There is a $2 base chance to inflict [Sight] on the main target with and a $3 base chance to inflict [Sight] on all other foes. Then convert [Sight] on foes into [Sight] on Haru. Lasts for $4 turns; Gain [Thermal Customization]: When using a Gun Attack, if Haru has [Sight], increase Skill Damage by $5. After the Gun Attack, remove all [Sight] granted to Haru."
+r:"^對所有敵人造成2段<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的念動屬性傷害，有<color\=#FFFC40>(\d+\.\d+%)</color>的基礎機率為主目標添加<link\="s\|114"><u>『準星』</u></link>同時有<color\=#FFFC40>(\d+\.\d+%)</color>的基礎機率為其他目標添加<link\="s\|114"><u>『準星』</u></link>，而後將敵人身上的<link\="s\|114"><u>『準星』</u></link>轉化為自身的<link\="s\|114"><u>『準星』</u></link>，持續(\d+)回合；自身獲得『熱能改裝』：使用槍械射擊時，若自身擁有<link\="s\|114"><u>『準星』</u></link>，<link\="s\|285"><u>技能傷害</u></link>提升<color\=#FFFC40>(\d+\.\d+%)</color>，槍械射擊完成後移除自身所有<link\="s\|114"><u>『準星』</u></link>。$"="Deal Psy damage to all foes equal to <color\=#FFFC40>$1</color> of ATK (2 hits). There is a <color\=#FFFC40>$2</color> base chance to inflict <link\="s|114"><u>[Sight]</u></link> on the main target with and a <color\=#FFFC40>$3</color> base chance to inflict <link\="s|114"><u>[Sight]</u></link> on all other foes. Then convert <link\="s|114"><u>[Sight]</u></link> on foes into <link\="s|114"><u>[Sight]</u></link> on Haru. Lasts for $4 turns; Gain [Thermal Customization]: When using a Gun Attack, if Haru has <link\="s|114"><u>[Sight]</u></link>, increase <link\="s|285"><u>Skill Damage</u></link> by <color\=#FFFC40>$5</color>. After the Gun Attack, remove all <link\="s|114"><u>[Sight]</u></link> granted to Haru."
 
-r:"^對<color\=#FFFF00>1名</color>敵人造成(\d+\.\d+%)攻擊力的射擊屬性傷害，自身擁有『準星』時穿透提升(\d+\.\d+%)；自身獲得『卸甲改裝』：槍械射擊時額外對主目標造成(\d+\.\d+%)攻擊力的念動屬性傷害，可觸發『熱能改裝』的技能傷害提升效果。$"="Deal $1 ATK Gun damage to <color\=#FFFF00>1</color> foe, increase Pierce by $2 when you have [Sight]; Gain [Piercing Customization]: Deal an additional $3 ATK Psy damage to the main target when using Gun Attack, this can trigger the skill damage boosting effect of [Thermal Customization]."
-r:"^對1名敵人造成<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的射擊屬性傷害，自身擁有<link\="s\|114"><u>『準星』</u></link>時穿透提升<color\=#FFFC40>(\d+\.\d+%)</color>；自身獲得『卸甲改裝』：槍械射擊時額外對主目標造成<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的念動屬性傷害，可觸發『熱能改裝』的<link\="s\|285"><u>技能傷害</u></link>提升效果。$"="Deal <color\=#FFFC40>$1</color> ATK Gun damage to 1 foe, increase Pierce by <color\=#FFFC40>$2</color> when you have <link\="s|114"><u>[Sight]</u></link>; Gain [Piercing Customization]: Deal an additional <color\=#FFFC40>$3</color> ATK Psy damage to the main target when using Gun Attack, this can trigger the <link\="s|285"><u>Skill Damage</u></link> boosting effect of [Thermal Customization]."
+r:"^對<color\=#FFFF00>1名</color>敵人造成(\d+\.\d+%)攻擊力的射擊屬性傷害，自身擁有『準星』時穿透提升(\d+\.\d+%)；自身獲得『卸甲改裝』：槍械射擊時額外對主目標造成(\d+\.\d+%)攻擊力的念動屬性傷害，可觸發『熱能改裝』的技能傷害提升效果。$"="Deal Gun damage to <color\=#FFFF00>1</color> foe equal to $1 of ATK. When Haru has [Sight], increase this skill's Pierce by $2; Gain [Piercing Customization]: When using a Gun Attack, deal bonus Psy damage to the main target equal to $3 of ATK (can gain Skill Damage increases from [Thermal Customization])."
+r:"^對1名敵人造成<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的射擊屬性傷害，自身擁有<link\="s\|114"><u>『準星』</u></link>時穿透提升<color\=#FFFC40>(\d+\.\d+%)</color>；自身獲得『卸甲改裝』：槍械射擊時額外對主目標造成<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的念動屬性傷害，可觸發『熱能改裝』的<link\="s\|285"><u>技能傷害</u></link>提升效果。$"="Deal Gun damage to 1 foe equal to <color\=#FFFC40>$1</color> of ATK. When Haru has <link\="s|114"><u>[Sight]</u></link>, increase this skill's Pierce by <color\=#FFFC40>$2</color>; Gain [Piercing Customization]: When using a Gun Attack, deal bonus Psy damage to the main target equal to <color\=#FFFC40>$3</color> of ATK (can gain <link\="s|285"><u>Skill Damage</u></link> increases from [Thermal Customization])."
 
-r:"^對<color\=#FFFF00>所有</color>敵人造成(\d+\.\d+%)攻擊力的念動屬性傷害，自身擁有『準星』時暴擊率提升(\d+\.\d+%)；自身獲得『擴散改裝』：槍械射擊時額外對所有敵人造成(\d+\.\d+%)攻擊力的念動屬性傷害，可觸發『熱能改裝』的技能傷害提升效果。$"="Deal $1 ATK Psy damage to <color\=#FFFF00>all</color> foes, increase Crit Rate by $2 when you have [Sight]; Gain [Spreading Customization]: Deal an additional $3 ATK Psy damage to all foes, this can trigger the skill damage boosting effect of [Thermal Customization]."
-r:"^對所有敵人造成<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的念動屬性傷害，自身擁有<link\="s\|114"><u>『準星』</u></link>時暴擊率提升<color\=#FFFC40>(\d+\.\d+%)</color>；自身獲得『擴散改裝』：槍械射擊時額外對所有敵人造成<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的念動屬性傷害，可觸發『熱能改裝』的<link\="s\|285"><u>技能傷害</u></link>提升效果。$"="Deal <color\=#FFFC40>$1</color> ATK Psy damage to all foes, increase Crit Rate by <color\=#FFFC40>$2</color> when you have <link\="s|114"><u>[Sight]</u></link>; Gain [Spreading Customization]: Deal an additional <color\=#FFFC40>$3</color> ATK Psy damage to all foes, this can trigger the <link\="s|285"><u>Skill Damage</u></link> boosting effect of [Thermal Customization]."
+r:"^對<color\=#FFFF00>所有</color>敵人造成(\d+\.\d+%)攻擊力的念動屬性傷害，自身擁有『準星』時暴擊率提升(\d+\.\d+%)；自身獲得『擴散改裝』：槍械射擊時額外對所有敵人造成(\d+\.\d+%)攻擊力的念動屬性傷害，可觸發『熱能改裝』的技能傷害提升效果。$"="Deal Psy damage to <color\=#FFFF00>all</color> foes equal to $1 of ATK. When Haru has [Sight], increase this skill's Crit Rate by $2; Gain 1 [Spreading Customization]: When using a Gun Attack, deal bonus Psy damage to all foes equal to $3 of ATK (can gain <link\="s|285"><u>Skill Damage</u></link> increases from [Thermal Customization])."
+r:"^對所有敵人造成<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的念動屬性傷害，自身擁有<link\="s\|114"><u>『準星』</u></link>時暴擊率提升<color\=#FFFC40>(\d+\.\d+%)</color>；自身獲得『擴散改裝』：槍械射擊時額外對所有敵人造成<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的念動屬性傷害，可觸發『熱能改裝』的<link\="s\|285"><u>技能傷害</u></link>提升效果。$"="Deal Psy damage to all foes equal to <color\=#FFFC40>$1</color> of ATK. When Haru has <link\="s|114"><u>[Sight]</u></link>, increase this skill's Crit Rate by <color\=#FFFC40>$2</color>; Gain 1 [Spreading Customization]: When using a Gun Attack, deal bonus Psy damage to all foes equal to <color\=#FFFC40>$3</color> of ATK (can gain <link\="s|285"><u>Skill Damage</u></link> increases from [Thermal Customization])."
 
-r:"^對<color\=#FFFF00>所有</color>敵人造成(\d+\.\d+%)攻擊力的念動屬性傷害。若『改裝』未滿且未獲得『超荷改裝』,則獲得『超荷改裝』：槍械射擊時暴擊率提升(\d+\.\d+%)；否則，本次攻擊技能傷害提升(\d+\.\d+%)。$"="Deal $1 ATK Psy damage to <color\=#FFFF00>all</color> foes. gain [Overload Customization] If [Customization] is not full or you don't have [Overload Customization]: Increase Gun Attack Crit Rate by $2; Otherwise, increase this damage by $3."
+r:"^對<color\=#FFFF00>所有</color>敵人造成(\d+\.\d+%)攻擊力的念動屬性傷害。若『改裝』未滿且未獲得『超荷改裝』,則獲得『超荷改裝』：槍械射擊時暴擊率提升(\d+\.\d+%)；否則，本次攻擊技能傷害提升(\d+\.\d+%)。$"="Deal Psy damage to <color\=#FFFF00>all</color> foes equal to $1 of ATK. Gain [Overload Customization] if Haru doesn't have [Overload Customization] and is below maximum [Customization]. [Overload Customization]: When using a Gun Attack, increase Crit Rate by $2. Otherise, increase this Skill Damage by $3."
 
-使用槍械射擊全體敵人，造成念動屬性傷害；每種『改裝』都會為槍械射擊帶來獨特的功能強化。=Use Gun Attack to deal Psy damage to all foes; Each [Customization] bring unique effects to Gun Attack
+使用槍械射擊全體敵人，造成念動屬性傷害；每種『改裝』都會為槍械射擊帶來獨特的功能強化。=Deal Psy damage to all foes. Grant effects to Gun Attack via [Customization].
 
-r:"^槍械射擊時，若自身帶有『準星』，技能傷害提升(\d+\.\d+%)。$"="When using Gun Attack, if Haru has [Sight], increase skill damage by $1"
-槍械射擊額外對主目標造成念動傷害，可觸發『熱能改裝』的效果。=<size\=26>Gun Attack deal additonal Psy damage to the main target, can trigger [Thermal Customization]</color>
-槍械射擊額外對所有敵人造成念動傷害，可觸發『熱能改裝』的效果。=<size\=26>Gun Attack deal additonal Psy damage to all targets, can trigger [Thermal Customization]</color>
+r:"^槍械射擊時，若自身帶有『準星』，技能傷害提升(\d+\.\d+%)。$"="When using a Gun Attack with [Sight], \nincrease Skill Damage by $1"
+槍械射擊額外對主目標造成念動傷害，可觸發『熱能改裝』的效果。=When using a Gun Attack, deal Psy damage to main target (can gain Skill Damage increases from [Thermal Customization]
+槍械射擊額外對所有敵人造成念動傷害，可觸發『熱能改裝』的效果。=When using a Gun Attack, deal Psy damage to all foes (can gain Skill Damage increases from [Thermal Customization]
 r:"^槍械射擊時暴擊率提升(\d+\.\d+%)$"="Increase Gun Attack Crit Rate by $1"
 
-{{A}}攻擊時，產生額外效果；{{A}}的槍械射擊後被移除=Trigger additional effects when Haru attacks; Remove after Haru's Gun Attack
+{{A}}攻擊時，產生額外效果；{{A}}的槍械射擊後被移除=Gain additional effects when using skills.\nRemoved after using a Gun Attack
 
-r:"^進行槍械射擊時，技能傷害提升(\d+%)"="When using Gun Attack, \nincrease skill damage by $1"
-r:"^進行槍械射擊時，攻擊力提升(\d+%)"="When using Gun Attack. \nincrease ATK by $1"
+r:"^進行槍械射擊時，技能傷害提升(\d+%)"="When using a Gun Attack,\nincrease Skill Damage by $1"
+r:"^進行槍械射擊時，攻擊力提升(\d+%)"="When using a Gun Attack.\nincrease ATK by $1"
 
-r:"^自身每有1層『準星』，攻擊力提升(\d+%)$"="For every [Sight] stack, increase ATK by $1"
-r:"^自身每有1層『準星』，進行槍械射擊時暴擊率提升(\d+%)$"="For every [Sight] stack, \nincrease Gun Attack Crit Rate by $1"
+r:"^自身每有1層『準星』，攻擊力提升(\d+%)$"="For every 1 [Sight] stack,\nincrease ATK by $1"
+r:"^自身每有1層『準星』，進行槍械射擊時暴擊率提升(\d+%)$"="For every 1 [Sight] stack,\nincrease Gun Attack Crit Rate by $1"
 
 In-Battle Quotes
 r:"^<color\=#FF0000>{{A}}</color>各項屬性提升了……$"="<color\=#FF0000>{{A}}</color> many Stats Up!"
@@ -1039,10 +1039,9 @@ Combat Pop-ups
 r:"^彈<color\=#000000>射</color>$"="L<color\=#000000>a</color>unch"
 r:"^破<color\=#000000>碎</color>綺羅裙$"="B<color\=#000000>r</color>oken Rococo Dress"
 r:"^喋<color\=#000000>血</color>華爾滋$"="B<color\=#000000>l</color>oody Waltz"
-r:"^槍<color\=#000000>管</color>加熱$"="B<color\=#000000>a</color>rrel Heating"
+r:"^槍<color\=#000000>管</color>加熱$"="B<color\=#000000>a</color>rrel Heat"
 
 r:"^準<color\=#000000>星</color>$"="S<color\=#000000>i</color>ght"
-
 r:"^熱<color\=#000000>能</color>改裝$"="T<color\=#000000>h</color>ermal Customization"
 r:"^卸<color\=#000000>甲</color>改裝$"="P<color\=#000000>i</color>ercing Customization"
 r:"^擴<color\=#000000>散</color>改裝$"="S<color\=#000000>p</color>reading Customization"
@@ -2123,6 +2122,8 @@ r:"^攻擊有『風竭』的敵人有(\d+(.\d+)?(%)?)的固定機率使本次攻
 r:"^對防禦力被降為1的敵人造成的傷害提升(\d+(.\d+)?(%)?)$"="When dealing damage to foes with DEF decreased to 1, increase DMG Dealt by $1"
 r:"^倒地易傷提升(\d+(.\d+)?(%)?)，受到疾風屬性傷害時效果翻倍$"="Increase Downed DMG Taken by $1;\nWhen taking Wind damage, double this effect"
 r:"^攻擊陷入『風竭』的敵人暴擊效果提升(\d+(.\d+)?(%)?)$"="When attacking foes with [Windworn],\nincrease Crit DMG by $1"
+r:"^攻擊陷入『風竭』的敵人造成傷害提升(\d+(.\d+)?(%)?)$"="When attacking foes with [Windworn],\nincrease DMG Dealt by $1"
+r:"^受到疾風屬性總傷害增幅提升(\d+(.\d+)?(%)?)$"="Increase Wind Total DMG Taken Amp by $1"
 
 Combat Pop-ups
 r:"^風<color\=#000000>竭</color>$"="W<color\=#000000>i</color>ndworn"
@@ -2135,6 +2136,7 @@ r:"^華<color\=#000000>麗</color>入場步$"="G<color\=#000000>r</color>and Ent
 r:"^吾<color\=#000000>輩</color>來炒熱氣氛$"="I<color\=#000000>'</color>ll Turn It Up"
 r:"^變<color\=#000000>幻</color>自如的表演$"="S<color\=#000000>h</color>ape-Shifting Performance"
 r:"^狂<color\=#000000>歡</color>變奏曲$"="R<color\=#000000>e</color>velrous Variation"
+r:"^利<color\=#000000>刃</color>旋風$"="B<color\=#000000>l</color>ade Cyclone"
 
 ----------
 Miku - Hatsune Miku
