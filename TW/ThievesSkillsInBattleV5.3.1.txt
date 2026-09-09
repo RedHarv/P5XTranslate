@@ -785,7 +785,7 @@ r:"^對所有敵人造成<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的電擊�
 r:"^使{{A}}的攻擊力提升(\d+\.\d+%)，並選擇1名同伴作為『玩伴』，『玩伴』釋放技能造成傷害後{{A}}追擊，並使{{A}}下2次追擊造成(\d+\.\d+%)攻擊力的傷害，持續2回合。$"="Increase own ATK by $1 and select 1 ally to be your [Player 2]. Triggers a Follow Up after [Player 2] deal damage with a Persona skill, makes your next 2 Follow Up deal $2 ATK Elec damage for 2 turns."
 r:"^使自身的攻擊力提升<color\=#FFFC40>(\d+\.\d+%)</color>。並選擇1名同伴作為{{A}}的『玩伴』，『玩伴』對敵人釋放{{B}}技能造成傷害後，{{A}}立刻追擊，並使得{{A}}下2次追擊造成<color\=#FFFC40>(\d+\.\d+%)</color>攻擊力的電擊屬性傷害，效果持續2回合。同時使『★大工程！啟動★』觸發的固定機率提升(\d+%)，持續2回合。$"="Increase own ATK by <color\=#FFFC40>$1</color> and select 1 ally to be your [Player 2]. Triggers a Follow Up after [Player 2] deal damage with a Persona skill, makes your next 2 Follow Up deal <color\=#FFFC40>$2</color> ATK Elec damage for 2 turns. Increase the chance to trigger [★Big Project! Start★] by a fixed $3 chance for 2 turns."
 
-r:"^使自身的攻擊力提升(\d+\.\d+%)，追擊造成的傷害提升相當於{{A}}攻擊力的(\d+\.\d+%)，持續(\d+)回合。並使得任何同伴釋放技能造成傷害都會觸發{{A}}的追擊，持續(\d+)回合。$"="Increase YUI's ATK by $1, increase Follow Up DMG by $2 of ATK for $3 turns. YUI will activate a Follow Up Attack after any allies deal damage with a skill for $4 turns."
+r:"^使自身的攻擊力提升(\d+\.\d+%)，追擊造成的傷害提升相當於{{A}}攻擊力的(\d+\.\d+%)，持續(\d+)回合。並使得任何同伴釋放技能造成傷害都會觸發{{A}}的追擊，持續(\d+)回合。$"="Increase YUI's ATK by $1, increase Follow Up DMG by $2 of ATK for $3 turns. YUI will activate a Follow Up Attack after any ally deal damage with a skill for $4 turns."
 
 追擊強化=Follow Up Boost
 強化追擊=Boost Follow Up
@@ -2123,7 +2123,7 @@ r:"^對防禦力被降為1的敵人造成的傷害提升(\d+(.\d+)?(%)?)$"="When
 r:"^倒地易傷提升(\d+(.\d+)?(%)?)，受到疾風屬性傷害時效果翻倍$"="Increase Downed DMG Taken by $1;\nWhen taking Wind damage, double this effect"
 r:"^攻擊陷入『風竭』的敵人暴擊效果提升(\d+(.\d+)?(%)?)$"="When attacking foes with [Windworn],\nincrease Crit DMG by $1"
 r:"^攻擊陷入『風竭』的敵人造成傷害提升(\d+(.\d+)?(%)?)$"="When attacking foes with [Windworn],\nincrease DMG Dealt by $1"
-r:"^受到疾風屬性總傷害增幅提升(\d+(.\d+)?(%)?)$"="Increase Wind Total DMG Taken Amp by $1"
+r:"^受到疾風屬性總傷害增幅提升(\d+(.\d+)?(%)?)$"="<size\=27>Increase Wind Total DMG Taken Amp by $1</size>"
 
 Combat Pop-ups
 r:"^風<color\=#000000>竭</color>$"="W<color\=#000000>i</color>ndworn"
@@ -2246,3 +2246,33 @@ r:"^共<color\=#000000>奏</color>$"="D<color\=#000000>u</color>et"
 r:"^夢<color\=#000000>的</color>碎片$"="F<color\=#000000>r</color>agments of a Dream"
 r:"^蔚<color\=#000000>藍</color>戀歌$"="A<color\=#000000>z</color>ure Love Song"
 r:"^潮<color\=#000000>汐</color>迴響$"="T<color\=#000000>i</color>dal Echo"
+
+----------
+Blackberry - Ichigo Shikano
+----------
+r:"^對隨機敵人造成(\d+)次自身最大生命值<color\=#FFFC40>(\d+\.\d+%)</color>的念動屬性傷害\（優先攻擊未受到該技能攻擊的敵人，多次傷害命中同一目標時只會造成<color\=#FFFC40>(\d+%)</color>的傷害\），並使所有同伴傷害提升<color\=#FFFC40>(\d+\.\d+%)</color>\（傷害提升值將基於{{A}}的最大生命值，最多計入<color\=#FFFC40>(\d+)</color>最大生命值使傷害額外提升<color\=#FFFC40>(\d+\.\d+%)</color>\），持續(\d+)回合。若隊伍中存在其他念動屬性隊員，{{A}}將獲得『幻之印記』。$"="Deal Psy damage to random foes equal to <color\=#FFFC40>$2</color> of Max HP ($1 hits). From the second hit, prioritize new targets and change damage to <color\=#FFFC40>$3</color> for hits on the same target. Increase all allies' DMG Bonus by <color\=#FFFC40>$4</color> (based on Ichigo's Max HP, up to <color\=#FFFC40>$6</color> bonus DMG Bonus at <color\=#FFFC40>$5</color> Max HP). Lasts for $7 turns. If another Psy character is present, grant Ichigo [Illusion Seal]."
+r:"^對<color\=#FFFF00>隨機</color>敵人造成(\d+)次自身最大生命值(\d+\.\d+%)的念動屬性傷害\（優先攻擊未受到該技能攻擊的敵人，多次傷害命中同一目標時只會造成(\d+%)的傷害\），並使<color\=#FFFF00>所有</color>同伴傷害提升(\d+\.\d+%)\（傷害提升值將基於{{A}}的最大生命值，最多計入(\d+)最大生命值使傷害額外提升(\d+%)\），持續(\d+)回合。若隊伍中存在其他念動屬性隊員，{{A}}將獲得『幻之印記』。$"="Deal Psy damage to random foes equal to $2 of Max HP ($1 hits). From the second hit, prioritize new targets and change damage to $3 for hits on the same target. Increase <color\=#FFFF00>all</color> allies' DMG Bonus by $4 (based on Ichigo's Max HP, up to $6 bonus DMG Bonus at $5 Max HP). Lasts for $7 turns. If another Psy character is present, grant Ichigo [Illusion Seal]."
+
+r:"^對所有敵人造成自身最大生命值<color\=#FFFC40>(\d+\.\d+%)</color>的念動屬性傷害，並使所有同伴傷害提升<color\=#FFFC40>(\d+\.\d+%)</color>\（傷害提升值將基於{{A}}的最大生命值，最多計入<color\=#FFFC40>(\d+)</color>最大生命值使傷害額外提升<color\=#FFFC40>(\d+\.\d+%)</color>\），持續(\d+)回合。若隊伍中存在其他『夏日』隊員，{{A}}將獲得『海之印記』。$"="Deal Psy damage to all foes equal to <color\=#FFFC40>$1</color> of Max HP. Increase all allies' DMG Bonus by <color\=#FFFC40>$2</color> (based on Ichigo's Max HP, up to <color\=#FFFC40>$4</color> bonus DMG Bonus at <color\=#FFFC40>$3</color> Max HP). Lasts for $5 turns. If another [Summer] character is present, grant Ichigo [Ocean's Seal]."
+r:"^對<color\=#FFFF00>所有</color>敵人造成自身最大生命值(\d+\.\d+%)的念動屬性傷害，並使<color\=#FFFF00>所有</color>同伴傷害提升(\d+\.\d+%)\（傷害提升值將基於{{A}}的最大生命值，最多計入(\d+)最大生命值使傷害額外提升(\d+\.\d+%)\），持續(\d+)回合。若隊伍中存在其他『夏日』隊員，{{A}}將獲得『海之印記』。$"="Deal Psy damage to <color\=#FFFF00>all</color> foes equal to $1of Max HP. Increase <color\=#FFFF00>all</color> allies' DMG Bonus by $2 (based on Ichigo's Max HP, up to $4 bonus DMG Bonus at $3 Max HP). Lasts for $5 turns. If another [Summer] character is present, grant Ichigo [Ocean's Seal]."
+
+r:"^冷卻時間：1回合。\n為所有同伴回復{{A}}最大生命值<color\=#FFFC40>(\d+\.\d+%)</color>\+<color\=#FFFC40>(\d+)</color>的生命值，並使所有同伴暴擊率提升<color\=#FFFC40>(\d+\.\d+%)</color>，持續(\d+)回合；若自身擁有『幻之印記』/『海之印記』，消耗相應印記使所有念動隊員/『夏日』隊員暴擊效果提升<color\=#FFFC40>(\d+\.\d+%)</color>\（暴擊效果提升值將基於{{A}}的最大生命值，最多計入<color\=#FFFC40>(\d+)</color>最大生命值使暴擊效果額外提升<color\=#FFFC40>(\d+\.\d+%)</color>\）。同時指定技能主目標為『舵手』，『舵手』回合結束時釋放『出擊·奇蹟{{B}}號』，隨後『舵手』卸任。\n『出擊·奇蹟{{B}}號』：對所有敵人造成『奇蹟{{B}}號』最大生命值<color\=#FFFC40>(\d+\.\d+%)</color>\+『舵手』攻擊力<color\=#FFFC40>(\d+\.\d+%)</color>的傷害，傷害屬性與『舵手』{{C}}的適應性屬性保持一致。若釋放『心之所向』時消耗了任意『印記』，此次傷害的『舵手』攻擊力倍率提升至<color\=#FFFC40>(\d+\.\d+%)</color>。該傷害視為{{C}}技能，並採用『舵手』的傷害加成、傷害增幅、暴擊率和暴擊效果進行計算，且敵人數量從(\d+)開始每減少1個傷害提升(\d+%)。$"="Cooldown Time: 1 turn.\nRestore HP to all allies equal to <color\=#FFFC40>$1</color> of Ichigo's Max HP + <color\=#FFFC40>$2</color>. Increase all allies' Crit Rate by <color\=#FFFC40>$3</color> for $4 turns. If Ichigo has [Illusion Seal]/[Ocean's Seal], spend the corresponding Seal to increase all Psy/[Summer] characters' Crit DMG by <color\=#FFFC40>$5</color> (based on Ichigo's Max HP, up to <color\=#FFFC40>$7</color> bonus Crit DMG at <color\=#FFFC40>$6</color> Max HP). Then select the skill main target as the [Helmsman]. At the end of the [Helmsman]'s turn, they will use [Ram: Miracle Ichi-Boat], then the [Helmsman] will step down.\n[Ram: Miracle Ichi-Boat]: Deal damage to all foes equal to <color\=#FFFC40>$8</color> of the [Miracle Ichi-Boat]'s Max HP + <color\=#FFFC40>$9</color> of the [Helmsman]'s ATK. The attribute is identical to the [Helmsman]'s Persona. If Ichigo spends any [Seal] when using [Heart's Desire], increase the [Helmsman]'s ATK multiplier for this damage to <color\=#FFFC40>$10</color>. This damage counts as a Persona skill and is calculated using the [Helmsman]'s DMG Bonus, DMG Amp, Crit Rate and Crit DMG. Increase damage by $12 for each foe that decreases from $11."
+r:"^為<color\=#FFFF00>所有</color>同伴回復{{A}}最大生命值(\d+\.\d+%)\+(\d+)的生命值，並使<color\=#FFFF00>所有</color>同伴暴擊率提升(\d+\.\d+%)，持續(\d+)回合；若自身擁有『幻之印記』/『海之印記』，消耗相應印記使<color\=#FFFF00>所有</color>念動隊員/『夏日』隊員暴擊效果提升(\d+\.\d+%)\（暴擊效果提升值將基於{{A}}的最大生命值，最多計入(\d+)最大生命值使暴擊效果額外提升(\d+\.\d+%)\）。同時指定<color\=#FFFF00>技能主目標</color>為『舵手』，『舵手』回合結束時釋放『出擊·奇蹟莓莓號』，隨後『舵手』卸任。\n『出擊·奇蹟莓莓號』：對<color\=#FFFF00>所有</color>敵人造成『奇蹟莓莓號』最大生命值(\d+\.\d+%)\+『舵手』攻擊力(\d+\.\d+%)的傷害，傷害屬性與『舵手』{{C}}的適應性屬性保持一致。若釋放『心之所向』時消耗了任意『印記』，此次傷害的『舵手』攻擊力倍率提升至(\d+\.\d+%)。該傷害視為{{C}}技能，並採用『舵手』的傷害加成、傷害增幅、暴擊率和暴擊效果進行計算，且敵人數量從(\d+)開始每減少1個傷害提升(\d+%)。$"="Restore HP to <color\=#FFFF00>all</color> allies equal to $1 of Ichigo's Max HP + $2. Increase all allies' Crit Rate by $3 for $4 turns. If Ichigo has [Illusion Seal]/[Ocean's Seal], spend the corresponding Seal to increase <color\=#FFFF00>all</color> Psy/[Summer] characters' Crit DMG by $5 (based on Ichigo's Max HP, up to $7 bonus Crit DMG at $6 Max HP). Then select the <color\=#FFFF00>skill main target</color> as the [Helmsman]. At the end of the [Helmsman]'s turn, they will use [Ram: Miracle Ichi-Boat], then the [Helmsman] will step down.\n[Ram: Miracle Ichi-Boat]: Deal damage to <color\=#FFFF00>all</color> foes equal to $8 of the [Miracle Ichi-Boat]'s Max HP + $9 of the [Helmsman]'s ATK. The attribute is identical to the [Helmsman]'s Persona. If Ichigo spends any [Seal] when using [Heart's Desire], increase the [Helmsman]'s ATK multiplier for this damage to $10. This damage counts as a Persona skill and is calculated using the [Helmsman]'s DMG Bonus, DMG Amp, Crit Rate and Crit DMG. Increase damage by $12 for each foe that decreases from $11."
+
+r:"^為<color\=#FFFF00>所有</color>同伴回復{{A}}最大生命值(\d+\.\d+%)\+(\d+)的生命值，並使目標傷害提升(\d+\.\d+%)、暴擊效果提升(\d+\.\d+%)，持續(\d+)回合。$"="Restore HP to all allies equal to $1 of Ichigo's Max HP + $2. Increase their DMG Bonus and Crit DMG by $3 for $5 turns."
+
+r:"^『出擊·奇蹟{{A}}號』最大生命值為：(\d+)$"="[Ram: Miracle Ichi-Boat] Max HP: $1"
+幻之印記=Illusion Seal
+海之印記=Ocean's Seal
+舵手=Helmsman
+
+Combat Pop-ups
+r:"^幻<color\=#000000>珠</color>綺夢$"="R<color\=#000000>o</color>mantic Pearl"
+r:"^星<color\=#000000>錨</color>潮語$"="A<color\=#000000>s</color>tral Anchor"
+r:"^心<color\=#000000>之</color>所向$"="H<color\=#000000>e</color>art's Desire"
+r:"^幻<color\=#000000>之</color>印記$"="I<color\=#000000>l</color>lusion Seal"
+r:"^海<color\=#000000>之</color>印記$"="O<color\=#000000>c</color>ean's Seal"
+r:"^舵<color\=#000000>手</color>$"="H<color\=#000000>e</color>lmsman"
+r:"^海<color\=#000000>色</color>幻光初現$"="O<color\=#000000>c</color>ean's First Glimmer"
+r:"^水<color\=#000000>之</color>誓$"="A<color\=#000000>q</color>ua Vow"
+r:"^汲<color\=#000000>魂</color>$"="S<color\=#000000>o</color>ul Drain"

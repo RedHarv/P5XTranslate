@@ -1271,6 +1271,11 @@ sr:"^(.*)在這方面怎麼樣？\n有沒有做什麼特別的事情？$"="How '
 擊球練習場！？不是……可揮棒練習，\n居然會鍛煉到手臂的肌肉嗎……！？=The batting cages!? Huh... Actually, batting's probably not too bad an upper body workout!
 對我很有啟發！好，我也不能輸啊～\n試著增加１００組伏地挺身吧！=Good stuff! I'd better add another hundred push-ups to my set to keep up with you, man!
 
+之前在{{A}}裡面啊……呃，好險！\n這種事情是不是最好不要跟你講來著？=It was crazy in the last Palace we went to, man! Or wait, am I not s'posed to tell you that?
+難得大家同樣都是{{A}}使用者，\n卻不能聊詳細話題，好煩人啊……=Damn, we finally meet another Persona-user and we still hafta hide stuff? What a pain...
+真想有一天聊一聊啊=<size\=30>I'd like to share someday</size>
+sr:"^對吧～！總有一天，要是在(.*)裡……\n突然遇見了(.*)的話，就能聊了啊！$"="Right!? Maybe if we all run into you in the Metaverse someday, yeah?"
+
 要是下次測驗再不及格的話就完蛋了。\n連杏都會跟我說要完蛋了的程度啊……=I'm in deep shit if I fail this next test...\nEven Ann said so...
 我也是在拼盡全力地學習啦！？\n可是……年號之類的，就是記不住數字啊……=I'm doing the best I can, okay!? I just can't remember crap like numbers and dates...
 你知不知道什麼好用的諧音梗？\n「{{A}}內褲的」……類似這種！=You know any good memorizing tricks? Like that "PEMDAS" thing or somethin'?
@@ -1610,6 +1615,7 @@ sr:"^啊，是小(.*)！\n還好你今天來了呢！$"="Hey, $1-kun! \nI'm so g
 上次看的寺廟恐怖電影好像有類似的情節……=Come to think of it, that horror movie had a place just like this...
 上次看的都市靈異系列還挺有趣的……=That DVD I just watched of "Ghost Misadventures" really had me spooked...
 家裡的花需要補充營養劑了……=The flowers didn't look too good when I left the house...
+下次整理院子時，試一試自製工具吧……=Maybe I'll make my own tools to use in the garden...
 
 不知不覺演練了各種帥氣的拋硬幣姿勢。=It needs some work, but it's bound to catch people's eye...
 突然想要去吃一碗特辣口味的拉麵……=I suddenly have a craving for super spicy ramen...
@@ -22564,12 +22570,13 @@ sr:"^沒錯。謝謝你，(.*)同學。$"="That's right. Thank you, $1-kun."
 想一起做=Let's do it together
 聖誕快樂！=Merry Christmas!
 為聖誕乾杯=Cheers to Christmas!
-真的可以嗎？\n非常感謝！="Really? Thank you so much!
+真的可以嗎？\n非常感謝！=Really? Thank you so much!
 嘿嘿，謝謝啦。=Hehe, thank you.
 謝謝你能來=Thanks for coming
 好，大家都到齊了。=All right, everybody's here.
 你們累嗎？=Aren't you both tired?
 餓了……=I'm getting hungry...
+我開動了！=Let's eat!
 
 ----------
 Merope SL
@@ -23435,7 +23442,7 @@ Rank 11
 什麼事？=What is it?
 不需要道歉=No need to apologize
 我不介意=I don't mind
-我支持你=I support you
+我支持你=You have my support
 sr:"^嗯……！謝謝你，(.*)。$"="Yes..! Thank you, $1."
 已經連續練習一個小時了……=Already practiced for an hour straight...
 準確度很明顯下降了……=Accuracy has dropped significantly...
@@ -25093,6 +25100,9 @@ Rank 18
 少見{{A}}這樣呢=<size\=22>It's rare to see {{A}} like this</size>
 和{{A}}度過了二人時光……\n送喝醉的{{A}}回去後就回家了……=I spent time alone with a drunk {{A}}... After walking her back, I headed home too...
 
+Rank 20
+嘿嘿。=Hehe.
+
 Hangouts
 晚上好～=Good evening～
 帶路就交給我吧=Let me lead the way
@@ -26521,7 +26531,7 @@ Rank 6
 感覺能規劃未來了？=Future planning?
 {{A}}不會在意的=<size\=26>{{A}} won't mind</size>
 你可以找{{A}}商量一下=<size\=26>You can talk to {{A}}</size>
-我覺得很適合你=I think it suits you
+我覺得很適合你=It fits you perfectly
 感覺會很辛苦……=Feels tough...
 放進候選裡面吧？=<size\=30>Consider it as a choice?</size>
 之後，\n{{A}}就一直沉默著……=Afterward,\n{{A}} remained silent...
@@ -27474,99 +27484,154 @@ Mayumi SL
 ----------
 Rank 1
 挑染頭髮的少女=Girl with Highlighted Hair
-是正經的賽車遊戲……=It's a serious racing game...
-女孩排在第二，\n但卻在緊跟著第一名……=The girl is second, but is hot on the heels behind the first...
-眨眼功夫就超過了第一名……！=And in the blink of an eye, they've overtaken first place...!
-就這樣保持著第一直到衝線……=Holding onto first all the way to the finish line...
-……你要是想玩的話，就坐這裡吧？=...If you wanna play, sit here, okay?
-我看你玩就好=I'll just watch you play
-該怎麼辦呢……？=What to do...?
-不錯嘛，就該這樣。=Not bad, just like that.
-被別人盯著，我可集中不了精神。\n別磨蹭啦，快坐下。=I can't concentrate with people watching me. Quit stalling, just sit down already!
-猶猶豫豫還不如坐下玩一把呢。\n雖然有點難，但這遊戲還是很不錯哦。=Hesitating won't help. Might as well play a round. It's challenging, but this game's actually pretty good.
-雖然遊戲很有趣，\n但難度相當高……=The game is really fun, but it's pretty hard...
-無論如何都無法超越前面的車……！=Just can't overtake the cars ahead...!
-……等下一個U形彎轉彎後，\n按下方向盤右側的紅色按鈕試試吧。=...After the next U-turn, try pressing the red button on the right side of the steering wheel.
-那裡是DRS區間，你應該能超車。\n握緊方向盤。=That's the DRS zone, you should be able to overtake. Hold the wheel tightly.
-按紅色按鈕……=Press the red button...
-DRS是什麼意思？=What does DRS mean?
+是正經的賽車遊戲……=Looks like a classic cabinet-style racing game...
+女孩排在第二，\n但卻在緊跟著第一名……=She's in second place, hot on the heels of the first car...
+眨眼功夫就超過了第一名……！=She overtook the leading car in an instant...!
+就這樣保持著第一直到衝線……=Keeping her momentum, she won the race...
+……你要是想玩的話，就坐這裡吧？=...If you're gonna play, take a seat.
+我看你玩就好=I'm just here to watch
+該怎麼辦呢……？=Should I though...?
+不錯嘛，就該這樣。=Cool. I like your attitude.
+被別人盯著，我可集中不了精神。\n別磨蹭啦，快坐下。=I can't concentrate with someone staring at me, so sit down already.
+猶猶豫豫還不如坐下玩一把呢。\n雖然有點難，但這遊戲還是很不錯哦。=If you're not sure, then just play. It's a good game. Must admit, it's kinda hard, though.
+雖然遊戲很有趣，\n但難度相當高……=This game is fun, but pretty difficult...
+無論如何都無法超越前面的車……！=I'm not even close to the car in front...!
+……等下一個U形彎轉彎後，\n按下方向盤右側的紅色按鈕試試吧。=...At the next hairpin turn, try pressing the red button to the right of the wheel.
+那裡是DRS區間，你應該能超車。\n握緊方向盤。=We're approaching a DRS zone, so keep a firm grip on the wheel and you'll gain a speed boost to overtake other cars.
+按紅色按鈕……=The red button...?
+DRS是什麼意思？=What's a DRS?
 好，就是現在！=Yes, now!
-車速突然加快輕而易舉地超過了前面的賽車……！=The car suddenly accelerated and effortlessly overtook the cars ahead...!
-嘿嘿，是我贏了哦～=Hehe, I won!
-不過你也是有兩把刷子的嘛，\n你是第一次玩這個遊戲吧？=But you're pretty good at this too.\nIs this your first time playing?
-這遊戲做的挺逼真，\n所以還是有點難度的。=This game's pretty realistic, \nso it's actually kinda challenging.
-使用DRS時的加速度，輪胎抓地力什麼的，\n也都在遊戲裡還原了。=The acceleration when using DRS and tire grip are all faithfully recreated in the game.
-啊，所謂的DRS是指在行駛過程中\n可以改變後翼角度的裝置……=Ah, DRS is a device which adjusts the rear wing angle while driving...
-……抱歉，說了些讓人聽不懂的話。=...Sorry, I spouted some jargon there.
-聽自己不感興趣的話題，\n只會覺得很厭煩吧。=It's annoying when people talk about things you're not interested in.
+車速突然加快輕而易舉地超過了前面的賽車……！=I suddenly sped up, instantly passing the car in front of me...!
+嘿嘿，是我贏了哦～=Hehe, I won～
+不過你也是有兩把刷子的嘛，\n你是第一次玩這個遊戲吧？=But you've got some skill. That was your first time playing, right?
+這遊戲做的挺逼真，\n所以還是有點難度的。=This game mimics the real thing pretty well, which is why it's no cakewalk.
+使用DRS時的加速度，輪胎抓地力什麼的，\n也都在遊戲裡還原了。=From the DRS to the grip on the tires, there's so much real detail to it!
+啊，所謂的DRS是指在行駛過程中\n可以改變後翼角度的裝置……=Oh, the DRS is a device that opens the rear wing flaps of the car to reduce drag, which boosts your speed...
+……抱歉，說了些讓人聽不懂的話。=...Sorry, you probably aren't interested in all that.
+聽自己不感興趣的話題，\n只會覺得很厭煩吧。=It's annoying when someone rants about a topic you have no interest in.
 我感興趣=I'm interested
-想再多聽聽=Want to hear more
-我想提升自己的水準=<size\=28>I want to improve my level</size>
-你說的是真的嗎……？=Are you telling the truth…?
-欸，真的假的……？=Wait, you mean it?
-這樣啊……那……\n的確得多了解一些呢……！=I see... Then...\nYou really should learn more about it...!
-我想想啊……\n那就……=Let me think...\nWell then...
-從挑染頭髮的少女那裡，\n聽到了很多賽車相關的知識……=I learned a lot about racing from the girl with highlighted hair...
-……這款遊戲做的超級逼真，但也因為這樣，\n只有在大型遊戲廳才能玩到。=...This game is super authentic, so maybe that's why it's only available in big arcades.
-我是花了兩個小時才從家裡來這家遊戲廳的。=It took me two hours to get to this arcade from home.
-呼～……！\n好像很久沒聊過這些了呢～=Phew...! \nIt's been a while since I last talked like this～
-畢竟很少有機會跟同齡人聊起賽車話題呢。=After all, I rarely get to talk about racing with people my age.
-家裡人也常和我說，對方不是鐵粉的話，\n完全就聽不懂我說的話。=My family often tells me that unless the other person is a hardcore fan, they won't understand a word I'm saying.
-你很喜歡賽車=You really like racing
-你對賽車可真了解=<size\=23>You know so much about racing</size>
-嗯，我最喜歡賽車了。\n所以……=Yes, I like racing the most. \nSo...
-自己喜歡的事情自然就會很了解。\n雖然也不完全是這個原因啦……=It's only natural to know a lot about things you like. Though that's not entirely the reason...
-我有時會想，將來……\n如果能從事賽車相關的工作就好了。=Sometimes I think, in the future... It'd be great if I could work in the racing industry.
-……不對，是絕對要朝著這個方向前進。\n我想走上這條路。=...No, I'll definitely head that way.\nI want to head that way.
-這樣你要努力哦=<size\=25>You'll need to work hard then</size>
-一定可以實現=<size\=30>It's definitely achievable</size>
+想再多聽聽=Tell me more
+我想提升自己的水準=<size\=24>I wanna get better at the game</size>
+你說的是真的嗎……？=You're not just saying that, are you...?
+欸，真的假的……？=Wait, you mean it...?
+這樣啊……那……\n的確得多了解一些呢……！=Well... In that case, there's so much you need to know...!
+我想想啊……\n那就……=Okay... where to start...
+從挑染頭髮的少女那裡，\n聽到了很多賽車相關的知識……=She gave me an earful of race car talk...
+……這款遊戲做的超級逼真，但也因為這樣，\n只有在大型遊戲廳才能玩到。=...This is as close to the real thing as games get, but that's precisely why you'll only find them in the big arcades.
+我是花了兩個小時才從家裡來這家遊戲廳的。=For perspective, my house is a whole two hours away from here.
+呼～……！\n好像很久沒聊過這些了呢～=Ah... I almost forgot what a conversation like this feels like～
+畢竟很少有機會跟同齡人聊起賽車話題呢。=I can't say I've talked to many people my age about aerodynamics and DRS systems...
+家裡人也常和我說，對方不是鐵粉的話，\n完全就聽不懂我說的話。=Even my family tells me that only a die-hard racing nut would be able to keep up with what I'm saying.
+你很喜歡賽車=You really love racing
+你對賽車可真了解=<size\=29>You sure know your stuff</size>
+嗯，我最喜歡賽車了。\n所以……=Yeah, sure do. That's why...
+自己喜歡的事情自然就會很了解。\n雖然也不完全是這個原因啦……=When you love something so much, it's only natural you become knowledgeable about it. That's not the only reason, though...
+我有時會想，將來……\n如果能從事賽車相關的工作就好了。=I want to pursue a career in the motorsports industry...
+……不對，是絕對要朝著這個方向前進。\n我想走上這條路。=...No, not want. \nThat's exactly what I'll do.
+這樣你要努力哦=Give it your all!
+一定可以實現=<size\=30>I'm sure you can do it</size>
 呃，謝、謝謝你……=O-Oh, thanks...
-嗯、嗯……謝謝……=Hmm, hmm... Thanks...
+嗯、嗯……謝謝……=O-Oh, thanks...
 唔……！=Hmm...!
-對、對吧。我也這麼覺得。=R-right. I think so too.
+對、對吧。我也這麼覺得。=Y-Yeah, I think so, too.
 ……謝謝。=...Thank you.
 啊，對了……！=Ah, right...!
-那個，這裡面有你想要的嗎？=Hey, is there something you want in this?
-竟然一次就抓到了獎品……！=Can't believe they got the prize first try...!
-我很擅長玩抓娃娃機，有些小竅門，\n能看出來哪台更容易抓到哦。=I've always been good at crane games. I have a knack for figuring out which machines you can win on.
-所以這個……算今天的謝禮。\n謝謝你聽我說這麼多。=<size\=30>So, this... Call it my thank-you for today. Thanks for sticking with me and listening this whole time.</size>
-那個，你經常來這裡嗎？=Hey, do you come here often?
-這台賽車遊戲，很少有人玩。\n下次你再來這裡的時候，能不能陪我玩玩？=This racing game barely has any players. Next time you're here, could you play with me?
-我叫{{A}}。\n叫我{{B}}就行，你呢？=I'm {{A}}. Just call me {{B}}, and you are?
-告訴了{{A}}自己的名字……=Told {{A}} my name...
-sr:"^(.*)啊。\n嗯……OK。$"="$1.\nHmm... OK."
-和{{A}}一起行動，\n感到自己在期待著什麼……=Spending time with {{A}}, \nI feel hope rising within me...
-我家離這裡有些遠，\n你把你的聯繫方式告訴我吧。=I came from pretty far, \ngimme your contact info.
-謝啦～\n等我到家後會聯繫你的。=Thank you～ \nI'll hit you up when I'm home.
-拜拜。=Bye-bye.
-與{{A}}道別了……=Said goodbye to {{A}}...
+那個，這裡面有你想要的嗎？=Say... Anything in that crane game over there happen to catch your eye?
+竟然一次就抓到了獎品……！=She won on her first try...!
+我很擅長玩抓娃娃機，有些小竅門，\n能看出來哪台更容易抓到哦。=I've always been good at crane games. There's a trick to spotting the machines you can win on.
+所以這個……算今天的謝禮。\n謝謝你聽我說這麼多。=Here, this is for hanging out with me today. Thanks for listening to my endless rant.
+那個，你經常來這裡嗎？=By the way, do you come here often?
+這台賽車遊戲，很少有人玩。\n下次你再來這裡的時候，能不能陪我玩玩？=Not many people at the arcade play this game. You should race me next time you're here.
+我叫{{A}}。\n叫我{{B}}就行，你呢？=My name's {{A}}, but you can just call me {{B}}. What about you?
+告訴了{{A}}自己的名字……=I told {{A}} my name...
+sr:"^(.*)啊。\n嗯……OK。$"="$1, huh...? Okay."
+和{{A}}一起行動，\n感到自己在期待著什麼……=Spending time with {{A}}, I feel hope rising within me...
+我家離這裡有些遠，\n你把你的聯繫方式告訴我吧。=I live kinda far away, so you should give me your number.
+謝啦～\n等我到家後會聯繫你的。=Thanks～ I'll message you when I'm back home.
+拜拜。=Later.
+與{{A}}道別了……={{A}} turned and left...
 
 Rank 3
-你來啦。\n現在有空嗎？=There you are.\nAre you free now?
-哦，這樣啊。\n拜拜。=Oh, I see.\nBye-bye.
-那個。\n我有個想去的地方。=Hey.\nI have a place I want to go.
-你願意跟我一起嗎？=Will you come with me?
-我才剛到遊戲廳……=<size\=30>I just got to the arcade...</size>
-要跟{{A}}一起去咖啡廳了……=Going to the café with {{A}}...
-路人被{{A}}吸引，\n紛紛停下了腳步……=Passersby were drawn to {{A}}, stopping in their tracks...
-你是真的很喜歡賽車呢=You really like racing
-你爸爸也喜歡賽車嗎？=<size\=29>Does your dad like racing too?</size>
-每當{{A}}露出笑容，\n路過的人們都會停下腳步……=Whenever {{A}} smiles, the passersby can't help but stop in their tracks...
-好過分=That's too much
-別往心裡去=Don't take it to heart
-似乎有人對{{A}}產生了興趣……=Seems that someone has shown interest in {{A}}...
-{{A}}讓它熱度高起來就行=<size\=26>{{A}} needs to make it go viral</size>
-如果{{A}}出名了的話……=If {{A}} gets famous...
-我？\n……你這說起來倒是簡單。=Me?\n...That's easy for you to say.
-比如去當模特……=<size\=30>Like becoming a model...</size>
-比如做一下宣傳……？=Like doing promotion...?
-呢……=Hmm...
-真是超級棒的主意啊……！=What a great idea...!
-看來你下定決心了啊=You look determined
-真的能當嗎？=Can you really do it?
-決定先去遊戲廳，\n再回家……=Decided to go to the arcade first, then head home...
-{{A}}傳授了抓娃娃的秘訣……={{A}} taught some claw machine secrets...
-跟抱了一大袋子獎品的{{A}}，\n在車站前道別了……=Said goodbye to {{A}} at the station, who was holding a big bag of prizes...
+你來啦。\n現在有空嗎？=Heyo. \nYou free now?
+哦，這樣啊。\n拜拜。=Oh, okay. \nSee you later.
+那個。\n我有個想去的地方。=Hey. There's someplace I'd like to go to right now.
+你願意跟我一起嗎？=Wanna come with?
+我才剛到遊戲廳……=But I just got here...
+謝啦～幫大忙啦～=Thanks～ You're a lifesaver～
+好啦好啦。\n等回家前再來一次不就行啦。=C'mon, we can still come back here before going home.
+我聽說不遠處有家咖啡廳。=Apparently, there's this really cool café really close by.
+那家店是賽車主題的，在賽車界也蠻有名，\n聽說真的下了一番功夫呢。=It's a racing game concept café and it's pretty hardcore. Heard lots of fans really approve.
+不過你看……像我這種漂亮女孩1個人去，\n會遇到麻煩吧？被搭訕或者遇到星探什麼的。=But I'm worried about going by myself and getting hit on or scouted...
+在{{B}}還不算太糟。\n但在{{A}}和原宿真的超級麻煩。=Akihabara's usually not too bad, but Shibuya and Harajuku can be pretty rough.
+我以前去原宿的時候，明明我媽就在旁邊，\n星探也還是會來搭話……=This one time, a dude tried scouting me in Harajuku... with my mom standing right next to me.
+總之，如果身邊有誰能跟我一起，\n應該能有不錯的效果吧。=Either way, I feel like I'd have a better experience of the café if I don't go alone.
+而且能跟我這樣的美女約會，\n你應該也很開心的吧？=Besides, that also means you get to go on a date with a hot girl.
+別浪費時間了，\n快去吧。走啦。=No more idling! \nLet's go, c'mon!
+要跟{{A}}一起去咖啡廳了……={{A}} and I decided to go to the concept café...
+嗯～滿足了滿足了。\n這家店真棒啊。=Ah, I'm officially a hundred percent satisfied. That was totally worth the hype!
+路人被{{A}}吸引，\n紛紛停下了腳步……=Some passerbys noticed {{A}} and stopped to look at her...
+而且店裡還有之前大獎賽的照片，\n和很多賽車用品。=It was fun looking at all the old grand prix photos and racing merch.
+比我想像中還要正宗呢，真是驚到我了。\n等回家也推薦給我老爸。=I didn't expect there to be so much authentic decor. I can't wait to tell my dad!
+你是真的很喜歡賽車呢=<size\=27>You really live and breathe racing</size>
+你爸爸也喜歡賽車嗎？=<size\=29>Does racing run in the family?</size>
+可不是嘛。\n從我有記憶起就很喜歡。=Yup. I've loved it for as long as I can remember.
+嗯，沒錯。我喜歡賽車，\n主要就是受我老爸的影響。=Yeah, my dad is one of the biggest reasons I fell in love with motorsports.
+我爸是個忠實粉絲。\n我從小就聽他說賽車的事。=He's a real hardcore fan, so I grew up with race car talk around the house.
+結果，就那樣聽他說啊說啊，\n我自己也徹底迷上賽車了。=Being raised in an environment like that...\nIt's hard not to pick it up.
+我不會錯過每場比賽直播哦，\n不管是有線電視還是網路上的。=My childhood was tuning in to all the racebroadcasts on cable TV or online without missing a single one.
+還讓我爸帶我一起，\n參加了當地舉辦的賽車宣傳活動呢。=This one time, my dad took me to a local car racing promo event...
+還坐過真正的賽車的駕駛艙。\n那次真的超級開心……！=I even got to sit in the cockpit of a real racing car! Now that was a day to remember!
+那個女孩是誰呀？\n是藝人？還是模特？=That girl... is she a famous singer?\nNo... a model, maybe?
+每當{{A}}露出笑容，\n路過的人們都會停下腳步……=Every time {{A}} smiles, people nearby stop in their tracks just to look at her...
+我啊，最開始是想成為一名賽車手的。=At first, I wanted to be a race driver.
+要說賽車最亮眼的，\n不就是賽車手嘛。超級帥氣的。=After all, when you think of the industry, the racers are the shiny stars of the show, right?
+我老爸還蠻支持我的。\n我們還一起查了下賽車手的培訓學校呢。=My dad was also into the idea too, and we even looked for racing schools together.
+只不過我啊，從小就體弱多病。=The only problem is, I was born with a pretty weak body...
+所以超級努力地鍛煉身體，到我小學畢業時，\n運動水準已經超過一般人了……=I trained hard, and by the time I finished elementary school I was fitter than most kids... but still...
+但結果還是達不到賽車手的體能要求呢。\n然後我就決定不做無用功了。=I wasn't able to reach the level of fitness required to be a racer, so I decided to not push myself past the redline.
+所以就在不停思考，有沒有其他方法，\n可以從事賽車相關的工作呢。=That's why I've been thinking of other ways I can work in the industry.
+但是……我老家啊，\n本來就是個與賽車無緣的小鎮。=What's more, my hometown has zero racing culture.
+所以除了我的家人，\n沒人能理解我。=The only people that I can share my passion with are my family.
+班主任和就業指導員都沒好臉色……\n班裡的同學也都在嚼舌根……=My homeroom teacher and career counselor just make disappointed faces at me. My classmates make fun of me, too...
+喊我什麼「搞笑賽車手」呀、\n「負分駕駛員」呀。=They say stuff like "You'll never be a racer." and "More like screwdriver!"
+隨心所欲地給我取這種綽號……！=Urgh, they whine and moan at me like a squeaky fan belt...!
+好過分=How awful
+別往心裡去=<size\=30>Sticks and stones, right?</size>
+嗯……謝謝你。=Hm... Thanks.
+不過……\n他們也只是因為對賽車一無所知吧……=But those people... They don't know the first thing about professional racing...
+聽說我父親年輕的時候，\n賽車還是很受歡迎的……=Apparently, my dad was just as crazy for it when he was a kid...
+但現在好像很少有同齡人，\n像我這樣感興趣。=Seems like these days, it isn't so popular among our generation, huh.
+似乎有人對{{A}}產生了興趣……=Another passer by seems to be be captivated by {{A}}...
+明明賽車超級帥的……\n要怎麼才能讓大家也感興趣呢？=Racing is just so damn cool... I wonder how I can get more people to like it...
+{{A}}讓它熱度高起來就行=You put yourself out there
+如果{{A}}出名了的話……=<size\=28>If you get popular enough, then...</size>
+我？\n……你這說起來倒是簡單。=Me? Easier said than done, right?
+嗯……如果我是偶像的話，\n或許就能給賽車多宣傳了……=Maybe that would work if I was an idol or something...
+但具體要怎麼做才好呢？\n事情哪有那麼簡單？=What should I do? \nSeriously, this isn't some easy feat.
+比如去當模特……=<size\=27>Become a model, perhaps...?</size>
+比如做一下宣傳……？=<size\=28>You could get into advertising...?</size>
+當模特……\n你覺得模特要怎麼才能提高賽車的熱度……=Becoming a model... to hype up racing, huh?
+宣傳……\n你覺得我怎麼宣傳才能讓賽車……=Advertising... And that would mean I could spread my love for racing...?
+呢……=Hm...
+……也是啊。\n也許把問題想簡單一點更好。=...Okay, maybe I'm treating this like a hairpin when it's really a straight...
+本來賽車就有賽車皇后的。=I suppose the purpose of a race queen is to bring the extra visual appeal to the world of racing...
+如果我能成為超有名的賽車皇后，\n成為賽車的廣告塔的話……=Maybe if I become a famous race queen, I could be plastered on billboards as part of racing promo...?
+即使是那些嘲笑我的人，\n眼神也可能會發生改變吧。=And maybe, all the people who didn't believe in me will finally start to change their mind.
+真是超級棒的主意啊……！=Whoa, that'd be awesome...!
+不過，賽車皇后嗎……\n真把這個當做目標的話，那可不容易啊……！=But if I'm serious about this, I know it's not going to be a straight shot to the finish line...
+必須保持漂亮，\n維持體型也很辛苦，比賽當天也要拼體力。=You have to look flawless and maintain your physique. You also need a full tank of stamina on race days!
+如果這樣就能帶動賽車的人氣的話……\n就正合我意了！=If it means I can hype up racing for a living, then count me in!
+看來你下定決心了啊=<size\=29>You've found your calling</size>
+真的能當嗎？=<size\=29>Think you can pull it off?</size>
+嗯。\n我，要當賽車皇后。=Yeah, you're looking at a future race queen!
+我要當。\n既然我決定了要當，就一定會當上。=Of course. I've made my decision and that's what I'm gonna do.
+嗯。我也這麼想。\n而且怎麼可能不適合我呢。=Yeah, I think so too. \nIt's right up my alley.
+我要成為最棒的賽車皇后，\n到處宣傳賽車的樂趣！=I'll be the best race queen ever, and share my love for racing for the rest of my life!
+呐。為了給我打氣，\n我們去遊戲廳玩吧。=Hey, I'm feeling all revved up already, so let's head back to the arcade.
+既然決定了，那就必須鼓足幹勁才行呢。=Now that I've come to this decision, I gotta keep the vibe going.
+決定先去遊戲廳，\n再回家……=Sounds like we're going to hit the arcade before heading back home...
+{{A}}傳授了抓娃娃的秘訣……={{A}} taught me some tricks to winning at crane games...
+跟抱了一大袋子獎品的{{A}}，\n在車站前道別了……=With a bag filled to the brim with prizes in her hand, we parted ways at the station...
 
 Rank 5
 是必須聽的內容嗎？=Is this mandatory?

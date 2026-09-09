@@ -298,6 +298,7 @@ r:"^每有一個敵人增加自身電擊傷害<color\=#2899ff>(\d+%)</color>，�
 r:"^持續效果傷害提升<color\=#2899ff>(\d+%)</color>。$"="Increase Damage Over Time DMG by <color\=#2899ff>$1</color>."
 r:"^持續傷害效果提升<color\=#2899ff>(\d+%)</color>。$"="Increase Damage Over Time Effect by <color\=#2899ff>$1</color>."
 r:"^當前生命值越低，攻擊力越高，(\d+%)生命值時獲得最大攻擊力加成<color\=#2899ff>(\d+%)</color>。$"="Increase ATK based on missing HP, up to <color\=#2899ff>$2</color> ATK at $1 HP."
+r:"^使所有同伴在生命值比例低於(\d+%)時暴擊效果提升<color\=#2899ff>(\d+%)</color>，該效果不可疊加。$"="Increase all allies' Crit DMG by <color\=#2899ff>$2</color> when their HP is below $1. This effect won't activate if stacked."
 
 【敏銳】=[Acuity]
 敏銳=Acuity
@@ -513,6 +514,7 @@ r:"^造成的追加傷害提升(\d+(.\d+)?(%)?)$"="Increase Follow Up DMG Dealt 
 
 r:"^繁<color\=#000000>榮</color>$"="W<color\=#000000>e</color>alth"
 r:"^決<color\=#000000>絕</color>$"="C<color\=#000000>r</color>uelty"
+r:"^喜<color\=#000000>悅</color>$"="H<color\=#000000>a</color>ppiness"
 
 sr:"^覺知&(.*)$"="Awareness & $1"
 sr:"^啟程&(.*)$"="Departure & $1"

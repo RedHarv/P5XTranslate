@@ -1006,7 +1006,7 @@ r:"^暴擊率提升<color\=#2899FF>(.*)</color>\n『夏夜星幕』展開後，�
 風吟潮聲=Tidal Chant
 【潮汐迴響】=[Tidal Echo]
 潮汐迴響=Tidal Echo
-r:"^攻擊力提升<color\=#2899FF>(.*)</color>。\n每獲得1層『星願』，自身造成傷害都將提升<color\=#2899FF>(.*)</color>，持續(\d+)回合，上限(\d+)層。$"="IncreaseATK by <color\=#2899FF>$1</color>.\nFor each [Star Wish] stack gained, increase user's DMG Dealt by <color\=#2899FF>$2</color> for $3 turn. Stacks up to $4 times."
+r:"^攻擊力提升<color\=#2899FF>(.*)</color>。\n每獲得1層『星願』，自身造成傷害都將提升<color\=#2899FF>(.*)</color>，持續(\d+)回合，上限(\d+)層。$"="Increase ATK by <color\=#2899FF>$1</color>.\nFor each [Star Wish] stack gained, increase user's DMG Dealt by <color\=#2899FF>$2</color> for $3 turn. Stacks up to $4 times."
 夏日花傘=Flower Umbrella
 【花影輕舞】=[Flower Dance]
 花影輕舞=Flower Dance
@@ -1014,6 +1014,20 @@ r:"^自身造成追加效果時傷害提升<color\=#2899FF>(.*)</color>。$"="Wh
 遮陽傘=Parasol
 【晴日小調】=[Sunny Minor]
 晴日小調=Sunny Minor
+
+戀海追航者=Lovey-Dovey Voyager
+【水之誓】=[Aqua Vow]
+水之誓=Aqua Vow
+最大生命值提升<color\=#2899FF>(.*)</color>；\n自身獲得任意『印記』時，使所有同伴暴擊效果提升<color\=#2899FF>(.*)</color>，持續(\d+)回合；\n被指定為『舵手』的同伴攻擊力提升<color\=#2899FF>(.*)</color>。$"="Increase Max HP by <color\=#2899FF>$1</color>.\nWhen user gains any [Seal], increase all allies' Crit DMG by <color\=#2899FF>$2</color> for $3 turns.\nIncrease the [Helmsman]'s ATK by <color\=#2899FF>$4</color>."
+溯光之鏈=Chain of Calling
+【汲魂】=[Soul Drain]
+汲魂=Soul Drain
+r:"^治療效果提升<color\=#2899FF>(.*)</color>。\n自身獲得治療時，傷害提升<color\=#2899FF>(.*)</color>，持續(\d+)回合。$"="Increase Healing Effect by <color\=#2899FF>$1</color>.\nWhen user receives healing, increase DMG Bonus by <color\=#2899FF>$2</color> for $3 turn."
+水色星錨=Aqua Anchor
+【海契】=[Ocean's Bond]
+海契=Ocean's Bond
+r:"^自身獲得任意『印記』時，治療效果提升<color\=#2899FF>(.*)</color>，持續(\d+)回合。$"="When user gains any [Seal], increase Healing Effect by <color\=#2899FF>$1</color> for $3 turns."
+船錨=Anchor
 
 ----------
 STANDARD 5 STAR UNIT WEAPONS
