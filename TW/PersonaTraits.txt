@@ -830,7 +830,7 @@ r:"^告<color\=#000000>諭</color>$"="D<color\=#000000>i</color>vine Oracle"
 Not in Compendium
 ----------
 Samael
-謎團眾多的天使。名字意為“有毒的光輝之人”，包含了相反的雙重含義。外貌是長有翅膀的巨蛇，雖為天使，但通常也被認為是惡魔的首領。有說法認為他是墮天使，但在聖經等典籍中有許多記述並不支持這種解釋。=A mysterious angel with the name 'poison of God'. He is often shown as a serpent. Opinions differ on whether he is fallen or not, but either way, he is linked with death.
+謎團眾多的天使。名字意為“有毒的光輝之人”，包含了相反的雙重含義。外貌是長有翅膀的巨蛇，雖為天使，但通常也被認為是惡魔的首領。有說法認為他是墮天使，但在聖經等典籍中有許多記述並不支持這種解釋。=A mysterious angel with the name "poison of God". He is often shown as a serpent. Opinions differ on whether he is fallen or not, but either way, he is linked with death.
 
 Futsunushi
 日本書紀中所記載的刀劍之神，據說是他在天孫降臨之前，平定了葦原中國。\n據說他的名字是將斬斷物體時所發出的清脆聲響與代表神明的「主」字組合在一起所形成的。=The Nihonshoki sword deity who pacified Ashihara-no-Nakatsukuni. His name comes from "futsu," the fashion in which things are cut, and "nushi," his nature as a god.
@@ -846,6 +846,9 @@ Uriel
 
 Abaddon
 約翰啟示錄中所記載的地獄深淵之主。據說是率領大群害蟲與瘟疫的魔王。\n{{B}}這個名字源自用來表示「冥府」的地名。\n在後世的魔法書中被描述為能與{{A}}和薩麥爾匹敵的大惡魔。=The "Destroyer" and "Angel of the Bottomless Pit," as described in ancient scriptures. He controls locusts and uses them to cause massive destruction to villages.
+
+Baal Zebul
+名為“高館之主”的魔王。被認為原來是掌管豐饒的敘利亞主神{{A}}。\n掌管死亡，並擁有引導靈魂的能力。因為這種力量，也有很多人崇拜他。=Demon whose name means "Lord of the High Place." Possibly derived from the Syrian deity Ba'al, he presides over death and the spirits of the deceased. Many worshipped him because of this power.
 
 Beelzebub
 名字的意思為「蒼蠅王」，是統治地獄的魔王。\n利用身為下屬的蒼蠅們搬運並控制人類的靈魂。\n本是源自敘利亞的神明，但是在聖經上被描述為{{A}}之王，因此成為了基督教世界中的大惡魔。=Demonic Lord of the Flies whose insect minions carry souls for him to control. He is mentioned in the Bible as a leader of evil spirits and is seen as a powerful demon.
