@@ -117,6 +117,8 @@ sr:"<color\=#FF0000>(.*)</color>將<color\=#FF0000>(.*?)</color>移出了樂園�
 虛弱期獲得積分×=Weaken Score Mult x
 存活回合積分加成×=Survival Score Mult x
 支配/反抗職業積分加成×=Sweeper/Assassin Score Mult x
+未倒地積分加成=Not Downed Score Mult x
+倒地後積分加成=Downed Score Mult x
 r:"^倍$"="<size\=10> </size>!"
 r:"^在(\d+)回合內對敵人造成更高的傷害$"="Gain a higher score within $1 turns"
 r:"^抵禦敵人進攻(\d+)回合並獲得更高的得分$"="Gain a higher score within $1 turns"
@@ -141,7 +143,8 @@ r:"^生<color\=#000000>命</color>鎖定$"="H<color\=#000000>P</color> Lock"
 r:"^生<color\=#000000>命</color>鎖定解除$"="E<color\=#000000>x</color>ited HP Lock"
 sr:"^<color\=#FF0000>(.*)</color>進入生命鎖定狀態，期間不會進入虛弱階段$"="<color\=#FF0000>$1</color> entered HP Lock, \nunable to enter Weaken"
 sr:"^<color\=#FF0000>(.*)</color>退出生命鎖定狀態$"="<color\=#FF0000>$1</color> exited HP Lock"
-技能釋放過程中不可釋放。=Cannot use this mid-animation.
+技能釋放過程中不可釋放。=Cannot use while skill is active.
+處於自動戰鬥時不可釋放。=Cannot be activated during Auto-Battle.
 
 {{A}}、{{B}}、{{C}}、{{D}}處於<color\=#ff3b37>「生命連結」</color>狀態。\n「生命連結」：擁有「生命連結」的單位，受到的傷害按當前生命比例分攤到全部擁有「生命連結」的單位上。\n{{A}}會源源不斷地召喚天使援軍，擊敗天使可以回復精力值。對處於虛弱階段時{{A}}召喚的天使造成傷害可獲得積分。=<size\=24>{{A}}, {{B}}, {{C}}, {{D}} have <color\=#ff3b37>[Lifelink]</color>.\nLifelink: The damage received by a unit with [Lifelink] will be shared by all units with [Lifelink] in proportion to their current HP%.\n{{A}} will keep summoning Angel, defeating Angel will restore SP. Dealing damage to Angel during Weak will count for score.</size>
 1、{{A}}、{{B}}、{{C}}、{{D}}處於<color\=#ff3b37>「生命連結」</color>狀態。\n「生命連結」：擁有「生命連結」的單位，受到的傷害按當前生命比例分攤到全部擁有「生命連結」的單位上。\n2、{{A}}會源源不斷地召喚天使援軍，擊敗天使可以回復精力值。對處於虛弱階段時{{A}}召喚的天使造成傷害可獲得積分。=<size\=24>1. {{A}}, {{B}}, {{C}}, {{D}} have <color\=#ff3b37>[Lifelink]</color>.\nLifelink: The damage received by a unit with [Lifelink] will be shared by all units with [Lifelink] in proportion to their current HP%.\n2. {{A}} will keep summoning Angel, defeating Angel will restore SP. Dealing damage to Angel during Weak will count for score.</size>
@@ -187,12 +190,12 @@ r:"^使自身對全屬性的適應性變為耐，造成傷害提升(\d+%)，受�
 r:"^八<color\=#000000>字</color>聖玉$"="E<color\=#000000>i</color>ght Virtue's Protection"
 <color\=#FF0000>忠義的{{A}}</color>的能力獲得了大幅提升，使其進入<color\=#FF0000>元素異常</color>狀態可進行削弱……=<color\=#FF0000>Loyal {{A}}</color> heavily increase abilities, can be weakened when inflicted with <color\=#FF0000>Elemental Ailment</color>...
 
-r:"^1、{{B}}每受到(\d+)次技能傷害或負面狀態，會獲得(\d+)層<color\=#ff3b37>「衰退」</color>。\n「衰退」：防禦力降低，持續(\d+)回合，可疊加(\d+)層。\n2、{{B}}會使用蓄力，下回合釋放「{{A}}」，造成巨額單體傷害；若蓄力期間「衰退」≥(\d+)層，則蓄力會被打斷，改為釋放「斬擊」。{{B}}的單體攻擊會優先攻擊輸出職業的怪盜。$"="<size\=24>1. {{B}} will gain $2 stack of <color\=#ff3b37>[Wane]</color> when they take $1 hit of skill damage or inflicted with debuffs.\n[Wane]: Decrease DEF for $3, up to $4 stacks.\n2. {{B}} can use Charge then use [{{A}}] next turn, dealing colossal Physical damage; If during Charge they have ≥$5 stacks of [Wane], they will exit Charge and use [Cleave] instead. {{B}}'s single target attacks will prioritize Assassin/Sweeper Thieves.</size>"
+r:"^1、{{B}}每受到(\d+)次技能傷害或負面狀態，會獲得(\d+)層<color\=#ff3b37>「衰退」</color>。\n「衰退」：防禦力降低，持續(\d+)回合，可疊加(\d+)層。\n2、{{B}}會使用蓄力，下回合釋放「{{A}}」，造成巨額單體傷害；若蓄力期間「衰退」≥(\d+)層，則蓄力會被打斷，改為釋放「斬擊」。{{B}}的單體攻擊會優先攻擊輸出職業的怪盜。$"="<size\=24>1. {{B}} will gain $2 <color\=#ff3b37>[Wane]</color> stack when they take $1 hit of skill damage or inflicted with debuffs.\n[Wane]: Decrease DEF for $3, up to $4 stacks.\n2. {{B}} can use Charge then use [{{A}}] next turn, dealing colossal Physical damage; If during Charge they have ≥$5 stacks of [Wane], they will exit Charge and use [Cleave] instead. {{B}}'s single target attacks will prioritize Assassin/Sweeper Thieves.</size>"
 衰退=Wane
 
-r:"^1、{{A}}與邪蛇始終處於<color\=#ff3b37>「生命連結」</color>狀態。\n「生命連結」：擁有「生命連結」的單位，受到的傷害按當前生命比例分攤到全部擁有「生命連結」的單位上。\n2、{{A}}與邪蛇使用技能後，會為所有技能目標添加(\d+)層<color\=#ff3b37>「毒素」</color>。\n「毒素」：無法被驅散，每層使怪盜回合結束時失去一定生命值，同時攻擊力提升(\d+%)，可疊加(\d+)層。$"="<size\=24>1. {{A}} and Yurlungur have <color\=#ff3b37>[Lifelink]</color>.\nLifelink: The damage received by a unit with [Lifelink] will be shared by all units with [Lifelink] in proportion to their current HP%.\n2. After foes use skills, inflict all targets with $1 stack of <color\=#ff3b37>[Toxin]</color>.\n[Toxin]: Cannot be dispelled, each stack makes Thief lose a certain amount of HP, increase ATK by $2. Stacks up to $3 times.</size>"
-r:"^1、{{A}}與邪蛇始終處於<color\=#ff3b37>「生命連結」</color>狀態。\n「生命連結」：擁有「生命連結」的單位，受到的傷害按當前生命比例分攤到全部擁有「生命連結」的單位上。\n2、{{A}}與邪蛇使用技能後，會為所有技能目標添加(\d+)層<color\=#ff3b37>「毒素」</color>。\n「毒素」：無法被驅散，每層使怪盜回合結束時失去一定生命值，同時攻擊力提升(\d+%)，可疊加(\d+)層。\n3、進入虛弱階段後，對邪蛇造成的傷害會計入積分。$"="<size\=24>1. {{A}} and Yurlungur have <color\=#ff3b37>[Lifelink]</color>.\nLifelink: The damage received by a unit with [Lifelink] will be shared by all units with [Lifelink] in proportion to their current HP%.\n2. After foes use skills, inflict all targets with $1 stack of <color\=#ff3b37>[Toxin]</color>.\n[Toxin]: Cannot be dispelled, each stack makes Thief lose a certain amount of HP, increase ATK by $2. Stacks up to $3 times.\n3. After entering Weak, dealing damage to Yurlungur will count for score.</size>"
-r:"^1、{{A}}與邪蛇始終處於<color\=#ff3b37>「生命連結」</color>狀態。\n「生命連結」：擁有「生命連結」的單位，受到的傷害按當前生命比例分攤到全部擁有「生命連結」的單位上。\n2、{{A}}與邪蛇使用技能後，會為所有技能目標添加(\d+)層<color\=#ff3b37>「毒素」</color>。\n「毒素」：無法被驅散，每層使怪盜回合結束時失去一定生命值，同時攻擊力提升(\d+%)，可疊加(\d+)層。\n弱點和耐性與通常不同。$"="<size\=24>1. {{A}} and Yurlungur have <color\=#ff3b37>[Lifelink]</color>.\nLifelink: The damage received by a unit with [Lifelink] will be shared by all units with [Lifelink] in proportion to their current HP%.\n2. After foes use skills, inflict all targets with $1 stack of <color\=#ff3b37>[Toxin]</color>.\n[Toxin]: Cannot be dispelled, each stack makes Thief lose a certain amount of HP, increase ATK by $2. Stacks up to $3 times.\n3. Shadows have different Weaknesses and Resistances than normal.</size>"
+r:"^1、{{A}}與邪蛇始終處於<color\=#ff3b37>「生命連結」</color>狀態。\n「生命連結」：擁有「生命連結」的單位，受到的傷害按當前生命比例分攤到全部擁有「生命連結」的單位上。\n2、{{A}}與邪蛇使用技能後，會為所有技能目標添加(\d+)層<color\=#ff3b37>「毒素」</color>。\n「毒素」：無法被驅散，每層使怪盜回合結束時失去一定生命值，同時攻擊力提升(\d+%)，可疊加(\d+)層。$"="<size\=24>1. {{A}} and Yurlungur have <color\=#ff3b37>[Lifelink]</color>.\nLifelink: The damage received by a unit with [Lifelink] will be shared by all units with [Lifelink] in proportion to their current HP%.\n2. After foes use skills, inflict all targets with $1 <color\=#ff3b37>[Toxin]</color> stack.\n[Toxin]: Cannot be dispelled, each stack makes Thief lose a certain amount of HP, increase ATK by $2. Stacks up to $3 times.</size>"
+r:"^1、{{A}}與邪蛇始終處於<color\=#ff3b37>「生命連結」</color>狀態。\n「生命連結」：擁有「生命連結」的單位，受到的傷害按當前生命比例分攤到全部擁有「生命連結」的單位上。\n2、{{A}}與邪蛇使用技能後，會為所有技能目標添加(\d+)層<color\=#ff3b37>「毒素」</color>。\n「毒素」：無法被驅散，每層使怪盜回合結束時失去一定生命值，同時攻擊力提升(\d+%)，可疊加(\d+)層。\n3、進入虛弱階段後，對邪蛇造成的傷害會計入積分。$"="<size\=24>1. {{A}} and Yurlungur have <color\=#ff3b37>[Lifelink]</color>.\nLifelink: The damage received by a unit with [Lifelink] will be shared by all units with [Lifelink] in proportion to their current HP%.\n2. After foes use skills, inflict all targets with $1 <color\=#ff3b37>[Toxin]</color> stack.\n[Toxin]: Cannot be dispelled, each stack makes Thief lose a certain amount of HP, increase ATK by $2. Stacks up to $3 times.\n3. After entering Weaken, dealing damage to Yurlungur will count for score.</size>"
+r:"^1、{{A}}與邪蛇始終處於<color\=#ff3b37>「生命連結」</color>狀態。\n「生命連結」：擁有「生命連結」的單位，受到的傷害按當前生命比例分攤到全部擁有「生命連結」的單位上。\n2、{{A}}與邪蛇使用技能後，會為所有技能目標添加(\d+)層<color\=#ff3b37>「毒素」</color>。\n「毒素」：無法被驅散，每層使怪盜回合結束時失去一定生命值，同時攻擊力提升(\d+%)，可疊加(\d+)層。\n弱點和耐性與通常不同。$"="<size\=24>1. {{A}} and Yurlungur have <color\=#ff3b37>[Lifelink]</color>.\nLifelink: The damage received by a unit with [Lifelink] will be shared by all units with [Lifelink] in proportion to their current HP%.\n2. After foes use skills, inflict all targets with $1 <color\=#ff3b37>[Toxin]</color> stack.\n[Toxin]: Cannot be dispelled, each stack makes Thief lose a certain amount of HP, increase ATK by $2. Stacks up to $3 times.\n3. Shadows have different Weaknesses and Resistances than normal.</size>"
 r:"^{{A}}與邪蛇使用技能後，會為所有技能目標添加(\d+)層<color\=#ff3b37>「毒素」</color>。\n「毒素」：無法被驅散，每層使怪盜回合結束時失去一定生命值，同時攻擊力提升(\d+%)，可疊加(\d+)層。\n弱點和耐性與通常不同。$"="1. After {{A}} and Yurlungur a use skills, inflict all skill targets with $1 <color\=#ff3b37>[Toxin]</color> stack. \n[Toxin]: Cannot be dispelled, each stack makes Thief lose a certain amount of HP, increase ATK by $2. Stacks up to $3 times.\n2. Shadows have different Weaknesses and Resistances than normal."
 r:"^{{A}}與邪蛇使用技能後，會為所有技能目標添加(\d+)層<color\=#ff3b37>「毒素」</color>。\n「毒素」：無法被驅散，每層使怪盜回合結束時失去一定生命值，同時攻擊力提升(\d+%)，可疊加(\d+)層。$"="After {{A}} and Yurlungur a use skills, inflict all skill targets with $1 <color\=#ff3b37>[Toxin]</color> stack. \n[Toxin]: Cannot be dispelled, each stack makes Thief lose a certain amount of HP, increase ATK by $2. Stacks up to $3 times."
 毒素=Toxin
@@ -209,7 +212,7 @@ r:"^{{A}}與{{B}}每受到1次來自怪盜的傷害，使該名怪盜穿透提�
 
 r:"^{{B}}每受到一次{{A}}技能/HIGHLIGHT/追加效果造成的傷害，自身後續受到對應屬性傷害提升(\d+%)，可疊加(\d+)層，持續(\d+)回合。$"="After {{B}} take 1 hit of damage from {{A}} Skill/HIGHLIGHT/Follow Up, increase that attribute's DMG Taken by $1 for $3 turns. Stacks up to $2 times."
 
-r:"^{{A}}會對所有怪盜添加「{{A}}的詛咒」：受到傷害提升(\d+%)，怪盜釋放優越/救援/防衛類技能時可驅散「{{A}}的詛咒」，並使{{A}}獲得(\d+)層「詛咒反噬」：防禦力降低(\d+%)，可疊加(\d+)層，達到(\d+)層時額外使{{A}}受HIGHLIGHT傷害提升(\d+%)。$"="<size\=24>{{A}} will inflict all foes with [{{A}}'s Curse]: Increase DMG Taken by $1, dispel [{{A}}'s Curse] when a Thief use Strategist/Medic/Guardian type skills then inflict {{A}} with $2 stack of [Curse Reversal]: Decrease DEF by $3 up, to $4 stacks. Additionally increase HIGHLIGHT DMG Taken by $6 when reaching $5 stacks.</size>"
+r:"^{{A}}會對所有怪盜添加「{{A}}的詛咒」：受到傷害提升(\d+%)，怪盜釋放優越/救援/防衛類技能時可驅散「{{A}}的詛咒」，並使{{A}}獲得(\d+)層「詛咒反噬」：防禦力降低(\d+%)，可疊加(\d+)層，達到(\d+)層時額外使{{A}}受HIGHLIGHT傷害提升(\d+%)。$"="<size\=24>{{A}} will inflict all foes with [{{A}}'s Curse]: Increase DMG Taken by $1, dispel [{{A}}'s Curse] when a Thief use Strategist/Medic/Guardian type skills then inflict {{A}} with $2 [Curse Reversal] stack: Decrease DEF by $3 up, to $4 stacks. Additionally increase HIGHLIGHT DMG Taken by $6 when reaching $5 stacks.</size>"
 {{A}}的詛咒={{A}}'s Curse
 詛咒反噬=Curse Reversal
 r:"^受<color\=#000000>H</color> L傷害提升$"="H<color\=#000000>I</color>GHLIGHT DMG Taken Up"
@@ -233,30 +236,35 @@ r:"^擊敗{{A}}後，使{{B}}受到傷害提升，可疊加(\d+)層。對{{A}}�
 Modifiers
 ----------
 首領受到一定傷害後進入虛弱狀態，虛弱狀態積分獲取效率大幅提高=  Increase score gain after\n  defeating the boss
-生存壓力和積分獲取效率隨著戰鬥回合數的增加而持續提升=  Each turn increase score gain but \n  also increase survival pressure 
-積分倍率會隨著上陣的反抗/支配怪盜數量的增加而增加=  Increase score gain for every \n  Assassin/Sweeper Thief in team
+生存壓力和積分獲取效率隨著戰鬥回合數的增加而持續提升=  Increase score gain and\n  survival pressure each turn
+積分倍率會隨著上陣的反抗/支配怪盜數量的增加而增加=  Increase score gain for every\n  deployed Assassin/Sweeper
+敵人倒地後的積分獲取效率會隨著擊倒所有敵人花費的回合數的縮減而提升=  Increase score gain the sooner\n  foes are knocked down
 
 閼凶夢之扉夢境更換說明：\n每週閼凶夢之扉會開啟一種夢境效果，本周所有的挑戰會根據夢境的不同發生規則變化。=<size\=26>Each season there is a unique mechanic, changing all bosses based on the mechanic.</size>
 首領受到一定傷害會進入虛弱狀態，處於虛弱狀態時全力輸出對其造成大量傷害，可獲取大量的戰鬥積分。=<size\=26>Increase score gain after defeating the boss.</size>
-隨著回合數的增加，首領給予的生存壓力會越來越高，但每回合的積分獲取效率也會相應提升。=<size\=26>Increase score gain but also increase foes' damage after each turn.</size>
-隨著編入反抗/支配職業怪盜數量的增加，積分獲取效率也會相應增加。=<size\=26>Increase score gain for every Assassin/Sweeper Thief in team.</size>
+隨著回合數的增加，首領給予的生存壓力會越來越高，但每回合的積分獲取效率也會相應提升。=<size\=26>After each turn, increase score gain but also increase foes' damage.</size>
+隨著編入反抗/支配職業怪盜數量的增加，積分獲取效率也會相應增加。=<size\=26>Increase score gain for every deployed Assassin/Sweeper.</size>
+敵人倒地後將無法再起身且狀態的回合數將不再縮減。擊倒敵人花費的回合數越少，倒地後積分獲取效率越高。=<size\=26>After knock down, foes are unable to recover and their debuffs will not count down. Increase score gain the sooner foes are knocked down.</size>
 
 穩定領域=Stable Domain
 防暴領域=No-Critical Zone
 所有怪盜無法暴擊，{{A}}技能/追加效果造成的<color\=#FFFC40>最終傷害</color>提高，提高值\=暴擊率*(暴擊效果-100%)。（最多計入100%暴擊率）=Allies will not deal critical hits, increase {{A}} skill/Follow Up <color\=#FFFC40>Final DMG</color> by Crit Rate x (Crit DMG - 100%)\n(Up to 100% Crit Rate)
 
 狂暴領域=Frenzy Domain
-r:"^敵人每回合末使自身獲得(\d+)層<color\=#FFFC40>『狂暴』</color>。\n『狂暴』：最終傷害提升(\d+%)，可疊加。$"="Foes gain $1 stack of <color\=#FFFC40>[Frenzy]</color> at the end of each turn.\nFrenzy: Increase Final DMG by $2, can stack."
-r:"^敵人每回合末使自身獲得(\d+)層<color\=#FFFC40>『狂暴』</color>。\n『狂暴』：獲得一定總傷害增幅，最多可疊加(\d+)層$"="Foes gain $1 stack of <color\=#FFFC40>[Frenzy]</color> at the end of each turn.\nFrenzy: Increase Final DMG. Stacks up to $2 times"
+r:"^敵人每回合末使自身獲得(\d+)層<color\=#FFFC40>『狂暴』</color>。\n『狂暴』：最終傷害提升(\d+%)，可疊加。$"="Foes gain $1 <color\=#FFFC40>[Frenzy]</color> stack at the end of each turn.\nFrenzy: Increase Final DMG by $2, can stack."
+r:"^敵人每回合末使自身獲得(\d+)層<color\=#FFFC40>『狂暴』</color>。\n『狂暴』：獲得一定總傷害增幅，最多可疊加(\d+)層$"="Foes gain $1 <color\=#FFFC40>[Frenzy]</color> stack at the end of each turn.\nFrenzy: Increase Final DMG. Stacks up to $2 times"
 狂暴=Frenzy
 
 猛毒領域=Toxic Domain
-r:"^首領造成傷害後，會使目標獲得(\d+)層<color\=#FFFC40>『猛毒素』</color>。\n『猛毒素』：回合末失去一定生命值，最終受到傷害提升(\d+%)，可疊加(\d+)層，可被驅散。$"="After the boss deal damage, they will inflict $1 stack of <color\=#FFFC40>[Toxin]</color>.\n[Toxin]: Lose a certain amount of HP at the end of the turn, increase Final DMG Taken by $2, up to $3 stacks, can be dispelled."
+r:"^首領造成傷害後，會使目標獲得(\d+)層<color\=#FFFC40>『猛毒素』</color>。\n『猛毒素』：回合末失去一定生命值，最終受到傷害提升(\d+%)，可疊加(\d+)層，可被驅散。$"="After the boss deal damage, they will inflict $1 <color\=#FFFC40>[Toxin]</color> stack.\n[Toxin]: Lose a certain amount of HP at the end of the turn, increase Final DMG Taken by $2, up to $3 stacks, can be dispelled."
 猛毒素=Toxin
 r:"^猛<color\=#000000>毒</color>素$"="T<color\=#000000>o</color>xin"
 
 連結領域=Linking Domain
 r:"^隊伍中編入(\d+)名及以上<color\=#FFFC40>反抗/支配</color>怪盜時，所有怪盜最終傷害提高(\d+%)$"="Increase Thieves' Final DMG by $2 when there are $1 or more <color\=#FFFC40>Assassin/Sweeper</color> Thieves."
+
+永墜領域=Eternal Domain
+r:"^敵人的倒地值上限大幅提升，無法被直接擊倒並在回合結束時回復(\d+)點倒地值。但受弱點屬性的技能削減倒地值時額外削減(\d+)點倒地值，且倒地後受最終傷害提升(\d+%)。$"="Heavily increase foes' Down Points, they cannot be directly knocked down and will restore $1 Down Points at the end of turn. When taking Weakness damage from skills, lose $2 bonus Down Points. After knock down, increase foes' Final DMG Taken by $3."
 
 sr:"^(.*)特化$"="$1 Buff"
 r:"^<color\=#FFFC40>反抗</color>怪盜造成傷害提高(\d+(.\d+)?(%)?)$"="Increase <color\=#FFFC40>Assassin</color> Thieves' DMG Dealt by $1"
@@ -370,6 +378,7 @@ Combat Menu
 ----------
 虛弱=Weaken
 r:"^虛<color\=#000000>弱</color>$"="W<color\=#000000>e</color>aken"
+r:"^永<color\=#000000>墜</color>領域$"="E<color\=#000000>t</color>ernal Domain"
 r:"^無法暴擊，最終傷害提升(.*)$"="Cannot Crit, increase Final DMG by $1"
 
 敵方全體進入了<color\=#FF0000>虛弱</color>狀態……=All foes entered <color\=#FF0000>Weaken</color>!
