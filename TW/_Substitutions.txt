@@ -320,6 +320,7 @@ UMETANE=UMETANE
 初雪草莓=First Snow Strawberry
 草莓=strawberry
 莓小姐=Ichigo-san
+小莓=Ichigo-chan
 莓莓=Ichigo
 莓=Ichigo
 美瑠啾=Miramilk-kyun
