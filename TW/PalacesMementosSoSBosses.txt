@@ -4066,3 +4066,8 @@ r:"^鋒<color\=#000000>銳</color>骨片$"="S<color\=#000000>h</color>arp Bone"
 sr:"^怪盜每累計消耗(.*)精力或每累計消耗(.*)的HIGHLIGHT能量時，全體同伴獲得(\d+)層『(.*)』；『(.*)』：每層提供(.*)的最終傷害加成，持續(.*)回合，最多可疊加(.*)層。$"="<size\=24>For every $1 total SP spent by Thieves or when spending $2 HIGHLIGHT Energy, grant all Thieves $3 [$4] stack. [$5]: Increase Final DMG Bonus by $6 for $7 turns. Stacks up to $8 times.</size>"
 時空碎片=Time Fragments
 r:"^時<color\=#000000>空</color>碎片$"="T<color\=#000000>i</color>me Fragments"
+
+禊之川流=Purifying River
+sr:"^每次獲得治療效果或護盾時，獲得『(.*)』。『(.*)』：最終傷害提升(.*)，當前生命值低於(.*)時，最終傷害額外提升(.*)，持續(.*)回合。$"="<size\=24>When receiving healing or Shield, gain [$1]. [$2]: Increase Final DMG by $3, when current HP is below $4, additionally increase Final DMG by $5. Last for $6 turns.</size>"
+言靈淨化=Words of Purification
+r:"^言<color\=#000000>靈</color>淨化$"="W<color\=#000000>o</color>rds of Purification"
